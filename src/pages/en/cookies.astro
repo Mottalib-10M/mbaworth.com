@@ -9,7 +9,7 @@ const lang = 'en';
     <h1>Cookies</h1>
     <p>No cookie, no local storage. Your current salary, the school you pick and the scholarship you expect exist only in the page you have open, and disappear when you close it.</p>
     <h2>So no consent banner</h2>
-    <p>Consent is required before a site writes non-essential information on your device. This site writes none. {CLARITY_ID ? 'The stability monitoring described in the privacy policy runs in a mode that stores nothing on your device.' : 'No analytics or advertising script is loaded.'}</p>
+    <p>Consent is required before a site writes non-essential information on your device. This site writes none. {CLARITY_ID ? 'The stability monitoring with Microsoft Clarity described in the privacy policy runs in a mode that stores nothing on your device.' : 'No analytics or advertising script is loaded.'}</p>
     <h2>Checking it yourself</h2>
     <p>Press F12 (or Option-Command-I on a Mac), open the Application or Storage tab and watch Cookies and Local Storage while you change the school or your salary in a calculator: both stay empty, and the Network tab records no request when the payback figure moves.</p>
     <p>See also the <a href={route('privacy', lang)}>privacy policy</a>. Updated: {LAST_UPDATED}.</p>
