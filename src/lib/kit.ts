@@ -83,7 +83,7 @@ export const KIT = {
   segSalary: (slug: string, goalId: string) => {
     const g = goalById(goalId); const x = S(slug);
     const rows = g.kind === 'ind' ? x.emp.industries : g.kind === 'seg' ? x.emp.segments : g.kind === 'fn' ? x.emp.functions : null;
-    if (rows) { const r = rows.find((y) => y.key === g.key); return r?.salary ? money(r.salary, r.cur) : null; }
+    if (rows) { const r = rows.find((y) => y.key === g.key && y.salary) ?? rows.find((y) => y.key === g.key); return r?.salary ? money(r.salary, r.cur) : null; }
     if (g.kind === 'zone') { const z = x.emp.zones.find((y) => y.zone === g.key); return z?.salary ? money(z.salary, z.cur) : null; }
     return null;
   },

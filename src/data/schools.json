@@ -4224,18 +4224,13 @@
 "v": 52500.0,
 "mult": 1,
 "note": "",
-"cohort": "September 2026 intake (per school search snippet; page itself not dated)",
+"cohort": "September 2026 intake",
 "url": "https://edhec.edu/en/programmes/mba-emba/global-mba/admissions-fees",
 "readOn": "2026-10-13",
 "raw": 52500.0,
 "period": "full program"
 },
-"fees": {
-"v": 150.0,
-"note": "",
-"url": "https://edhec.edu/en/programmes/mba-emba/global-mba/admissions-fees",
-"raw": 150.0
-},
+"fees": null,
 "living": null,
 "livingMissing": "School says accommodation, living costs and books are not included; no budget published.",
 "scholarship": {
@@ -4243,7 +4238,7 @@
 "note": "Self-financing candidates only, not cumulative. Share of class receiving aid not published.",
 "url": "https://www.edhec.edu/en/programmes/mba-emba//mba-scholarships"
 },
-"directLocal": 52650.0,
+"directLocal": 52500.0,
 "totalLocal": null,
 "emp": {
 "cohort": "Class of 2025 (67 graduates)",

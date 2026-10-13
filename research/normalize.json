@@ -47,5 +47,9 @@
  "smu": {
   "salary_drop": "The only salary SMU publishes is for the class of 2019, too old to compare with the 2025 classes of other schools; it is left out of the comparisons.",
   "reason": "Salary six classes old."
+ },
+ "edhec": {
+  "fees_drop": true,
+  "reason": "The EUR 150 recorded as mandatory fees is the application fee, not a program fee."
  }
 }

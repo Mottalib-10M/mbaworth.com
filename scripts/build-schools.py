@@ -153,6 +153,8 @@ def build(d):
     cur = t.get('currency') or (d.get('employment') or {}).get('base_salary', {}).get('currency') or 'USD'
     tv, tmult, tnote = program_total(t, months, two_year, 'Tuition')
     f = d.get('mandatory_fees_total') or {}
+    if o.get('fees_drop'):
+        f = {}
     fv, fmult, fnote = program_total(f, months, two_year, 'Fees') if num(f.get('value')) is not None else (None, None, f.get('note') or '')
     if fv is not None and f.get('currency') and f.get('currency') != cur:
         fv = round(fv * FX[f['currency']] / FX[cur]); fnote = (fnote + ' Converted to the tuition currency.').strip()
@@ -323,7 +325,7 @@ def build(d):
         'months': months, 'monthsDerived': mderived, 'monthsNote': mnote, 'format': fmt, 'twoYear': two_year,
         'classSize': cls, 'classSizeText': '' if cls is not None else str(cs.get('value') or ''), 'classCohort': cs.get('cohort') or '',
         'cur': cur,
-        'tuition': None if tv is None else {'v': tv, 'mult': tmult, 'note': tnote, 'cohort': t.get('cohort') or '', 'url': t.get('url') or '', 'readOn': t.get('read_on') or '', 'raw': num(t.get('value')), 'period': t.get('period') or ''},
+        'tuition': None if tv is None else {'v': tv, 'mult': tmult, 'note': tnote, 'cohort': re.sub(r'\s*\((?:per|read|seen|via)[^)]*\)', '', str(t.get('cohort') or '')).strip(), 'url': t.get('url') or '', 'readOn': t.get('read_on') or '', 'raw': num(t.get('value')), 'period': t.get('period') or ''},
         'fees': None if fv is None else {'v': fv, 'note': fnote, 'url': f.get('url') or '', 'raw': num(f.get('value'))},
         'living': None if lv is None else {'v': lv, 'basis': lbasis, 'note': lnote, 'url': lv_block.get('url') or (P['sources']['ukvi_money']['url'] if lbasis == 'visa' else ''), 'readOn': lv_block.get('read_on') or '', 'raw': num(lv_block.get('value')), 'period': lv_block.get('period') or ''},
         'livingMissing': None if lv is not None else (lv_block.get('note') or lv_block.get('notes') or 'No living budget published by the school.'),

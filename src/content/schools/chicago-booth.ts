@@ -1,3 +1,41 @@
-// STUB: to be written (CONTRIBUTING-PAGES.md). The route exists so that links resolve.
 import { defineSchool } from '../../lib/page-types';
-export default defineSchool({ slug: 'chicago-booth', title: 'STUB', description: 'STUB', intro: 'STUB', resume: 'STUB', body: () => '<p>STUB</p>', faqs: [], related: [] });
+import { KIT as K } from '../../lib/kit';
+
+const slug = 'chicago-booth';
+const s = K.s(slug);
+const o = K.roi(slug);
+const seg = (k: string) => s.emp.segments.find((x) => x.key === k);
+const ib = seg('ib'), pe = seg('pe'), am = seg('am'), vc = seg('vc');
+const rIb = K.rank(slug, 'ib'), rCons = K.rank(slug, 'consulting'), rAll = K.rank(slug, 'all');
+const hires = s.emp.employers.filter((e) => e.hires !== null).slice(0, 3);
+const mbb = hires.reduce((t, e) => t + (e.hires ?? 0), 0);
+const intern = s.emp.intern, bonus = s.emp.bonus;
+const internTop = K.schools.every((x) => (x.emp.intern?.usd ?? 0) <= (intern?.usd ?? 0));
+const wh = K.roi('wharton');
+const indSal = (k: string) => s.emp.industries.find((x) => x.key === k)?.salary ?? 0;
+const both = !!s.emp.salary && indSal('consulting') >= s.emp.salary.v && indSal('finance') >= s.emp.salary.v;
+const ibMore = K.schools.filter((x) => (K.shareRaw(x.slug, 'ib') ?? 0) > (K.shareRaw(slug, 'ib') ?? 100)).length;
+
+export default defineSchool({
+  slug,
+  title: 'Chicago Booth MBA 2026: Consulting, Banking and Payback',
+  description: `Chicago Booth MBA 2026: ${K.direct(slug)} for two years, a ${K.salary(slug)} ${K.salaryKind(slug)}, ${K.share(slug, 'consulting')} of the class in consulting and a payback of ${K.payback(slug) ?? 'over thirty years'} at reference pay.`,
+  intro: `Booth sent ${K.share(slug, 'consulting')} of its ${s.emp.cohort.toLowerCase()} into consulting, more than into finance${rIb && rIb.rank === 1 ? ', and still comes first in our banking ranking' : ''}.`,
+  resume: `Two years at Chicago Booth cost ${K.direct(slug)} in tuition, fees and the school's living budget, before the salary you stop earning; tuition for the second year will only be set in the spring, so the figure doubles the first-year rate. ${o ? `For a person earning ${K.ref()} today, the ${s.months} months away add ${K.usd(o.forgone)}, and the summer internship${intern ? `, paid a median ${K.money(intern.monthly, intern.cur)} a month,` : ''} gives part of it back, for a total of ${K.usd(o.total)}.` : ''} The ${s.emp.cohort.toLowerCase()} reported a ${K.salaryKind(slug)} of ${K.salary(slug)}${bonus ? `, and ${bonus.pct !== null ? K.p(bonus.pct) : 'many'} of accepted offers carried a signing bonus with a median of ${K.money(bonus.v, bonus.cur)}` : ''}. ${o ? `That repays the total ${K.payback(slug)} after graduation and leaves a ten-year net present value of ${K.npv(slug)}${rAll ? `, number ${rAll.rank} of ${rAll.of} in our overall ranking` : ''}.` : ''} What sets Booth apart is balance: ${K.share(slug, 'consulting')} of graduates went into consulting and ${K.share(slug, 'finance')} into finance, ${both ? 'both at medians at or above the school-wide figure' : 'the two largest groups by far'}, with a survey that reached ${s.emp.response !== null ? K.p(s.emp.response) : 'nearly all'} of the class.`,
+  body: (h) => `<h2>Consulting is the biggest single destination</h2>
+<p>Finance is not the largest industry in Booth's report. Consulting is: ${K.share(slug, 'consulting')} of graduates at a median of ${K.segSalary(slug, 'consulting') ?? 'an unpublished salary'}. ${hires.length ? `The ${hires.length} largest recruiters in the report, ${K.listOf(hires.map((e) => `${e.name} (${K.num(e.hires!)})`))}, hired ${K.num(mbb)} graduates between them.` : ''} ${rCons ? `That puts Booth number ${rCons.rank} of ${rCons.of} in our ${h.a('best-mba-consulting', 'consulting ranking')}.` : ''} With a class of ${s.classSize !== null ? K.num(s.classSize) : 'several hundred'}, one firm cutting back moves the share a little, where at a small school it can move it a lot.</p>
+${h.miniGoal(slug)}
+<h2>Banking first in our ranking, with a modest share</h2>
+<p>${ib ? `Investment banking took ${K.p(ib.pct!)} of the class at ${ib.salary ? K.money(ib.salary, ib.cur) : 'an unpublished median'}` : 'Investment banking takes a share of the class'}${rIb ? `, and Booth ranks number ${rIb.rank} of ${rIb.of} in our ${h.a('best-mba-investment-banking', 'investment banking ranking')}` : ''}. That rank does not come from the largest share: ${ibMore ? `${ibMore} school${ibMore > 1 ? 's' : ''} in our data send${ibMore > 1 ? '' : 's'} a larger part of the class into banking` : 'no school sends more, but the share is not the only input'}. It comes from the combination our score weighs, a share large enough to count, the banking median and a strong ten-year value for the whole program. ${pe ? `Private equity took ${K.p(pe.pct!)}${pe.salary ? ` at ${K.money(pe.salary, pe.cur)}` : ''}` : ''}${am ? `, asset management ${K.p(am.pct!)}${am.salary ? ` at ${K.money(am.salary, am.cur)}` : ''}` : ''}${vc ? ` and venture capital ${K.p(vc.pct!)}${vc.salary ? ` at ${K.money(vc.salary, vc.cur)}` : ''}` : ''}.</p>
+<p>Not everyone in the class looked for a job. The school counts sponsored students returning to their employer and graduates starting a business outside the salary figures, so the median describes the job seekers who accepted an offer and reported pay.</p>
+<h2>What the bill and the summer look like</h2>
+<p>Tuition is billed per academic year of three quarters, and the living budget is the school's nine-month figure for each year, plus a computer allowance in the first year; health insurance sits inside the personal expenses line. ${intern ? `The summer between the two years pays a median of ${K.money(intern.monthly, intern.cur)} a month${internTop ? ', as high as any school in our data' : ''}, which the calculator subtracts for about ${K.num(K.MODEL.internMonths, 1)} months.` : ''} ${wh ? `Against ${h.sc('wharton')}, Booth's payback for the reference person is ${K.payback(slug)} against ${K.payback('wharton')}; the ${h.a('compare-wharton-vs-booth', 'Wharton and Booth comparison')} goes line by line.` : ''}</p>
+${h.miniPayback(slug)}`,
+  faqs: [
+    { q: 'How much does the Chicago Booth MBA cost for two years?', a: `Tuition at the first-year rate, counted twice, is ${K.tuition(slug)} for two years, fees add ${K.fees(slug) ?? 'a small amount'}, and the school budgets ${K.living(slug)} to live, for ${K.direct(slug)}. ${o ? `With the salary given up by a person earning ${K.ref()}, the total reaches ${K.usd(o.total)} after internship pay.` : ''} Second-year tuition is set later by the school.` },
+    { q: 'What is the median salary after Chicago Booth?', a: `The ${s.emp.cohort.toLowerCase()} reported a ${K.salaryKind(slug)} of ${K.salary(slug)}. Consulting paid ${K.segSalary(slug, 'consulting') ?? 'a higher median'} and finance ${K.segSalary(slug, 'finance') ?? 'a similar median'}, while technology paid ${K.segSalary(slug, 'tech') ?? 'less'}, so the industry you aim for changes the payback. ${bonus ? `${bonus.pct !== null ? K.p(bonus.pct) : 'Many'} of accepted offers included a signing bonus, with a median of ${K.money(bonus.v, bonus.cur)}, which the calculator leaves out of the payback.` : ''}` },
+    { q: 'Is Chicago Booth good for investment banking?', a: `${ib ? `${K.p(ib.pct!)} of the ${s.emp.cohort.toLowerCase()} went into investment banking${ib.salary ? ` at a median of ${K.money(ib.salary, ib.cur)}` : ''}.` : ''} ${rIb ? `Our ranking places Booth number ${rIb.rank} of ${rIb.of} for banking, on share, salary and ten-year value for a person earning ${K.ref()} before the MBA.` : ''} ${ibMore ? `In our data, ${ibMore} school${ibMore > 1 ? 's' : ''} send${ibMore > 1 ? '' : 's'} a larger share into banking; ` : ''}Booth's place also reflects the value of the whole program.` },
+    { q: 'How long does it take to repay a Chicago Booth MBA?', a: `${o ? `For a person earning ${K.ref()} before the degree, the ${K.usd(o.total)} total is repaid ${K.payback(slug)} after graduation, with raises of ${Math.round(K.MODEL.g1 * 100)}% a year after the MBA and ${Math.round(K.MODEL.g0 * 100)}% without, before tax. Aimed at consulting, where the median is higher, it is ${K.payback(slug, 'consulting') ?? 'similar'}; aimed at technology, ${K.payback(slug, 'tech') ?? 'similar'}.` : 'The school publishes no figure that would let us compute it.'} A higher current salary lengthens it.` },
+  ],
+  related: ['school:wharton', 'school:kellogg', 'school:columbia', 'compare-wharton-vs-booth', 'best-mba-investment-banking', 'best-mba-consulting'],
+});

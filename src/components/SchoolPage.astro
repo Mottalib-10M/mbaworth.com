@@ -47,9 +47,9 @@ const o = KIT.roi(def.slug);
 const L = (v: number) => money(v, cur);
 const both = (v: number) => (cur === 'USD' ? usd(v) : `${L(v)} <span class="text-xs text-navy-500">${usd(Math.round(v * fx))}</span>`);
 const costRows: Array<Array<string>> = [];
-if (S.tuition) costRows.push([`Tuition${S.tuition.mult !== 1 ? ` (${S.tuition.cohort || 'published rate'}, ×${num(S.tuition.mult, 2)})` : S.tuition.cohort ? ` (${S.tuition.cohort})` : ''}`, both(S.tuition.v)]);
+if (S.tuition) costRows.push([`Tuition, whole program${S.tuition.mult !== 1 ? ` (published yearly rate ×${num(S.tuition.mult, 2)})` : ''}`, both(S.tuition.v)]);
 if (S.fees && S.fees.v > 0) costRows.push(['Mandatory fees', both(S.fees.v)]);
-costRows.push([S.living ? `Living budget${S.living.basis === 'visa' ? ': UK visa minimum, not a school budget' : S.living.period ? ` (${S.living.period})` : ''}` : 'Living budget', S.living ? both(S.living.v) : 'not published']);
+costRows.push([S.living ? `Living budget, whole program${S.living.basis === 'visa' ? ': UK visa minimum, not a school budget' : ''}` : 'Living budget', S.living ? both(S.living.v) : 'not published']);
 if (o) { costRows.push([`Salary given up: ${usd(MODEL.refSalary)} a year for ${S.months} months`, usd(o.forgone)]); if (o.total !== o.direct + o.forgone) costRows.push(['Summer internship earned', `−${usd(o.direct + o.forgone - o.total)}`]); costRows.push(['<strong>Total cost, reference person</strong>', `<strong>${usd(o.total)}</strong>`]); }
 const empRows: Array<Array<string>> = [];
 if (E.salary) empRows.push([`${kindLabel(E.salary.kind)[0].toUpperCase()}${kindLabel(E.salary.kind).slice(1)}`, `${money(E.salary.v, E.salary.cur)}${E.salary.cur !== 'USD' && E.salary.usd ? ` <span class="text-xs text-navy-500">${usd(E.salary.usd)}</span>` : ''}`]);
@@ -96,7 +96,7 @@ const missing = [S.living ? null : 'a living budget for students', E.salary ? nu
       <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">What the {S.short} MBA costs</h2>
       <Fragment set:html={table(['Item', cur === 'USD' ? 'Amount' : `${cur}, and US dollars`], costRows, `Whole program as published by the school${S.tuition?.cohort ? `, ${S.tuition.cohort}` : ''}; US dollars at the ECB rate of ${day(KIT.FX_DATE)}.${S.living?.note ? ` ${S.living.note}` : ''}`, ['l', 'r'])} />
       {empRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">{S.short} employment report: {E.cohort}</h2>}
-      {empRows.length > 0 && <Fragment set:html={table(['Measure', 'Value'], empRows, `${E.standard ? `${E.standard} standard. ` : ''}${E.salary?.note ? E.salary.note : ''}`, ['l', 'r'])} />}
+      {empRows.length > 0 && <Fragment set:html={table(['Measure', 'Value'], empRows, `${E.standard ? `${E.standard} standard. ` : ''}Figures as the school publishes them; the kind of salary is named in the first line.`, ['l', 'r'])} />}
       {indRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">{S.short} graduates by industry</h2>}
       {indRows.length > 0 && <Fragment set:html={table(['Industry, as the school names it', 'Share', 'Salary'], indRows, 'Share of graduates who accepted a job (or of the reported class); salaries as published, median unless marked average.', ['l', 'r', 'r'])} />}
       {zoneRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">Where {S.short} graduates went to work</h2>}
