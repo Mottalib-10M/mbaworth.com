@@ -158,6 +158,9 @@ def build(d):
         fv = round(fv * FX[f['currency']] / FX[cur]); fnote = (fnote + ' Converted to the tuition currency.').strip()
     lv_block = d.get('living_budget_total') or {}
     lv, lmult, lnote = program_total(lv_block, months, two_year, 'Living budget')
+    if o.get('living_drop'):
+        lv, lnote = None, ''
+        lv_block = {**lv_block, 'note': o['living_drop']}
     lbasis = 'school' if lv is not None else None
     lcur = lv_block.get('currency') or cur
     if lv is None and d.get('country') in ('UK', 'GB'):
@@ -188,6 +191,9 @@ def build(d):
             skind = 'base-median' if stat == 'median' else 'base-mean' if stat == 'mean' else None
         if o.get('salary_kind'):
             skind = o['salary_kind']
+    if o.get('salary_drop'):
+        sval = None
+        bs = {**bs, 'note': o['salary_drop']}
     salary = None
     if sval is not None and skind in ('base-median', 'base-mean', 'total-mean', 'total-median'):
         salary = {'v': sval, 'cur': scur, 'kind': skind, 'usd': usd(sval, scur), 'p25': num(bs.get('p25')), 'p75': num(bs.get('p75')), 'note': bs.get('note') or bs.get('notes') or ''}

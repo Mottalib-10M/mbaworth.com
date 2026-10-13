@@ -8032,23 +8032,15 @@
 "url": "https://www.iimb.ac.in/programmes/epgp/financial-aid-scholarships",
 "raw": 550000.0
 },
-"living": {
-"v": 143000.0,
-"basis": "school",
-"note": "",
-"url": "https://www.iimb.ac.in/programmes/epgp/financial-aid-scholarships",
-"readOn": "2026-10-13",
-"raw": 143000.0,
-"period": "full program"
-},
-"livingMissing": null,
+"living": null,
+"livingMissing": "IIM Bangalore bills hostel and mess only (INR 1,43,000 for the program) and publishes no budget for other living costs, so no full living budget is counted.",
 "scholarship": {
 "v": 800000.0,
 "note": "Merit scholarship: INR 8,00,000 tuition waiver for top rank holders of each admission round, 12 awards (search extract of the official page). An older IIMB PDF (https://www.iimb.ac.in/sites/default/files/inline-files/EPGP_Scholarships.pdf) describes different amounts; not used.",
 "url": "https://www.iimb.ac.in/programmes/epgp/financial-aid-scholarships"
 },
 "directLocal": 3200000.0,
-"totalLocal": 3343000.0,
+"totalLocal": null,
 "emp": {
 "cohort": "EPGP 2025-26 (graduating 2026)",
 "standard": "school",
@@ -15311,16 +15303,8 @@
 "response": null,
 "employed": 80.0,
 "employedLabel": "accepted an offer within three months",
-"salary": {
-"v": 98623.0,
-"cur": "SGD",
-"kind": "base-mean",
-"usd": 77058,
-"p25": null,
-"p75": null,
-"note": "mean salary at 6 months after graduation, per annum; maximum S$200,000"
-},
-"salaryMissing": null,
+"salary": null,
+"salaryMissing": "The only salary SMU publishes is for the class of 2019, too old to compare with the 2025 classes of other schools; it is left out of the comparisons.",
 "bonus": null,
 "intern": null,
 "industries": [

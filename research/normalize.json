@@ -39,5 +39,13 @@
    "Middle East"
   ],
   "reason": "The Middle East salary in the research file equals the school-wide median and the note says the school groups Africa and Middle East: not a regional figure."
+ },
+ "iim-bangalore": {
+  "living_drop": "IIM Bangalore bills hostel and mess only (INR 1,43,000 for the program) and publishes no budget for other living costs, so no full living budget is counted.",
+  "reason": "Hostel and mess are not a full student budget."
+ },
+ "smu": {
+  "salary_drop": "The only salary SMU publishes is for the class of 2019, too old to compare with the 2025 classes of other schools; it is left out of the comparisons.",
+  "reason": "Salary six classes old."
  }
 }
