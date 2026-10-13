@@ -32,7 +32,7 @@ export const HOME = {
     },
     {
       title: 'Median, average, base or total: read the label',
-      html: `<p>Schools that follow the MBA CSEA standards publish a median base salary of graduates who accepted a full-time job, without the signing bonus. Others publish an average, which a few very high offers pull up, and some an average of total pay including bonuses. The site never converts one into another: each figure carries its label, and our ranking treats them as published. London Business School, for example, gives an ${K.salaryKind('lbs')} of ${K.salary('lbs')}, not a median. A guide explains ${h.a('guide-employment-report', 'how to read an employment report')}, including the response rate and who is left out.</p>`,
+      html: `<p>Schools that follow the MBA CSEA standards publish a median base salary of graduates who accepted a full-time job, without the signing bonus. Others publish an average, which a few very high offers pull up, and some an average of total pay including bonuses. The site never converts one into another: each figure carries its label, and our ranking treats them as published. London Business School, for example, gives an ${K.salaryKind('lbs')} of ${K.salary('lbs')}, not a median. A guide explains ${h.a('mba-employment-report', 'how to read an employment report')}, including the response rate and who is left out.</p>`,
     },
     {
       title: 'Which school for which industry',
