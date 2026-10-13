@@ -26,7 +26,7 @@
     "accepted_3m_pct": null,
     "employed_in_asia_pct": 93,
     "employed_in_asia_note": "Homepage: '93% graduates are employed in Asia (Full-time Student)', no cohort stated. An older banner on the same page says '98% Employed in Asia (2019 Full-Time Graduates)'.",
-    "base_salary": {"value": null, "currency": "HKD", "stat": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "No current employment report found. Former report URLs (https://www.mba.cuhk.edu.hk/wp-content/uploads/Employment-Report-2020.pdf, .../2020/03/Full-time-MBA-Graduates-2019-Employment-Report.pdf) now return 404."},
+    "base_salary": {"value": null, "currency": "HKD", "stat": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "No current employment report found. The former 2019 and 2020 employment report PDFs on mba.cuhk.edu.hk now return 404."},
     "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
     "internship_monthly": null,
     "by_industry": [],

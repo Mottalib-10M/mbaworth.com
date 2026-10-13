@@ -10,7 +10,7 @@ d'affaires, private equity, gestion d'actifs), tech. **Anglais seul**, sous `/en
 dollars US (taux BCE du build) et, sur les fiches, dans la devise de l'école. Éditeur : la société
 **Radif Partners** (jamais un nom de personne, ni photo, ni LinkedIn ; l'éditeur n'a aucun lien déclaré avec une
 école). Aucun lien vers un autre site du portefeuille (`_trame/domaines-ovh.txt`). Domaine de travail
-mbaworth.com, non acheté (URL provisoire `https://mba-worth.example`).
+mbaworth.com, non acheté (URL provisoire `https://mbaworth.com`).
 
 ## D'où viennent les chiffres (règle 5 : rien d'inventé)
 

@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://mba-worth.example";
+export const SITE_URL = "https://mbaworth.com";
 export const SITE_NAMES: Record<string, string> = {"en": "MBA Worth"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads,
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["MBA total cost of attendance", "MBA return on investment and payback period", "MBA employment reports and post-MBA salaries", "Management consulting careers after an MBA", "Investment banking, private equity and tech careers after an MBA"]};
-export const CONTACT_EMAIL = "contact@mba-worth.example";
+export const CONTACT_EMAIL = "contact@mbaworth.com";
 export const THEME_COLOR = '#0F5257';
 export const LOGO_SYMBOL = 'MBA';
 export const BING_VERIFY_CODE = '';

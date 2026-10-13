@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://mba-worth.example/sitemap-index.xml
+Sitemap: https://mbaworth.com/sitemap-index.xml

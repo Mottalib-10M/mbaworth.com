@@ -3745,7 +3745,7 @@
 "employed": null,
 "employedLabel": "accepted an offer within three months",
 "salary": null,
-"salaryMissing": "No current employment report found. Former report URLs (https://www.mba.cuhk.edu.hk/wp-content/uploads/Employment-Report-2020.pdf, .../2020/03/Full-time-MBA-Graduates-2019-Employment-Report.pdf) now return 404.",
+"salaryMissing": "No current employment report found. The former 2019 and 2020 employment report PDFs on mba.cuhk.edu.hk now return 404.",
 "bonus": null,
 "intern": null,
 "industries": [],
