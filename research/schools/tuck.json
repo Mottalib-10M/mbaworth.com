@@ -97,7 +97,7 @@
       {"name": "McKinsey & Co", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "Morgan Stanley", "hires": null},
       {"name": "Nike", "hires": null}, {"name": "TikTok", "hires": null}, {"name": "NVIDIA", "hires": null}
     ],
-    "notes": "Read from the official HTML employment statistics page (data as of October 2025; no PDF for 2025). Percentages are rounded to whole numbers by the school; '—' (sample too small) stored as null. Top employers = logos shown as 'Select Full-Time Employers for the Class of 2025' (no counts). International graduates: 92% offer, 88% accepted by 3 months."
+    "notes": "Read from the official HTML employment statistics page (data as of October 2025; no PDF for 2025). Percentages are rounded to whole numbers by the school; '–' (sample too small) stored as null. Top employers = logos shown as 'Select Full-Time Employers for the Class of 2025' (no counts). International graduates: 92% offer, 88% accepted by 3 months."
   },
   "profile": {
     "cohort": "Class of 2027",
