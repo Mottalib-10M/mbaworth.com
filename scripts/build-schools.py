@@ -283,6 +283,8 @@ def build(d):
         if not exact and len({str(r.get('region')) for r in rs}) > 1 and z != 'US':
             pct, derived = max(x for x in shares if x is not None), 'largest of overlapping rows'
         sal = num(rs[0].get('salary')) if len(rs) == 1 else None
+        if z in o.get('zone_salary_null', []):
+            sal = None
         labels = sorted({str(r.get('label') or r.get('region')) for r in rs})
         rcur = rs[0].get('currency') or scur
         zones.append({'zone': z, 'label': ' + '.join(labels), 'exact': exact, 'derived': derived, 'pct': pct, 'salary': sal, 'cur': rcur, 'usd': usd(sal, rcur), 'detail': '; '.join(str(r.get('detail')) for r in rs if r.get('detail'))})

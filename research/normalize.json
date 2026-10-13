@@ -33,5 +33,11 @@
  "sda-bocconi": {
   "salary_kind": "total-mean",
   "reason": "Bocconi headline is an average overall salary package."
+ },
+ "columbia": {
+  "zone_salary_null": [
+   "Middle East"
+  ],
+  "reason": "The Middle East salary in the research file equals the school-wide median and the note says the school groups Africa and Middle East: not a regional figure."
  }
 }

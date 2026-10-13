@@ -38,7 +38,8 @@ export function goalOf(s: CalcSchool, g: Goal, zoneFallbackShare = 50): { share:
   if (!seg) return { share: null, salary: null, fallback: false, stat: null };
   const own = seg.usd ?? null;
   // A region that takes a small part of the class is not where the school-wide salary was earned.
-  const canFall = g.kind !== 'zone' || (seg.pct ?? 0) >= zoneFallbackShare;
+  // Finance segments pay on their own scale (bonus-heavy): no school-wide stand-in either.
+  const canFall = g.kind === 'seg' ? false : g.kind !== 'zone' || (seg.pct ?? 0) >= zoneFallbackShare;
   const salary = own ?? (canFall ? s.salary : null);
   return { share: seg.pct, salary, fallback: own === null && salary !== null, stat: own !== null ? (seg.stat ?? s.kind) : s.kind };
 }

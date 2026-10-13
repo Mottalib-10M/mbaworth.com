@@ -3116,9 +3116,9 @@
 "exact": true,
 "derived": "",
 "pct": 2.0,
-"salary": 175000.0,
+"salary": null,
 "cur": "USD",
-"usd": 175000,
+"usd": null,
 "detail": "school groups Africa & Middle East"
 },
 {

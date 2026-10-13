@@ -32,18 +32,20 @@ export function ranking(goalId: string, filter?: (s: School) => boolean) {
   const k = goalId + (filter ? String(filter) : '');
   if (rankCache.has(k)) return rankCache.get(k)!;
   const goal = goalById(goalId);
-  const cands = SCHOOLS.filter((s) => (filter ? filter(s) : true)).map((s) => {
+  let cands = SCHOOLS.filter((s) => (filter ? filter(s) : true)).map((s) => {
     const c = calcSchool(s, null);
     const gl = goalOf(c, goal, MODEL.zoneFallbackShare);
     const o = schoolRoi(c, REF, MODEL, gl.salary);
     return { slug: s.slug, share: gl.share, salary: gl.salary, npv: o ? o.npv : null, o, gl, s };
-  }).filter((x) => x.share !== null && x.share > 0);
+  });
+  const noShare = goal.kind === 'all' ? cands.filter((x) => x.share === null) : [];
+  cands = cands.filter((x) => x.share !== null && x.share > 0);
   const min = minShareOf(MODEL, goal);
   const small = cands.filter((x) => x.share! < min);
   const { ranked, unranked } = fitRank(cands.filter((x) => x.share! >= min), goal.kind === 'zone' ? MODEL.zoneWeights : MODEL.weights);
   const out = {
     ranked: ranked.map((r) => ({ slug: r.item.slug, short: r.item.s.short, name: r.item.s.name, share: r.item.share!, salary: r.item.salary, fallback: r.item.gl.fallback, stat: r.item.gl.stat, npv: r.item.npv, payback: r.item.o ? r.item.o.payback : null, total: r.item.o ? r.item.o.total : null, score: r.score, rank: r.rank, placed: r.item.s.classSize ? Math.round((r.item.share! / 100) * r.item.s.classSize) : null })),
-    unranked: [...unranked.map((u) => ({ slug: u.slug, share: u.share, why: u.salary === null ? (goal.kind === 'zone' && u.s.emp.salary ? 'no salary published for this region' : 'no salary published') : u.s.living === null ? 'no living budget published' : 'missing figure' })), ...small.map((u) => ({ slug: u.slug, share: u.share, why: `under ${min}% of the class` }))],
+    unranked: [...unranked.map((u) => ({ slug: u.slug, share: u.share, why: u.salary === null ? (goal.kind === 'zone' && u.s.emp.salary ? 'no salary published for this region' : 'no salary published') : u.s.living === null ? 'no living budget published' : 'missing figure' })), ...small.map((u) => ({ slug: u.slug, share: u.share, why: `under ${min}% of the class` })), ...noShare.map((u) => ({ slug: u.slug, share: null, why: 'no employment rate published' }))],
   };
   rankCache.set(k, out);
   return out;
