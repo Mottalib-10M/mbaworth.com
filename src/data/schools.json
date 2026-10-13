@@ -1542,7 +1542,7 @@
 ],
 "functions": [
 {
-"key": "consulting",
+"key": "other",
 "label": "Corporate Planning / Strategy",
 "pct": 19.0,
 "salary": null,
@@ -2361,7 +2361,7 @@
 "usd": 147500
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Corporate Strategy/Strategic Planning",
 "pct": 6.2,
 "salary": 160000.0,
@@ -5605,7 +5605,7 @@
 "usd": 145000
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Corporate Strategy",
 "pct": 5.0,
 "salary": 109000.0,
@@ -6583,7 +6583,7 @@
 "usd": null
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Strategy",
 "pct": 3.0,
 "salary": null,
@@ -7292,7 +7292,7 @@
 "usd": null
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Strategy Roles",
 "pct": 14.69,
 "salary": null,
@@ -7901,7 +7901,7 @@
 "usd": 47229
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Strategy",
 "pct": 6.0,
 "salary": 3200000.0,
@@ -8490,7 +8490,7 @@
 "usd": null
 },
 {
-"key": "consulting",
+"key": "analytics",
 "label": "Analytics & Digital Strategy",
 "pct": 9.0,
 "salary": null,
@@ -10386,7 +10386,7 @@
 "usd": 150000
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Corporate Strategy/Strategic Planning",
 "pct": 8.1,
 "salary": 160000.0,
@@ -13920,7 +13920,7 @@
 "usd": 64817
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Strategy",
 "pct": 6.0,
 "salary": 110833.0,
@@ -14886,7 +14886,7 @@
 "usd": 102417
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Strategy/Planning",
 "pct": null,
 "salary": 105522.0,
@@ -15830,7 +15830,7 @@
 "usd": 170000
 },
 {
-"key": "consulting",
+"key": "other",
 "label": "Business Ops / Strategy / Planning",
 "pct": 18.0,
 "salary": 170000.0,

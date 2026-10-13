@@ -68,7 +68,7 @@ SEG = [
     ('am', re.compile(r'asset manag|investment manag|hedge|portfolio|wealth', re.I)),
 ]
 FUN = [
-    ('consulting', re.compile(r'consult|strategy', re.I)),
+    ('consulting', re.compile(r'consult', re.I)),
     ('product', re.compile(r'product manag|product/', re.I)),
     ('ib', re.compile(r'investment bank', re.I)),
     ('investor', re.compile(r'private equity|venture|investor', re.I)),
