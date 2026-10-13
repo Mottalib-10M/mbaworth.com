@@ -1,0 +1,275 @@
+{
+ "_source": "HEC Paris MBA Employment Report 2025 (Calameo reader linked by the school), read in images in a browser by the coordinator on 2026-10-13. Class of 2025 under MBA CSEA. Amounts in USD.",
+ "program": {
+  "class_size": {
+   "value": 235,
+   "cohort": "Class of 2025",
+   "url": "https://www.calameo.com/read/0074570460be6b03185d2",
+   "read_on": "2026-10-13"
+  }
+ },
+ "employment": {
+  "report_url": "https://www.calameo.com/read/0074570460be6b03185d2",
+  "url": "https://www.calameo.com/read/0074570460be6b03185d2",
+  "read_on": "2026-10-13",
+  "cohort": "Class of 2025",
+  "standard": "MBA CSEA",
+  "accepted_3m_pct": 75,
+  "base_salary": {
+   "value": 123170,
+   "currency": "USD",
+   "stat": "mean",
+   "basis": "total compensation package",
+   "note": "Average salary package USD 123,170 (the school prints USD 115,255 beneath it as the median)."
+  },
+  "signing_bonus": {
+   "value": 15000,
+   "currency": "USD",
+   "stat": "median",
+   "pct_receiving": null
+  },
+  "by_industry": [
+   {
+    "industry": "tech",
+    "sub": "Technology",
+    "pct": 27,
+    "salary": 98956,
+    "stat": "median"
+   },
+   {
+    "industry": "finance",
+    "sub": "Financial services",
+    "pct": 24,
+    "salary": 106308,
+    "stat": "median"
+   },
+   {
+    "industry": "consulting",
+    "sub": "Consulting",
+    "pct": 15,
+    "salary": 108964,
+    "stat": "median"
+   },
+   {
+    "industry": "consumer",
+    "sub": "Consumer packaged goods",
+    "pct": 5,
+    "salary": 79993,
+    "stat": "median"
+   },
+   {
+    "industry": "healthcare",
+    "sub": "Healthcare",
+    "pct": 4,
+    "salary": 104777,
+    "stat": "median"
+   },
+   {
+    "industry": "manufacturing",
+    "sub": "Manufacturing",
+    "pct": 5,
+    "salary": 96338,
+    "stat": "median"
+   },
+   {
+    "industry": "nonprofit",
+    "sub": "Government, NGO, education",
+    "pct": 5,
+    "salary": 84903,
+    "stat": "median"
+   },
+   {
+    "industry": "consumer",
+    "sub": "Retail and luxury",
+    "pct": 4,
+    "salary": 168310,
+    "stat": "median"
+   },
+   {
+    "industry": "energy",
+    "sub": "Energy",
+    "pct": 2,
+    "salary": 72894,
+    "stat": "median"
+   },
+   {
+    "industry": "other",
+    "sub": "Media",
+    "pct": 4,
+    "salary": 87314,
+    "stat": "median"
+   },
+   {
+    "industry": "other",
+    "sub": "Hospitality",
+    "pct": 2,
+    "salary": 69852,
+    "stat": "median"
+   },
+   {
+    "industry": "other",
+    "sub": "Legal",
+    "pct": 1,
+    "salary": null,
+    "stat": null
+   },
+   {
+    "industry": "other",
+    "sub": "Real estate",
+    "pct": 1,
+    "salary": null,
+    "stat": null
+   },
+   {
+    "industry": "other",
+    "sub": "Transport",
+    "pct": 1,
+    "salary": 71533,
+    "stat": "median"
+   }
+  ],
+  "by_function": [
+   {
+    "function": "Financial services",
+    "pct": 24,
+    "salary": null
+   },
+   {
+    "function": "Consulting",
+    "pct": 20,
+    "salary": null
+   },
+   {
+    "function": "Marketing/Sales",
+    "pct": 19,
+    "salary": null
+   },
+   {
+    "function": "Operations & Logistics",
+    "pct": 13,
+    "salary": null
+   },
+   {
+    "function": "General Management",
+    "pct": 8,
+    "salary": null
+   },
+   {
+    "function": "IT",
+    "pct": 5,
+    "salary": null
+   },
+   {
+    "function": "Project Management",
+    "pct": 3,
+    "salary": null
+   },
+   {
+    "function": "Strategy",
+    "pct": 3,
+    "salary": null
+   }
+  ],
+  "by_geography": [
+   {
+    "region": "Europe",
+    "label": "France",
+    "pct": 26,
+    "salary": 84404
+   },
+   {
+    "region": "Europe",
+    "label": "Europe outside France",
+    "pct": 26,
+    "salary": 104195
+   },
+   {
+    "region": "Asia",
+    "label": "Asia & Oceania",
+    "pct": 25,
+    "salary": 82825
+   },
+   {
+    "region": "North America",
+    "pct": 11,
+    "salary": 134000
+   },
+   {
+    "region": "Middle East & Africa",
+    "label": "Africa & Middle East",
+    "pct": 8,
+    "salary": null
+   },
+   {
+    "region": "Latin America",
+    "pct": 4,
+    "salary": 100574
+   }
+  ],
+  "top_employers": [
+   {
+    "name": "Amazon",
+    "hires": null
+   },
+   {
+    "name": "L'Oréal",
+    "hires": null
+   },
+   {
+    "name": "Impossible Cloud",
+    "hires": null
+   },
+   {
+    "name": "BCG",
+    "hires": null
+   },
+   {
+    "name": "Accenture",
+    "hires": null
+   },
+   {
+    "name": "Pernod Ricard",
+    "hires": null
+   },
+   {
+    "name": "HCLTech",
+    "hires": null
+   },
+   {
+    "name": "Bank of America",
+    "hires": null
+   },
+   {
+    "name": "Microsoft",
+    "hires": null
+   },
+   {
+    "name": "Google",
+    "hires": null
+   },
+   {
+    "name": "KPMG",
+    "hires": null
+   },
+   {
+    "name": "Strategy&",
+    "hires": null
+   },
+   {
+    "name": "Uber",
+    "hires": null
+   }
+  ],
+  "employers_note": "Recruiters with two hires or more; no counts given."
+ },
+ "profile": {
+  "women_pct": 40,
+  "avg_age": 30,
+  "intl_pct": 95,
+  "avg_work_exp_years": 6,
+  "countries": 49,
+  "cohort": "Class of 2025",
+  "url": "https://www.calameo.com/read/0074570460be6b03185d2",
+  "read_on": "2026-10-13"
+ }
+}

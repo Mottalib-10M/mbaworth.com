@@ -1,0 +1,150 @@
+{
+ "_source": "Ivey MBA Class of 2025 Permanent Employment Report (FlippingBook), read in images in a browser by the coordinator on 2026-10-13; data as of September 11, 2025; amounts in CAD.",
+ "program": {
+  "class_size": {
+   "value": 169,
+   "cohort": "Class of 2025",
+   "url": "https://online.flippingbook.com/shelf/271812/876540/",
+   "read_on": "2026-10-13"
+  }
+ },
+ "employment": {
+  "report_url": "https://online.flippingbook.com/shelf/271812/876540/",
+  "url": "https://online.flippingbook.com/shelf/271812/876540/",
+  "read_on": "2026-10-13",
+  "cohort": "Class of 2025",
+  "standard": "school",
+  "response_rate": 78,
+  "offer_3m_pct": 82,
+  "accepted_3m_pct": null,
+  "base_salary": {
+   "value": 100000,
+   "currency": "CAD",
+   "stat": "median",
+   "note": "Base salary of the 78% of acceptances that reported pay: mean CAD 114,984, median CAD 100,000; total compensation median CAD 109,000."
+  },
+  "signing_bonus": {
+   "value": 20000,
+   "currency": "CAD",
+   "stat": "median",
+   "pct_receiving": 23
+  },
+  "by_industry": [
+   {
+    "industry": "finance",
+    "sub": "Financial services (share of reported salaries)",
+    "pct": 36,
+    "salary": 98000,
+    "stat": "median"
+   },
+   {
+    "industry": "consulting",
+    "sub": "Consulting (share of reported salaries)",
+    "pct": 26,
+    "salary": 160000,
+    "stat": "median"
+   },
+   {
+    "industry": "tech",
+    "sub": "Technology (share of reported salaries)",
+    "pct": 10,
+    "salary": 117000,
+    "stat": "median"
+   },
+   {
+    "industry": "consumer",
+    "sub": "Consumer goods (share of reported salaries)",
+    "pct": 5,
+    "salary": 97500,
+    "stat": "median"
+   },
+   {
+    "industry": "nonprofit",
+    "sub": "Government (share of reported salaries)",
+    "pct": 3,
+    "salary": 92000,
+    "stat": "median"
+   },
+   {
+    "industry": "nonprofit",
+    "sub": "Non-profit (share of reported salaries)",
+    "pct": 3,
+    "salary": 75000,
+    "stat": "median"
+   },
+   {
+    "industry": "other",
+    "sub": "Other (share of reported salaries)",
+    "pct": 16,
+    "salary": 113500,
+    "stat": "median"
+   }
+  ],
+  "by_industry_note": "Shares are of reported salaries. Of accepted jobs: consulting 24%, general financial services 17%, tech 9%, IB/PE/VC 7%, AM/commercial banking 6%, equity research/insurance/risk 5%.",
+  "by_function": [
+   {
+    "function": "Consulting/Corporate Strategy",
+    "pct": 38,
+    "salary": 110000
+   },
+   {
+    "function": "Finance",
+    "pct": 20,
+    "salary": 90000
+   },
+   {
+    "function": "Sales/Business Development",
+    "pct": 14,
+    "salary": 87500
+   },
+   {
+    "function": "Operations/Logistics",
+    "pct": 5,
+    "salary": 103750
+   },
+   {
+    "function": "Project Management",
+    "pct": 5,
+    "salary": 103500
+   },
+   {
+    "function": "Data Analytics",
+    "pct": 5,
+    "salary": 110000
+   },
+   {
+    "function": "Marketing",
+    "pct": 5,
+    "salary": 96500
+   },
+   {
+    "function": "Leadership/Rotational",
+    "pct": 3,
+    "salary": 98000
+   },
+   {
+    "function": "Product Management",
+    "pct": 3,
+    "salary": 120000
+   }
+  ],
+  "by_geography": [
+   {
+    "region": "Canada",
+    "label": "Toronto/GTA 68%, Calgary 4%, Vancouver 3%, other Canada 7%",
+    "pct": 82,
+    "salary": null
+   }
+  ],
+  "by_geography_note": "International 5%, unknown 15%."
+ },
+ "profile": {
+  "women_pct": 38,
+  "intl_pct": 57,
+  "avg_age": 29,
+  "avg_work_exp_years": 5.5,
+  "cohort": "Class of 2025",
+  "url": "https://online.flippingbook.com/shelf/271812/876540/",
+  "read_on": "2026-10-13"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "_source": "NUS employment and 2027 fees read in a browser by the coordinator on 2026-10-13.",
+ "tuition_total": {
+  "value": 106849.76,
+  "currency": "SGD",
+  "period": "full program",
+  "cohort": "August 2027 intake (incl. GST)",
+  "url": "https://mba.nus.edu.sg/admissions-and-funding/#fees-scholarships-financing",
+  "read_on": "2026-10-13"
+ },
+ "employment": {
+  "report_url": "https://mba.nus.edu.sg/career-development/",
+  "url": "https://mba.nus.edu.sg/career-development/",
+  "read_on": "2026-10-13",
+  "cohort": "Class of 2024",
+  "standard": "school",
+  "offer_3m_pct": 93,
+  "employed_3m_pct": null,
+  "base_salary": {
+   "value": 88002,
+   "currency": "USD",
+   "stat": "mean",
+   "note": "Average post-MBA salary, Class of 2024; no median published; 51% changed country, 76% industry."
+  }
+ }
+}

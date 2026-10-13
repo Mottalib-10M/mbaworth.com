@@ -27,6 +27,8 @@ for code, name in OCC.items():
     occ[code] = {'soc': f'{code[:2]}-{code[2:]}', 'name': name, 'employment': g('01'), 'p25': g('12'), 'median': g('13'), 'p75': g('14')}
 METRO = {'0035620': 'New York-Newark-Jersey City', '0041860': 'San Francisco-Oakland-Fremont', '0014460': 'Boston-Cambridge-Newton', '0016980': 'Chicago-Naperville-Elgin', '0047900': 'Washington-Arlington-Alexandria', '0031080': 'Los Angeles-Long Beach-Anaheim', '0042660': 'Seattle-Tacoma-Bellevue'}
 metro = [{'area': name, 'median': vals[f'OEUM{a}000000131111' + '13']} for a, name in METRO.items() if f'OEUM{a}000000131111' + '13' in vals]
+wb = json.load(open(f'{R}/research/official/worldbank-ppp-2025.json'))[1]
+ppp = {r['countryiso3code']: r['value'] for r in wb if r['value']}
 P = {
   '_readme': 'Every figure of the site that is not read in a school file lives here, from the official source named in `sources`, never typed in a page (RECETTE §4, §17.4). Built by scripts/build-params.py.',
   'year': 2026, 'retrieved_at': '2026-10-13', 'valid_to': '2027-09-30',
@@ -38,6 +40,7 @@ P = {
     'minShare': {'all': 0, 'ind': 5, 'seg': 2, 'zone': 5, 'fn': 5}, 'zoneFallbackShare': 50,
     'note': 'g1 and g0: yearly raise with and without the MBA; r: discount rate; internMonths: length of the summer internship counted for two-year programs; zoneWeights: few schools publish a salary by region, so regions are ranked on the share of the class placed there alone; minShare: smallest share of the class (in %) for a school to be ranked on a goal; zoneFallbackShare: a region must take at least this share of the class before the school-wide salary stands in for a regional salary the school does not publish. Assumptions of this site, shown and editable.'
   },
+  'ppp': {'year': '2025', 'lcuPerIntlDollar': ppp, 'source': 'worldbank_ppp', 'note': 'World Bank PPP conversion factor, GDP (LCU per international $), PA.NUS.PPP. Used only to turn a salary a school publishes in PPP dollars back into its own currency.'},
   'ukvi': {'londonMonthly': 1529, 'outsideMonthly': 1171, 'maxMonths': 9, 'source': 'ukvi_money'},
   'bls': {'period': 'May 2025', 'source': 'bls_oews', 'occupations': occ, 'managementAnalystsByMetro': metro},
   'sources': {
@@ -46,6 +49,7 @@ P = {
     'bls_oews': {'label': 'U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025', 'url': 'https://www.bls.gov/oes/tables.htm'},
     'bls_api': {'label': 'U.S. Bureau of Labor Statistics, public data API (OEWS series)', 'url': 'https://www.bls.gov/developers/'},
     'bls_ooh_ma': {'label': 'BLS Occupational Outlook Handbook, Management Analysts', 'url': 'https://www.bls.gov/ooh/business-and-financial/management-analysts.htm'},
+    'worldbank_ppp': {'label': 'World Bank, PPP conversion factor, GDP (LCU per international $), 2025', 'url': 'https://data.worldbank.org/indicator/PA.NUS.PPP'},
     'mbacsea': {'label': 'MBA CSEA, Standards for Reporting MBA Employment Statistics', 'url': 'https://mbacsea.org'},
     'gmac': {'label': 'GMAC, Graduate Management Admission Council', 'url': 'https://www.gmac.com/'},
     'ft_rankings': {'label': 'Financial Times, Global MBA Ranking 2026', 'url': 'https://rankings.ft.com/'},

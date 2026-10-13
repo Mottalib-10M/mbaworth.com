@@ -51,6 +51,21 @@
   "zoneFallbackShare": 50,
   "note": "g1 and g0: yearly raise with and without the MBA; r: discount rate; internMonths: length of the summer internship counted for two-year programs; zoneWeights: few schools publish a salary by region, so regions are ranked on the share of the class placed there alone; minShare: smallest share of the class (in %) for a school to be ranked on a goal; zoneFallbackShare: a region must take at least this share of the class before the school-wide salary stands in for a regional salary the school does not publish. Assumptions of this site, shown and editable."
  },
+ "ppp": {
+  "year": "2025",
+  "lcuPerIntlDollar": {
+   "CHE": 0.930746,
+   "DEU": 0.709983,
+   "ESP": 0.570991,
+   "FRA": 0.677618,
+   "GBR": 0.677133,
+   "ITA": 0.610275,
+   "NLD": 0.746769,
+   "USA": 1
+  },
+  "source": "worldbank_ppp",
+  "note": "World Bank PPP conversion factor, GDP (LCU per international $), PA.NUS.PPP. Used only to turn a salary a school publishes in PPP dollars back into its own currency."
+ },
  "ukvi": {
   "londonMonthly": 1529,
   "outsideMonthly": 1171,
@@ -185,6 +200,10 @@
   "bls_ooh_ma": {
    "label": "BLS Occupational Outlook Handbook, Management Analysts",
    "url": "https://www.bls.gov/ooh/business-and-financial/management-analysts.htm"
+  },
+  "worldbank_ppp": {
+   "label": "World Bank, PPP conversion factor, GDP (LCU per international $), 2025",
+   "url": "https://data.worldbank.org/indicator/PA.NUS.PPP"
   },
   "mbacsea": {
    "label": "MBA CSEA, Standards for Reporting MBA Employment Statistics",

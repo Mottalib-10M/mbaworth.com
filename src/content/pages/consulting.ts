@@ -1,9 +1,75 @@
-// STUB: to be written (CONTRIBUTING-PAGES.md). The route exists so that links resolve.
 import { definePage } from '../../lib/page-types';
+import { KIT as K } from '../../lib/kit';
+
+// Our consulting ranking and the figures the schools publish for the industry.
+const rk = K.ranking('consulting');
+const top = K.top('consulting', 10);
+const t1 = top[0];
+const t2 = top[1];
+const t3 = top[2];
+const std = t1.salary!;
+const consRow = (slug: string) => K.s(slug).emp.industries.find((x) => x.key === 'consulting');
+const withShare = K.schools.filter((s) => (K.shareRaw(s.slug, 'consulting') ?? 0) > 0);
+const usdMed = K.schools.filter((s) => { const r = consRow(s.slug); return s.country === 'US' && r && r.salary && r.cur === 'USD'; });
+const atStd = usdMed.filter((s) => consRow(s.slug)!.salary === std);
+const over30 = withShare.filter((s) => K.shareRaw(s.slug, 'consulting')! >= 30);
+const placed = rk.ranked.reduce((a, x) => a + (x.placed ?? 0), 0);
+const bls = K.P.bls.occupations['131111'];
+const metros = [...K.P.bls.managementAnalystsByMetro].sort((a, b) => b.median - a.median);
+// Employer lists: how many schools name each of the three strategy firms.
+const lists = K.schools.filter((s) => s.emp.employers.length > 0);
+const naming = (re: RegExp) => lists.filter((s) => s.emp.employers.some((e) => re.test(e.name))).length;
+const nMck = naming(/mckinsey/i);
+const nBcg = naming(/boston consulting|\bBCG\b/i);
+const nBain = naming(/\bbain\b/i);
+// BLS Occupational Outlook Handbook, Management Analysts, read on 2026-10-13 (source bls_ooh_ma).
+const OOH = { jobs: 1077100, growth: 10, from: 2025, to: 2035, openings: 94100 };
+
 export default definePage({
-  id: 'consulting', group: 'consulting', order: 1, slug: 'consulting', nav: 'Consulting after an MBA', card: 'STUB',
-  title: 'STUB', description: 'STUB', h1: 'Consulting after an MBA', intro: 'STUB', resume: 'STUB', faqs: [],
-  body: () => '<p>STUB</p>',
-  tool: 'finder', toolArgs: { goal: 'consulting' },
-  related: [], sources: [],
+  id: 'consulting',
+  group: 'consulting',
+  order: 1,
+  slug: 'consulting',
+  nav: 'Consulting after an MBA',
+  card: 'Management and strategy consulting after an MBA: the job, the levels, the pay and the schools that feed it.',
+  title: 'Management Consulting 2026: MBA Pay, Schools and Firms',
+  description: `Management and strategy consulting after an MBA in 2026: what the job is, the levels, the ${K.usd(std)} median at top schools and the schools that feed it.`,
+  h1: 'Management and strategy consulting after an MBA',
+  intro: `Consulting is the largest single destination of MBA graduates: ${K.p(t1.share)} of the ${t1.short} class went there, and the top schools report a ${K.usd(std)} median base salary for it.`,
+  resume: `Management consulting is the business of advising companies for a fee, and strategy consulting is its branch that works on the questions a chief executive asks: where to grow, what to buy, what to stop. It is the first employer of MBA graduates. Of the ${withShare.length} schools on this site that publish an industry breakdown with a consulting line, ${over30.length} sent 30% of their class or more into it, and the ${rk.ranked.length} schools of our consulting ranking placed about ${K.num(placed)} graduates there in their last reported class. Pay is set by the large strategy firms and moves in step across schools: ${atStd.length} of the ${usdMed.length} American schools that report a consulting median give exactly ${K.usd(std)}. The Bureau of Labor Statistics puts the median management analyst at ${K.usd(bls.median)} in ${K.P.bls.period}, which is the floor of the profession, not the MBA entry point. In our ranking, which weighs the share placed, the salary and the ten-year value of the degree, ${t1.short}, ${t2.short} and ${t3.short} come first.`,
+  faqs: [
+    { q: 'What is the difference between management consulting and strategy consulting?', a: `Strategy consulting is a part of management consulting. Management consulting covers any paid advice on how a company is run: operations, technology, people, finance or strategy. Strategy work answers the questions of the chief executive and the board, such as entering a market or buying a competitor. The large strategy firms hire most MBA consultants and set the ${K.usd(std)} median that top American schools report.` },
+    { q: 'How many MBA graduates go into consulting each year?', a: `The ${rk.ranked.length} schools ranked on this site for consulting placed about ${K.num(placed)} graduates in the industry in their last reported class, using each school's share applied to its class size. Schools that do not publish a salary or a living budget are listed apart and are not in that total, so the real number across all MBA programs is higher.` },
+    { q: 'Do you need an MBA to work in management consulting?', a: `No. The large firms hire undergraduates, PhDs, doctors, lawyers and experienced managers as well. The MBA is the main door at the post-degree level: firms recruit on campus, and the class of a school such as ${t1.short} sends ${K.p(t1.share)} into consulting. For someone without a business background it is often the most direct route to a consultant title above the entry level.` },
+    { q: 'Which consulting firms recruit most at MBA schools?', a: `Counting the employer lists that schools publish, McKinsey appears at ${nMck} schools, Boston Consulting Group at ${nBcg} and Bain at ${nBain}, out of ${lists.length} schools that publish a list. The firms page of this rubric gives the full count for every firm and the hire numbers where a school publishes them.` },
+    { q: 'What does a management consultant earn after an MBA in 2026?', a: `The salary figures available describe the class of 2025, not 2026 offers. At the top American schools the consulting median base was ${K.usd(std)}, the same at ${atStd.length} schools, because the large firms tend to pay one number to all their MBA hires in a given year. Smaller and specialist firms pay less, and offices outside the United States pay in local currency at local levels.` },
+    { q: 'When do MBA students apply for consulting internships?', a: `Recruiting starts in the first weeks of a two-year program. Students attend firm presentations in the autumn, prepare case interviews over the winter and interview for the summer internship early in the first year. The summer internship, which our model counts as about ${K.num(K.MODEL.internMonths, 1)} months, is the main source of full-time offers. One-year programs compress this into a few months.` },
+    { q: 'Is the management analyst figure from the BLS the same as an MBA consultant salary?', a: `No. The BLS management analysts category counts ${K.num(bls.employment)} jobs in the United States, from junior analysts in small firms to internal consultants in government. Its median was ${K.usd(bls.median)} in ${K.P.bls.period}, and three quarters earned less than ${K.usd(bls.p75)}. MBA hires at the large strategy firms start above that third quartile.` },
+  ],
+  body: (h) => `<h2>What a consulting firm sells</h2>
+<p>A consulting firm sells time and judgment. A client, usually a large company, sometimes a government or a fund, hires a team for a fixed period to answer a question it cannot answer alone, either because it lacks the people, the data from other companies, or the neutrality to settle an internal argument. The team gathers facts, builds an analysis, tests it with the client's managers and ends with a recommendation and often a plan to carry it out. The fee pays for the team's weeks, which is why the job is organized around projects with a start and an end.</p>
+<p>Management consulting is the broad trade: any paid advice on how an organization is run. Strategy consulting is the part of it that deals with the decisions at the top, such as which markets to enter, whether to buy a competitor, how to price a product line or how to cut costs by a fifth. Operations, technology, human resources and implementation work make up the rest, and they employ far more people than strategy does. The page ${h.a('consulting-what-is-strategy-consulting', 'what strategy consulting is')} draws the line between the two, and ${h.a('consulting-what-do-consultants-do', 'what consultants do')} follows a project week by week.</p>
+<h2>How firms are organized, from analyst to partner</h2>
+<p>Every large firm runs on the same pyramid, with titles that change from one firm to the next. At the base, analysts or associates hired from undergraduate programs build models and gather data. MBA graduates join one step higher, as consultants or associates, and own a piece of the problem from the first week: one workstream, one set of client managers, one part of the final document. After a few years the best become engagement managers or project leaders, who run the team day to day and write the story the client will hear. Above them, principals or associate partners sell and oversee several projects, and partners own the client relationships and the firm's results.</p>
+<p>The pyramid explains two facts that surprise applicants. The firms hire many more people at the bottom than they promote, so leaving after a few years is the normal path rather than a failure; former consultants fill strategy, operations and general management jobs across industries. Pay also rises with the level faster than in most corporate careers, because each step up is paid for by the hours of the people below. The ${h.a('consulting-mbb', 'MBB page')} compares how McKinsey, Boston Consulting Group and Bain organize this ladder, and ${h.a('consulting-big-4-consulting', 'Big 4 consulting')} covers the consulting arms of the audit networks, which hire more people at lower pay.</p>
+<h2>What consultants are paid, and why every school shows the same number</h2>
+<p>Pay after an MBA is set by the large strategy firms and moves in one step each year. Among the American schools that publish a consulting median, ${atStd.length} of ${usdMed.length} report ${K.usd(std)} in their last report, to the dollar. That is not a coincidence of averages: the large firms tend to make the same base offer to all their MBA hires in a given country and year, and a school whose consulting hires are mostly at those firms reports that number as its median. Schools sending more graduates to specialist, Big 4 or internal consulting jobs report lower figures, which is why the median changes from school to school when the base offer does not.</p>
+<p>The national figure is far lower. The Bureau of Labor Statistics counts ${K.num(bls.employment)} management analysts in the United States in ${K.P.bls.period}, with a median of ${K.usd(bls.median)}, a first quartile of ${K.usd(bls.p25)} and a third of ${K.usd(bls.p75)}. The category includes junior staff in small firms and internal consultants in government, which pulls it down. The highest metro median in the BLS release is ${metros[0].area} at ${K.usd(metros[0].median)}, the lowest of the seven we track ${metros[metros.length - 1].area} at ${K.usd(metros[metros.length - 1].median)}. The ${h.a('consulting-consultant-salary', 'consultant salary page')} sets the two series side by side, and the pages on ${h.a('consulting-mckinsey-salary', 'McKinsey')}, ${h.a('consulting-bcg-salary', 'BCG')} and ${h.a('consulting-bain-salary', 'Bain')} pay explain what can and cannot be known about each firm.</p>
+<p>The BLS also projects the occupation forward: employment of management analysts is expected to grow ${OOH.growth}% from ${OOH.from} to ${OOH.to}, with about ${K.num(OOH.openings)} openings a year on average over the decade, from ${K.num(OOH.jobs)} jobs in ${OOH.from} in its handbook, a wider count than the wage survey because it includes the self-employed. Most of those openings replace people who leave the field, which matches the pyramid described above.</p>
+${h.miniPosition('131111')}
+<h2>Which MBA schools feed consulting</h2>
+<p>Our consulting ranking takes three figures from each school's employment report: the share of the class hired in consulting, the consulting salary the school reports and the ten-year value of the degree for a person earning ${K.ref()} before it. ${t1.short} comes first, with ${K.p(t1.share)} of its class in consulting and a payback of ${t1.payback === null ? 'more than thirty years' : K.yrs(t1.payback)} for that person. ${t2.short} and ${t3.short} follow with shares of ${K.p(t2.share)} and ${K.p(t3.share)}. The schools at the top are mostly mid-sized American programs, where consulting takes a larger share of a smaller class than at the largest schools.</p>
+${h.rankTable('consulting', 10)}
+<p>Outside the United States, the reports are often thinner. ${h.sc('insead')} sends ${K.share('insead', 'consulting')} of its class into consulting at ${K.segSalary('insead', 'consulting')}, and ${h.sc('lbs')} ${K.share('lbs', 'consulting')} at ${K.segSalary('lbs', 'consulting')}, figures paid in euros and pounds at European levels. Some schools with a large consulting share, such as ${h.sc('iese')} at ${K.share('iese', 'consulting')}, do not publish a salary and cannot be ranked on value. The full list, with the reason each unranked school is left out, is on ${h.a('best-mba-consulting', 'the best MBA for consulting')}.</p>
+<h2>The recruiting calendar</h2>
+<p>Consulting recruiting in a two-year American program starts almost at the door. In the first autumn, firms hold presentations and coffee chats on campus, and students choose the offices they will apply to. Over the winter, case practice takes most evenings: the ${h.a('consulting-case-interview', 'case interview')} is the core of selection, and the pages on ${h.a('consulting-case-interview-examples', 'case examples')} and ${h.a('consulting-market-sizing', 'market sizing')} give drills with stated numbers. First-round and final interviews for the summer internship follow early in the first year, and the internship itself, which our model counts as about ${K.num(K.MODEL.internMonths, 1)} months, ends with a decision on a full-time offer. Students who miss the internship can apply again in the second autumn, with fewer places.</p>
+<p>One-year programs in Europe and Asia compress the calendar. There is no summer internship to convert, so students apply for full-time roles within weeks of arriving, often to offices in their home region. That suits applicants who already know the firm and office they want, and it is harder for career changers who need time to learn the case format. For each school, the share of the class placed in consulting and the employers it names are on its school page.</p>
+${h.miniGoal(t1.slug)}
+<h2>Where to read next in this rubric</h2>
+<p>The rubric follows the questions an applicant asks in order. ${h.a('consulting-what-is-strategy-consulting', 'Strategy consulting')} defines the work. ${h.a('consulting-what-do-consultants-do', 'A project week by week')} shows what the job looks like, with a fee calculator. ${h.a('consulting-consultant-salary', 'Consultant salary')} compares national and post-MBA pay. ${h.a('consulting-mbb', 'MBB')}, ${h.a('consulting-big-4-consulting', 'Big 4 consulting')} and ${h.a('consulting-consulting-firms', 'consulting firms')} cover who hires, the last with our count of how many schools name each firm. ${h.a('consulting-how-to-become-a-consultant', 'How to become a consultant')} compares the routes in and the cost of the MBA route. The three case pages give practice material written for this site, with every assumption stated.</p>`,
+  tool: 'finder',
+  toolArgs: { goal: 'consulting' },
+  related: ['best-mba-consulting', 'consulting-consultant-salary', 'consulting-case-interview', 'consulting-mbb', 'consulting-how-to-become-a-consultant', 'mba-finder'],
+  sources: ['bls_oews', 'bls_ooh_ma', 'mbacsea', 'ecb_fx'],
+  schoolSources: [t1.slug, t2.slug, t3.slug, 'insead', 'lbs'],
 });

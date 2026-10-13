@@ -1,0 +1,200 @@
+{
+ "_source": "Read in a browser by the coordinator on 2026-10-13 (pages closed to robots). Class of 2025, post-graduation, salaries reported by students.",
+ "employment": {
+  "by_industry_url": "https://www.hbs.edu/recruiting/employment-data/industry/Pages/default.aspx",
+  "read_on": "2026-10-13",
+  "base_salary": {
+   "value": 185000,
+   "currency": "USD",
+   "stat": "median",
+   "p25": 160000,
+   "p75": 192000,
+   "url": "https://www.hbs.edu/recruiting/employment-data/industry/Pages/default.aspx"
+  },
+  "signing_bonus": {
+   "value": 30000,
+   "stat": "median",
+   "pct_receiving": 58
+  },
+  "by_industry": [
+   {
+    "industry": "consulting",
+    "sub": "Consulting",
+    "pct": 21,
+    "salary": 190000,
+    "stat": "median"
+   },
+   {
+    "industry": "consumer",
+    "sub": "Consumer Products",
+    "pct": 2,
+    "salary": 146000,
+    "stat": "median"
+   },
+   {
+    "industry": "other",
+    "sub": "Entertainment / Media",
+    "pct": 3,
+    "salary": 180000,
+    "stat": "median"
+   },
+   {
+    "industry": "healthcare",
+    "sub": "Health Care",
+    "pct": 6,
+    "salary": 160000,
+    "stat": "median"
+   },
+   {
+    "industry": "finance",
+    "sub": "investment banking",
+    "pct": 6,
+    "salary": 175000,
+    "stat": "median"
+   },
+   {
+    "industry": "finance",
+    "sub": "asset management (Investment Management / Hedge Fund)",
+    "pct": 7,
+    "salary": 183000,
+    "stat": "median"
+   },
+   {
+    "industry": "manufacturing",
+    "sub": "Manufacturing",
+    "pct": 5,
+    "salary": 162000,
+    "stat": "median"
+   },
+   {
+    "industry": "nonprofit",
+    "sub": "Nonprofit / Government",
+    "pct": 4,
+    "salary": 130000,
+    "stat": "median"
+   },
+   {
+    "industry": "finance",
+    "sub": "Other Financial Services",
+    "pct": 3,
+    "salary": 192000,
+    "stat": "median"
+   },
+   {
+    "industry": "finance",
+    "sub": "private equity",
+    "pct": 14,
+    "salary": 188000,
+    "stat": "median"
+   },
+   {
+    "industry": "other",
+    "sub": "Services",
+    "pct": 3,
+    "salary": 140000,
+    "stat": "median"
+   },
+   {
+    "industry": "tech",
+    "sub": "Technology",
+    "pct": 22,
+    "salary": 178000,
+    "stat": "median"
+   },
+   {
+    "industry": "finance",
+    "sub": "venture capital",
+    "pct": 4,
+    "salary": 200000,
+    "stat": "median"
+   }
+  ],
+  "by_function_url": "https://www.hbs.edu/recruiting/employment-data/function/Pages/default.aspx",
+  "by_function": [
+   {
+    "function": "Business Development",
+    "pct": 10,
+    "salary": 175000
+   },
+   {
+    "function": "Consulting",
+    "pct": 21,
+    "salary": 190000
+   },
+   {
+    "function": "Finance",
+    "pct": 33,
+    "salary": 178000
+   },
+   {
+    "function": "General Management",
+    "pct": 11,
+    "salary": 170000
+   },
+   {
+    "function": "Marketing",
+    "pct": 11,
+    "salary": 173000
+   },
+   {
+    "function": "Strategic Planning",
+    "pct": 9,
+    "salary": 160000
+   },
+   {
+    "function": "Other",
+    "pct": 4,
+    "salary": 180000
+   }
+  ],
+  "by_geography_url": "https://www.hbs.edu/recruiting/employment-data/location/Pages/default.aspx",
+  "by_geography": [
+   {
+    "region": "US Mid-Atlantic",
+    "pct": 6,
+    "salary": 180000
+   },
+   {
+    "region": "US Midwest",
+    "pct": 5,
+    "salary": 190000
+   },
+   {
+    "region": "US Northeast",
+    "pct": 48,
+    "salary": 180000
+   },
+   {
+    "region": "US South",
+    "pct": 4,
+    "salary": 191000
+   },
+   {
+    "region": "US Southwest",
+    "pct": 5,
+    "salary": 190000
+   },
+   {
+    "region": "US West",
+    "pct": 24,
+    "salary": 190000
+   },
+   {
+    "region": "Asia",
+    "pct": 3,
+    "salary": 140000
+   },
+   {
+    "region": "Europe",
+    "pct": 2,
+    "salary": 145000
+   },
+   {
+    "region": "Middle East",
+    "label": "Middle East & North Africa",
+    "pct": 1,
+    "salary": 128000
+   }
+  ]
+ }
+}

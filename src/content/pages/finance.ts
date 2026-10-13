@@ -1,9 +1,65 @@
-// STUB: to be written (CONTRIBUTING-PAGES.md). The route exists so that links resolve.
 import { definePage } from '../../lib/page-types';
+import { KIT as K } from '../../lib/kit';
+
+const fin = K.top('finance', 5);
+const ib = K.ranking('ib').ranked;
+const ibBig = [...ib].sort((a, b) => b.share - a.share)[0];
+const pe = K.top('pe', 3);
+const am = K.top('am', 3);
+const vc = K.top('vc', 3);
+const cf = K.top('f-corpfin', 3);
+const w = K.s('wharton');
+const seg = (slug: string, key: string) => K.s(slug).emp.segments.find((x) => x.key === key)!;
+const wSum = ['ib', 'pe', 'vc', 'am'].reduce((t, k) => t + (seg('wharton', k).pct ?? 0), 0);
+const fa = K.P.bls.occupations['132051'];
+const fm = K.P.bls.occupations['113031'];
+const sa = K.P.bls.occupations['413031'];
+const wi = w.emp.intern!;
+
 export default definePage({
-  id: 'finance', group: 'finance', order: 1, slug: 'finance', nav: 'Finance after an MBA', card: 'STUB',
-  title: 'STUB', description: 'STUB', h1: 'Finance after an MBA', intro: 'STUB', resume: 'STUB', faqs: [],
-  body: () => '<p>STUB</p>',
-  tool: 'finder', toolArgs: { goal: 'finance' },
-  related: [], sources: [],
+  id: 'finance',
+  group: 'finance',
+  order: 1,
+  slug: 'finance',
+  nav: 'Finance after an MBA',
+  card: 'Investment banking, private equity, asset management, venture capital and corporate finance: who hires MBAs and from which schools.',
+  title: 'Finance MBA Careers 2026: Banking, PE and Asset Management',
+  description: `Finance after an MBA in 2026: share of each class hired in investment banking, private equity, asset management and VC, the salaries schools report and payback.`,
+  h1: 'Finance after an MBA: the five paths and the schools that feed them',
+  intro: `Finance takes ${K.share('wharton', 'finance')} of Wharton's class and ${K.share(ibBig.slug, 'ib')} of ${ibBig.short}'s goes to investment banking alone: the segment matters more than the word "finance".`,
+  resume: `Finance is the second largest destination of MBA graduates after consulting, but it is five different jobs. Investment banking hires the most people and pays a flat median: ${K.money(seg('nyu-stern', 'ib').salary!, 'USD')} at ${K.s('nyu-stern').short}, which sends ${K.share('nyu-stern', 'ib')} of its class to banks, the same figure at Wharton, Columbia and Booth. Private equity hires fewer graduates at higher medians, ${K.money(seg('stanford', 'pe').salary!, 'USD')} at Stanford and at Wharton, where ${K.p(seg('wharton', 'pe').pct!)} of the class went to buyout funds. Asset management, venture capital and corporate finance inside companies complete the list. In our ranking for finance as a whole, ${fin[0].short} comes first, then ${fin[1].short} and ${fin[2].short}, on the share placed, the reported salary and the ten-year value for a person earning ${K.ref()} before the degree. Outside the United States, few schools split finance into segments, so the choice of school is narrower than the brochures suggest.`,
+  faqs: [
+    { q: 'Which MBA finance job hires the most graduates?', a: `Investment banking, by a wide margin, in the reports that split finance. ${K.s(ibBig.slug).short} placed ${K.p(ibBig.share)} of its class in banks and Columbia ${K.share('columbia', 'ib')}, while private equity rarely passes ${K.p(seg('stanford', 'pe').pct!)} anywhere. Banks recruit associates in large classes every year, buy-side firms hire one or two at a time, which explains the gap in shares.` },
+    { q: 'Do MBA finance salaries differ between banking and private equity?', a: `At the schools that publish both, yes. Wharton's class of 2025 reported ${K.money(seg('wharton', 'ib').salary!, 'USD')} median base for investment banking and ${K.money(seg('wharton', 'pe').salary!, 'USD')} for private equity. The base is only part of pay in both segments: banks add a year-end bonus and funds may add carried interest later, and employment reports cover neither.` },
+    { q: 'Can a European MBA lead to a finance career?', a: `Yes, with fewer published figures to judge it. London Business School placed ${K.share('lbs', 'finance')} of its class in finance and Oxford ${K.share('oxford-said', 'finance')}, but both publish averages rather than medians, and most continental schools give no finance segment at all. Our finance ranking lists the European schools apart when a figure is missing.` },
+    { q: 'How do BLS wages compare with MBA finance salaries?', a: `They sit lower because they cover every level and employer. Financial and investment analysts had a median wage of ${K.usd(fa.median)} in ${K.P.bls.period} and financial managers ${K.usd(fm.median)}, against ${K.money(seg('wharton', 'ib').salary!, 'USD')} median base for MBA hires into banking. The BLS figure describes a whole occupation, the school figure one graduating class at large firms.` },
+    { q: 'When does finance recruiting start during a two-year MBA?', a: `Early in the first year, because the summer internship between the two years is the main hiring channel for banks and many investment firms. Wharton's class of 2026 reported a median internship pay of ${K.money(wi.monthly, 'USD')} a month. A one-year program leaves no such summer, which is one reason European finance shares are lower.` },
+  ],
+  body: (h) => `<h2>Five paths that reports group under one word</h2>
+<p>An employment report puts "financial services" on one line, and that line hides jobs with little in common. An investment banking associate advises companies on mergers and capital raising, works in a deal team and is paid by a bank. A private equity associate sits on the other side of the table, buys companies with a fund's money and is judged on the value of those companies years later. An asset manager or research analyst picks listed securities. A venture capital associate looks for young companies. A corporate finance manager works inside an ordinary company on its budget, treasury or acquisitions. The ${h.a('method', 'method page')} explains how we group the labels each school uses into four finance segments and one job function.</p>
+<p>Wharton is the school that splits finance most finely: ${K.share('wharton', 'finance')} of its class of 2025 went into financial services, and the four segments we track add up to ${K.p(Math.round(wSum * 10) / 10)} of the class, the rest being lending, insurance, real estate and other lines. Most schools give two or three segments, and many European and Asian schools give only the total. That is why the segment rankings on this site cover fewer schools than the finance ranking: a school that does not split its finance line cannot be ranked on private equity, however many graduates it sends there.</p>
+${h.rankTable('finance', 8)}
+<p>The finance ranking above uses the school's salary for the whole finance industry when it publishes one and its school-wide salary otherwise, marked with a star. ${fin[0].short} leads with ${K.p(fin[0].share)} of its class in finance at ${K.usd(fin[0].salary!)}, ahead of ${fin[1].short} and ${fin[2].short}. Cornell places ${K.share('cornell-johnson', 'finance')} of its class in finance, one of the highest shares we read, at the common median of the large American schools.</p>
+${h.miniGoal('wharton')}
+<h2>Investment banking: the large and predictable intake</h2>
+<p>Banks hire the most MBA graduates in finance, and they pay them the same base. ${K.s(ibBig.slug).short} places ${K.p(ibBig.share)} of its class in investment banking, Columbia ${K.share('columbia', 'ib')}, Yale ${K.share('yale-som', 'ib')} and Wharton ${K.share('wharton', 'ib')}, and every one of them reports the same median, ${K.money(seg('nyu-stern', 'ib').salary!, 'USD')}. That figure is set by the banks for the whole associate class, which is why it does not move from one school to the next. Our ${h.a('best-mba-investment-banking', 'investment banking ranking')} therefore separates schools on the share of the class placed and on cost rather than on salary. The ${h.a('finance-investment-banking', 'investment banking page')} covers the associate job itself.</p>
+<h2>Private equity and venture capital: small shares, high medians</h2>
+<p>Private equity takes a small slice of most classes, but the slice is well paid. ${pe.map((r) => `${r.short} places ${K.p(r.share)} at ${r.salary === null ? 'a salary it does not publish' : K.usd(r.salary)}${r.fallback ? ' (school-wide figure)' : ''}`).join('; ')}. Below ${K.MODEL.minShare!.seg}% of the class, a school is not ranked on a finance segment, and ${K.ranking('pe').unranked.filter((u) => u.why.startsWith('under')).length} schools fall under that line for private equity. Venture capital is smaller still: ${vc[0].short} sends ${K.p(vc[0].share)} of its class to venture funds, ${vc[1].short} ${K.p(vc[1].share)} and ${vc[2].short} ${K.p(vc[2].share)}. The ${h.a('finance-private-equity', 'private equity page')} explains why these jobs go mostly to people who already worked in deals before the MBA, and the ${h.a('best-mba-private-equity', 'private equity ranking')} orders the schools.</p>
+<h2>Asset management and research</h2>
+<p>Investment management is the quiet segment of the reports. ${am.map((r) => `${r.short} places ${K.p(r.share)}`).join(', ')} of its class there, and Oxford, which gives an asset management line but no salary for it, ${K.share('oxford-said', 'am')}. Funds hire fewer MBAs than banks and often outside the campus calendar, which keeps the shares low even at finance schools. The ${h.a('finance-asset-management', 'asset management page')} sets these shares against the wages of financial and investment analysts across the United States.</p>
+<h2>Corporate finance inside companies</h2>
+<p>A large part of the "finance" function in reports is not at banks or funds at all: it is treasury, financial planning and corporate development inside companies. These roles pay less than banking at most schools. Kellogg reports ${(() => { const r = K.s('kellogg').emp.functions.find((f) => /^Corporate Finance/.test(f.label))!; return `${K.p(r.pct!)} of its class in corporate finance at ${K.money(r.salary!, 'USD')}`; })()}, Tuck ${(() => { const r = K.s('tuck').emp.functions.find((f) => /^Corporate Finance/.test(f.label))!; return `${K.p(r.pct!)} at ${K.money(r.salary!, 'USD')}`; })()}, both below their banking median. Our ranking of the finance job function, which counts every finance role whatever the employer, puts ${cf[0].short}, ${cf[1].short} and ${cf[2].short} first. For someone who wants regular hours and a path to finance director, this is the realistic route, and the salary gap with banking shortens the payback less than it seems once bonuses are left aside.</p>
+${h.miniPosition('113031')}
+<h2>Recruiting runs a year ahead of graduation</h2>
+<p>In two-year American programs, the summer between the two years is where banks and many investment firms test candidates, so the decisive interviews take place in the first year, months after arrival. Wharton's class of 2026 reported a median internship pay of ${K.money(wi.monthly, 'USD')} a month, which the calculators subtract from the cost. A one-year program has no such summer, and that partly explains why European schools place smaller shares in banking: their graduates look for a full-time job while still in class, often in another country. Someone switching into finance from another industry should read the segment shares of a school before its overall finance figure, because a high total can come mostly from corporate finance roles.</p>
+<h2>What occupational wages add</h2>
+<p>The U.S. Bureau of Labor Statistics publishes wages for whole occupations, all levels and employers together. In ${K.P.bls.period}, financial and investment analysts had a median wage of ${K.usd(fa.median)}, financial managers ${K.usd(fm.median)} and securities and financial services sales agents, the BLS line for people who sell securities and financial services, ${K.usd(sa.median)}, with a top quarter above ${K.usd(sa.p75)}. These figures sit below the medians reported by schools because they include small firms, regional banks and junior staff. They are useful for one question the reports cannot answer: what a finance career pays outside the large firms that recruit on campus, and therefore what you risk if the first job after the MBA is not at one of them.</p>
+<h2>Choosing a school for a finance goal</h2>
+<p>Start from the segment, not from the word finance. For banking, the share of the class matters most, since the salary is the same everywhere; for private equity, check that the school places more than a handful of graduates there and publishes a salary for it; for asset management, look at the function lines, which often show investment roles that the industry table hides. Then type your current salary in the finder at the top of this page: the payback depends on what you give up, and a candidate already earning well in banking gains less from the degree than one coming from another field. The ${h.a('best-mba-finance', 'finance ranking page')} goes through the ranked and unranked schools one by one.</p>
+${h.mini('bonus')}`,
+  tool: 'finder',
+  toolArgs: { goal: 'finance' },
+  related: ['finance-investment-banking', 'finance-private-equity', 'finance-asset-management', 'best-mba-finance', 'best-mba-investment-banking', 'best-mba-private-equity', 'school:wharton'],
+  sources: ['bls_oews', 'mbacsea', 'ecb_fx'],
+  schoolSources: ['wharton', 'nyu-stern', 'stanford', 'columbia', 'kellogg', 'tuck'],
 });

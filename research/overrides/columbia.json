@@ -1,0 +1,27 @@
+{
+ "_source": "Columbia 2026-27 budget read in a browser by the coordinator on 2026-10-13. First-year (9-month) budget; the school publishes no second-year figure on this page, so the calculator counts two academic years at the first-year rate (the school says second-year costs generally rise 2-7%).",
+ "tuition_total": {
+  "value": 93908,
+  "currency": "USD",
+  "period": "per year (2026-27 first year)",
+  "cohort": "2026-27, August entry",
+  "url": "https://business.columbia.edu/financial-aid/costs/full-time",
+  "read_on": "2026-10-13"
+ },
+ "mandatory_fees_total": {
+  "value": 6783,
+  "currency": "USD",
+  "period": "per year (2026-27 first year)",
+  "url": "https://business.columbia.edu/financial-aid/costs/full-time",
+  "read_on": "2026-10-13"
+ },
+ "living_budget_total": {
+  "value": 42339,
+  "currency": "USD",
+  "period": "one academic year (2026-27 first year, 9 months)",
+  "basis": "school budget",
+  "url": "https://business.columbia.edu/financial-aid/costs/full-time",
+  "read_on": "2026-10-13",
+  "note": "Health insurance $5,823, books $1,290, food and housing $30,231, personal $3,636, transportation $1,359; first-year total budget $143,030 with tuition and fees."
+ }
+}

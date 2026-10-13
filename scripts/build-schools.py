@@ -8,6 +8,8 @@ The research files are never edited here. This script only:
     the page can say it;
   - refuses a figure it cannot interpret (it becomes null, and the page says it is missing).
 Overrides that need a human decision live in research/normalize.json (our file, with a reason per line).
+Figures read later in a browser on official pages closed to robots live in research/overrides/<slug>.json
+(same schema as the research file, each with its URL and date); they are merged over the research file.
 A file that does not parse (an agent still writing it) is skipped with a warning, never half-read.
 
 Usage: python3 scripts/build-schools.py [--strict]
@@ -60,7 +62,7 @@ def zone_of(region):
     return None, False
 
 SEG = [
-    ('ib', re.compile(r'invest\w*\s*bank|\bbanking\b(?!.*commercial)|brokerage|\bIB\b', re.I)),
+    ('ib', re.compile(r'invest\w*\s*bank|brokerage|\bIB\b', re.I)),
     ('pe', re.compile(r'private equity|buyout', re.I)),
     ('vc', re.compile(r'venture', re.I)),
     ('am', re.compile(r'asset manag|investment manag|hedge|portfolio|wealth', re.I)),
@@ -120,9 +122,27 @@ def program_total(block, months, two_year, what):
     warn.append(f"{block.get('url', '')}: period « {per} » not understood for {what}, kept as published")
     return v, 1, ''
 
+PPP = P.get('ppp', {}).get('lcuPerIntlDollar', {})
+LCU = {'GBR': 'GBP', 'NLD': 'EUR', 'DEU': 'EUR', 'FRA': 'EUR', 'ESP': 'EUR', 'ITA': 'EUR', 'CHE': 'CHF'}
+
+def unppp(d, iso):
+    """A school that publishes salaries in PPP dollars: back to its own currency with the World Bank factor."""
+    f, cur = PPP[iso], LCU[iso]
+    e = d.get('employment') or {}
+    bs = e.get('base_salary') or {}
+    if num(bs.get('value')) is not None:
+        bs['value'] = round(bs['value'] * f); bs['currency'] = cur
+        bs['note'] = (str(bs.get('note') or '') + f' Published in PPP dollars; converted to {cur} with the World Bank 2025 PPP factor ({f}).').strip()
+    for key in ('by_industry', 'by_geography', 'by_function'):
+        for r in e.get(key) or []:
+            if num(r.get('salary')) is not None:
+                r['salary'] = round(r['salary'] * f); r['currency'] = cur
+
 def build(d):
     slug = d['slug']
     o = OV.get(slug, {})
+    if o.get('ppp'):
+        unppp(d, o['ppp'])
     p = d.get('program') or {}
     months, mderived, mnote = months_of(d)
     fmt = str(p.get('format') or '')
@@ -158,7 +178,7 @@ def build(d):
     skind = None
     if sval is not None:
         period = str(bs.get('period') or '')
-        basis = str(bs.get('basis') or '') + ' ' + str(bs.get('note') or '')
+        basis = str(bs.get('basis') or '')
         stat = str(bs.get('stat') or '')
         if period == 'month' or re.search(r'monthly', period, re.I):
             skind = 'monthly'
@@ -220,7 +240,10 @@ def build(d):
     for key, rx in SEG:
         for r in rows:
             sub = str(r.get('sub') or '')
-            if r.get('industry') in ('finance', 'tech') and rx.search(sub) and not re.search(r'\(total\)', sub, re.I):
+            # a segment is a sub-row: never the lone line of the industry, never a total, never a whole-sector line
+            if r.get('industry') in ('finance', 'tech') and len(inds.get(r.get('industry'), [])) > 1 and rx.search(sub) and not re.search(r'\(total\)|financial services|BFSI', sub, re.I):
+                if key == 'vc' and re.search(r'private equity', sub, re.I):
+                    continue
                 if key == 'ib' and re.search(r'commercial', sub, re.I):
                     continue
                 if key == 'am' and re.search(r'private equity|venture', sub, re.I):
@@ -309,13 +332,28 @@ def build(d):
         'ranks': ranks,
     }
 
-out, bad = [], []
+def merge(a, b):
+    """Deep merge of an override onto a research file: dicts merge, every other value (lists included) replaces."""
+    for k, v in b.items():
+        if k.startswith('_'):
+            continue
+        if isinstance(v, dict) and isinstance(a.get(k), dict):
+            merge(a[k], v)
+        else:
+            a[k] = v
+    return a
+
+out, bad, overridden = [], [], []
 for fpath in sorted(glob.glob(f'{R}/research/schools/*.json')):
     try:
         d = json.load(open(fpath))
     except Exception as ex:
         bad.append(f'{os.path.basename(fpath)}: {ex}')
         continue
+    ov = f"{R}/research/overrides/{os.path.basename(fpath)}"
+    if os.path.exists(ov):
+        merge(d, json.load(open(ov)))
+        overridden.append(d['slug'])
     if d.get('slug') != os.path.basename(fpath)[:-5]:
         bad.append(f'{os.path.basename(fpath)}: slug differs from file name'); continue
     try:
@@ -323,7 +361,7 @@ for fpath in sorted(glob.glob(f'{R}/research/schools/*.json')):
     except Exception as ex:
         bad.append(f'{os.path.basename(fpath)}: {type(ex).__name__} {ex}')
 json.dump({'built': P['retrieved_at'], 'fxDate': P['fx']['date'], 'schools': out}, open(f'{R}/src/data/schools.json', 'w'), indent=0, ensure_ascii=False)
-print(f'{len(out)} schools written to src/data/schools.json')
+print(f'{len(out)} schools written to src/data/schools.json; overrides (research/overrides, sources read in a browser): {", ".join(overridden) or "none"}')
 for b in bad:
     print('SKIPPED', b)
 for w in warn:

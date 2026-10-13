@@ -1,0 +1,20 @@
+{
+ "_source": "Oxford fees and the University's official living costs, read in a browser by the coordinator on 2026-10-13.",
+ "tuition_total": {
+  "value": 94120,
+  "currency": "GBP",
+  "period": "full program",
+  "cohort": "September 2027 start",
+  "url": "https://www.sbs.ox.ac.uk/programmes/mbas/oxford-mba",
+  "read_on": "2026-10-13"
+ },
+ "living_budget_total": {
+  "value": 17700,
+  "currency": "GBP",
+  "period": "12 months, single (low end of the University range)",
+  "basis": "school budget",
+  "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/living-costs",
+  "read_on": "2026-10-13",
+  "note": "University of Oxford 2027-28 estimate for a single student: GBP 1,475 to 2,175 a month, GBP 17,700 to 26,100 for 12 months; the low end is used."
+ }
+}

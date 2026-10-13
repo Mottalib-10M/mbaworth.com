@@ -1,5 +1,37 @@
 {
  "_readme": "Human decisions on how a research file is read (never a figure): one entry per slug, each with its reason.",
- "rsm": {"industry_sum": ["consumer"], "reason": "Consumer Packaged Goods (15%) and Retail/E-commerce (6%) are sibling rows in RSM's table, not a parent and its child."},
- "alliance-manchester": {"industry_sum": ["tech", "other"], "reason": "Technology and Telecommunications are sibling rows; Media, Real Estate and Other are siblings too."}
+ "rsm": {
+  "industry_sum": [
+   "consumer"
+  ],
+  "reason": "Consumer Packaged Goods (15%) and Retail/E-commerce (6%) are sibling rows in RSM's table, not a parent and its child. Salaries published in PPP dollars (note of the research file): converted back to the local currency with the World Bank factor.",
+  "ppp": "NLD"
+ },
+ "alliance-manchester": {
+  "industry_sum": [
+   "tech",
+   "other"
+  ],
+  "reason": "Technology and Telecommunications are sibling rows; Media, Real Estate and Other are siblings too."
+ },
+ "imd": {
+  "salary_kind": "total-mean",
+  "reason": "IMD's report gives average annualised total compensation (base and bonus), not base salary (note of the research file)."
+ },
+ "warwick": {
+  "ppp": "GBR",
+  "reason": "Salaries published in PPP dollars (note of the research file): converted back to the local currency with the World Bank factor."
+ },
+ "imperial": {
+  "ppp": "GBR",
+  "reason": "Salaries published in PPP dollars (note of the research file): converted back to the local currency with the World Bank factor."
+ },
+ "esmt-berlin": {
+  "salary_kind": "total-mean",
+  "reason": "ESMT publishes average total starting compensation, not base salary."
+ },
+ "sda-bocconi": {
+  "salary_kind": "total-mean",
+  "reason": "Bocconi headline is an average overall salary package."
+ }
 }

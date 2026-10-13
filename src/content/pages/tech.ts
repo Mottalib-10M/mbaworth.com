@@ -1,9 +1,66 @@
-// STUB: to be written (CONTRIBUTING-PAGES.md). The route exists so that links resolve.
 import { definePage } from '../../lib/page-types';
+import { KIT as K } from '../../lib/kit';
+
+const T = K.ranking('tech');
+const t3 = T.ranked.slice(0, 3);
+const west = ['stanford', 'berkeley-haas', 'ucla-anderson', 'washington-foster'];
+const east = ['wharton', 'chicago-booth', 'kellogg', 'columbia', 'yale-som'];
+const ind = (slug: string, key: string) => K.s(slug).emp.industries.find((x) => x.key === key);
+const tSal = (slug: string) => ind(slug, 'tech')!.salary!;
+const cSal = (slug: string) => ind(slug, 'consulting')!.salary!;
+const fn = (slug: string, re: RegExp) => K.s(slug).emp.functions.find((f) => re.test(f.label))!;
+const pm = K.top('f-product', 3);
+const amz = (slug: string) => K.s(slug).emp.employers.find((e) => /^Amazon/.test(e.name) && e.hires !== null)!;
+const sd = K.P.bls.occupations['151252'];
+const cis = K.P.bls.occupations['113021'];
+const cd = fn('texas-mccombs', /Corporate Development/);
+const sops = fn('stanford', /Business Ops/);
+const kStrat = fn('kellogg', /Corporate Strategy/);
+const indiaTech = T.unranked.filter((u) => /^iim-/.test(u.slug));
+
 export default definePage({
-  id: 'tech', group: 'tech', order: 1, slug: 'tech', nav: 'Tech after an MBA', card: 'STUB',
-  title: 'STUB', description: 'STUB', h1: 'Tech after an MBA', intro: 'STUB', resume: 'STUB', faqs: [],
-  body: () => '<p>STUB</p>',
-  tool: 'finder', toolArgs: { goal: 'tech' },
-  related: [], sources: [],
+  id: 'tech',
+  group: 'tech',
+  order: 1,
+  slug: 'tech',
+  nav: 'Tech after an MBA',
+  card: 'Product management, strategy and operations, corporate development: which schools send their class to tech, and what tech pays against consulting.',
+  title: 'Tech MBA Careers 2026: Product, Strategy and Pay by School',
+  description: `Tech after an MBA in 2026: product management, strategy and operations, corporate development, the share of each class hired by tech firms and its salary.`,
+  h1: 'Tech after an MBA: product, strategy and the West Coast question',
+  intro: `${K.s('washington-foster').short} sends ${K.share('washington-foster', 'tech')} of its class to tech and Stanford ${K.share('stanford', 'tech')}; at most East Coast schools the share is closer to one in seven.`,
+  resume: `Technology is the third destination of MBA graduates after consulting and finance, and the one where the school's location matters most. On the West Coast, ${K.s('washington-foster').short} placed ${K.share('washington-foster', 'tech')} of its class of 2025 in tech, Berkeley ${K.share('berkeley-haas', 'tech')}, Stanford ${K.share('stanford', 'tech')} and UCLA ${K.share('ucla-anderson', 'tech')}; Wharton placed ${K.share('wharton', 'tech')} and Booth ${K.share('chicago-booth', 'tech')}. The jobs are mostly product management, strategy and business operations, and corporate development or finance inside large tech firms. Tech usually pays less base salary than consulting at the same school: at Kellogg, ${K.money(tSal('kellogg'), 'USD')} median against ${K.money(cSal('kellogg'), 'USD')} for consulting, and the stock grants that close part of the gap are not in any report. Our tech ranking puts ${t3[0].short} first, then ${t3[1].short} and ${t3[2].short}, for a person earning ${K.ref()} before the degree. Stanford is the exception on pay, with a ${K.money(tSal('stanford'), 'USD')} median in tech.`,
+  faqs: [
+    { q: 'Which MBA programs send the largest share of their class into tech?', a: `Among ranked schools, ${K.s('washington-foster').short} (${K.share('washington-foster', 'tech')}), Berkeley (${K.share('berkeley-haas', 'tech')}), Stanford (${K.share('stanford', 'tech')}) and Imperial (${K.share('imperial', 'tech')}). The Indian Institutes of Management place even larger shares in tech, ${K.listOf(indiaTech.map((u) => `${K.s(u.slug).short} ${K.p(u.share!)}`))}, but publish no student living budget, so our model cannot compute their payback.` },
+    { q: 'Do MBA graduates earn less in tech than in consulting?', a: `In base salary, at most American schools, yes. Booth reports ${K.money(tSal('chicago-booth'), 'USD')} for tech against ${K.money(cSal('chicago-booth'), 'USD')} for consulting, Michigan ${K.money(tSal('michigan-ross'), 'USD')} against ${K.money(cSal('michigan-ross'), 'USD')}. Tech offers usually include restricted stock units that vest over several years, and reports leave them out, so the total gap is smaller than the base suggests.` },
+    { q: 'What tech jobs do MBA graduates take besides product management?', a: `Strategy and business operations, which Stanford's report puts at ${K.p(sops.pct!)} of its class across industries, corporate development, marketing and general management programs. McCombs, for example, reports ${K.p(cd.pct!)} of its class in corporate development at ${K.money(cd.salary!, 'USD')}. Product management has a page of its own on this site.` },
+    { q: 'Is a West Coast MBA necessary for a tech career?', a: `It helps but is not required. MIT places ${K.share('mit-sloan', 'tech')} of its class in tech, CMU ${K.share('cmu-tepper', 'tech')} and Georgia Tech ${K.share('georgia-tech-scheller', 'tech')}, all far from California. Large tech employers recruit nationally: Kellogg lists Amazon with ${amz('kellogg').hires} hires and Columbia ${amz('columbia').hires}. Proximity matters more for startups and smaller firms.` },
+    { q: 'How do BLS tech wages compare with MBA tech salaries?', a: `Computer and information systems managers had a median wage of ${K.usd(cis.median)} in ${K.P.bls.period} and software developers ${K.usd(sd.median)}. An MBA product manager is not a software developer, but those lines show the pay of the engineers and managers the role works with, and they sit close to the ${K.money(tSal('ucla-anderson'), 'USD')} to ${K.money(tSal('stanford'), 'USD')} medians schools report for tech.` },
+  ],
+  body: (h) => `<h2>Three kinds of tech job after an MBA</h2>
+<p>Tech firms hire MBA graduates for roles that sit between engineering and the business. The best known is product management: deciding what a product should do, in what order, and for which customers, with engineers and designers who do not report to the product manager. The second is strategy and business operations, internal teams that size markets, set targets, run pricing or launch a business in a new country, often staffed by former consultants. The third is corporate development and finance: acquisitions, partnerships and planning inside a large company. Marketing, sales leadership and general management rotation programs complete the list. The ${h.a('tech-product-manager', 'product manager page')} covers the first path in detail.</p>
+<p>Employment reports describe these roles in two places. The industry table counts graduates hired by tech companies, whatever their job; the function table counts the job, whoever the employer. A product manager at a bank shows up in product management but not in tech, and a strategy manager at a software company shows up in tech but often under a strategy function. The two tables can disagree by several points, and we rank on the industry for the tech goal and on the function for product management.</p>
+${h.rankTable('tech', 10)}
+<h2>Tech pays less base salary than consulting, at most schools</h2>
+<p>At the large American schools, the median base for tech hires sits below the consulting median of the same class. Wharton reports ${K.money(tSal('wharton'), 'USD')} for tech and ${K.money(cSal('wharton'), 'USD')} for consulting, Booth ${K.money(tSal('chicago-booth'), 'USD')} and ${K.money(cSal('chicago-booth'), 'USD')}, Berkeley ${K.money(tSal('berkeley-haas'), 'USD')} and ${K.money(cSal('berkeley-haas'), 'USD')}, ${K.s('washington-foster').short} ${K.money(tSal('washington-foster'), 'USD')} and ${K.money(cSal('washington-foster'), 'USD')}. Stanford is the exception, with ${K.money(tSal('stanford'), 'USD')} in tech, near its consulting figure. The reason for the gap is the structure of tech pay: large firms give restricted stock that vests over several years, and the reports, built on the MBA CSEA standards, count base salary and signing bonus only. A tech offer can therefore be worth more than its base suggests, and also less if the share price falls before the stock vests.</p>
+<p>In the payback, the lower base shows directly. For a person earning ${K.ref()} before the degree, the tech goal repays Berkeley in ${K.payback('berkeley-haas', 'tech')} and UCLA in ${K.payback('ucla-anderson', 'tech')}, against ${K.payback('berkeley-haas', 'consulting')} and ${K.payback('ucla-anderson', 'consulting')} for consulting at the same schools. Use the finder at the top of the page with your own salary: someone already earning well in tech gains less from the degree than someone coming from a lower-paid field.</p>
+${h.miniGoal('berkeley-haas')}
+<h2>West Coast schools against the rest</h2>
+<p>Location changes the size of the tech intake more than any other factor. ${K.listOf(west.map((s) => `${K.s(s).short} ${K.share(s, 'tech')}`))}: four West Coast schools where tech is the first or second destination. Across ${K.listOf(east.map((s) => K.s(s).short))}, the tech share runs from ${K.p(Math.min(...east.map((s) => K.shareRaw(s, 'tech')!)))} to ${K.p(Math.max(...east.map((s) => K.shareRaw(s, 'tech')!)))}. Some schools far from California still place large shares: MIT ${K.share('mit-sloan', 'tech')}, CMU ${K.share('cmu-tepper', 'tech')}, Georgia Tech ${K.share('georgia-tech-scheller', 'tech')} and Olin ${K.share('washu-olin', 'tech')}, often thanks to engineering-heavy classes and to large employers that recruit nationally. Kellogg lists Amazon with ${amz('kellogg').hires} hires, Columbia ${amz('columbia').hires} and Booth ${amz('chicago-booth').hires}.</p>
+<p>Where the West Coast matters most is outside the large firms. Startups, venture-backed scale-ups and smaller software companies rarely run campus recruiting, so a student in the Bay Area or Seattle can meet them during the program in a way a student in Philadelphia cannot. The reports do not measure that, but Stanford's ${K.share('stanford', 'vc')} of graduates in venture capital, a segment that mostly invests in young tech companies, points the same way.</p>
+<h2>Strategy, operations and corporate development</h2>
+<p>Former consultants who move to tech often join strategy and business operations teams, and the function tables show how large that path is across industries. Stanford reports ${K.p(sops.pct!)} of its class in business operations, strategy and planning at ${K.money(sops.salary!, 'USD')}, Kellogg ${K.p(kStrat.pct!)} in corporate strategy at ${K.money(kStrat.salary!, 'USD')}. Corporate development is smaller and closer to finance: McCombs counts ${K.p(cd.pct!)} of its class there at ${K.money(cd.salary!, 'USD')}. These roles are less tied to the West Coast than product management, since every large company has a strategy team, and they are the usual route for someone who wants the tech industry without a technical background.</p>
+${h.miniPosition('113021')}
+<h2>Outside the United States</h2>
+<p>Tech is a large destination at several schools outside the United States, but few of them publish what it pays. Imperial places ${K.share('imperial', 'tech')} of its class in tech and gives no salary for the industry; LBS reports ${K.share('lbs', 'tech')} at an average of ${K.segSalary('lbs', 'tech')}, below its consulting average of ${K.segSalary('lbs', 'consulting')}; INSEAD ${K.share('insead', 'tech')} at ${K.segSalary('insead', 'tech')}. The Indian Institutes of Management send the largest shares we read, ${K.listOf(indiaTech.map((u) => `${K.s(u.slug).short} ${K.p(u.share!)}`))}, without the living budget our cost model needs. For a career in tech outside the United States, read the school's regional and industry tables together, because a large tech share made mostly of jobs in another country does not help someone who wants to stay put.</p>
+<h2>What the BLS adds for tech careers</h2>
+<p>The Bureau of Labor Statistics has no line for product managers. The nearest occupations are computer and information systems managers, with a median wage of ${K.usd(cis.median)} in ${K.P.bls.period} and a top quarter above ${K.usd(cis.p75)}, and software developers, at ${K.usd(sd.median)}. Those figures, across the whole economy, sit close to the MBA tech medians, which says something about the role: an MBA product manager earns about what the engineering managers around them earn, not a premium on top. The premium, when there is one, comes from stock and from promotion speed, neither of which a report can show.</p>
+<h2>Using the tech pages of this site</h2>
+<p>Pick the goal in the finder: tech as an industry, or product management as a job. Check the share of the class, then the salary the school gives for that goal, then the payback for your own salary. The ${h.a('best-mba-tech', 'tech ranking')} explains each school's position, the ${h.a('tech-product-manager', 'product manager page')} covers the job most MBA graduates in tech want, and the ${h.a('compare-mba', 'comparison tool')} sets two or three schools side by side, such as ${h.sc('berkeley-haas')} and ${h.sc('ucla-anderson')}.</p>
+${h.miniTwo('berkeley-haas', 'ucla-anderson')}`,
+  tool: 'finder',
+  toolArgs: { goal: 'tech' },
+  related: ['tech-product-manager', 'best-mba-tech', 'compare-mba', 'school:berkeley-haas', 'school:stanford', 'school:washington-foster'],
+  sources: ['bls_oews', 'mbacsea', 'ecb_fx'],
+  schoolSources: ['stanford', 'berkeley-haas', 'ucla-anderson', 'washington-foster', 'kellogg', 'texas-mccombs', 'chicago-booth'],
 });
