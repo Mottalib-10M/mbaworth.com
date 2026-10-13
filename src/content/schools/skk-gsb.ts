@@ -12,7 +12,7 @@ const tuitions = K.schools.map((x) => K.c(x.slug).tuition).filter((v): v is numb
 const cheaper = tuitions.filter((v) => c.tuition !== null && v < c.tuition).length;
 const consShares = K.schools.map((x) => K.shareRaw(x.slug, 'consumer')).filter((v): v is number => v !== null);
 const consTop = (K.shareRaw(slug, 'consumer') ?? 0) >= Math.max(...consShares);
-const employed = s.emp.employed !== null ? `${K.p(s.emp.employed)} of graduates ${s.emp.employedLabel}` : 'the school gives no employment rate';
+const employed = s.emp.employed !== null ? `${K.p(s.emp.employed)} of graduates ${s.emp.employedLabel.startsWith('employed') ? 'were' : 'had'} ${s.emp.employedLabel}` : 'the school gives no employment rate';
 
 export default defineSchool({
   slug,

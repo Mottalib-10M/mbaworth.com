@@ -20,4 +20,4 @@ export const day = (iso: string) => new Date(`${iso.slice(0, 10)}T00:00:00Z`).to
 /** "A, B and C". */
 export const listOf = (xs: string[]) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs[xs.length - 1]}`);
 /** Kind of a salary figure, in words. */
-export const kindLabel = (k: string | null | undefined) => (k === 'base-median' ? 'median base salary' : k === 'base-mean' ? 'average base salary' : k === 'total-mean' ? 'average total pay' : k === 'total-median' ? 'median total pay' : 'salary');
+export const kindLabel = (k: string | null | undefined) => (k === 'base-median' ? 'median base salary' : k === 'base-mean' ? 'average base salary' : k === 'total-mean' ? 'average total pay' : k === 'total-median' ? 'median total pay' : k === 'mean' ? 'average salary' : 'salary');

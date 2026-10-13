@@ -7075,31 +7075,9 @@
 "salaryMissing": "GES 2025 Table 5, MBA overall, full-time and self-employed respondents. Annual base salary not published outside the gated report.",
 "bonus": null,
 "intern": null,
-"industries": [
-{
-"key": "other",
-"label": "Commerce and Business + Engineering and Industry + Education",
-"pct": 100.0,
-"salary": null,
-"stat": null,
-"cur": "HKD",
-"usd": null
-}
-],
+"industries": [],
 "segments": [],
-"zones": [
-{
-"zone": "Asia",
-"label": "Asia",
-"exact": true,
-"derived": "",
-"pct": 100.0,
-"salary": null,
-"cur": "HKD",
-"usd": null,
-"detail": ""
-}
-],
+"zones": [],
 "functions": [
 {
 "key": "corpfin",
@@ -8226,7 +8204,7 @@
 "salary": {
 "v": 3288000.0,
 "cur": "INR",
-"kind": "base-median",
+"kind": "total-median",
 "usd": 34509,
 "p25": null,
 "p75": null,
@@ -8385,7 +8363,7 @@
 "salary": {
 "v": 2700000.0,
 "cur": "INR",
-"kind": "base-median",
+"kind": "total-median",
 "usd": 28337,
 "p25": null,
 "p75": null,
@@ -9610,7 +9588,7 @@
 "salary": {
 "v": 3729000.0,
 "cur": "INR",
-"kind": "base-mean",
+"kind": "mean",
 "usd": 39137,
 "p25": null,
 "p75": null,
@@ -16287,9 +16265,9 @@
 },
 "fees": null,
 "living": {
-"v": 47712.0,
+"v": 39761,
 "basis": "school",
-"note": "Living budget: the school publishes one academic year; two academic years counted.",
+"note": "Living budget: the school publishes 12 months; scaled to the 20-month program.",
 "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/tuition-scholarships/",
 "readOn": "2026-10-13",
 "raw": 23856.0,
@@ -16302,7 +16280,7 @@
 "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/tuition-scholarships/"
 },
 "directLocal": 144770.0,
-"totalLocal": 192482.0,
+"totalLocal": 184531.0,
 "emp": {
 "cohort": "Classes 2022-24 (salary, 3-year average); Class of 2024 (employment rate)",
 "standard": "school",

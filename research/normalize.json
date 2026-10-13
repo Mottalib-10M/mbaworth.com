@@ -51,5 +51,22 @@
  "edhec": {
   "fees_drop": true,
   "reason": "The EUR 150 recorded as mandatory fees is the application fee, not a program fee."
+ },
+ "iim-calcutta": {
+  "salary_kind": "total-median",
+  "reason": "The figure is a median CTC (cost to company), a total package."
+ },
+ "iim-lucknow": {
+  "salary_kind": "total-median",
+  "reason": "The figure is a CTC, a total package excluding bonuses and stock."
+ },
+ "isb": {
+  "salary_kind": "mean",
+  "reason": "ISB does not say whether its average is base pay or a total package."
+ },
+ "hkust": {
+  "zones_drop": true,
+  "industries_drop": true,
+  "reason": "Industry and region shares come from a university-wide survey of a few dozen MBA respondents, not the MBA employment report."
  }
 }

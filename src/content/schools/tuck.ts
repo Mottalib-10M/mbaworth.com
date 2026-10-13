@@ -9,7 +9,7 @@ const nth = (r: { rank: number }) => (r.rank === 1 ? 'first' : `number ${r.rank}
 const rc = K.rank(slug, 'consulting'), rAll = K.rank(slug, 'all'), rAm = K.rank(slug, 'am');
 const ib = s.emp.segments.find((x) => x.key === 'ib');
 const am = s.emp.segments.find((x) => x.key === 'am');
-const firms = ['McKinsey', 'Bain', 'Boston Consulting'].filter((f) => s.emp.employers.some((e) => e.name.includes(f)));
+const firms = ['McKinsey', 'Bain', 'Boston Consulting'].map((f) => s.emp.employers.find((e) => e.name.includes(f))?.name).filter((n): n is string => !!n);
 const consultShares = K.schools.map((x) => K.shareRaw(x.slug, 'consulting')).filter((v): v is number => v !== null);
 const above = consultShares.filter((v) => v > (K.shareRaw(slug, 'consulting') ?? 0)).length;
 const placed = Math.round(((K.shareRaw(slug, 'consulting') ?? 0) / 100) * (s.classSize ?? 0));

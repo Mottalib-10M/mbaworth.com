@@ -109,7 +109,7 @@ def program_total(block, months, two_year, what):
     if re.search(r'full program|full programme|whole program|entire program|^total|programme total|program total', per, re.I) or (FULL.search(per) and not re.search(r'year 1|per year|one academic year', per, re.I)):
         return v, 1, ''
     if PER_YEAR.search(per):
-        if two_year:
+        if two_year and not re.search(r'12 months|52 weeks', per, re.I):
             return v * 2, 2, f'{what}: the school publishes one academic year; two academic years counted.'
         mm = re.search(r'(\d+)\s*months', per)
         basis = float(mm.group(1)) if mm else 12.0
@@ -197,7 +197,7 @@ def build(d):
         sval = None
         bs = {**bs, 'note': o['salary_drop']}
     salary = None
-    if sval is not None and skind in ('base-median', 'base-mean', 'total-mean', 'total-median'):
+    if sval is not None and skind in ('base-median', 'base-mean', 'total-mean', 'total-median', 'mean'):
         salary = {'v': sval, 'cur': scur, 'kind': skind, 'usd': usd(sval, scur), 'p25': num(bs.get('p25')), 'p75': num(bs.get('p75')), 'note': bs.get('note') or bs.get('notes') or ''}
     elif sval is not None:
         warn.append(f'{slug}: salary of kind {skind} kept out of the comparisons')
@@ -215,7 +215,7 @@ def build(d):
         intern = {'monthly': num(im), 'cur': scur, 'usd': usd(num(im), scur), 'stat': ''}
     # industries: one row per normalised industry (the "total" row when the school gives one, else a lone row,
     # else the sum of shares and no salary), plus finance segments.
-    rows = e.get('by_industry') or []
+    rows = [] if o.get('industries_drop') else (e.get('by_industry') or [])
     inds = {}
     for r in rows:
         k = r.get('industry')
@@ -260,7 +260,7 @@ def build(d):
                 segments.append({'key': key, 'label': sub, 'pct': num(r.get('pct')), 'salary': num(r.get('salary')), 'stat': r.get('stat'), 'cur': rcur, 'usd': usd(num(r.get('salary')), rcur)})
                 break
     # zones
-    geo_rows = e.get('by_geography') or []
+    geo_rows = [] if o.get('zones_drop') else (e.get('by_geography') or [])
     canon, loose = {}, {}
     for r in geo_rows:
         z, is_canon = zone_of(r.get('region'))
