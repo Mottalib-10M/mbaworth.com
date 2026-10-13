@@ -1,0 +1,15 @@
+---
+/** Every tool or guide page (src/content/pages/) and every university page (src/content/colleges/). */
+import ContentPage from '../../components/ContentPage.astro';
+import CollegePage from '../../components/CollegePage.astro';
+import { PAGES, COLLEGE_PAGES } from '../../lib/pages';
+import type { PageDef, CollegeDef } from '../../lib/page-types';
+export function getStaticPaths() {
+  return [
+    ...PAGES.map((page) => ({ params: { slug: page.slug }, props: { page, college: undefined } })),
+    ...COLLEGE_PAGES.map((college) => ({ params: { slug: `colleges/${college.slug}` }, props: { page: undefined, college } })),
+  ];
+}
+const { page, college } = Astro.props as { page?: PageDef; college?: CollegeDef };
+---
+{page ? <ContentPage page={page} /> : <CollegePage def={college!} />}

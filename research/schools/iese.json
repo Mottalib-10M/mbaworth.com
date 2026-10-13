@@ -1,0 +1,258 @@
+{
+  "slug": "iese",
+  "name": "IESE Business School, University of Navarra",
+  "short": "IESE",
+  "country": "ES",
+  "city": "Barcelona",
+  "region": "Europe",
+  "program": {
+    "length_months": null,
+    "format": "2-year",
+    "class_size": {
+      "value": 370,
+      "stat": "370+ (school wording)",
+      "cohort": "current class (year not stated on page)",
+      "url": "https://www.iese.edu/mba/class-profile/",
+      "read_on": "2026-10-13"
+    },
+    "notes": "Fees page bills 'MBA Year 1' and 'MBA Year 2'; exact length in months not stated on the pages read."
+  },
+  "tuition_total": {
+    "value": 117000,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "September 2027 intake (Class of 2029): commitment fee 10,000 + Year 1 48,500 + Year 2 58,500",
+    "url": "https://www.iese.edu/mba/admissions-fees/",
+    "read_on": "2026-10-13",
+    "notes": "Loans & scholarships page gives 114,000 EUR for the September 2026 intake (https://www.iese.edu/loans-scholarships/)."
+  },
+  "mandatory_fees_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "September 2027 intake",
+    "url": "https://www.iese.edu/mba/admissions-fees/",
+    "read_on": "2026-10-13",
+    "notes": "No separate mandatory fee besides the 200 EUR non-refundable application fee; the 10,000 EUR commitment fee is deducted from tuition."
+  },
+  "living_budget_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": null,
+    "cohort": null,
+    "basis": null,
+    "url": "https://www.iese.edu/loans-scholarships/",
+    "read_on": "2026-10-13",
+    "notes": "No official living budget published on the fees or loans pages (only 'comparably less' than other large European cities)."
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "EUR",
+    "stat": "range",
+    "pct_receiving": null,
+    "url": "https://www.iese.edu/loans-scholarships/",
+    "read_on": "2026-10-13",
+    "notes": "Individual scholarships typically cover 10% to 50% of tuition; Excellence Scholarship to top 7-10% of admitted students; Future Female Leaders Award 5,000-50,000 EUR; Laidlaw Women's scholarship full tuition. No average award or share of class aided published."
+  },
+  "employment": {
+    "report_url": "https://www.iese.edu/mba/career-impact/",
+    "url": "https://www.iese.edu/stories/iese-mba-career-impact/",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": 80,
+    "accepted_3m_pct": null,
+    "base_salary": {
+      "value": null,
+      "currency": "EUR",
+      "stat": null,
+      "notes": "No salary published on IESE's open pages for the Class of 2025; full report is behind a lead form (https://formscloud.iese.edu/landings-mba-employment). Third-party figures (Bloomberg, Magoosh) not reused."
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null
+    },
+    "internship_monthly": null,
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 41,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Diversified industries",
+        "pct": 33,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "finance",
+        "sub": "Finance",
+        "pct": 16,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 9,
+        "salary": null,
+        "stat": null
+      }
+    ],
+    "by_industry_notes": "Story of 19 Jan 2026 gives consulting 41%; the career-impact page shows 42% for the same cohort.",
+    "by_function": [
+      {
+        "function": "Consulting",
+        "pct": 48,
+        "salary": null
+      },
+      {
+        "function": "Sales & marketing",
+        "pct": 17,
+        "salary": null
+      },
+      {
+        "function": "Finance",
+        "pct": 16,
+        "salary": null
+      },
+      {
+        "function": "General management",
+        "pct": 8,
+        "salary": null
+      },
+      {
+        "function": "Operations & logistics",
+        "pct": 7,
+        "salary": null
+      },
+      {
+        "function": "Information technology",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "function": "Human resources",
+        "pct": 1,
+        "salary": null
+      },
+      {
+        "function": "Other",
+        "pct": 1,
+        "salary": null
+      }
+    ],
+    "by_function_url": "https://www.iese.edu/mba/career-impact/",
+    "by_geography": [
+      {
+        "region": "Latin America",
+        "pct": 27,
+        "salary": null
+      },
+      {
+        "region": "Europe",
+        "sub": "Spain",
+        "pct": 21,
+        "salary": null
+      },
+      {
+        "region": "Europe",
+        "sub": "Europe excluding Spain",
+        "pct": 20,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Asia-Pacific",
+        "pct": 15,
+        "salary": null
+      },
+      {
+        "region": "Middle East",
+        "pct": 11,
+        "salary": null
+      },
+      {
+        "region": "North America",
+        "pct": 3,
+        "salary": null
+      },
+      {
+        "region": "Africa",
+        "pct": 3,
+        "salary": null
+      }
+    ],
+    "by_geography_url": "https://www.iese.edu/mba/wp-content/uploads/sites/2/2026/05/ByRegion.png",
+    "country_change_pct": null,
+    "top_employers": [
+      {
+        "name": "Accenture",
+        "hires": null
+      },
+      {
+        "name": "Almirall",
+        "hires": null
+      },
+      {
+        "name": "Amazon",
+        "hires": null
+      },
+      {
+        "name": "Bain & Company",
+        "hires": null
+      },
+      {
+        "name": "Boston Consulting Group",
+        "hires": null
+      },
+      {
+        "name": "Fever",
+        "hires": null
+      },
+      {
+        "name": "Google",
+        "hires": null
+      },
+      {
+        "name": "Kearney",
+        "hires": null
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": null
+      },
+      {
+        "name": "Strategy&",
+        "hires": null
+      }
+    ]
+  },
+  "profile": {
+    "intl_pct": 89,
+    "avg_age": 29,
+    "avg_work_exp_years": 5.4,
+    "women_pct": 38,
+    "gmat_median": null,
+    "nationalities": "50+",
+    "url": "https://www.iese.edu/mba/class-profile/",
+    "read_on": "2026-10-13",
+    "notes": "Cohort year not stated on page. GMAT Focus acceptance range 545-715; no median/average published."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 4,
+      "url": "https://www.iese.edu/mba/career-impact/",
+      "read_on": "2026-10-13",
+      "notes": "School page: '4th MBA in the World', '2nd MBA in Europe' (FT 2026)."
+    }
+  ],
+  "notes": "No salary data published openly for Class of 2025 (report behind a lead form). Geography read from the school's ByRegion.png image."
+}

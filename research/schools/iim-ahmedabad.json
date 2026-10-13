@@ -1,0 +1,114 @@
+{
+  "slug": "iim-ahmedabad",
+  "name": "Indian Institute of Management Ahmedabad, MBA-PGPX (One Year MBA)",
+  "short": "IIM Ahmedabad PGPX",
+  "country": "IN",
+  "city": "Ahmedabad",
+  "region": "India",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 157, "cohort": "PGPX 2025-26 (graduating 2026)", "url": "https://www.iima.ac.in/sites/default/files/2025-10/PGPX%20Brochure%202026-27%20%281%29_0.pdf", "read_on": "2026-10-13", "note": "The audited placement report counts 156 students graduating in 2026."}
+  },
+  "tuition_total": {
+    "value": 3500000, "currency": "INR", "period": "full program", "cohort": "PGPX 2026-27",
+    "url": "https://www.iima.ac.in/academics/MBA-PGPX/admission/fee-structure",
+    "read_on": "2026-10-13",
+    "note": "Bundled fee for single student housing (SSH): tuition, books and course materials, accommodation, library/computing/network. INR 37.10 lakh with married student housing. Excludes the International Immersion Programme (IIP) cost and its travel and stay. 2024-25 fee was INR 33 lakh (SSH)."
+  },
+  "mandatory_fees_total": {
+    "value": null, "currency": "INR", "period": "full program", "cohort": "PGPX 2026-27",
+    "url": "https://www.iima.ac.in/academics/MBA-PGPX/admission/fee-structure",
+    "read_on": "2026-10-13",
+    "note": "IIP cost charged separately (amount not on the page). Utilities (electricity, phone, laundry, gym) billed by usage. The IIMA payment portal lists a caution money of INR 35,000 for single accommodation (https://payments.iima.ac.in/online/pg/50, seen in search extract only)."
+  },
+  "living_budget_total": {
+    "value": null, "currency": "INR", "period": "full program", "cohort": "PGPX 2026-27", "basis": null,
+    "url": "https://www.iima.ac.in/academics/MBA-PGPX/admission/fee-structure",
+    "read_on": "2026-10-13",
+    "note": "Accommodation is included in the programme fee; IIMA publishes no budget for food and personal expenses."
+  },
+  "scholarship": {
+    "value": null, "currency": "INR", "stat": null, "pct_receiving": null,
+    "url": "https://www.iima.ac.in/academics/MBA-PGPX/admission/fee-structure",
+    "read_on": "2026-10-13",
+    "note": "Entry scholarships up to 25% of the SSH fee (underrepresented genders, non-Indian passport holders, armed forces, government/not-for-profit experience, etc.); graduation scholarships up to 15% of the SSH fee for performance. Number and average award not published."
+  },
+  "employment": {
+    "report_url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf",
+    "cohort": "PGPX Class of 2026 (final placements, audited)",
+    "standard": "IPRS Revision 2.2 (audited by B2K Analytics, 16 July 2026)",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 96.4,
+    "placement_pool": {"eligible": 156, "opted_out": 17, "sought_placement": 139, "offers_accepted": 134, "unplaced": 5, "note": "accepted_3m_pct = 134/139 who sought placement through the institute (our division); placement process ran Nov 2025 - June 2026, i.e. by graduation, not at 3 months. Opted out: 8 company-sponsored/already employed, 1 entrepreneurship, 1 family business, 7 seeking outside campus."},
+    "base_salary": {
+      "value": 3258750, "currency": "INR", "stat": "median",
+      "definition": "Fixed Yearly Cash Component, combined domestic + international (134 offers)",
+      "other_heads": {"fixed_yearly_cash_mean": 3447807, "total_guaranteed_cash_median": 3500000, "total_guaranteed_cash_mean": 3666986, "max_earning_potential_median": 3800002, "max_earning_potential_mean": 4246692, "domestic_fixed_median": 3216250, "domestic_fixed_mean": 3363914, "international_fixed_median_usd": 95145},
+      "url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf",
+      "read_on": "2026-10-13"
+    },
+    "signing_bonus": {"value": 200000, "stat": "median", "pct_receiving": 65.7, "note": "One-time cash component, median INR 2,00,000 (mean 3,33,750) received in 88 of 134 accepted offers (our division).", "url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf", "read_on": "2026-10-13"},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "tech", "sub": "IT Consulting", "pct": 23.9, "salary": 2800000, "stat": "median", "n": 32},
+      {"industry": "consulting", "sub": "Consulting", "pct": 17.9, "salary": 3375000, "stat": "median", "n": 24},
+      {"industry": "tech", "sub": "IT Services", "pct": 11.9, "salary": 4200000, "stat": "median", "n": 16},
+      {"industry": "healthcare", "sub": "Pharmaceutical/Healthcare", "pct": 11.9, "salary": 3700000, "stat": "median", "n": 16},
+      {"industry": "finance", "sub": "Banking, Financial Services and Insurance (BFSI)", "pct": 10.4, "salary": 3536862, "stat": "median", "n": 14},
+      {"industry": "consumer", "sub": "Consumer Goods (FMCG)", "pct": 6.0, "salary": 3300000, "stat": "median", "n": 8},
+      {"industry": "tech", "sub": "Online Services", "pct": 5.2, "salary": 3215000, "stat": "median", "n": 7},
+      {"industry": "other", "sub": "Conglomerate", "pct": 3.7, "salary": 4000000, "stat": "median", "n": 5},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 3.0, "salary": 2905736, "stat": "median", "n": 4},
+      {"industry": "manufacturing", "sub": "Automotive", "pct": 2.2, "salary": 3145000, "stat": "median", "n": 3},
+      {"industry": "energy", "sub": "Environment & Energy", "pct": 1.5, "salary": 2900000, "stat": "median", "n": 2},
+      {"industry": "consumer", "sub": "Retail", "pct": 1.5, "salary": 3000000, "stat": "median", "n": 2},
+      {"industry": "other", "sub": "Infrastructure", "pct": 0.7, "salary": 4500000, "stat": "median", "n": 1}
+    ],
+    "by_industry_meta": {"basis": "pct = offers accepted in sector / 134 (our division of the published counts); salary = median Fixed Yearly Cash Component, domestic offers only (INR). IT Consulting includes the 2 international offers (fixed USD 95,145).", "url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf", "read_on": "2026-10-13"},
+    "by_function": [
+      {"function": "Consulting", "pct": 32.8, "salary": 3117600, "n": 44},
+      {"function": "Product/Category Management", "pct": 14.9, "salary": 3318257, "n": 20},
+      {"function": "Sales/Marketing", "pct": 14.2, "salary": 3536862, "n": 19},
+      {"function": "General Management", "pct": 9.7, "salary": 3700000, "n": 13},
+      {"function": "Business Development", "pct": 6.7, "salary": 4500000, "n": 9},
+      {"function": "Strategy", "pct": 6.0, "salary": 3200000, "n": 8},
+      {"function": "Supply Chain/Operations", "pct": 6.0, "salary": 2800000, "n": 8},
+      {"function": "Program Management", "pct": 5.2, "salary": 3215000, "n": 7},
+      {"function": "Finance", "pct": 2.2, "salary": 3800000, "n": 3},
+      {"function": "Project Management", "pct": 1.5, "salary": 3000000, "n": 2},
+      {"function": "Analytics", "pct": 0.7, "salary": 3150000, "n": 1}
+    ],
+    "by_function_meta": {"basis": "pct = offers / 134; salary = median Fixed Yearly Cash Component, domestic offers (INR); Business Development count includes 2 international offers, its salary is the domestic median (7 offers).", "url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf", "read_on": "2026-10-13"},
+    "by_geography": [
+      {"region": "India", "pct": 98.5, "salary": 3216250, "currency": "INR", "stat": "median", "n": 132},
+      {"region": "Europe", "sub": "Western Europe", "pct": 1.5, "salary": 95145, "currency": "USD", "stat": "median", "n": 2}
+    ],
+    "by_geography_meta": {"basis": "offers accepted by location / 134; salary = median Fixed Yearly Cash Component", "url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf", "read_on": "2026-10-13"},
+    "top_employers": [
+      {"name": "Accenture", "hires": null},
+      {"name": "Amazon", "hires": null},
+      {"name": "Eli Lilly", "hires": null},
+      {"name": "EY", "hires": null},
+      {"name": "FinIQ Consulting", "hires": null},
+      {"name": "Genpact", "hires": null},
+      {"name": "NTT Data", "hires": null}
+    ],
+    "top_employers_note": "IIMA: 'Accenture, Amazon, Eli Lilly, EY, FinIQ Consulting, Genpact and NTT data were the firms that made the highest number of offers' (counts not given). 200+ companies, 300+ offers, about 65 first-time recruiters.",
+    "url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf",
+    "read_on": "2026-10-13"
+  },
+  "profile": {
+    "intl_pct": null, "avg_age": 31, "avg_work_exp_years": null, "women_pct": 30, "gmat_median": null,
+    "gmat_mean": 692, "gmat_focus_mean": 642, "gre_mean": 322,
+    "cohort": "PGPX 2025-26",
+    "url": "https://www.iima.ac.in/sites/default/files/2025-10/PGPX%20Brochure%202026-27%20%281%29_0.pdf",
+    "read_on": "2026-10-13",
+    "note": "Average work experience given as a range '7-8 years'; 36% of students have international exposure (work or study), not the share of international students. Prior industries: IT products/IT & ITeS, manufacturing/engineering, BFSI and defence, consulting, energy, etc."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 27, "url": "https://iima.ac.in/the-institute/rankings", "read_on": "2026-10-13", "note": "Rank seen in a search extract of the IIMA rankings page."}
+  ],
+  "notes": "Report scanned (image PDF); tables read from rendered page images. Sector/function percentages are computed by us from published counts. All salaries are offer data audited under IPRS."
+}

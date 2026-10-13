@@ -1,0 +1,68 @@
+{
+  "slug": "asu-carey",
+  "name": "W. P. Carey School of Business, Arizona State University",
+  "short": "ASU Carey",
+  "country": "US",
+  "city": "Tempe, Arizona",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 45, "cohort": "Incoming class of Fall 2025", "url": "https://wpcarey.asu.edu/mba-programs/full-time/class-profile", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 130000, "currency": "USD", "period": "full program (estimated tuition and fees)", "cohort": "current published estimate (year not stated)",
+    "by_residency": {"resident": 66000, "nonresident": 120000, "international": 130000},
+    "basis": "School's 'Minimum estimated total program cost - estimated tuition and fees'; tuition and mandatory fees are combined in this figure (international rate shown as value).",
+    "url": "https://wpcarey.asu.edu/mba-programs/full-time", "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": null, "currency": "USD", "period": "full program",
+    "note": "Included in the school's combined tuition-and-fees estimate above. University-wide graduate fees 2026-27 (per year): tuition surcharge $350, advanced technology fee $200, graduate student support fee $300, student-initiated fees $807 (admission.asu.edu/aid/graduate). Required non-refundable $1,000 enrollment deposit.",
+    "url": "https://wpcarey.asu.edu/mba-programs/full-time", "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 62952, "currency": "USD", "period": "full program (2 x annual 2026-27 budget)", "annual_value": 31476, "cohort": "2026-2027",
+    "basis": "school budget",
+    "detail": {"on_campus_housing_and_meals": 21087, "books_supplies": 1908, "transportation": 3696, "personal": 4785},
+    "note": "ASU university-wide graduate student budget (not MBA-specific), per academic year.",
+    "url": "https://admission.asu.edu/aid/graduate", "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null, "pct_receiving": 95,
+    "note": "'Over 95% of Full-time MBA candidates receive scholarship funding, many receiving 100% tuition coverage.' No average award published.",
+    "url": "https://wpcarey.asu.edu/mba-programs/full-time", "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://wpcarey.asu.edu/mba-programs/full-time/career-courses",
+    "url": "https://wpcarey.asu.edu/mba-programs/full-time/career-courses", "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": 90, "accepted_3m_pct": 90,
+    "base_salary": {"value": 121116, "currency": "USD", "stat": "mean"},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [
+      {"region": "US Midwest", "pct": null, "salary": 123320, "stat": "mean", "top_industries": "Consumer packaged goods and technology", "sample_employers": "Kearney, P&G, Amazon, United Airlines"},
+      {"region": "US Northeast", "pct": null, "salary": 124050, "stat": "mean", "top_industries": "Consulting and financial services", "sample_employers": "Amazon, BCG, KPMG"},
+      {"region": "US Southwest", "pct": null, "salary": 100351, "stat": "mean", "top_industries": "Manufacturing and consulting", "sample_employers": "Dell, Honeywell, Amazon, Northrop Grumman"},
+      {"region": "US West", "pct": null, "salary": 131569, "stat": "mean", "top_industries": "Manufacturing and technology", "sample_employers": "Applied Materials, Amazon, Mattel, EY, Microsoft"}
+    ],
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Kearney", "hires": null}, {"name": "P&G", "hires": null}, {"name": "United Airlines", "hires": null}, {"name": "BCG", "hires": null},
+      {"name": "KPMG", "hires": null}, {"name": "Dell", "hires": null}, {"name": "Honeywell", "hires": null}, {"name": "Northrop Grumman", "hires": null}, {"name": "Applied Materials", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "EY", "hires": null}
+    ],
+    "notes": "No full employment report (PDF) found on wpcarey.asu.edu; the career page gives only the class-of-2025 average base salary, 90% accepted within 90 days, and average salary by US region (no regional shares, no industry or function breakdown, no median, no bonus). The career-services site also cites $107,220 average base for the Class of 2024 (career.wpcarey.asu.edu/channels/why-wpcarey/)."
+  },
+  "profile": {
+    "intl_pct": 33, "avg_age": 30, "avg_work_exp_years": 6.2, "women_pct": 43, "gmat_median": null, "gmat_focus_avg": 645, "gre_avg": 314, "gpa_avg": 3.6,
+    "applications": 328, "admit_rate_pct": 24,
+    "cohort": "Incoming class of Fall 2025",
+    "url": "https://wpcarey.asu.edu/mba-programs/full-time/class-profile", "read_on": "2026-10-13",
+    "note": "GMAT reported as class average (GMAT Focus), not median."
+  },
+  "rankings_cited": [],
+  "notes": "Employment data thin: industry, function, regional shares and median not published on the pages read."
+}

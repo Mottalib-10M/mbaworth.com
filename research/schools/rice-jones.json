@@ -1,0 +1,68 @@
+{
+  "slug": "rice-jones",
+  "name": "Jones Graduate School of Business, Rice University",
+  "short": "Rice Jones",
+  "country": "US", "city": "Houston", "region": "US",
+  "program": {"length_months": 21, "format": "2-year",
+    "class_size": {"value": 134, "cohort": "Class of 2027", "url": "https://business.rice.edu/rice-mba/full-time-mba/class-profile", "read_on": "2026-10-13", "note": "Read from the embedded Infogram (https://e.infogram.com/6949322c-2e3b-4145-b967-506f775cf9c1) on the class profile page."}},
+  "tuition_total": {"value": 158232, "annual_value": 79116, "currency": "USD", "period": "full program (2 x published 2026-27 annual figure)", "cohort": "2026-2027", "url": "https://business.rice.edu/rice-mba/full-time-mba/tuition-and-financial-aid", "read_on": "2026-10-13",
+    "note": "School: 'Tuition for the 2026-27 Full-Time MBA ... is $79,116 per year'; tuition changes each year, so the 2-year total is computed by us. $2,500 enrollment deposit applied to fall charges."},
+  "mandatory_fees_total": {"value": 2646, "annual_value": 1323, "currency": "USD", "period": "full program (2 x annual)", "url": "https://business.rice.edu/rice-mba/full-time-mba/tuition-and-financial-aid", "read_on": "2026-10-13",
+    "note": "Required annual fees 2026-27: GSA $45, student organization $8, health & wellness $720, MBA activity $550. Health insurance $3,448/yr is required unless waived (listed as optional fee); textbooks ~ $2,600/yr."},
+  "living_budget_total": {"value": null, "currency": "USD", "basis": null, "url": "https://business.rice.edu/rice-mba/full-time-mba/tuition-and-financial-aid", "read_on": "2026-10-13",
+    "note": "No current living-cost budget found on Rice Business pages; financialaid.rice.edu returns HTTP 406 to curl. Last school COA PDFs found are 2018-19 and 2020-21 (outdated, not used)."},
+  "scholarship": {"value": 91000, "currency": "USD", "stat": "mean", "pct_receiving": 95, "type": "merit, automatic consideration", "url": "https://business.rice.edu/rice-mba/full-time-mba/tuition-and-financial-aid", "read_on": "2026-10-13",
+    "note": "Page states '95% of our Full-Time MBA students receive scholarships upon admission, with an average award of $91k' (elsewhere on the same page: 96%). Award period not specified (presumably whole program)."},
+  "employment": {
+    "report_url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/99/2026/02/2025-FTMBA-Employment-Outcomes-Data.pdf",
+    "url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/99/2026/02/2025-FTMBA-Employment-Outcomes-Data.pdf", "read_on": "2026-10-13",
+    "summary_report_url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/99/2026/02/2025-Full-Time-MBA-Employment-Outcomes-Report-Final-for-Web.pdf",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "response_rate": null, "employed_3m_pct": 72.1, "accepted_3m_pct": 71.3,
+    "base_salary": {"value": 141500, "currency": "USD", "stat": "median", "mean": 146381},
+    "signing_bonus": {"value": 30000, "stat": "median", "mean": 31659, "pct_receiving": 67.1},
+    "internship_monthly": {"value": 6942, "stat": "mean", "cohort": "Class of 2026", "note": "Mean monthly internship salary across industries (summary report p.7); no median published."},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 24.1, "salary": 190000, "stat": "median", "mean": 175421},
+      {"industry": "energy", "sub": "Energy", "pct": 24.1, "salary": 130672, "stat": "median", "mean": 133489},
+      {"industry": "tech", "sub": "Technology", "pct": 16.1, "salary": 137500, "stat": "median", "mean": 141018},
+      {"industry": "finance", "sub": "Financial Services", "pct": 14.9, "salary": 172500, "stat": "median", "mean": 149167},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 4.6, "salary": null, "stat": "I/D"},
+      {"industry": "healthcare", "sub": "Healthcare (including products and services)", "pct": 3.4, "salary": 116300, "stat": "median", "mean": 105433},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 3.4, "salary": null, "stat": "I/D"},
+      {"industry": "nonprofit", "sub": "Non-Profit/Education", "pct": 3.4, "salary": null, "stat": "I/D"},
+      {"industry": "other", "sub": "Real Estate", "pct": 2.3, "salary": null, "stat": "I/D"},
+      {"industry": "other", "sub": "Other", "pct": 3.4, "salary": 102500, "stat": "median", "mean": 105833}
+    ],
+    "by_function": [
+      {"function": "Finance/Accounting", "pct": 34.5, "salary": 150000, "stat": "median"},
+      {"function": "Consulting", "pct": 26.4, "salary": 190000, "stat": "median"},
+      {"function": "Other", "pct": 17.2, "salary": 115000, "stat": "median"},
+      {"function": "General Management", "pct": 10.3, "salary": 125000, "stat": "median"},
+      {"function": "Marketing/Sales", "pct": 9.2, "salary": 140000, "stat": "median"},
+      {"function": "Information Technology", "pct": 2.3, "salary": null, "stat": "I/D"}
+    ],
+    "by_geography": [
+      {"region": "US Southwest", "pct": 82.8, "salary": 150000, "stat": "median"},
+      {"region": "US South", "pct": 4.6, "salary": 125650, "stat": "median"},
+      {"region": "US West", "pct": 4.6, "salary": 121500, "stat": "median"},
+      {"region": "US Mid-Atlantic", "pct": 3.4, "salary": null, "stat": "I/D"},
+      {"region": "US Midwest", "pct": 1.1, "salary": null, "stat": "I/D"},
+      {"region": "US Northeast", "pct": 1.1, "salary": null, "stat": "I/D"},
+      {"region": "Asia", "pct": 1.1, "salary": null, "stat": "I/D"}
+    ],
+    "top_employers": [
+      {"name": "McKinsey & Company", "hires": null}, {"name": "Boston Consulting Group", "hires": null}, {"name": "Bain & Company", "hires": null},
+      {"name": "Deloitte", "hires": null}, {"name": "Infosys Consulting", "hires": null},
+      {"name": "Chevron", "hires": null}, {"name": "ExxonMobil", "hires": null}, {"name": "Phillips 66", "hires": null}, {"name": "CenterPoint Energy", "hires": null},
+      {"name": "Dell Technologies", "hires": null}, {"name": "Amazon", "hires": null}, {"name": "Microsoft", "hires": null},
+      {"name": "JP Morgan Chase", "hires": null}, {"name": "Morgan Stanley", "hires": null}, {"name": "RBC Capital Markets", "hires": null}, {"name": "Barclays", "hires": null}
+    ],
+    "notes": "CSEA tables (152 graduates, 122 seeking). Offers by 3 months = 55.7% by graduation + 16.4% after = 72.1% (sum of printed columns); acceptances 54.9% + 16.4% = 71.3% (matches '71.3%' in summary report). Usable salary info 80.5% of job-accepting graduates (70 of 87). Medians: permanent work authorization $131,000, non-permanent $150,000. 98.9% employed in North America. Top employers = 'top five' lists per industry in the summary report, no hire counts. I/D = insufficient data under CSEA rules."
+  },
+  "profile": {"intl_pct": 37, "avg_age": null, "avg_work_exp_years": 5.4, "women_pct": 36, "gmat_median": null, "gmat_mean": 694, "gpa_mean": 3.46,
+    "cohort": "Class of 2027 (intl_pct: Class of 2026)", "url": "https://business.rice.edu/rice-mba/full-time-mba/class-profile", "read_on": "2026-10-13",
+    "note": "Profile Infogram: 134 enrolled, avg GPA 3.46 (mid-50% 3.2-3.79), avg GMAT 694 printed with mid-50% '610-660' (inconsistent, likely GMAT Focus range vs classic average - to re-read), GRE V 157 / Q 159, 36% female, 5.4 yrs experience. International share not shown on profile; 37% international is for Class of 2026 from the employment report (p.6). Average age not published."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 38, "url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026", "read_on": "2026-10-13", "note": "third-party reproduction of FT list; not confirmed on an official school page"}],
+  "notes": "PDFs saved in research/sources/amerique/rice-jones-*.pdf."
+}

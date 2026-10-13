@@ -1,0 +1,103 @@
+{
+  "slug": "iim-bangalore",
+  "name": "Indian Institute of Management Bangalore, Executive Post Graduate Programme in Management (EPGP, MBA)",
+  "short": "IIM Bangalore EPGP",
+  "country": "IN",
+  "city": "Bangalore",
+  "region": "India",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 73, "cohort": "EPGP 2025-26", "url": "https://www.iimb.ac.in/sites/default/files/2025-06/EPGP-brochure-2026-27.pdf", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 2650000, "currency": "INR", "period": "full program", "cohort": "EPGP 2026-27",
+    "url": "https://www.iimb.ac.in/programmes/epgp/financial-aid-scholarships",
+    "read_on": "2026-10-13",
+    "note": "Tuition covers course material, computing, library, alumni association, student activities, career counselling. 2026-27 figures read in a search-engine extract of the official page (the page returns 403 to curl and WebFetch). Same INR 26,50,000 tuition in the official EPGP 2025-26 fee table (brochure PDF, sources/iim-bangalore-epgp-brochure-2026-27.pdf)."
+  },
+  "mandatory_fees_total": {
+    "value": 550000, "currency": "INR", "period": "full program", "cohort": "EPGP 2026-27",
+    "items": {"international_immersion_indicative": 550000, "refundable_deposit": 25000},
+    "url": "https://www.iimb.ac.in/programmes/epgp/financial-aid-scholarships",
+    "read_on": "2026-10-13",
+    "note": "Value = International Immersion (part of the programme, indicative INR 5,50,000, limited to actual travel, accommodation and partner-school fees). Refundable deposit (INR 25,000) not added. Official 2026-27 total with hostel: INR 33,68,000; without hostel: 32,20,000 (search extract). 2025-26 brochure total: 33,71,000 (hostel) / 36,62,000 (family accommodation outside campus)."
+  },
+  "living_budget_total": {
+    "value": 143000, "currency": "INR", "period": "full program", "cohort": "EPGP 2026-27", "basis": "school budget",
+    "items": {"hostel_accommodation_single_or_with_spouse": 80000, "hostel_mess": 63000},
+    "url": "https://www.iimb.ac.in/programmes/epgp/financial-aid-scholarships",
+    "read_on": "2026-10-13",
+    "note": "Only the fees billed by IIMB (hostel and mess); no budget for personal expenses published. 2025-26: hostel 80,000, mess 66,000; family accommodation outside campus 3,76,000."
+  },
+  "scholarship": {
+    "value": 800000, "currency": "INR", "stat": "fixed award",
+    "pct_receiving": null,
+    "url": "https://www.iimb.ac.in/programmes/epgp/financial-aid-scholarships",
+    "read_on": "2026-10-13",
+    "note": "Merit scholarship: INR 8,00,000 tuition waiver for top rank holders of each admission round, 12 awards (search extract of the official page). An older IIMB PDF (https://www.iimb.ac.in/sites/default/files/inline-files/EPGP_Scholarships.pdf) describes different amounts; not used."
+  },
+  "employment": {
+    "report_url": "https://www.iimb.ac.in/sites/default/files/inline-files/Placement-Report-2026.pdf",
+    "cohort": "EPGP 2025-26 (graduating 2026)",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "placement_pool": {"students": 73, "companies": 22, "offers_accepted": 61, "opted_out": 3, "sabbatical": 4, "note": "IIMB does not state how many sought placement; 61 offers accepted out of 73 students (66 after removing opted-out and sabbatical). No time frame given."},
+    "base_salary": {
+      "value": 3650000, "currency": "INR", "stat": "median",
+      "mean": 3710000,
+      "url": "https://www.iimb.ac.in/sites/default/files/inline-files/Placement-Report-2026.pdf",
+      "read_on": "2026-10-13",
+      "note": "'Summary of Compensation (in lakhs) per annum: Median Salary 36.50, Average Salary 37.10'. Components (fixed vs variable) not specified; report not IPRS-audited."
+    },
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 50, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "IT Technology / Products", "pct": 24, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "Finance/Banking/Investments", "pct": 10, "salary": null, "stat": null},
+      {"industry": "manufacturing", "sub": "Automobile", "pct": 3, "salary": null, "stat": null},
+      {"industry": "manufacturing", "sub": "Computers / Electronics / Manufacturing", "pct": 3, "salary": null, "stat": null},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 3, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "IT Software/Analytics/Product Management", "pct": 3, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "Ecommerce/Payments/Telecom", "pct": 2, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Education", "pct": 2, "salary": null, "stat": null}
+    ],
+    "by_industry_meta": {"basis": "'Top Industries for EPGP Placements' (% of placements)", "url": "https://www.iimb.ac.in/sites/default/files/inline-files/Placement-Report-2026.pdf", "read_on": "2026-10-13", "note": "No salary by industry published."},
+    "by_function": [],
+    "by_function_meta": {"note": "No function split published for EPGP."},
+    "by_geography": [],
+    "by_geography_meta": {"note": "No location split published for EPGP (the PGP report counts 7 overseas offers for the two-year PGP, not EPGP)."},
+    "top_employers": [
+      {"name": "Accenture (ATCI, D&AI, S&C)", "hires": null},
+      {"name": "Accordion", "hires": null},
+      {"name": "Alvarez & Marsal", "hires": null},
+      {"name": "D. E. Shaw", "hires": null},
+      {"name": "EXL", "hires": null},
+      {"name": "EY-Parthenon", "hires": null},
+      {"name": "Flipkart", "hires": null},
+      {"name": "Genpact", "hires": null},
+      {"name": "HSBC", "hires": null},
+      {"name": "Infosys", "hires": null},
+      {"name": "McKinsey", "hires": null},
+      {"name": "Samsung", "hires": null}
+    ],
+    "top_employers_note": "Alphabetical 'List of Recruiters - EPGP' (22 companies), no offer counts.",
+    "url": "https://www.iimb.ac.in/sites/default/files/inline-files/Placement-Report-2026.pdf",
+    "read_on": "2026-10-13"
+  },
+  "profile": {
+    "intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": 27, "gmat_median": null,
+    "gmat_range": "640-760", "work_exp_range_years": "5-13", "international_experience_pct": 26,
+    "cohort": "EPGP Class Profile 2025-26",
+    "url": "https://www.iimb.ac.in/sites/default/files/2025-06/EPGP-brochure-2026-27.pdf",
+    "read_on": "2026-10-13",
+    "note": "73 students; 26% 'with international experience' (not the share of foreign nationals). No average age or average experience published in the brochure."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 34, "url": "https://digest.iimb.ac.in/2026/02/iim-bangalores-epgp-soars-to-34-in-ft-mba-rankings-2026/", "read_on": "2026-10-13", "note": "Title of the IIMB Digest (official) article, seen in search results."}
+  ],
+  "notes": "www.iimb.ac.in HTML pages answer 403 to curl and WebFetch (anti-bot); the PDFs under /sites/default/files download fine. 2026-27 fee and scholarship figures come from a search extract of the official fee page and should be re-read in a browser."
+}

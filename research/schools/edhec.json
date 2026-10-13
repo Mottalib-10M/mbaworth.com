@@ -1,0 +1,64 @@
+{
+  "slug": "edhec", "name": "EDHEC Business School, Global MBA", "short": "EDHEC",
+  "country": "FR", "city": "Nice", "region": "Europe",
+  "program": {"length_months": 10, "format": "1-year (10 months)", "intakes": ["September"],
+    "class_size": {"value": 62, "cohort": "Class of 2026", "url": "https://www.edhec.edu/sites/default/files/brochures_eee/brochure_gmba_career_and_professional_development_report.pdf", "read_on": "2026-10-13", "note": "Class of 2025: 67 participants."}},
+  "tuition_total": {"value": 52500, "currency": "EUR", "period": "full program", "cohort": "September 2026 intake (per school search snippet; page itself not dated)", "url": "https://edhec.edu/en/programmes/mba-emba/global-mba/admissions-fees", "read_on": "2026-10-13",
+    "note": "Excluding VAT per the scholarships page; includes accommodation on global business trips, excludes business-trip flights (EUR 200-500 in total per the school). Subject to change."},
+  "mandatory_fees_total": {"value": 150, "currency": "EUR", "url": "https://edhec.edu/en/programmes/mba-emba/global-mba/admissions-fees", "read_on": "2026-10-13", "note": "Application fee only; no other mandatory fee published."},
+  "living_budget_total": {"value": null, "currency": "EUR", "basis": null, "url": "https://edhec.edu/en/programmes/mba-emba/global-mba/admissions-fees", "read_on": "2026-10-13", "note": "School says accommodation, living costs and books are not included; no budget published."},
+  "scholarship": {"value": null, "currency": "EUR", "url": "https://www.edhec.edu/en/programmes/mba-emba//mba-scholarships", "read_on": "2026-10-13",
+    "range_pct": "15-40%",
+    "items": [
+      {"name": "Excellence Scholarship", "pct": 40, "value": 21000}, {"name": "Forte Women in Leadership Scholarship", "pct": 40, "value": 21000},
+      {"name": "Make an Impact Scholarship", "pct": 30, "value": 15750}, {"name": "Future Leaders Scholarship", "pct": 20, "value": 10500},
+      {"name": "Early Bird Scholarship (guaranteed minimum)", "pct": 20, "value": 10500}, {"name": "Cultural Diversity Scholarship", "pct": 10, "value": 5250},
+      {"name": "International Advisory Board Fellowship", "value": 5000}, {"name": "Regional Opportunity Awards (LATAM & Africa)", "value": "2500-5000"}
+    ],
+    "note": "Self-financing candidates only, not cumulative. Share of class receiving aid not published."},
+  "employment": {
+    "report_url": "https://www.edhec.edu/sites/default/files/brochures_eee/brochure_gmba_career_and_professional_development_report.pdf", "local_copy": "research/sources/edhec-career-report.pdf", "read_on": "2026-10-13",
+    "cohort": "Class of 2025 (67 graduates)", "standard": "school",
+    "response_rate": null, "employed_3m_pct": 84, "accepted_3m_pct": null, "offer_3m_pct": 86,
+    "employment_note": "Report letter: 84% secured employment within three months (69% of active seekers had an offer at graduation); infographic p.6: 86% received a job offer within 3 months.",
+    "base_salary": {"value": null, "currency": "USD", "stat": null,
+      "note": "No graduate salary in the school report. The programme page (https://www.edhec.edu/en/programmes/mba-emba/global-mba) shows 'average annual alumni salary $104,373', 'average salary increase 70%', 'payback ~20 months' and '92% of alumni employed within 3 months': cohort and source not stated (looks like ranking-survey alumni data), so not used as graduate base salary."},
+    "alumni_salary_school_page": {"value": 104373, "currency": "USD", "stat": "mean", "url": "https://www.edhec.edu/en/programmes/mba-emba/global-mba", "read_on": "2026-10-13"},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 17, "salary": null},
+      {"industry": "finance", "sub": "Financial services", "pct": 10, "salary": null},
+      {"industry": "consulting", "sub": "Consulting", "pct": 10, "salary": null},
+      {"industry": "tech", "sub": "Technology / Telecoms / IT", "pct": 10, "salary": null},
+      {"industry": "energy", "sub": "Energy / Utilities", "pct": 10, "salary": null},
+      {"industry": "manufacturing", "sub": "Manufacturing / Industrial", "pct": 7, "salary": null},
+      {"industry": "other", "sub": "Media / Entertainment", "pct": 7, "salary": null},
+      {"industry": "consumer", "sub": "Consumer packaged goods", "pct": 7, "salary": null},
+      {"industry": "other", "sub": "Other", "pct": 22, "salary": null}
+    ],
+    "by_function": [
+      {"function": "Marketing / Sales", "pct": 48, "salary": null}, {"function": "Consulting", "pct": 21, "salary": null},
+      {"function": "General management", "pct": 10, "salary": null}, {"function": "Finance / Accounting", "pct": 10, "salary": null},
+      {"function": "Other", "pct": 11, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "Europe", "label": "Europe", "pct": 67, "salary": null},
+      {"region": "Asia", "label": "Asia Pacific", "pct": 21, "salary": null},
+      {"region": "US", "label": "North America", "pct": 7, "salary": null},
+      {"region": "Latin America", "label": "Latin America / Caribbean", "pct": 5, "salary": null}
+    ],
+    "changed_country_pct": 55,
+    "changed_country_note": "55% changed location; 81% work outside their home country; 79% changed function; 55% changed industry; 33% triple jump; 9% became entrepreneurs.",
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Airbus", "hires": null}, {"name": "PepsiCo", "hires": null},
+      {"name": "Boston Consulting Group", "hires": null}, {"name": "PwC", "hires": null}, {"name": "Kearney", "hires": null}
+    ],
+    "employers_note": "Named in the Class of 2025 report letter; no hire counts."
+  },
+  "profile": {"intl_pct": null, "avg_age": 32, "avg_work_exp_years": 9, "women_pct": 53, "gmat_median": null, "nationalities": 25, "cohort": "Class of 2026",
+    "url": "https://www.edhec.edu/sites/default/files/brochures_eee/brochure_gmba_career_and_professional_development_report.pdf", "read_on": "2026-10-13",
+    "note": "Programme page gives average age 33 and 7 years' experience for 'this year' (https://www.edhec.edu/en/programmes/mba-emba/global-mba). Class of 2025: 67 participants, 58% women, age 33, 8 years."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 47, "url": "https://www.edhec.edu/en/programmes/mba-emba/global-mba", "read_on": "2026-10-13", "note": "Also stated in the school's career report and by Campus France."}],
+  "notes": "No graduate salary published by the school; employment shares only (no salary by sector or region)."
+}

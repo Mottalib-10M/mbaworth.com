@@ -1,0 +1,99 @@
+{
+  "slug": "bu-questrom",
+  "name": "Questrom School of Business, Boston University",
+  "short": "BU Questrom",
+  "country": "US",
+  "city": "Boston, Massachusetts",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 117, "cohort": "Incoming class September 2025 (Class of 2027)", "url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/class-profile/", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 146048, "currency": "USD", "period": "full program (2 years)", "annual_value": 73024, "cohort": "Entering 2026 (year 1 2026-27, year 2 2027-28 estimated at same rate)",
+    "basis": "School's own 'Total 2-Year Estimated Program Cost'.",
+    "url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/", "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 2896, "currency": "USD", "period": "full program (2 years)", "annual_value": 1448, "cohort": "Entering 2026",
+    "detail": "University fees: student services, program, health and wellness fees. Health insurance ($3,538/yr) is listed in the living budget, waivable with qualifying Massachusetts-compliant coverage.",
+    "url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/", "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 51976, "currency": "USD", "period": "full program (2 x 2026-27 annual estimate)", "annual_value": 25988, "cohort": "2026-27 academic year",
+    "basis": "school budget",
+    "detail": {"housing_and_food": 16250, "books": 1574, "personal": 3292, "transportation": 1120, "health_insurance": 3538, "loan_origination_fee": 214},
+    "note": "Total = 2 x the school's annual estimate; housing & food $16,250 is for the academic year.",
+    "url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/", "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null, "pct_receiving": 91, "cohort": "Incoming class September 2025",
+    "note": "91% of the incoming class received scholarships (merit, awarded at admission). Average award not published on pages read.",
+    "url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/class-profile/", "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/34/2026/03/26102_Feld_FTMBA_EmploymentReport-8.5X11-003.pdf",
+    "url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/34/2026/03/26102_Feld_FTMBA_EmploymentReport-8.5X11-003.pdf", "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "response_rate": 91, "salary_knowledge_rate_pct": 49,
+    "employed_3m_pct": 80, "accepted_3m_pct": 80,
+    "base_salary": {"value": 115000, "currency": "USD", "stat": "median", "mean": 114263,
+      "split": {"domestic_students": {"median": 112000, "mean": 115800}, "international_students": {"median": 125000, "mean": 113050}}},
+    "signing_bonus": {"value": 10000, "stat": "median", "mean": 14500, "pct_receiving": null},
+    "other_compensation": {"median": 10500, "mean": 14453},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "tech", "sub": "Technology", "pct": 27, "salary": null, "stat": null},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 19, "salary": null, "stat": null},
+      {"industry": "consulting", "sub": "Consulting", "pct": 12, "salary": null, "stat": null},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 9, "salary": null, "stat": null},
+      {"industry": "energy", "sub": "Energy", "pct": 8, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "Financial Services", "pct": 7, "salary": null, "stat": null},
+      {"industry": "nonprofit", "sub": "Non-profit", "pct": 5, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Real Estate", "pct": 5, "salary": null, "stat": null},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 3, "salary": null, "stat": null},
+      {"industry": "nonprofit", "sub": "Education", "pct": 3, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Legal", "pct": 2, "salary": null, "stat": null}
+    ],
+    "by_function": [
+      {"function": "Marketing/Sales", "pct": 26, "salary": null},
+      {"function": "Finance/Accounting", "pct": 21, "salary": null},
+      {"function": "Consulting", "pct": 16, "salary": null},
+      {"function": "Information Technology", "pct": 16, "salary": null},
+      {"function": "General Management", "pct": 10, "salary": null},
+      {"function": "Operations/Logistics", "pct": 7, "salary": null},
+      {"function": "Human Resources", "pct": 2, "salary": null},
+      {"function": "Legal", "pct": 2, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "US Northeast", "pct": 62, "salary": null},
+      {"region": "US South", "pct": 13, "salary": null},
+      {"region": "US Southwest", "pct": 9, "salary": null},
+      {"region": "US West", "pct": 5, "salary": null},
+      {"region": "US Midwest", "pct": 4, "salary": null},
+      {"region": "International", "pct": 2, "salary": null},
+      {"region": "US (state missing)", "pct": 5, "salary": null}
+    ],
+    "by_degree": [
+      {"degree": "General MBA", "mean_base": 137500, "signing_bonus": null},
+      {"degree": "MBA + MS Digital Technology", "mean_base": 121610, "signing_bonus": 11000},
+      {"degree": "Health Sector Management", "mean_base": 128333, "signing_bonus": 15000},
+      {"degree": "Social Impact", "mean_base": 108508, "signing_bonus": 10583},
+      {"degree": "Management Science", "mean_base": 111106, "signing_bonus": 16944}
+    ],
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Dell Technologies", "hires": null}, {"name": "Goldman Sachs", "hires": null}, {"name": "PwC", "hires": null},
+      {"name": "Procter & Gamble", "hires": null}, {"name": "Biogen", "hires": null}, {"name": "Cisco Systems", "hires": null}, {"name": "State Street", "hires": null}, {"name": "Sanofi", "hires": null}, {"name": "Philips", "hires": null}
+    ],
+    "notes": "Feld Center for Career & Alumni Engagement report hosted on its career platform (uconnectlabs CDN, used by questromfeld.bu.edu). Salary knowledge rate only 49%: salary figures rest on about half the job-accepting graduates. Domestic/International split refers to student citizenship, not job location. No salary by industry or region published. Employer list is alphabetical 'hiring employers include', no counts."
+  },
+  "profile": {
+    "intl_pct": 63, "avg_age": 29, "avg_work_exp_years": 6, "women_pct": 45, "gmat_median": null, "gmat_focus_avg": 633, "gre_total_mean": 318, "gpa_avg": 3.44,
+    "cohort": "Incoming class September 2025",
+    "url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/class-profile/", "read_on": "2026-10-13",
+    "note": "GMAT reported as GMAT Focus average (not median)."
+  },
+  "rankings_cited": [],
+  "notes": "PDF saved as research/sources/amerique/bu-questrom-employment-2025.pdf."
+}

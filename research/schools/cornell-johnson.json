@@ -1,0 +1,59 @@
+{
+  "slug": "cornell-johnson",
+  "name": "Samuel Curtis Johnson Graduate School of Management, Cornell University",
+  "short": "Cornell Johnson",
+  "country": "US", "city": "Ithaca", "region": "US",
+  "program": {"length_months": null, "format": "2-year",
+    "class_size": {"value": 276, "cohort": "Class of 2027 (Two-Year MBA, enrolled)", "url": "https://www.gmac.com/resources/learners/business-programs/explore-programs/cornell-johnson-mba-class-profile", "read_on": "2026-10-13"}},
+  "tuition_total": {"value": 177868, "currency": "USD", "period": "full program", "cohort": "AY 2026-27 rate", "basis": "computed: 2 x published 2026-27 annual tuition of 88,934 USD; year-2 rate not yet published", "annual_value": 88934, "url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/", "read_on": "2026-10-13"},
+  "mandatory_fees_total": {"value": 2900, "currency": "USD", "period": "full program", "cohort": "AY 2026-27 rate", "basis": "computed: first-year fee 1,500 (charged once) + 2 x (student activity fee 100 + health fee 600)", "annual_value": 2200, "url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/", "read_on": "2026-10-13"},
+  "living_budget_total": {"value": 72288, "currency": "USD", "period": "full program", "cohort": "AY 2026-27 rate", "basis": "school budget", "annual_value": 36144, "components_annual": {"housing": 19962, "meals": 5768, "books_supplies": 2464, "transportation": 3754, "miscellaneous": 4196}, "annual_total_cost_of_attendance": 127278, "note": "computed: 2 x the 2026-27 fall/spring non-billed budget (housing, meals, books, transportation, misc.)", "url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/", "read_on": "2026-10-13"},
+  "scholarship": {"value": null, "currency": "USD", "type": "merit-based, awarded at admission", "note": "No average award or share of class aided published on the page read", "url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/", "read_on": "2026-10-13"},
+  "employment": {
+    "report_url": "https://business.cornell.edu/admissions/graduate/mba/career-outcomes/",
+    "url": "https://business.cornell.edu/admissions/graduate/mba/career-outcomes/", "read_on": "2026-10-13",
+    "cohort": "Class of 2025 (Two-Year MBA)", "standard": "school",
+    "graduates": 285, "seeking": 239,
+    "response_rate": null, "employed_3m_pct": 85, "accepted_3m_pct": 83,
+    "employed_3m_note": "85% received offers within three months; 83% accepted; US work-authorized 91% offers, non-US 77%",
+    "base_salary": {"value": 175000, "currency": "USD", "stat": "median", "mean": 158426, "mean_us_work_authorized": 160449, "mean_non_us_work_authorized": 154963},
+    "signing_bonus": {"value": 39795, "stat": "mean", "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "finance", "sub": "Financial services", "pct": 41, "salary": 175000, "stat": "median", "mean": 166253},
+      {"industry": "consulting", "sub": "Consulting", "pct": 28, "salary": 175000, "stat": "median", "mean": 171625},
+      {"industry": "tech", "sub": "Technology & Telecommunications", "pct": 11, "salary": 133700, "stat": "median", "mean": 129592},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 5, "salary": 126000, "stat": "median", "mean": 123625},
+      {"industry": "healthcare", "sub": "Healthcare/Medical Services/Pharmaceuticals", "pct": 4, "salary": 137000, "stat": "median", "mean": 135400},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 4, "salary": 135000, "stat": "median", "mean": 132125},
+      {"industry": "energy", "sub": "Energy/Utilities", "pct": 2, "salary": 150000, "stat": "median", "mean": 151250},
+      {"industry": "other", "sub": "Other (education, government, hospitality, legal, real estate, retail)", "pct": 8, "salary": null, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Finance & Investment Banking", "pct": 43, "salary": 175000, "stat": "median", "mean": 163545,
+       "detail": [{"sub": "investment banking", "pct_of_function": 69, "salary": 174474, "stat": "mean"}, {"sub": "corporate finance", "pct_of_function": 12, "salary": 134333, "stat": "mean"}, {"sub": "research/equity research", "pct_of_function": 6, "salary": 137500, "stat": "mean"}, {"sub": "private equity/venture capital", "pct_of_function": 4, "salary": null, "stat": "mean"}, {"sub": "real estate", "pct_of_function": 1, "salary": null, "stat": "mean"}, {"sub": "finance - other", "pct_of_function": 8, "salary": 129800, "stat": "mean"}]},
+      {"function": "Consulting", "pct": 29, "salary": 175000, "stat": "median", "mean": 171020},
+      {"function": "Marketing", "pct": 12, "salary": 132000, "stat": "median", "mean": 137535},
+      {"function": "Management", "pct": 9, "salary": 140000, "stat": "median", "mean": 137409},
+      {"function": "Human Resources", "pct": 3, "salary": 120000, "stat": "median", "mean": 117670},
+      {"function": "Operations/Logistics", "pct": 3, "salary": 102500, "stat": "median", "mean": 100000},
+      {"function": "Other", "pct": 2, "salary": 182500, "stat": "median", "mean": 169250}
+    ],
+    "by_geography": [
+      {"region": "US Northeast", "pct": 60, "salary": 175000, "stat": "median", "mean": 162561, "basis": "share of US-employed"},
+      {"region": "US West", "pct": 12, "salary": 175000, "stat": "median", "mean": 157676, "basis": "share of US-employed"},
+      {"region": "US Midwest", "pct": 9, "salary": 150000, "stat": "median", "mean": 152412, "basis": "share of US-employed"},
+      {"region": "US South", "pct": 7, "salary": 155000, "stat": "median", "mean": 154900, "basis": "share of US-employed"},
+      {"region": "US Southwest", "pct": 6, "salary": 185000, "stat": "median", "mean": 167222, "basis": "share of US-employed"},
+      {"region": "US Mid-Atlantic", "pct": 5, "salary": 175000, "stat": "median", "mean": 168000, "basis": "share of US-employed"},
+      {"region": "North America", "pct": 95, "salary": 175000, "stat": "median", "basis": "world region, share of all employed"},
+      {"region": "Asia", "sub": "Asia & Middle East/North Africa (MENA)", "pct": 4, "salary": 128000, "stat": "median", "basis": "world region"},
+      {"region": "Latin America", "sub": "Central America, Caribbean & South America", "pct": 1, "salary": null, "stat": "median", "basis": "world region"},
+      {"region": "Europe", "sub": "European Free Trade Zone", "pct": 1, "salary": null, "stat": "median", "basis": "world region"}
+    ],
+    "top_employers": [{"name": "Accenture", "hires": null}, {"name": "Amazon", "hires": null}, {"name": "Bain & Company", "hires": null}, {"name": "Boston Consulting Group (BCG)", "hires": null}, {"name": "Citi", "hires": null}, {"name": "Deloitte Consulting LLP", "hires": null}, {"name": "EY", "hires": null}, {"name": "EY-Parthenon", "hires": null}, {"name": "Guggenheim Partners", "hires": null}, {"name": "Jefferies", "hires": null}, {"name": "JP Morgan Chase & Co.", "hires": null}, {"name": "McKinsey & Company", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "Moelis & Company", "hires": null}, {"name": "Morgan Stanley", "hires": null}, {"name": "Royal Bank of Canada (RBC)", "hires": null}, {"name": "Wells Fargo & Company", "hires": null}]
+  },
+  "profile": {"cohort": "Class of 2027", "intl_pct": 42, "avg_age": null, "avg_work_exp_years": null, "women_pct": 38, "gmat_median": 710, "gmat_note": "GMAT 10th edition median", "url": "https://www.gmac.com/resources/learners/business-programs/explore-programs/cornell-johnson-mba-class-profile", "read_on": "2026-10-13", "note": "Former official class-profile page (johnson.cornell.edu/For-Recruiters/Class-Profiles) now redirects to business.cornell.edu/johnson/ with no figures; GMAC program page used."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 15, "url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026", "read_on": "2026-10-13", "note": "third-party extract of the FT table"}],
+  "notes": "Employment page is HTML (no PDF). No response rate published. Salary by industry/US region also has mean and range on the page; Other industry salary N/A (fewer than 3 data points). Program length in months not stated on pages read."
+}

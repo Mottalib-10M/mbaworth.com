@@ -1,0 +1,110 @@
+{
+  "slug": "michigan-ross",
+  "name": "Stephen M. Ross School of Business, University of Michigan",
+  "short": "Michigan Ross",
+  "country": "US",
+  "city": "Ann Arbor",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 379, "cohort": "Class of 2027", "url": "https://michiganross.umich.edu/graduate/full-time-mba/admissions/admissions-blog/2025/10/20/welcome-class-2027", "read_on": "2026-10-13", "note": "Read via search excerpt (site behind Cloudflare challenge)."}
+  },
+  "tuition_total": {
+    "value": 81152, "currency": "USD", "period": "per academic year (2025-26), non-Michigan resident / international", "cohort": "2025-26",
+    "resident_value": 76152,
+    "url": "https://michiganross.umich.edu/graduate/full-time-mba/admissions/tuition-financial-aid", "read_on": "2026-10-13",
+    "archive_url": "http://web.archive.org/web/20260712204307/https://michiganross.umich.edu/graduate/full-time-mba/admissions/tuition-financial-aid",
+    "note": "Live page returns 403 (Cloudflare challenge); read from the Wayback snapshot of 2026-07-12, which still showed 2025-26 rates ('2026-2027 tuition rates will be posted in July 2026'). Re-read for 2026-27."
+  },
+  "mandatory_fees_total": {
+    "value": 482.38, "currency": "USD", "period": "per academic year (2 terms x 241.19), 2025-26",
+    "breakdown": {"mandatory_fee_per_term": 241.19, "international_student_services_fee_per_term_F_J": 500},
+    "url": "https://michiganross.umich.edu/graduate/full-time-mba/admissions/tuition-financial-aid", "read_on": "2026-10-13",
+    "note": "value = 2 x 241.19 (our multiplication; the school gives per term). F/J visa students add 500 USD per term."
+  },
+  "living_budget_total": {
+    "value": 30332, "currency": "USD", "period": "one academic year (school label: Fall 2024 - Winter 2025 estimates)", "basis": "school budget",
+    "breakdown": {"books_supplies": 1940, "food_housing": 21016, "personal": 7152, "loan_fees": 224},
+    "url": "https://michiganross.umich.edu/graduate/full-time-mba/admissions/tuition-financial-aid", "read_on": "2026-10-13",
+    "note": "value = sum of the four lines shown (our addition). No transportation or health insurance line shown on the page. Read from the 2026-07-12 Wayback snapshot."
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null,
+    "url": "https://michiganross.umich.edu/graduate/full-time-mba/admissions/tuition-financial-aid", "read_on": "2026-10-13",
+    "note": "Scholarship page not readable (403). No figure collected."
+  },
+  "employment": {
+    "report_url": "https://michiganross.umich.edu/graduate/full-time-mba/careers/employment-data",
+    "archive_url": "http://web.archive.org/web/20260618201901/https://michiganross.umich.edu/graduate/full-time-mba/careers/employment-data",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "graduates": null, "seeking": null,
+    "response_rate": null,
+    "employed_3m_pct": 86.1,
+    "accepted_3m_pct": 84.3,
+    "employed_6m_pct": 91.7,
+    "base_salary": {"value": 170000, "currency": "USD", "stat": "median", "mean": 159272, "low": 65033, "high": 245000},
+    "signing_bonus": {"value": 30000, "stat": "median", "pct_receiving": 91},
+    "internship_monthly": null,
+    "internship_annualized_base": {"value": 122724, "stat": "median", "mean": 132792, "note": "Ross reports intern pay as annualized base salary; the column order on the intern tables (median/mean) is inconsistent on the page, value taken from the 'Total/Average' row as labelled in the industry table."},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 33.5, "salary": 190000, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 8.9, "salary": 125000, "stat": "median"},
+      {"industry": "energy", "sub": "Energy", "pct": 2.6, "salary": 156000, "stat": "median"},
+      {"industry": "finance", "sub": "Financial Services", "pct": 19.5, "salary": 175000, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 10.2, "salary": 138500, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 3.8, "salary": 142500, "stat": "median"},
+      {"industry": "consumer", "sub": "Retail", "pct": 2.1, "salary": 130000, "stat": "median"},
+      {"industry": "tech", "sub": "Technology", "pct": 13.1, "salary": 143000, "stat": "median"},
+      {"industry": "other", "sub": "Other", "pct": 6.4, "salary": 136000, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Consulting (total)", "pct": 36.9, "salary": 190000},
+      {"function": "Consulting - Management", "pct": 19.5, "salary": 190000},
+      {"function": "Consulting - General", "pct": 13.2, "salary": 180000},
+      {"function": "Consulting - Technology", "pct": 1.8, "salary": 130000},
+      {"function": "Consulting - Internal", "pct": 1.1, "salary": 160000},
+      {"function": "Finance (total)", "pct": 17.8, "salary": 175000},
+      {"function": "Finance - Investment Banking", "pct": 10.3, "salary": 175000},
+      {"function": "Finance - Corporate", "pct": 2.9, "salary": 130000},
+      {"function": "Finance - Private Equity/Venture Capital", "pct": 1.8, "salary": 175000},
+      {"function": "General Management", "pct": 19.1, "salary": 140000},
+      {"function": "Marketing/Sales (total)", "pct": 16.5, "salary": 127000},
+      {"function": "Marketing/Sales - Brand/Product Management", "pct": 16.2, "salary": 127500},
+      {"function": "Operations/Logistics", "pct": 6.4, "salary": 136400},
+      {"function": "Business Development", "pct": 1.7, "salary": 140000},
+      {"function": "Other", "pct": 1.7, "salary": 198000}
+    ],
+    "finance_subsectors_note": "Ross splits finance by function, not industry: investment banking 10.3% ($175,000), PE/VC 1.8% ($175,000), corporate finance 2.9% ($130,000).",
+    "by_geography": [
+      {"region": "US Midwest", "pct": 36.9, "salary": 175000, "detail": "Chicago 19.5% $175,000; Detroit 10.6% $180,000; Minneapolis/St. Paul 2.1% $140,000"},
+      {"region": "US Northeast", "pct": 22.0, "salary": 175000, "detail": "Tri-State (NY, NJ, CT) 16.1% $175,000; Boston 5.1% $140,000"},
+      {"region": "US West", "pct": 20.3, "salary": 156000, "detail": "SF Bay Area 10.6% $175,000; Seattle 5.5% $142,800; Los Angeles 1.7% $196,000"},
+      {"region": "US South", "pct": 6.8, "salary": 155000},
+      {"region": "US Southwest", "pct": 5.9, "salary": 171000},
+      {"region": "US Mid-Atlantic", "pct": 5.1, "salary": 160000},
+      {"region": "International (all)", "pct": 3.0, "salary": 120000}
+    ],
+    "top_employers": [
+      {"name": "Boston Consulting Group", "hires": 16}, {"name": "McKinsey & Co.", "hires": 16}, {"name": "Amazon", "hires": 10},
+      {"name": "Deloitte", "hires": 8}, {"name": "PwC Strategy&", "hires": 7}, {"name": "Bain & Co.", "hires": 7},
+      {"name": "EY Parthenon", "hires": 6}, {"name": "Bank of America", "hires": 5}, {"name": "Barclays PLC", "hires": 4},
+      {"name": "Citi", "hires": 4}, {"name": "PepsiCo", "hires": 3}, {"name": "Kearney", "hires": 3},
+      {"name": "JP Morgan Chase & Co.", "hires": 3}, {"name": "Nike", "hires": 3}, {"name": "Capital One", "hires": 3},
+      {"name": "Danone North America", "hires": 3}, {"name": "Microsoft", "hires": 3}
+    ],
+    "notes": "Live page behind Cloudflare challenge (403 to curl and WebFetch); all employment figures read from the Wayback snapshot of 2026-06-18 of the official page, titled '2025 Employment Data for Full-Time MBA'. Hires = full-time MBA column (the school also gives intern counts). Graduates/seeking counts not on the page (third-party coverage cites 366 graduates, 280 seeking: not used). 81% of accepted offers via school-facilitated recruiting; 266 companies hired a graduate or intern."
+  },
+  "profile": {
+    "cohort": "Class of 2027",
+    "intl_pct": 40, "avg_age": null, "avg_work_exp_years": 5.8, "women_pct": 39, "gmat_median": null,
+    "gmat_avg": 731, "gmat_focus_avg": 681, "gpa_avg": 3.43, "countries": 32,
+    "url": "https://michiganross.umich.edu/graduate/full-time-mba/admissions/admissions-blog/2025/10/20/welcome-class-2027", "read_on": "2026-10-13",
+    "note": "Read via search excerpt of the official Ross announcement (page itself 403). GMAT is an average, not a median."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 34, "tie": true, "url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/", "read_on": "2026-10-13", "note": "Third-party extract of the FT table, not a school page."}
+  ],
+  "notes": "Whole site michiganross.umich.edu returns a Cloudflare challenge (403); PDFs under /sites/default/files are reachable. To re-read in a browser: 2026-27 tuition and cost of attendance, scholarship facts, official class profile."
+}

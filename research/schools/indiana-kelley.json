@@ -1,0 +1,59 @@
+{
+  "slug": "indiana-kelley",
+  "name": "Kelley School of Business, Indiana University Bloomington",
+  "short": "Indiana Kelley",
+  "country": "US", "city": "Bloomington", "region": "US",
+  "program": {"length_months": 21, "format": "2-year (Full-Time +Flex: year 2 may be taken online)",
+    "class_size": {"value": 57, "cohort": "Class of 2028", "url": "https://kelley.iu.edu/programs/full-time-mba/admissions/class-profile.html", "read_on": "2026-10-13"}},
+  "tuition_total": {"value": 111390, "annual_value": 55695, "currency": "USD", "period": "full program (2 x published 2026-27 annual figure)", "cohort": "2026-2027, nonresident/international", "url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html", "read_on": "2026-10-13",
+    "note": "School publishes an annual 2026-27 budget only: tuition $55,695 nonresident/international, $29,573 Indiana resident. Two-year total computed by us; year-2 rate may differ."},
+  "mandatory_fees_total": {"value": 4846, "annual_value": 2423, "currency": "USD", "period": "full program (2 x annual)", "url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html", "read_on": "2026-10-13",
+    "note": "Student health, technology, student activity and MBA program fees; $2,423 per year (2026-27)."},
+  "living_budget_total": {"value": 52022, "annual_value": 26011, "currency": "USD", "period": "full program (2 x one academic year)", "basis": "school budget", "url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html", "read_on": "2026-10-13",
+    "detail_per_academic_year": {"housing_food": 17025, "books_supplies": 1950, "transportation": 2958, "personal": 4078},
+    "note": "2026-27 annual expense budget; school total per year $84,129 nonresident, $58,007 resident (tuition + fees + living)."},
+  "scholarship": {"value": null, "range_per_year": [15000, 35000], "currency": "USD", "pct_receiving": null, "type": "merit fellowships (automatic); Dean's Fellowships = two years full tuition", "url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html", "read_on": "2026-10-13",
+    "note": "School: 'Most awards range between $15,000 and $35,000 per year.' Share of class aided not published."},
+  "employment": {
+    "report_url": "https://kelley.iu.edu/doc/bloomington/full-time-mba/ftmba+flex-gcs-data-sheet.pdf",
+    "url": "https://kelley.iu.edu/doc/bloomington/full-time-mba/ftmba+flex-gcs-data-sheet.pdf", "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "response_rate": null, "employed_3m_pct": 91.6, "accepted_3m_pct": 89.2,
+    "base_salary": {"value": 127900, "currency": "USD", "stat": "median", "mean": 133129},
+    "signing_bonus": {"value": 30000, "stat": "median", "mean": 30150, "pct_receiving": 87.3},
+    "internship_monthly": {"value": 7800, "stat": "median", "mean": 7859, "cohort": "Class of 2026"},
+    "by_industry": [
+      {"industry": "tech", "sub": "Technology", "pct": 23.0, "salary": 134000, "stat": "median", "mean": 141554},
+      {"industry": "consulting", "sub": "Consulting", "pct": 16.2, "salary": 175000, "stat": "median", "mean": 158773},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 14.9, "salary": 125000, "stat": "median", "mean": 124700},
+      {"industry": "finance", "sub": "Financial Services", "pct": 13.5, "salary": 127000, "stat": "median", "mean": 131400},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 12.2, "salary": 122500, "stat": "median", "mean": 115250},
+      {"industry": "healthcare", "sub": "Healthcare (including products & services)", "pct": 5.4, "salary": 134000, "stat": "median", "mean": 135000}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 21.6, "salary": 175000, "stat": "median"},
+      {"function": "Finance/Accounting", "pct": 20.3, "salary": 128500, "stat": "median"},
+      {"function": "Marketing/Sales", "pct": 20.3, "salary": 127900, "stat": "median"},
+      {"function": "General Management", "pct": 16.2, "salary": 127000, "stat": "median"},
+      {"function": "Operations/Logistics", "pct": 10.8, "salary": 119000, "stat": "median"},
+      {"function": "Other", "pct": 8.1, "salary": 126500, "stat": "median"}
+    ],
+    "by_geography": [
+      {"region": "US West and Southwest", "pct": 26, "salary": null, "stat": null},
+      {"region": "US Northeast and Mid-Atlantic", "pct": 11, "salary": null, "stat": null}
+    ],
+    "top_employers": [
+      {"name": "Amazon", "hires": 6}, {"name": "EY US LLP", "hires": 5}, {"name": "Microsoft", "hires": 5},
+      {"name": "Pella Corporation", "hires": 4}, {"name": "Discover Financial Services", "hires": 3}, {"name": "Tekniplex", "hires": 3},
+      {"name": "Deloitte Consulting", "hires": 3}, {"name": "Tyson Foods", "hires": 3}, {"name": "Eli Lilly and Company", "hires": 2},
+      {"name": "J.P. Morgan Chase & Co.", "hires": 2}, {"name": "Procter & Gamble", "hires": 2}, {"name": "Capital One", "hires": 2},
+      {"name": "FedEx", "hires": 2}, {"name": "Infosys Limited", "hires": 2}
+    ],
+    "notes": "2025-26 Full-Time +Flex MBA Employment Report (Class of 2025, 95 students, 83 seeking). 85.1% of those accepting provided usable salary data. Offers by 90 days 91.6%, accepts 89.2% (at graduation 78.3% / 75.9%). The PDF text layer also contains hidden prior-year alt-text with different figures; values here are from the visible tables, cross-checked with the report's introduction. Geography: only the intro sentence is published (share of graduates receiving offers from companies in those regions), no regional table or salaries. 58.9%/41.1% split of permanent vs non-permanent work authorization is printed ambiguously; not used. Report does not state MBA CSEA compliance."
+  },
+  "profile": {"intl_pct": 39, "avg_age": 30, "avg_work_exp_years": 6, "women_pct": 35, "gmat_median": null, "gmat_mean": 618, "gpa_mean": 3.38,
+    "cohort": "Class of 2028", "url": "https://kelley.iu.edu/programs/full-time-mba/admissions/class-profile.html", "read_on": "2026-10-13",
+    "note": "Average GMAT (current edition, ex-GMAT Focus) 618; GRE Q 161 / V 160; 14 countries."},
+  "rankings_cited": [],
+  "notes": "FT Global MBA 2026 rank not found on an official page or reliable excerpt (not in visible ranks 1-41 of find-mba reproduction)."
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "usc-marshall",
+  "name": "USC Marshall School of Business, University of Southern California",
+  "short": "USC Marshall",
+  "country": "US", "city": "Los Angeles", "region": "US",
+  "program": {"length_months": null, "format": "2-year",
+    "class_size": {"value": 176, "cohort": "Entering class Fall 2025 (Class of 2027)", "url": "https://www.marshall.usc.edu/programs/graduate-programs/mba-programs/full-time-mba/class-profile", "read_on": "2026-10-13"}},
+  "tuition_total": {"value": 164745, "currency": "USD", "period": "full program", "cohort": "2026-27 rates", "basis": "first-year tuition 86,295 + second-year tuition 78,450 as published by the school (estimate on 2026-27 rates; school warns of 3-5% yearly increases)", "url": "https://www.marshall.usc.edu/programs/graduate-programs/mba-programs/full-time-mba/tuition-fees", "read_on": "2026-10-13"},
+  "mandatory_fees_total": {"value": 18791, "currency": "USD", "period": "full program", "cohort": "2026-27 rates", "basis": "USC central services and health fees 1,922 + 1,844; MBA program fees 3,000 + 400; PRIME fee 3,850 (year 1); student health insurance 3,988 + 3,787 (waivable)", "school_total_full_program": 183536, "url": "https://www.marshall.usc.edu/programs/graduate-programs/mba-programs/full-time-mba/tuition-fees", "read_on": "2026-10-13"},
+  "living_budget_total": {"value": null, "currency": "USD", "period": "full program", "basis": null, "note": "Marshall's tuition page excludes housing and living costs; USC Financial Aid's graduate cost of attendance is served by an interactive tool not readable without a browser (https://financialaid.usc.edu/graduate-professional-financial-aid/cost-of-attendance/)", "url": "https://financialaid.usc.edu/graduate-professional-financial-aid/cost-of-attendance/", "read_on": "2026-10-13"},
+  "scholarship": {"value": null, "currency": "USD", "type": "merit awards, automatic consideration at admission; Consortium, ROMBA and Schoen veterans fellowships", "note": "No average award published", "url": "https://www.marshall.usc.edu/programs/graduate-programs/mba-programs/full-time-mba/tuition-fees", "read_on": "2026-10-13"},
+  "employment": {
+    "report_url": "https://www.marshall.usc.edu/programs/graduate-programs/mba-programs/full-time-mba/class-profile", "url": "https://www.marshall.usc.edu/programs/graduate-programs/mba-programs/full-time-mba/class-profile", "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "response_rate": null, "employed_3m_pct": 71, "accepted_3m_pct": null,
+    "employed_3m_note": "71% employed within 90 days of graduation (school's class profile page); no detailed CSEA report found online",
+    "base_salary": {"value": 142184, "currency": "USD", "stat": "mean", "median": null},
+    "signing_bonus": {"value": 35896, "stat": "mean", "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": null, "salary": 167211, "stat": "mean"},
+      {"industry": "finance", "sub": "Financial Services", "pct": null, "salary": 148744, "stat": "mean"},
+      {"industry": "tech", "sub": "Technology", "pct": null, "salary": 136056, "stat": "mean"},
+      {"industry": "other", "sub": "Entertainment", "pct": null, "salary": 117667, "stat": "mean"}
+    ],
+    "by_industry_note": "Average starting salary by industry shown without class shares; cohort label not explicit next to these four figures (shown above the Class of 2025 outcomes block)",
+    "by_function": [],
+    "by_geography": [],
+    "top_employers": [{"name": "Adobe", "hires": null}, {"name": "Amazon", "hires": null}, {"name": "Bain & Co.", "hires": null}, {"name": "BlackRock", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "EY-Parthenon", "hires": null}, {"name": "JPMorgan Chase", "hires": null}, {"name": "Kearney", "hires": null}, {"name": "McKinsey & Company", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "Morgan Stanley", "hires": null}, {"name": "The Walt Disney Company", "hires": null}],
+    "top_employers_note": "'Representative employers' list (alphabetical, no counts); excerpt of a longer list"
+  },
+  "profile": {"cohort": "Entering class 2025", "intl_pct": 43, "avg_age": 28, "avg_work_exp_years": 6, "women_pct": 31, "gmat_median": null, "gmat_mean": 742, "gmat_note": "school publishes average GMAT 742 (edition not stated), average GRE 322", "url": "https://www.marshall.usc.edu/programs/graduate-programs/mba-programs/full-time-mba/class-profile", "read_on": "2026-10-13"},
+  "rankings_cited": [],
+  "notes": "USC Marshall publishes no detailed full-time MBA employment report on its public site (searched marshall.usc.edu recruiting/career pages). Only headline outcomes: mean salary, mean signing bonus, 71% at 90 days. Not found in FT Global MBA 2026 extracts read (clearadmit top list). Living budget missing: re-read USC FA cost-of-attendance tool in a browser."
+}

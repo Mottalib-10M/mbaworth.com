@@ -1,0 +1,22 @@
+---
+/** Renders the tool of a page with the figures it needs (prepared in lib/props.ts) as a hydrated island. */
+import OddsNetCalc from './calc/OddsNetCalc';
+import CompareCalc from './calc/CompareCalc';
+import ConcordCalc from './calc/ConcordCalc';
+import SchoolBoard from './calc/SchoolBoard';
+import ScoreCalc from './calc/ScoreCalc';
+import CoaCalc from './calc/CoaCalc';
+import { P } from '../lib/data';
+import { common, schoolHrefs, A2S, S2A, CURVE, TUITION_YEAR, COAS } from '../lib/props';
+import type { ToolKind } from '../lib/page-types';
+interface Props { kind: ToolKind; school?: string; lock?: boolean; idPrefix?: string }
+const { kind, school = 'harvard', lock = false, idPrefix } = Astro.props;
+const c = common();
+const hrefs = schoolHrefs();
+---
+{kind === 'odds' && <OddsNetCalc client:load {...c} school={school} lock={lock} schoolHrefs={hrefs} idPrefix={idPrefix} />}
+{kind === 'compare' && <CompareCalc client:load {...c} defaults={['ucla', 'usc', 'nyu']} schoolHrefs={hrefs} />}
+{kind === 'concordance' && <ConcordCalc client:load a2s={A2S} s2a={S2A} methodHref={c.methodHref} />}
+{(kind === 'sat-position' || kind === 'act-position') && <ScoreCalc client:load mode={kind === 'sat-position' ? 'sat' : 'act'} curve={CURVE} a2s={A2S} s2a={S2A} schools={c.schools} satClass={P.sat.classOf} actMean={P.act.meanComposite} actClass={P.act.classOf} methodHref={c.methodHref} />}
+{(kind === 'rates' || kind === 'tuition' || kind === 'net-price') && <SchoolBoard client:load mode={kind === 'rates' ? 'rates' : kind === 'tuition' ? 'tuition' : 'net'} {...c} tuitionYear={TUITION_YEAR} schoolHrefs={hrefs} />}
+{kind === 'coa' && <CoaCalc client:load schools={COAS()} school={school} methodHref={c.methodHref} />}

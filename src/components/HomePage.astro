@@ -1,0 +1,69 @@
+---
+/**
+ * Home, in its own order for this subject: the odds and net price calculator first (any of the 110
+ * universities, no account), the newest admissions cycles in a short ledger, the folded answer, the
+ * 110-row table that links every university page, the tools by family, the long text in accordions,
+ * then the FAQ. Text: src/content/home.ts.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { HOME } from '../content/home';
+import { route } from '../i18n/routes';
+import { GROUPS } from '../i18n/nav';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { PAGES, collegeId, hasCollegePage } from '../lib/pages';
+import { SCHOOLS, SC_META } from '../lib/data';
+import { usd, num, pct, day } from '../lib/fmt';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { LAST_UPDATED } from '../data/site-config';
+const lang = 'en';
+const x = HOME;
+const path = route('home', lang);
+const h = helpers();
+const sources = x.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
+const sections = x.sections(h);
+const r = (v: number) => pct(v, v < 0.1 ? 2 : 1);
+const newest = SCHOOLS.filter((s) => s.adm?.newer && s.adm.applicants && hasCollegePage(s.slug)).sort((a, b) => (b.adm!.applicants ?? 0) - (a.adm!.applicants ?? 0)).slice(0, 6);
+const nm = (s: (typeof SCHOOLS)[number]) => (hasCollegePage(s.slug) ? `<a href="${route(collegeId(s.slug), lang)}">${s.name}</a>` : s.name);
+const rows = [...SCHOOLS].sort((a, b) => a.name.localeCompare(b.name)).map((s) => [nm(s), s.state, s.adm ? r(s.adm.rate) : 'n/a', s.testStatus === 'blind' ? 'test-free' : s.sat ? `${num(s.sat.p25)} to ${num(s.sat.p75)}` : 'n/a', s.sticker?.total ? `${usd(s.sticker.total)} <span class="text-xs text-navy-500">${s.sticker.year}</span>` : 'n/a', s.netByIncome[2] === null ? 'n/a' : usd(Math.max(0, s.netByIncome[2]!))]);
+---
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
+  <header class="mb-4">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
+    <p class="mt-2 text-lg text-navy-700">{x.intro}</p>
+    <p class="mt-1 text-sm text-navy-600">Admissions cycles and prices updated <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline">Method and data</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+  </header>
+  <div data-outil><Tool kind="odds" school="ucla" idPrefix="home" /></div>
+  {newest.length > 0 && (
+    <section class="my-8" data-chrome>
+      <h2 class="font-serif text-xl font-bold text-navy-900">Newest cycles on file</h2>
+      <ol class="mt-3 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
+        {newest.map((s) => <li class="border-b border-navy-100 pb-2"><a class="font-semibold text-accent-700 underline-offset-2 hover:underline" href={route(collegeId(s.slug), lang)}>{s.name}</a><span class="block tabular-nums text-navy-700">{num(s.adm!.admitted!)} admitted of {num(s.adm!.applicants!)} · {r(s.adm!.rate)} · {s.adm!.label}</span></li>)}
+      </ol>
+    </section>
+  )}
+  <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
+  <section class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>{x.tableTitle}</h2>
+    <Fragment set:html={x.tableIntro(h)} />
+  </section>
+  <div data-chrome class="max-h-[40rem] overflow-auto">
+    <Fragment set:html={table(['University', 'State', 'Admit rate', 'SAT middle 50%', 'Sticker price', `Net price, $48k to $75k (${SC_META.years.net})`], rows, 'Admit rate and SAT range: newest cycle each university published (else fall 2024, IPEDS). Sticker price: newest published cost of attendance. Net price: College Scorecard.', ['l', 'l', 'r', 'r', 'r', 'r'])} />
+  </div>
+  <section class="my-10" data-chrome>
+    {GROUPS.map((g) => (
+      <div class="mb-6">
+        <h2 class="font-serif text-xl font-bold text-navy-900">{g.label}</h2>
+        <ul class="mt-3 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
+          {PAGES.filter((p) => p.group === g.id).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{p.nav}</a><span class="block text-navy-600">{p.card}</span></li>)}
+        </ul>
+      </div>
+    ))}
+  </section>
+  <section class="mt-10">
+    <h2 class="font-serif text-2xl font-bold text-navy-900">{x.foldTitle}</h2>
+    {sections.map((s) => <details class="fold"><summary><h3 class="fold-h">{s.title}</h3></summary><div class="prose prose-slate max-w-none pb-4"><Fragment set:html={s.html} /></div></details>)}
+  </section>
+</PageLayout>

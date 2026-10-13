@@ -1,0 +1,19 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
+const lang = 'en';
+---
+<PageLayout title="Editorial policy of AdmitCost: sources, cycles and corrections" description="How AdmitCost picks its documents and dates each admissions cycle: federal College Scorecard data, each university's Common Data Set, official test reports, no rankings." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial policy</h1>
+    <h2>Documents we accept</h2>
+    <p>Federal data from the U.S. Department of Education (College Scorecard and IPEDS), documents published by each university (Common Data Set, admissions statistics, class profile, cost of attendance, financial aid pages), state system offices, and the official reports of the College Board and ACT. Student newspapers can point us to a document; they are not cited as the source of a figure unless the university published nothing, and then the page says so. Rankings, consultant blogs and forum posts are not sources here.</p>
+    <h2>Every figure carries its cycle</h2>
+    <p>An admit rate without its entering class is the most common error on the subject: "4%" can describe three different years. On this site each admit rate names the entering class it describes and the document it comes from, and federal figures carry the year given by the Scorecard data dictionary. No figure is typed in a page by hand: pages read the data files, so a correction to a file corrects every page that uses it.</p>
+    <h2>Independence</h2>
+    <p>{AUTHOR_NAME} receives nothing from universities, consultants, test-prep companies or lenders, sells no student data and runs no advertising today. If advertising is ever added, it will be labelled and kept apart from the calculators.</p>
+    <h2>Updates and corrections</h2>
+    <p>The site is reviewed at least every {REVIEW_CYCLE_MONTHS} months and whenever a new federal release or a new Common Data Set comes out (most universities publish theirs between spring and autumn). Reported errors are checked against the original document, corrected, and the date at the top of the page changes. Write through the <a href={route('contact', lang)}>contact page</a>; the method is on the <a href={route('method', lang)}>method page</a>.</p>
+  </div>
+</PageLayout>

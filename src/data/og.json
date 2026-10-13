@@ -1,0 +1,13 @@
+{
+ "accent": "#9B2335",
+ "symbol": "U$",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "Acceptance rates and\nnet price by income",
+   "subtitle": "110 US universities, newest cycle, no account",
+   "badge": "2026",
+   "brand": "AdmitCost"
+  }
+ ]
+}

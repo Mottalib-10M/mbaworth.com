@@ -1,0 +1,189 @@
+{
+ "_readme": "Every figure of the site that is not read in a school file lives here, from the official source named in `sources`, never typed in a page (RECETTE §4, §17.4). Built by scripts/build-params.py.",
+ "year": 2026,
+ "retrieved_at": "2026-10-13",
+ "valid_to": "2027-09-30",
+ "fx": {
+  "date": "2026-10-13",
+  "source": "ecb_fx",
+  "usdPer": {
+   "USD": 1.0,
+   "EUR": 1.1188,
+   "GBP": 1.32465072,
+   "CHF": 1.20146048,
+   "CNY": 0.14939244,
+   "HKD": 0.12742307,
+   "INR": 0.01049531,
+   "SGD": 0.78133948,
+   "KRW": 0.00074546,
+   "AUD": 0.69781077,
+   "CAD": 0.70219042,
+   "JPY": 0.00632412
+  },
+  "note": "Euro foreign exchange reference rates of the European Central Bank; cross rates to the US dollar computed through the euro."
+ },
+ "model": {
+  "refSalary": 90000,
+  "refSalaryNote": "Reference pre-MBA salary for the rankings, in US dollars, an assumption of this site (the same for every school, editable in every tool).",
+  "g1": 0.05,
+  "g0": 0.03,
+  "r": 0.05,
+  "horizonYears": 10,
+  "paybackCapYears": 30,
+  "internMonths": 2.5,
+  "weights": {
+   "share": 0.4,
+   "salary": 0.3,
+   "npv": 0.3
+  },
+  "note": "g1 and g0: yearly raise with and without the MBA; r: discount rate; internMonths: length of the summer internship counted for two-year programs. Assumptions of this site, shown and editable."
+ },
+ "ukvi": {
+  "londonMonthly": 1529,
+  "outsideMonthly": 1171,
+  "maxMonths": 9,
+  "source": "ukvi_money"
+ },
+ "bls": {
+  "period": "May 2025",
+  "source": "bls_oews",
+  "occupations": {
+   "131111": {
+    "soc": "13-1111",
+    "name": "Management analysts",
+    "employment": 898280,
+    "p25": 77950,
+    "median": 101860,
+    "p75": 133370
+   },
+   "132051": {
+    "soc": "13-2051",
+    "name": "Financial and investment analysts",
+    "employment": 361980,
+    "p25": 79290,
+    "median": 102740,
+    "p75": 133340
+   },
+   "413031": {
+    "soc": "41-3031",
+    "name": "Securities, commodities and financial services sales agents",
+    "employment": 489570,
+    "p25": 56540,
+    "median": 78660,
+    "p75": 129950
+   },
+   "113031": {
+    "soc": "11-3031",
+    "name": "Financial managers",
+    "employment": 841710,
+    "p25": 125490,
+    "median": 166570,
+    "p75": 219980
+   },
+   "112021": {
+    "soc": "11-2021",
+    "name": "Marketing managers",
+    "employment": 395240,
+    "p25": 123020,
+    "median": 166790,
+    "p75": 216410
+   },
+   "113021": {
+    "soc": "11-3021",
+    "name": "Computer and information systems managers",
+    "employment": 670570,
+    "p25": 138060,
+    "median": 175140,
+    "p75": 220730
+   },
+   "151252": {
+    "soc": "15-1252",
+    "name": "Software developers",
+    "employment": 1687890,
+    "p25": 105210,
+    "median": 135980,
+    "p75": 171980
+   },
+   "111021": {
+    "soc": "11-1021",
+    "name": "General and operations managers",
+    "employment": 3503020,
+    "p25": 72320,
+    "median": 105770,
+    "p75": 167280
+   },
+   "152051": {
+    "soc": "15-2051",
+    "name": "Data scientists",
+    "employment": 262440,
+    "p25": 85660,
+    "median": 120230,
+    "p75": 158880
+   }
+  },
+  "managementAnalystsByMetro": [
+   {
+    "area": "New York-Newark-Jersey City",
+    "median": 124390
+   },
+   {
+    "area": "San Francisco-Oakland-Fremont",
+    "median": 126730
+   },
+   {
+    "area": "Boston-Cambridge-Newton",
+    "median": 135640
+   },
+   {
+    "area": "Chicago-Naperville-Elgin",
+    "median": 105090
+   },
+   {
+    "area": "Washington-Arlington-Alexandria",
+    "median": 126830
+   },
+   {
+    "area": "Los Angeles-Long Beach-Anaheim",
+    "median": 104930
+   },
+   {
+    "area": "Seattle-Tacoma-Bellevue",
+    "median": 126340
+   }
+  ]
+ },
+ "sources": {
+  "ecb_fx": {
+   "label": "European Central Bank, euro foreign exchange reference rates (2026-10-13)",
+   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+  },
+  "ukvi_money": {
+   "label": "GOV.UK, Student visa: money to support yourself",
+   "url": "https://www.gov.uk/student-visa/money"
+  },
+  "bls_oews": {
+   "label": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025",
+   "url": "https://www.bls.gov/oes/tables.htm"
+  },
+  "bls_api": {
+   "label": "U.S. Bureau of Labor Statistics, public data API (OEWS series)",
+   "url": "https://www.bls.gov/developers/"
+  },
+  "bls_ooh_ma": {
+   "label": "BLS Occupational Outlook Handbook, Management Analysts",
+   "url": "https://www.bls.gov/ooh/business-and-financial/management-analysts.htm"
+  },
+  "mbacsea": {
+   "label": "MBA CSEA, Standards for Reporting MBA Employment Statistics",
+   "url": "https://mbacsea.org"
+  },
+  "gmac": {
+   "label": "GMAC, Graduate Management Admission Council",
+   "url": "https://www.gmac.com/"
+  },
+  "ft_rankings": {
+   "label": "Financial Times, Global MBA Ranking 2026",
+   "url": "https://rankings.ft.com/"
+  }
+ }
+}

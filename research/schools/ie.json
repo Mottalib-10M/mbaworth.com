@@ -1,0 +1,278 @@
+{
+  "slug": "ie",
+  "name": "IE Business School (IE University)",
+  "short": "IE",
+  "country": "ES",
+  "city": "Madrid",
+  "region": "Europe",
+  "program": {
+    "length_months": 11,
+    "format": "1-year",
+    "length_options": "11 or 15 months full-time (dual degree 19 or 23 months); September and January intakes",
+    "class_size": {
+      "value": null,
+      "cohort": null,
+      "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/",
+      "read_on": "2026-10-13",
+      "notes": "Class size not published on the programme page."
+    },
+    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/",
+    "read_on": "2026-10-13"
+  },
+  "tuition_total": {
+    "value": 89900,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "current tuition (reviewed annually; intake year not stated)",
+    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/",
+    "read_on": "2026-10-13",
+    "notes": "Applies to the 11- and 15-month durations."
+  },
+  "mandatory_fees_total": {
+    "value": 1200,
+    "currency": "EUR",
+    "period": "one-off",
+    "cohort": "current",
+    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/",
+    "read_on": "2026-10-13",
+    "notes": "One-off contribution to the IE Foundation at enrolment. Payment plans with more than three instalments carry a 400 EUR admin fee (optional)."
+  },
+  "living_budget_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": null,
+    "cohort": null,
+    "basis": null,
+    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/",
+    "read_on": "2026-10-13",
+    "notes": "No official living budget found on the programme or fees page."
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "EUR",
+    "stat": null,
+    "pct_receiving": null,
+    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/",
+    "read_on": "2026-10-13",
+    "notes": "Merit-based aid, loan programmes and programme-specific scholarships; no amounts or share of class published on the page."
+  },
+  "employment": {
+    "report_url": "https://www.ie.edu/business-school/programs/full-time/international-mba/#outcomes",
+    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/",
+    "data_url": "https://assets-thesaurus.ie.edu/pro-ie-edu/page-data/business-school/programs/full-time/international-mba/page-data.json",
+    "read_on": "2026-10-13",
+    "cohort": null,
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "offer_6m_pct_of_job_seekers": 100,
+    "base_salary": {
+      "value": null,
+      "currency": "EUR",
+      "stat": null,
+      "notes": "No salary published on the school's pages; Bloomberg figure (third party) not reused."
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null
+    },
+    "internship_monthly": null,
+    "by_industry": [
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 21.79,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "finance",
+        "sub": "Finance",
+        "pct": 21.4,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 18.29,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Other",
+        "pct": 9.73,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Diversified Industries",
+        "pct": 7,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy & Industrial Products",
+        "pct": 7,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer, Luxury and Retail",
+        "pct": 5.45,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Architecture/Urbanism/Real Estate/ Design",
+        "pct": 3.89,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Global Impact",
+        "pct": 2.72,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Legal Services",
+        "pct": 2.72,
+        "salary": null,
+        "stat": null
+      }
+    ],
+    "by_function": [
+      {
+        "function": "Sales Roles",
+        "pct": 18.37,
+        "salary": null
+      },
+      {
+        "function": "Consulting Roles",
+        "pct": 17.96,
+        "salary": null
+      },
+      {
+        "function": "Finance Roles",
+        "pct": 17.14,
+        "salary": null
+      },
+      {
+        "function": "Strategy Roles",
+        "pct": 14.69,
+        "salary": null
+      },
+      {
+        "function": "Operations Roles",
+        "pct": 11.43,
+        "salary": null
+      },
+      {
+        "function": "Marketing Roles",
+        "pct": 10.2,
+        "salary": null
+      },
+      {
+        "function": "Tech Roles",
+        "pct": 3.67,
+        "salary": null
+      },
+      {
+        "function": "Academic roles",
+        "pct": 1.22,
+        "salary": null
+      },
+      {
+        "function": "Architecture, Real Estate & Design Roles",
+        "pct": 0.82,
+        "salary": null
+      },
+      {
+        "function": "Entrepreneurship Roles",
+        "pct": 0.82,
+        "salary": null
+      }
+    ],
+    "by_geography": [],
+    "by_geography_notes": "Page shows an 'Employment locations' map with values 49.8, 24.11, 15.42, 5.53, 5.14 (%) but region names are internal IDs not labelled in the page data; not attributable without a browser.",
+    "career_switch": {
+      "sector_changers_pct": 50,
+      "vertical_advancers_pct": 50
+    },
+    "country_change_pct": null,
+    "top_employers": [
+      {
+        "name": "Amazon",
+        "hires": null
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": null
+      },
+      {
+        "name": "Bain & Company",
+        "hires": null
+      },
+      {
+        "name": "Uber",
+        "hires": null
+      },
+      {
+        "name": "KPMG",
+        "hires": null
+      },
+      {
+        "name": "BCG",
+        "hires": null
+      },
+      {
+        "name": "J.P. Morgan",
+        "hires": null
+      },
+      {
+        "name": "Salesforce",
+        "hires": null
+      },
+      {
+        "name": "Google",
+        "hires": null
+      },
+      {
+        "name": "PwC",
+        "hires": null
+      }
+    ],
+    "notes": "Career outcomes block on the programme page (graduating year not stated). 'Job seekers who received a job offer within 6 months after graduation: 100%'."
+  },
+  "profile": {
+    "intl_pct": 92,
+    "avg_age": 29,
+    "avg_work_exp_years": 6,
+    "women_pct": 33,
+    "gmat_median": null,
+    "nationalities": 57,
+    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/",
+    "read_on": "2026-10-13",
+    "notes": "Cohort not stated. Average experience given as 'around six years'; FAQ text elsewhere says average age 30."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 21,
+      "url": "https://www.clearadmit.com/mba-rankings/financial-times/",
+      "read_on": "2026-10-13",
+      "notes": "Excerpt of the FT 2026 table on ClearAdmit (prior year 18)."
+    }
+  ],
+  "notes": "IE's site is a JS app; figures read from the page HTML and its Gatsby page-data JSON. No salary, no cohort year, no geography labels."
+}

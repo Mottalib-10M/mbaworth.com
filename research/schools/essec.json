@@ -1,0 +1,31 @@
+{
+  "slug": "essec", "name": "ESSEC Business School, Global MBA", "short": "ESSEC",
+  "country": "FR", "city": "Paris La Défense", "region": "Europe",
+  "campuses": ["Paris La Défense (France)", "Singapore"],
+  "program": {"length_months": 12, "format": "1-year (extendable to 16 months)", "intakes": ["September"],
+    "class_size": {"value": null, "cohort": null, "url": "https://www.essec.edu/en/program/global-mba/", "read_on": "2026-10-13", "note": "Class size not published on the programme page."}},
+  "tuition_total": {"value": null, "currency": "EUR", "period": "full program", "cohort": "September 2027 intake", "url": "https://www.essec.edu/en/program/global-mba/", "read_on": "2026-10-13",
+    "note": "Official tuition not found on essec.edu (programme page's Financing tab is empty in the served HTML; brochure gated behind a form). Third-party sites quote EUR 55,000 for September 2027: NOT used. Early Bird award EUR 8,000 for applications closing 26 Oct 2026 and 23 Nov 2026; application fee EUR 130."},
+  "mandatory_fees_total": {"value": null, "currency": "EUR", "application_fee": 130, "url": "https://www.essec.edu/en/program/global-mba/", "read_on": "2026-10-13", "note": "Only the EUR 130 application fee is published."},
+  "living_budget_total": {"value": null, "currency": "EUR", "basis": null, "url": "https://www.essec.edu/en/program/global-mba/", "read_on": "2026-10-13", "note": "No school living budget published on the pages read."},
+  "scholarship": {"value": null, "currency": "EUR", "url": "https://www.essec.edu/en/program/global-mba/", "read_on": "2026-10-13",
+    "items": [{"name": "Early Bird", "value": 8000, "currency": "EUR"}, {"name": "FACC Foundation / Serge Bellanger (US nationals)", "value": 10000, "currency": "USD"}, {"name": "FirstRand Laurie Dippenaar (South African nationals)", "value": 1500000, "currency": "ZAR"}],
+    "note": "Other categories listed without amounts (European nationals, International Experience, Women Leaders, High Potential, Diversity & Inclusion, Sustainable Leaders, Digital Transformers, Innovation & Entrepreneurship). No share of class published."},
+  "employment": {
+    "report_url": "https://info.essec.edu/GMBA-GTC-Employment-Report_1-GMBA-Download-Employment-Report-25-26.html", "read_on": "2026-10-13",
+    "cohort": null, "standard": "school",
+    "response_rate": null, "employed_3m_pct": null, "accepted_3m_pct": null,
+    "base_salary": {"value": null, "currency": "EUR", "stat": null, "note": "Employment report (25-26) is gated behind a lead form (Marketo); not downloaded. Landing page states only: per the last Career Survey, 74% of graduates changed sector and 97% changed function (an older page, https://info.essec.edu/GlobalMBA-EmploymentReport.html, says 60% and 93%)."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [], "by_function": [], "by_geography": [],
+    "changed_sector_pct": 74, "changed_function_pct": 97,
+    "top_employers": []
+  },
+  "profile": {"intl_pct": 100, "avg_age": 30, "avg_work_exp_years": 6, "women_pct": 55, "gmat_median": null, "gmat_focus_avg": 615,
+    "origin": {"Asia & Oceania": 58, "North & Latin America": 17, "Middle East & Africa": 15, "Europe": 10},
+    "cohort": "current class (year not stated)", "url": "https://www.essec.edu/en/program/global-mba/", "read_on": "2026-10-13",
+    "note": "'100% International Cohort' as written by the school; average work experience 6 years from the key-facts box."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 24, "url": "https://essec.edu/en/news/financial-times-2026-mba-ranking-essec-ascends-to-24th-worldwide/", "read_on": "2026-10-13"}],
+  "notes": "Thin official data: tuition, living budget and the whole employment report are not public without a form. To re-read in a browser (form) or ask the school."
+}

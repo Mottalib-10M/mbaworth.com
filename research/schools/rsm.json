@@ -1,0 +1,69 @@
+{
+  "slug": "rsm",
+  "name": "Rotterdam School of Management, Erasmus University (RSM)",
+  "short": "RSM",
+  "country": "NL",
+  "city": "Rotterdam",
+  "region": "Europe",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 97, "cohort": "Class of 2027", "url": "https://www.rsm.nl/fileadmin/Education/MBA/FTMBA/Class_Profile_of_2027_NEW.pdf", "read_on": "2026-10-13"},
+    "url": "https://www.rsm.nl/education/mba/international-full-time-mba/",
+    "read_on": "2026-10-13",
+    "note": "International Full-time MBA, January start, 'Full-time | 12 months'. Graduating Class of 2026 had 127 students (employment report)."
+  },
+  "tuition_total": {"value": 70000, "currency": "EUR", "period": "full program", "cohort": "Intake January 2027", "url": "https://www.rsm.nl/education/mba/international-full-time-mba/fees-and-finance/", "read_on": "2026-10-13", "note": "Admissions fee 5,000 on registration + 32,500 (11 Dec 2026) + 32,500 (28 May 2027); includes books and study materials, excludes study-trip travel. Page last update 20 January 2026."},
+  "mandatory_fees_total": {"value": 254, "currency": "EUR", "period": "one-off", "cohort": "Intake January 2027", "url": "https://www.rsm.nl/education/mba/international-full-time-mba/fees-and-finance/", "read_on": "2026-10-13", "note": "Only extra fixed item listed: immigration fee EUR 254 (non-EU students). The admissions fee is part of the 70,000 tuition."},
+  "living_budget_total": {"value": 21600, "currency": "EUR", "period": "12 months, single", "basis": "school budget", "monthly": 1800, "breakdown_monthly": {"housing": 1000, "living_costs": 700, "health_insurance": 100}, "url": "https://www.rsm.nl/education/mba/international-full-time-mba/fees-and-finance/", "read_on": "2026-10-13", "note": "School states 'about EUR 1,800 a month' for a single student; 21,600 = 12 x 1,800 computed by us (program length 12 months). Higher with partner/children."},
+  "scholarship": {"pct_receiving": null, "average_value": null, "currency": "EUR", "examples": [{"name": "Fellowship (top-tier)", "value": "up to three 50% tuition scholarships per year"}], "type": "merit and diversity scholarships, plus need-based Dean's Assistance Award; granted as tuition fee waiver on final instalment; only one award per student", "url": "https://www.rsm.nl/education/mba/international-full-time-mba/scholarships/", "read_on": "2026-10-13", "note": "'Scholarship amounts vary'; no average amount or share of class published."},
+  "employment": {
+    "report_url": "https://www.rsm.nl/fileadmin/Education/MBA/FTMBA/Employment_Report_for_Full-time_MBA_Class_of_2026.pdf",
+    "local_copy": "research/sources/rsm-employment-report-2026.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2026",
+    "standard": "school",
+    "graduates": 127,
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 81,
+    "accepted_at_graduation_pct": 31,
+    "base_salary": {"value": 105125, "currency": "USD", "stat": "mean", "note": "'Overall average salary' (base, adjusted with PPP, in USD); report says figures do not reflect salary packages or bonuses. Programme page states 84% found a job within three months (older or different basis)."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "manufacturing", "sub": "Manufacturing/Industrial", "pct": 27, "salary": 117269, "stat": "mean", "min": 67755, "max": 244856},
+      {"industry": "finance", "sub": "Financial and Insurance Services/Banking", "pct": 19, "salary": 99088, "stat": "mean", "min": 78389, "max": 133934},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 15, "salary": 85799, "stat": "mean", "min": 52520, "max": 111984},
+      {"industry": "consumer", "sub": "Retail/E-commerce", "pct": 6, "salary": 112749, "stat": "mean", "min": 70468, "max": 155031},
+      {"industry": "tech", "sub": "Technology/Telecoms/IT", "pct": 6, "salary": 123049, "stat": "mean", "min": 99666, "max": 165000},
+      {"industry": "consulting", "sub": "Consulting", "pct": 4, "salary": null, "stat": null, "note": "salary only within 'Other' (mean 102,434)"},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 4, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Transport/Logistics", "pct": 4, "salary": null, "stat": null},
+      {"industry": "nonprofit", "sub": "Government/Public Sector", "pct": 2, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Media/Entertainment", "pct": 2, "salary": null, "stat": null},
+      {"industry": "nonprofit", "sub": "NGOs", "pct": 2, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Real Estate", "pct": 2, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Sales/Marketing", "pct": 2, "salary": null, "stat": null},
+      {"industry": "nonprofit", "sub": "Social Enterprise/B Corp", "pct": 2, "salary": null, "stat": null},
+      {"industry": "energy", "sub": "Energy/Utilities", "pct": 2, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Other* aggregate (all sectors below 6%) - salary row", "pct": 27, "salary": 102434, "stat": "mean", "min": 60141, "max": 182876}
+    ],
+    "by_function": [],
+    "by_geography": [
+      {"region": "Europe", "sub": "Western Europe (including Netherlands)", "pct": 80, "salary": null},
+      {"region": "Europe", "sub": "Netherlands", "pct": 75, "salary": null},
+      {"region": "Latin America", "pct": 10, "salary": null},
+      {"region": "North America", "sub": "North America (US + Canada not split)", "pct": 8, "salary": null},
+      {"region": "Asia", "pct": 2, "salary": null}
+    ],
+    "country_change_pct": 95,
+    "top_employers": [
+      {"name": "BCG", "hires": null}, {"name": "Accenture", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "ASML", "hires": null}, {"name": "Siemens", "hires": null}, {"name": "Airbus", "hires": null}, {"name": "Unilever", "hires": null}, {"name": "Danone", "hires": null}, {"name": "ING", "hires": null}, {"name": "Rabobank", "hires": null}, {"name": "Adyen", "hires": null}, {"name": "Google", "hires": null}, {"name": "Uber", "hires": null}, {"name": "IKEA", "hires": null}, {"name": "Maersk", "hires": null}, {"name": "Philips", "hires": null}
+    ],
+    "note": "Salaries are PPP-adjusted average base salaries in USD. Industry % sum: the 'Other*' group (27%) is the sum of the small sectors listed separately; the aggregate row is kept only for its salary - do not add it to the sector shares. Geography read from the map image (page 9): North America 8%, Latin America 10%, Asia 2% (text extraction alone is misleading). 'country_change_pct' = '95% changed region' (cohort 99% international). Also: 53% changed function, 79% changed industry, 21% changed all three. Employers = 'Participating and hiring companies MBA26' list (no hire counts); selection shown. Job-function split in the report (p.5) is the incoming class background, not post-MBA jobs, so by_function left empty."
+  },
+  "profile": {"intl_pct": 99, "nationalities": 28, "avg_age": 31, "avg_work_exp_years": 8, "women_pct": 38, "gmat_median": null, "cohort": "Class of 2027", "url": "https://www.rsm.nl/fileadmin/Education/MBA/FTMBA/Class_Profile_of_2027_NEW.pdf", "read_on": "2026-10-13", "note": "Local copy research/sources/rsm-class-profile-2027.pdf. No GMAT published. Graduating Class of 2026: 127 students, 99% international, 30 nationalities, avg age 31, 8 yrs experience, 49% women (employment report)."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 52, "url": "https://www.find-mba.com/university/693/rsm-erasmus-university-rotterdam-school-of-management", "read_on": "2026-10-13", "note": "Search-result extract of find-mba school profile ('52 FT Global MBA 2026'); trade press (wiwi-online) reports '#1 in the Benelux, #52 globally'. FT.com not read."}],
+  "notes": "RSM publishes PPP-adjusted average base salaries; not directly comparable with nominal medians."
+}

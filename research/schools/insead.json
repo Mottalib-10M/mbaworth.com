@@ -1,0 +1,57 @@
+{
+  "slug": "insead", "name": "INSEAD", "short": "INSEAD",
+  "country": "FR", "city": "Fontainebleau", "region": "Europe",
+  "campuses": ["Fontainebleau (France)", "Singapore"],
+  "program": {"length_months": 10, "format": "1-year", "intakes": ["January", "August"],
+    "class_size": {"value": "900-950", "cohort": "typical class, two intakes per year", "url": "https://www.insead.edu/master-programmes/mba", "read_on": "2026-10-13", "note": "range published by the school, not an exact headcount"}},
+  "tuition_total": {"value": 109860, "currency": "EUR", "period": "full program", "cohort": "August 2026 and January 2027 intakes", "url": "https://www.insead.edu/master-programmes/mba/financing", "read_on": "2026-10-13",
+    "note": "Inclusive of all applicable taxes; covers course materials, library, IT, student council fees, EUR 150 alumni subscription, gym, printing and health insurance. Payable in instalments (EUR 12,000 non-refundable first instalment)."},
+  "mandatory_fees_total": {"value": 0, "currency": "EUR", "url": "https://www.insead.edu/master-programmes/mba/financing", "read_on": "2026-10-13",
+    "note": "No separate mandatory fees: student council, alumni subscription and health insurance are included in tuition. Optional Business Foundations Programme EUR 2,040 (August, in person) or EUR 1,530 (January, online)."},
+  "living_budget_total": {"value": 30000, "currency": "EUR", "period": "10-month programme, single", "basis": "school budget", "url": "https://www.insead.edu/master-programmes/mba/financing", "read_on": "2026-10-13",
+    "items": {"accommodation": 11000, "local_transport": 750, "meals": 6000, "telephone": 250, "optional_car_lease": 3900, "optional_laptop": 1000, "optional_miscellaneous": 1600, "optional_field_trips": 3000, "optional_exchange_and_job_search_travel": 2500},
+    "by_campus": [{"campus": "Fontainebleau", "value": 30000, "basic_only": 18000}, {"campus": "Singapore", "value": 32000, "basic_only": 23900, "items": {"accommodation": 16000, "local_transport": 1000, "meals": 6700, "telephone": 200}}],
+    "note": "School total of EUR 30,000 (Fontainebleau) / EUR 32,000 (Singapore) includes optional items; basic_only = sum of the basic lines as listed. A partner adds roughly 30% per the school."},
+  "scholarship": {"value": null, "currency": "EUR", "url": "https://www.insead.edu/master-programmes/mba/financing/scholarship-guide", "read_on": "2026-10-13",
+    "note": "Categories published (financial need, merit and leadership, special attributes, sustainability and social impact); no amount, count or share of class published on the pages read."},
+  "employment": {
+    "report_url": "https://www.insead.edu/master-programmes/master-business-administration/career-statistics", "read_on": "2026-10-13",
+    "cohort": "Classes of December 2024 and July 2025 (929 graduates)", "standard": "school",
+    "response_rate": 98, "employed_3m_pct": null, "accepted_3m_pct": null, "offer_3m_pct": 81,
+    "base_salary": {"value": 100000, "currency": "EUR", "stat": "median", "mean": 102200, "note": "Labelled 'annual salary' on the page; 73% of the class reported full salary information. offer_3m_pct = received at least one job offer within 3 months."},
+    "signing_bonus": {"value": 28900, "stat": "median", "pct_receiving": null, "performance_bonus_median": 22100},
+    "internship_monthly": {"value": 3900, "currency": "EUR", "stat": "median", "mean": 4700, "note": "Summer internship (Dec 2025 class per the page); 63% did an internship, project or startup tour."},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Management Consulting", "pct": 50, "salary": 106100, "stat": "median", "mean": 107200, "signing_median": 30000},
+      {"industry": "other", "sub": "Corporate Sectors", "pct": 17, "salary": 91900, "stat": "median", "mean": 95900, "signing_median": 23600},
+      {"industry": "finance", "sub": "Financial Services", "pct": 15, "salary": 96000, "stat": "median", "mean": 99400, "signing_median": 17900},
+      {"industry": "tech", "sub": "Technology, Media & Telecom", "pct": 18, "salary": 94600, "stat": "median", "mean": 95500, "signing_median": 23100}
+    ],
+    "by_function": [],
+    "by_function_note": "No function breakdown published; 49% changed function.",
+    "by_geography": [
+      {"region": "Europe", "label": "Northern & Western Europe", "pct": 31, "salary": null},
+      {"region": "Europe", "label": "Southern Europe", "pct": 11, "salary": null},
+      {"region": "Europe", "label": "Eastern Europe", "pct": 2, "salary": null},
+      {"region": "Asia", "label": "Asia Pacific", "pct": 23, "salary": null},
+      {"region": "Middle East", "label": "Africa/Middle East", "pct": 18, "salary": null},
+      {"region": "Latin America", "label": "South America", "pct": 9, "salary": null},
+      {"region": "US", "label": "North America", "pct": 6, "salary": null}
+    ],
+    "changed_country_pct": 34,
+    "career_change": {"changed_sector_country_or_function_pct": 65, "changed_sector_pct": 38, "changed_function_pct": 49, "changed_all_three_pct": 14},
+    "top_employers": [
+      {"name": "McKinsey & Company", "hires": null}, {"name": "Boston Consulting Group", "hires": null}, {"name": "Bain & Company", "hires": null},
+      {"name": "Strategy&", "hires": null}, {"name": "Accenture", "hires": null}, {"name": "Kearney", "hires": null}, {"name": "Amazon", "hires": null},
+      {"name": "Oliver Wyman", "hires": null}, {"name": "FTI Consulting", "hires": null}, {"name": "Dell Technologies", "hires": null},
+      {"name": "Eli Lilly and Company", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "Samsung", "hires": null},
+      {"name": "Development Bank of Japan", "hires": null}, {"name": "Mastercard", "hires": null}, {"name": "Uber", "hires": null},
+      {"name": "AlixPartners", "hires": null}, {"name": "Roland Berger", "hires": null}
+    ],
+    "employers_note": "Names only, no hire counts. 257 hiring companies in 57 countries. Full list PDF: https://images.marketing.insead.edu/Web/INSEAD/{8b4802f2-0fc9-4d0e-b31f-7c1b9c7cf6d2}_2025-MBA-Employment-Statistics-Company-List.pdf"
+  },
+  "profile": {"intl_pct": null, "avg_age": 29, "avg_work_exp_years": null, "work_exp_range": "3-8", "women_pct": 38, "gmat_median": null, "nationalities": 90,
+    "url": "https://www.insead.edu/master-programmes/mba", "read_on": "2026-10-13", "note": "'Typical MBA class' figures, no intake year given; no GMAT or international share published on the page."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 2, "url": "https://www.insead.edu/news/financial-times-does-roi-add-mba-insead-ranks-2-ft-global-mba-2026-rankings-raining-wang-mba24d", "read_on": "2026-10-13", "note": "INSEAD news page title; confirmed by Campus France https://www.campusfrance.org/en/financial-times-mba-ranking-2026-7-french-schools-in-the-world-s-top-100"}],
+  "notes": "curl returns 403 on insead.edu; pages read with WebFetch. Employment statistic labelled 'salary' (not explicitly 'base')."
+}

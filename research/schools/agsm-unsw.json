@@ -1,0 +1,36 @@
+{
+  "slug": "agsm-unsw",
+  "name": "AGSM (Australian Graduate School of Management), UNSW Business School",
+  "short": "AGSM UNSW",
+  "country": "AU", "city": "Sydney", "region": "Oceania",
+  "program": {
+    "length_months": 12, "format": "1-year", "intake": "Term 1 (first session commences in May)",
+    "options": "Full-Time MBA 12 months (72 UOC); MBA (Extension) with an extra year",
+    "class_size": {"value": 60, "cohort": "intake (approximate, as stated by school)", "stat": "approximate", "url": "https://www.unsw.edu.au/business/agsm/learn/agsm-programs/mba-full-time", "read_on": "2026-10-13", "note": "'The AGSM Full-Time MBA program takes approximately 60 students'"},
+    "url": "https://www.unsw.edu.au/business/agsm/learn/agsm-programs/mba-full-time", "read_on": "2026-10-13"
+  },
+  "tuition_total": {"value": 86760, "currency": "AUD", "period": "full program", "cohort": "2026", "stat": "estimated total (12 courses x AUD 7,230)", "url": "https://www.unsw.edu.au/business/our-schools/agsm/learn-with-us/agsm-programs/program-fees", "read_on": "2026-10-13", "note": "AGSM program fees page: 2026 fee per course AUD 7,230, total estimated cost AUD 86,760 (Extension year +AUD 26,400). Degree page shows 2026 indicative full fee AUD 83,500 (domestic) and AUD 87,500 first year / AUD 88,500 to complete (international, includes ~AUD 1,000 study-related costs)."},
+  "mandatory_fees_total": {"value": null, "currency": "AUD", "url": "https://www.unsw.edu.au/business/agsm/learn/agsm-programs/mba-full-time", "read_on": "2026-10-13", "note": "Non-tuition fees (e.g. student services and amenities fee, OSHC health cover) not stated on pages read."},
+  "living_budget_total": {"value": 28860, "value_high": 40820, "currency": "AUD", "period": "per year", "stat": "range", "basis": "school budget", "url": "https://www.unsw.edu.au/study/your-future/cost-of-living-sydney", "read_on": "2026-10-13", "note": "UNSW: from roughly AUD 28,860 per year (modest, on campus) to upwards of AUD 40,820 (own apartment); AUD 2,645-4,166 per month. Official visa floor (Home Affairs, from 10 May 2024): AUD 29,710 per year, per UNSW fees page https://www.unsw.edu.au/study/how-to-apply/fees."},
+  "scholarship": {"value": null, "currency": "AUD", "url": "https://www.unsw.edu.au/business/our-schools/agsm/agsm-scholarships/full-time-mba-scholarships", "read_on": "2026-10-13", "note": "Tuition fee waivers of 25%, 50%, 75% and 100% (e.g. Academic Excellence: min. one 100%, one 75%, two 50%, two 25%; Leadership Excellence; Global Reach; Women in Leadership). Average award and share of class not published."},
+  "employment": {
+    "report_url": "https://www.unsw.edu.au/business/career-accelerator/agsm/employment-outcomes",
+    "url": "https://www.unsw.edu.au/business/career-accelerator/agsm/employment-outcomes", "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "response_rate": null, "employed_3m_pct": null, "accepted_3m_pct": 87,
+    "base_salary": null,
+    "salary_uplift_pct": 69,
+    "signing_bonus": null, "internship_monthly": null,
+    "by_industry": [
+      {"industry": "finance", "sub": "Financial Services", "pct": 20, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "Technology", "pct": 20, "salary": null, "stat": null},
+      {"industry": "consulting", "sub": "Consulting", "pct": 10, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Media", "pct": 5, "salary": null, "stat": null}
+    ],
+    "by_function": [], "by_geography": [], "top_employers": [],
+    "note": "Class of 2025 graduating cohort: 87% accepted jobs within three months; 69% increase in salary post MBA (average starting salary vs average graduating salary; the salary itself is not published); 47% completed an internship or project; 4 students started their own venture. Only the top 4 hiring sectors are given (remaining ~45% not broken down). No salary level, function, geography or employer list published."
+  },
+  "profile": {"intl_pct": null, "countries": "more than 25", "avg_age": null, "avg_work_exp_years": null, "women_pct": null, "gmat_median": null, "url": "https://www.unsw.edu.au/business/our-schools/agsm/learn-with-us/agsm-programs/full-time-mba", "read_on": "2026-10-13", "note": "Only 'candidates from more than 25 countries'; minimum 2 years full-time work experience."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 48, "url": "https://www.unsw.edu.au/news/2026/02/agsm-mba-rises-19-places-in-the-financial-times-2026-global-mba-", "read_on": "2026-10-13", "note": "UNSW announcement: #48 globally, only Australian MBA in the top 100 (one trade outlet says 49th)."}],
+  "notes": "UNSW news cites FT data: US$154,233 average salary three years after graduation (FT figure, not a school employment-report figure)."
+}

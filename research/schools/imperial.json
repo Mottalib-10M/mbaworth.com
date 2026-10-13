@@ -1,0 +1,60 @@
+{
+  "slug": "imperial",
+  "name": "Imperial Business School, Imperial College London",
+  "short": "Imperial",
+  "country": "GB",
+  "city": "London",
+  "region": "UK",
+  "program": {
+    "length_months": 12,
+    "length_note": "Optional extended term to 16 months, subject to an additional tuition fee",
+    "format": "1-year",
+    "class_size": {"value": null, "cohort": "Class of 2026", "url": "https://www.imperial.ac.uk/business-school/mba/full-time-mba/class-profile/", "read_on": "2026-10-13", "note": "Class size not shown on the class profile page"}
+  },
+  "tuition_total": {"value": 81000, "currency": "GBP", "period": "full program", "cohort": "Full-Time MBA 2027", "url": "https://www.imperial.ac.uk/business-school/mba/full-time-mba/fees-and-funding/", "read_on": "2026-10-13", "deposit": 8100, "note": "Same fee for UK and international students. Covers Global Experience Week flights and accommodation and core materials. Non-refundable deposit counts towards the fee."},
+  "mandatory_fees_total": {"value": null, "currency": "GBP", "url": "https://www.imperial.ac.uk/business-school/mba/full-time-mba/fees-and-funding/", "read_on": "2026-10-13", "note": "No mandatory fee beyond tuition. Optional Careers Club membership GBP 10 per club per year."},
+  "living_budget_total": {"value": 22722, "currency": "GBP", "period": "12 months, London 2026 (private-sector accommodation)", "basis": "school budget", "url": "https://www.imperial.ac.uk/study/fees-and-funding/living-costs/", "read_on": "2026-10-13", "breakdown_12m": {"accommodation_private": 13871, "food": 3436, "travel_zone_1_2": 1439, "personal_leisure": 3976}, "note": "Imperial College 'Likely costs for living in London - 2026' (all students). 9-month average range GBP 16,392-17,042; monthly lower GBP 1,264, upper GBP 2,118."},
+  "scholarship": {"value": null, "currency": "GBP", "url": "https://www.imperial.ac.uk/business-school/mba/full-time-mba/fees-and-funding/", "read_on": "2026-10-13", "awards": [{"name": "Advisory Board Scholarship", "amount": "Full tuition fee"}, {"name": "Dean's Impact Scholarship", "amount": "Up to 50% of the tuition fee"}, {"name": "Forte Fellowships for Women", "amount": "Up to 50% of the tuition fee"}, {"name": "FUNED Mexico Scholarship", "amount": "GBP 20,000"}], "note": "Award amounts listed; no average award or share of class published."},
+  "employment": {
+    "report_url": "https://www.imperial.ac.uk/business-school/mba/full-time-mba/career-impact/",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "base_salary": {"value": 124363, "currency": "USD", "stat": "mean", "ppp": true, "note": "Average salary in PPP US dollars, as published. No GBP figure and no median on the page. Figures refer to graduates seeking employment who shared data."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "salary_increase_pct": {"value": 40, "stat": "mean", "note": "pre- to post-MBA, PPP salaries"},
+    "by_industry": [
+      {"industry": "tech", "sub": "Technology sector", "pct": 35, "salary": null}
+    ],
+    "by_industry_note": "Only the tech share is published on the web page. Full sector breakdown is in the Class of 2025 report, downloadable only through a HubSpot form (not retrieved).",
+    "by_function": [],
+    "by_geography": [
+      {"region": "UK", "label": "employed in the UK", "pct": 73, "salary": null}
+    ],
+    "by_geography_note": "Only the UK share is published on the web page.",
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Capital One", "hires": null}, {"name": "Boston Consulting Group", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "IBM", "hires": null}, {"name": "Mastercard", "hires": null}, {"name": "Revolut", "hires": null}
+    ],
+    "top_employers_note": "Employers of graduates 'in the last three years' (web page), not Class of 2025 only; no hire counts."
+  },
+  "profile": {
+    "cohort": "Class of 2026",
+    "url": "https://www.imperial.ac.uk/business-school/mba/full-time-mba/class-profile/",
+    "read_on": "2026-10-13",
+    "intl_pct": null,
+    "nationalities": 25,
+    "avg_age": 28,
+    "avg_work_exp_years": null,
+    "women_pct": 46,
+    "gmat_median": null,
+    "pre_mba_sector": {"banking_finance": 35, "consulting_professional_services": 17, "consumer_retail": 12, "it_tech_telecoms": 10, "pharma_biotech_healthcare": 7, "other": 7}
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 39, "note": "school rankings page: 'Full-Time MBA, 2026 (published in February 2026)' 39th in the world, 12th in Europe", "url": "https://www.imperial.ac.uk/business-school/about-us/rankings-and-accreditations/", "read_on": "2026-10-13"}
+  ],
+  "notes": "Weakest employment data of the UK four: full report gated behind a form. Salary is a PPP USD mean."
+}

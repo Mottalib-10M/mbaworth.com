@@ -1,0 +1,117 @@
+{
+  "slug": "berkeley-haas",
+  "name": "Haas School of Business, University of California, Berkeley",
+  "short": "Berkeley Haas",
+  "country": "US",
+  "city": "Berkeley",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 273, "cohort": "Class of 2027", "url": "https://mba.haas.berkeley.edu/admissions/class-profile", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 90191, "currency": "USD", "period": "year 1 (2026-27), non-resident", "cohort": "2026-27 entering",
+    "resident_value": 77946,
+    "breakdown": {"tuition": 15066, "nonresident_supplemental_tuition": 12245, "professional_degree_supplemental_tuition": 62880},
+    "url": "https://haas.berkeley.edu/financial-aid/full-time-mba/cost/", "read_on": "2026-10-13",
+    "note": "The page gives Year 1 only (estimates pending UC approval) and advises planning for a 5-6% annual increase; no full-program total published. California residents pay no nonresident supplemental tuition."
+  },
+  "mandatory_fees_total": {
+    "value": 2564, "currency": "USD", "period": "year 1 (2026-27)", "cohort": "2026-27 entering",
+    "breakdown": {"campus_fee_class_pass": 2282, "instructional_resilience_enhancement_fee": 282, "health_insurance_ship_waivable": 8206},
+    "url": "https://haas.berkeley.edu/financial-aid/full-time-mba/cost/", "read_on": "2026-10-13",
+    "note": "Health insurance (SHIP, 8,206 USD) is waivable and is not counted in value. Tuition & fees subtotal 92,755 USD non-resident / 80,510 USD resident."
+  },
+  "living_budget_total": {
+    "value": 37960, "currency": "USD", "period": "year 1, 9 months (2026-27)", "basis": "school budget",
+    "breakdown": {"housing_food": 29882, "books_supplies": 782, "personal": 3376, "transportation": 3920},
+    "total_cost_of_attendance": {"non_resident": 138921, "resident": 126676},
+    "url": "https://haas.berkeley.edu/financial-aid/full-time-mba/cost/", "read_on": "2026-10-13",
+    "note": "Single student, Year 1 only. Health insurance listed separately (8,206 USD)."
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null,
+    "facts": ["Haas awards over $8 million in scholarship funding each year", "approximately 75% of Haas students receive some form of financial assistance", "Dean's Fellowship: $110,000"],
+    "url": "https://blogs.haas.berkeley.edu/the-berkeley-mba/the-berkeley-haas-scholarship-guide-for-full-time-and-part-time-mba-students", "read_on": "2026-10-13",
+    "note": "Read via search excerpt of the official Haas blog; no current average award published (the 26,000 USD average dates from 2014)."
+  },
+  "employment": {
+    "report_url": "https://mba.haas.berkeley.edu/hubfs/Website%20Pages/Full-Time/Graphics/Employment%20Report/Haas%20FTMBA%202025%20Employment%20Report%20Tables%20FINAL-s.pdf",
+    "report_page": "https://mba.haas.berkeley.edu/careers/employment-report",
+    "local_copy": "research/sources/amerique/berkeley-haas-employment-2025.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "graduates": 229, "seeking": 182,
+    "response_rate": null,
+    "employed_3m_pct": 85.7,
+    "accepted_3m_pct": 84.1,
+    "base_salary": {"value": 167250, "currency": "USD", "stat": "median", "mean": 164930, "low": 66500, "high": 300000, "pct_reporting": 88.9},
+    "signing_bonus": {"value": 30000, "stat": "median", "mean": 35826, "pct_receiving": 75.0},
+    "expected_bonus": {"value": 26925, "stat": "median", "mean": 36210},
+    "internship_monthly": {"value": 8667, "stat": "median", "mean": 9287, "note": "Internship monthly base, all functions (class of 2026 summer interns, as reported in the 2025 report)."},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 26.8, "salary": 190000, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Products", "pct": 2.6, "salary": 131000, "stat": "median"},
+      {"industry": "energy", "sub": "Energy / Utilities", "pct": 5.2, "salary": 150000, "stat": "median"},
+      {"industry": "finance", "sub": "Financial Services (total)", "pct": 15.7, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "fintech", "pct": 3.9, "salary": 150000, "stat": "median"},
+      {"industry": "finance", "sub": "investment banking", "pct": 6.5, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "asset management (Investment Management)", "pct": 0.7, "salary": null, "stat": "median"},
+      {"industry": "finance", "sub": "private equity / venture capital (VC/PE)", "pct": 4.6, "salary": 170500, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Government", "pct": 0.7, "salary": null, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare - Biotech/Pharma", "pct": 3.3, "salary": 144000, "stat": "median"},
+      {"industry": "other", "sub": "Media/Entertainment", "pct": 1.3, "salary": null, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Public Sector / Non-Profit", "pct": 0.7, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Real Estate", "pct": 2.0, "salary": 110000, "stat": "median"},
+      {"industry": "consumer", "sub": "Retail", "pct": 0.7, "salary": null, "stat": "median"},
+      {"industry": "tech", "sub": "Technology / Telecom (total)", "pct": 38.6, "salary": 159000, "stat": "median"},
+      {"industry": "tech", "sub": "Software", "pct": 19.6, "salary": 160000, "stat": "median"},
+      {"industry": "tech", "sub": "Internet Services/E-Commerce", "pct": 8.5, "salary": 142800, "stat": "median"},
+      {"industry": "tech", "sub": "Equipment/Hardware/Networking", "pct": 3.9, "salary": 150000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Transportation / Logistics", "pct": 2.0, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Other", "pct": 0.7, "salary": null, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 27.5, "salary": 190000},
+      {"function": "Finance/Accounting", "pct": 19.0, "salary": 160000},
+      {"function": "General Management", "pct": 15.7, "salary": 153500},
+      {"function": "Information Technology", "pct": 15.0, "salary": 163000},
+      {"function": "Marketing/Sales", "pct": 9.2, "salary": 151125},
+      {"function": "Operations/Logistics", "pct": 5.9, "salary": 152500},
+      {"function": "Human Resources", "pct": 0.7, "salary": null},
+      {"function": "Other", "pct": 7.2, "salary": 143400}
+    ],
+    "by_geography": [
+      {"region": "US West", "pct": 81.7, "salary": 169100, "detail": "San Francisco/Peninsula 49.0% $175,000; South Bay 14.4% $160,000; Seattle 8.5% $142,800; East Bay 5.2% $136,000; Greater LA 3.3% $190,000"},
+      {"region": "US Mid-Atlantic", "pct": 5.2, "salary": 150300},
+      {"region": "US Northeast", "pct": 4.6, "salary": 157100},
+      {"region": "US Midwest", "pct": 2.0, "salary": 175000},
+      {"region": "US Southwest", "pct": 2.0, "salary": 192000},
+      {"region": "US South", "pct": 1.3, "salary": null},
+      {"region": "Asia", "pct": 2.0, "salary": null},
+      {"region": "Europe", "pct": 0.7, "salary": null},
+      {"region": "Latin America", "pct": 0.7, "salary": null},
+      {"region": "Africa", "pct": 0.0, "salary": null},
+      {"region": "Oceania", "pct": 0.0, "salary": null}
+    ],
+    "north_america_pct": 96.7,
+    "top_employers": [
+      {"name": "McKinsey & Company", "hires": null}, {"name": "Boston Consulting Group", "hires": null}, {"name": "Bain & Company", "hires": null},
+      {"name": "Google", "hires": null}, {"name": "Amazon.com, Inc.", "hires": null}, {"name": "Microsoft Corporation", "hires": null},
+      {"name": "NVIDIA Corporation", "hires": null}, {"name": "Salesforce.com", "hires": null}, {"name": "Deloitte Consulting LLP", "hires": null},
+      {"name": "J.P. Morgan Chase & Co", "hires": null}, {"name": "Morgan Stanley", "hires": null}, {"name": "Adobe Systems Inc.", "hires": null}
+    ],
+    "notes": "Salary percentiles 'I/D' (<1% reporting) stored as null. Page 4 of the PDF shows by-work-authorization rows identical to the Consulting and Finance function rows (probable layout error in the school's PDF); only the Total row is used. Employer list gives no hire counts (bold = 3+ hires, not readable in text); the names listed are a selection from the official list."
+  },
+  "profile": {
+    "cohort": "Class of 2027",
+    "intl_pct": 44, "avg_age": null, "avg_work_exp_years": 5.6, "women_pct": 43, "gmat_median": 730,
+    "gmat_focus_median": 675, "gpa_avg": 3.67, "countries": 42,
+    "url": "https://mba.haas.berkeley.edu/admissions/class-profile", "read_on": "2026-10-13"
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 9, "url": "https://newsroom.haas.berkeley.edu/berkeley-haas-reaches-historic-high-in-financial-times-ranking/", "read_on": "2026-10-13", "note": "Rank from search excerpt of the Haas newsroom, confirmed on https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/"}
+  ],
+  "notes": "All employment figures from the official CSEA-standard PDF. Costs are Year 1 only."
+}

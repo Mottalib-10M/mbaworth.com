@@ -1,0 +1,73 @@
+{
+  "slug": "vanderbilt-owen",
+  "name": "Owen Graduate School of Management, Vanderbilt University",
+  "short": "Vanderbilt Owen",
+  "country": "US", "city": "Nashville", "region": "US",
+  "program": {"length_months": 21, "format": "2-year",
+    "class_size": {"value": 160, "cohort": "Class of 2027", "url": "https://business.vanderbilt.edu/mba/class-profile/", "read_on": "2026-10-13"}},
+  "tuition_total": {"value": 153400, "annual_value": 76700, "currency": "USD", "period": "full program (2 x published 2026-27 annualized figure)", "cohort": "2026-2027", "url": "https://business.vanderbilt.edu/mba/admissions/tuition-financing-scholarships/", "read_on": "2026-10-13",
+    "note": "School publishes 2026-27 annualized tuition $76,700; 'tuition is subject to change annually', so the 2-year total is computed by us."},
+  "mandatory_fees_total": {"value": 5852, "annual_value": 2926, "currency": "USD", "period": "full program (2 x annual)", "url": "https://business.vanderbilt.edu/mba/admissions/tuition-financing-scholarships/", "read_on": "2026-10-13",
+    "note": "Annual 2026-27: maintenance fee $1,250, student services $694, student health $882, transcript fee $100 (transcript fee may be one-time). Required health insurance $4,244/yr (waivable with comparable coverage) and loan fees $2,110 not included here."},
+  "living_budget_total": {"value": 54114, "annual_value": 27057, "currency": "USD", "period": "full program (2 x nine-month academic year)", "basis": "school budget", "url": "https://business.vanderbilt.edu/mba/admissions/tuition-financing-scholarships/", "read_on": "2026-10-13",
+    "detail_per_academic_year": {"housing": 16030, "food": 7488, "personal": 2013, "transportation": 1526, "books_supplies": 500, "health_insurance": 4244, "loan_fees": 2110},
+    "note": "Average living expenses 2026-27 (housing $1,781/month over nine months). annual_value = housing + food + personal + transportation; books, health insurance and loan fees listed separately in detail."},
+  "scholarship": {"value": null, "range_per_year": [10000, "full tuition"], "currency": "USD", "pct_receiving": null, "type": "merit, automatic consideration; Dean's Scholars full tuition", "url": "https://business.vanderbilt.edu/mba/admissions/tuition-financing-scholarships/", "read_on": "2026-10-13",
+    "note": "Scholarship amounts range from $10,000 per year to full tuition. No average or share of class published on that page."},
+  "employment": {
+    "report_url": "https://issuu.com/vanderbiltowen/docs/vanderbilt_mba_employment_report_2025",
+    "url": "https://issuu.com/vanderbiltowen/docs/vanderbilt_mba_employment_report_2025", "read_on": "2026-10-13",
+    "outcomes_page_url": "https://business.vanderbilt.edu/mba/outcomes/",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "response_rate": 93, "employed_3m_pct": 87, "accepted_3m_pct": 86,
+    "base_salary": {"value": 142800, "currency": "USD", "stat": "median", "mean": 148962},
+    "signing_bonus": {"value": 30000, "stat": "median", "mean": 36065, "pct_receiving": 89},
+    "internship_monthly": {"value": 8580, "stat": "median", "mean": 8912, "cohort": "Class of 2026"},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 29, "salary": 175000, "stat": "median", "mean": 172909},
+      {"industry": "finance", "sub": "Financial Services", "pct": 21, "salary": 175000, "stat": "median", "mean": 151435},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 16, "salary": 130000, "stat": "median", "mean": 132600},
+      {"industry": "tech", "sub": "Technology", "pct": 13, "salary": 142800, "stat": "median", "mean": 136857},
+      {"industry": "consumer", "sub": "Consumer Products", "pct": 7, "salary": 122500, "stat": "median", "mean": 121000},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 6, "salary": 140000, "stat": "median", "mean": 138600},
+      {"industry": "energy", "sub": "Energy", "pct": 3, "salary": null, "stat": "insufficient data"},
+      {"industry": "consumer", "sub": "Retail", "pct": 2, "salary": null, "stat": "insufficient data"},
+      {"industry": "other", "sub": "Other", "pct": 5, "salary": 135000, "stat": "median", "mean": 139250}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 34, "salary": 175000, "stat": "median"},
+      {"function": "Consulting - Management/Strategy", "pct": 29, "salary": 175000, "stat": "median"},
+      {"function": "Consulting - Internal", "pct": 5, "salary": 140000, "stat": "median"},
+      {"function": "Finance/Accounting", "pct": 22, "salary": 175000, "stat": "median"},
+      {"function": "Finance - Investment Banking/Capital Markets", "pct": 11, "salary": 175000, "stat": "median"},
+      {"function": "Finance - Corporate Finance", "pct": 10, "salary": 130000, "stat": "median"},
+      {"function": "Marketing", "pct": 12, "salary": 126000, "stat": "median"},
+      {"function": "Marketing - Brand Management", "pct": 5, "salary": 126000, "stat": "median"},
+      {"function": "Operations Management", "pct": 12, "salary": 142800, "stat": "median"},
+      {"function": "Business/Data Analytics", "pct": 7, "salary": 130000, "stat": "median"},
+      {"function": "General Management", "pct": 6, "salary": 140000, "stat": "median"},
+      {"function": "Human Resources", "pct": 3, "salary": 117000, "stat": "median"},
+      {"function": "Information Technology", "pct": 1, "salary": null, "stat": "insufficient data"},
+      {"function": "Other", "pct": 3, "salary": null, "stat": "insufficient data"}
+    ],
+    "by_geography": [
+      {"region": "US South", "pct": 53, "salary": 155000, "stat": "median", "note": "includes Nashville metro (29%, median $155,000)"},
+      {"region": "US Northeast", "pct": 13, "salary": 150000, "stat": "median"},
+      {"region": "US Midwest", "pct": 12, "salary": 146500, "stat": "median"},
+      {"region": "US West", "pct": 11, "salary": 141000, "stat": "median"},
+      {"region": "US Southwest", "pct": 7, "salary": 137500, "stat": "median"},
+      {"region": "US Mid-Atlantic", "pct": 4, "salary": 155000, "stat": "median"}
+    ],
+    "top_employers": [
+      {"name": "Amazon", "hires": 12}, {"name": "Deloitte Consulting", "hires": 7}, {"name": "Highspring Consulting", "hires": 5},
+      {"name": "Wells Fargo Corporate & Investment Banking", "hires": 3}, {"name": "Boston Consulting Group", "hires": 3},
+      {"name": "EY", "hires": 3}, {"name": "EY-Parthenon", "hires": 3}, {"name": "UnitedHealth Group", "hires": 3}
+    ],
+    "notes": "Report read as page images from Issuu (no text layer; copies of pages 2-5 saved as research/sources/amerique/vanderbilt-owen-employment-2025-p*.jpg). 159 graduates, 142 seeking; offers within 90 days 124 (87%), accepted 122 (86%); 93% reporting information. Usable salary info for 86% of those who accepted. Medians: US citizen/PR $144,000, foreign national $142,800. World regions: North America 100%. Top metros: Nashville 35, Atlanta 12, New York 11, Los Angeles 9, Charlotte 7. Report states conformity to MBA CSEA standards."
+  },
+  "profile": {"intl_pct": 29, "avg_age": 28, "avg_work_exp_years": 6, "women_pct": 24, "gmat_median": null, "gmat_focus_mean": 660, "gpa_median": 3.4,
+    "cohort": "Class of 2027", "url": "https://business.vanderbilt.edu/mba/class-profile/", "read_on": "2026-10-13",
+    "note": "Average GMAT Focus 660 (middle 80% 625-705); GRE V 160 / Q 159; 20 countries; 20% military."},
+  "rankings_cited": [],
+  "notes": "FT Global MBA 2026 rank not found on an official page or reliable excerpt."
+}

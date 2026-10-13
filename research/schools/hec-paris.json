@@ -1,0 +1,88 @@
+{
+  "slug": "hec-paris", "name": "HEC Paris", "short": "HEC Paris",
+  "country": "FR", "city": "Jouy-en-Josas (Paris area)", "region": "Europe",
+  "program": {"length_months": 16, "format": "16-month (12 possible for January intake)", "intakes": ["January", "September"],
+    "class_size": {"value": 265, "cohort": "Class of 2026", "url": "https://www.hec.edu/sites/default/files/documents/HEC-Paris_MBA_EMPLOYMENT-REPORT-2024-140x297_2Mo_compressed.pdf", "read_on": "2026-10-13", "note": "Class profile page in the 2024 employment report (p.5). Class of 2024: 243 participants."}},
+  "tuition_total": {"value": 102000, "currency": "EUR", "period": "full program", "cohort": "January 2027 and September 2027 intakes", "url": "https://www.hec.edu/en/mba-executive-mba/mba/admissions/fees-funding", "read_on": "2026-10-13",
+    "image_url": "https://hec-prod-drupalfiles.oos.cloudgouv-eu-west-1.outscale.com/s3fs-public/2026-08/TUITION-FEES_2-INTAKES.png",
+    "note": "Read from PNG image: deposit EUR 9,000 + installments EUR 47,000 + EUR 46,000 = EUR 102,000 for both intakes."},
+  "mandatory_fees_total": {"value": null, "currency": "EUR", "url": "https://www.hec.edu/en/mba-executive-mba/mba/admissions/fees-funding", "read_on": "2026-10-13", "note": "No separate mandatory fee shown on the fees page; deposit (EUR 9,000) is part of the EUR 102,000 total."},
+  "living_budget_total": {"value": 25300, "currency": "EUR", "period": "16 months, single", "basis": "school budget", "url": "https://www.hec.edu/en/mba-executive-mba/mba/admissions/fees-funding", "read_on": "2026-10-13",
+    "image_url": "https://hec-prod-drupalfiles.oos.cloudgouv-eu-west-1.outscale.com/s3fs-public/2025-04/ESTIMATED-EXPENSES-FOR-16MONTHS%20%281%29.png",
+    "items": {"accommodation_from": 10400, "books": 1000, "meals": 6000, "miscellaneous": 3200, "transportation": 4700},
+    "couple_value": 32000, "note": "Read from PNG image. Accommodation 'from EUR 10,400' (varies with room size/type); students living with a partner on campus: around EUR 32,000."},
+  "scholarship": {"value": null, "currency": "EUR", "total_aid_per_year": 1000000, "url": "https://www.hec.edu/en/mba-executive-mba/mba/admissions/fees-funding", "read_on": "2026-10-13",
+    "note": "School states 'over EUR 1,000,000 in aid every year' (HEC Foundation); no average award or share of class published on the page."},
+  "employment": {
+    "report_url": "https://www.hec.edu/en/mba-executive-mba/mba/careers/employment-statistics", "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "response_rate": null, "employed_3m_pct": null, "accepted_3m_pct": 75,
+    "base_salary": {"value": null, "currency": "USD", "stat": null, "note": "Class of 2025 salaries are only in the 2025 report hosted as a private Calameo flipbook (https://www.calameo.com/read/0074570460be6b03185d2?authid=oF5iZhXRIwMR); page images are URL-signed and could not be read. See employment_previous for the Class of 2024 figures."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_industry_note": "Class of 2025 page says only 'Technology, Finance and Consulting remained key sectors'.",
+    "by_function": [],
+    "changed_function_pct": 54,
+    "by_geography": [
+      {"region": "Europe", "label": "Europe", "pct": 52, "salary": null},
+      {"region": "Asia", "label": "Asia and Oceania", "pct": 25, "salary": null},
+      {"region": "Middle East", "label": "Africa & Middle East", "pct": 8, "salary": null},
+      {"region": "US", "label": "North America", "pct": 11, "salary": null},
+      {"region": "Latin America", "label": "Latin America & the Caribbean", "pct": 4, "salary": null}
+    ],
+    "changed_country_pct": 64,
+    "changed_country_note": "64% secured positions outside their home countries; 57% switched sectors, 57% changed location, 38% changed at least two of sector/function/location, 22% all three.",
+    "top_employers": []
+  },
+  "employment_previous": {
+    "report_url": "https://www.hec.edu/sites/default/files/documents/HEC-Paris_MBA_EMPLOYMENT-REPORT-2024-140x297_2Mo_compressed.pdf", "local_copy": "research/sources/hec-paris-employment-report-2024.pdf", "read_on": "2026-10-13",
+    "cohort": "Class of 2024", "standard": "MBA CSEA",
+    "response_rate": null, "accepted_3m_pct": 83,
+    "base_salary": {"value": 100125, "currency": "USD", "stat": "median", "package_mean": 109847,
+      "note": "p.6 shows '$109,847 Overall Average Salary Package' and '$100,125 (MEDIAN)' under 'Overall mean salary' (layout ambiguous); the p.3 letter writes the package as $109,487. Treat the median as salary, the package as salary + bonuses."},
+    "signing_bonus": {"value": 19806, "stat": "median", "other_value": 25301, "other_stat": "probably mean (unlabelled on p.6)", "pct_receiving": null},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 25, "salary": 98026, "stat": "median", "mean": 112144},
+      {"industry": "finance", "sub": "Finance", "pct": 22, "salary": 100125, "stat": "median", "mean": 115767},
+      {"industry": "tech", "sub": "Technology", "pct": 16, "salary": 87800, "stat": "median", "mean": 93513},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 10, "salary": 99755, "stat": "median", "mean": 96288},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 5, "salary": 130761, "stat": "median", "mean": 141542},
+      {"industry": "energy", "sub": "Energy & Utilities", "pct": 4, "salary": 137500, "stat": "median", "mean": 133826},
+      {"industry": "nonprofit", "sub": "Govt./NGO/Education", "pct": 4, "salary": 91532, "stat": "median", "mean": 97227},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 3, "salary": 88660, "stat": "median", "mean": 91899},
+      {"industry": "consumer", "sub": "Retail & Luxury", "pct": 2, "salary": 121349, "stat": "median", "mean": 121349},
+      {"industry": "other", "sub": "Transportation & Logistics", "pct": 2, "salary": 105231, "stat": "median", "mean": 105231},
+      {"industry": "other", "sub": "Media & Entertainment", "pct": 1, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Other", "pct": 6, "salary": null, "stat": null}
+    ],
+    "by_industry_note": "Salaries in USD. No finance sub-sector split published.",
+    "by_function": [
+      {"function": "Consulting", "pct": 31, "salary": null}, {"function": "Financial Services", "pct": 21, "salary": null},
+      {"function": "Marketing/Sales", "pct": 13, "salary": null}, {"function": "General Management", "pct": 12, "salary": null},
+      {"function": "Operations & Logistics", "pct": 5, "salary": null}, {"function": "Information Technology", "pct": 3, "salary": null},
+      {"function": "Human Resources", "pct": 1, "salary": null}, {"function": "Other", "pct": 14, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "Europe", "label": "France", "pct": 26, "salary": 82270, "stat": "median", "mean": 86735},
+      {"region": "Europe", "label": "Europe (excluding France)", "pct": 29, "salary": 105698, "stat": "median", "mean": 120342},
+      {"region": "Asia", "label": "Asia & Oceania", "pct": 16, "salary": 73487, "stat": "median", "mean": 73909},
+      {"region": "Middle East", "label": "Africa & Middle East (salary: Middle East/Gulf region)", "pct": 11, "salary": 147879, "stat": "median", "mean": 137483},
+      {"region": "Africa", "label": "Africa (salary only; share included in Africa & Middle East 11%)", "pct": null, "salary": 72565, "stat": "median", "mean": 75902},
+      {"region": "US", "label": "North America", "pct": 8, "salary": 141450, "stat": "median", "mean": 167517},
+      {"region": "Latin America", "label": "Latin America and Caribbean", "pct": 10, "salary": 105231, "stat": "median", "mean": 111301}
+    ],
+    "changed_country_pct": 61,
+    "top_employers": [
+      {"name": "Accenture", "hires": null}, {"name": "Amazon", "hires": null}, {"name": "Bain & Company", "hires": null}, {"name": "Boston Consulting Group", "hires": null},
+      {"name": "McKinsey & Company", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "Kearney", "hires": null}, {"name": "Oliver Wyman", "hires": null},
+      {"name": "Roland Berger", "hires": null}, {"name": "BNP Paribas", "hires": null}, {"name": "Bank of America", "hires": null}, {"name": "L'Oréal", "hires": null}
+    ],
+    "employers_note": "Names from the alphabetical 'companies who recruited from the Class of 2024' list (pp.20-21); the 'top recruiters (2 hires or more)' page is a logo image without text, so no hire counts."
+  },
+  "profile": {"intl_pct": 94, "avg_age": 30, "avg_work_exp_years": 6, "women_pct": 40, "gmat_median": null, "gmat_avg": 690, "nationalities": 61, "cohort": "Class of 2026",
+    "url": "https://www.hec.edu/sites/default/files/documents/HEC-Paris_MBA_EMPLOYMENT-REPORT-2024-140x297_2Mo_compressed.pdf", "read_on": "2026-10-13",
+    "note": "Class of 2025 per the employment statistics page: 49 nationalities, 95% international."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 6, "url": "https://www.campusfrance.org/en/financial-times-mba-ranking-2026-7-french-schools-in-the-world-s-top-100", "read_on": "2026-10-13", "note": "Campus France (French government agency) summary of the FT ranking."}],
+  "notes": "Fees and living costs published only as PNG images (read visually). 2025 employment report only as a private Calameo flipbook: Class of 2025 salary, industry and employer data still to read (browser needed)."
+}

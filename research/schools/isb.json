@@ -1,0 +1,98 @@
+{
+  "slug": "isb",
+  "name": "Indian School of Business (ISB), Post Graduate Programme in Management (PGP)",
+  "short": "ISB",
+  "country": "IN",
+  "city": "Hyderabad / Mohali",
+  "region": "India",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 812, "cohort": "PGP Class of 2026", "url": "https://placements.isb.edu/isbebook/?p=223", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 3214000, "currency": "INR", "period": "full program", "cohort": "PGP 2027-28 (single-instalment payment)",
+    "breakdown": {"admission_fee": 338559, "commitment_fee": 211441, "tuition_fee": 2664000},
+    "url": "https://indian-school-of-business.aueast01.umbraco.io/media/0k1epmko/pgp-fee-structure-for-2027-28.pdf",
+    "read_on": "2026-10-13",
+    "note": "Excluding 18% GST. ISB headline on the fees page: 'INR 34,48,000 + GST' = these 32,14,000 + shared accommodation 2,34,000. Grand total with GST, shared accommodation and refundable deposit: INR 40,46,520 (studio accommodation: 44,45,000). Fee indicative and subject to change."
+  },
+  "mandatory_fees_total": {
+    "value": 578520, "currency": "INR", "period": "full program", "cohort": "PGP 2027-28",
+    "items": {"gst_18pct_on_admission_commitment_tuition": 578520, "security_deposit_refundable": 20000},
+    "url": "https://indian-school-of-business.aueast01.umbraco.io/media/0k1epmko/pgp-fee-structure-for-2027-28.pdf",
+    "read_on": "2026-10-13",
+    "note": "Value = GST only (60,941 + 38,059 + 4,79,520). Refundable INR 20,000 security deposit not added. Hospitalisation insurance premium payable 'at actuals' (amount not published)."
+  },
+  "living_budget_total": {
+    "value": 459000, "currency": "INR", "period": "1 academic year (full program)", "cohort": "PGP 2027-28", "basis": "school budget",
+    "items": {"shared_accommodation_fee": 234000, "other_estimated_expenses_total": 225000},
+    "url": "https://indian-school-of-business.aueast01.umbraco.io/media/0k1epmko/pgp-fee-structure-for-2027-28.pdf",
+    "read_on": "2026-10-13",
+    "note": "Accommodation on campus is compulsory and billed by ISB (shared 2,34,000, GST-exempt; studio 5,36,000). 'Other estimated expenses per student on campus' (books, laptop, meal plans, IT/laundry/electricity etc.) total INR 2,25,000 per annum, described by ISB as indicative; the PDF layout lists the items 20,000 / 75,000 / 80,000 / 50,000 without a clean item-to-amount mapping, so only the total is kept."
+  },
+  "scholarship": {
+    "value": null, "currency": "INR", "stat": null,
+    "pct_receiving": 25,
+    "url": "https://www.isb.edu/programmes/post-graduate-programmes/pgp-in-management/fees-and-scholarships",
+    "read_on": "2026-10-13",
+    "note": "ISB: 'approximately 25% of our PGP students receive financial support' each year. Waivers from 25% to 100% of tuition (merit, diversity, need: 100% for family income up to INR 8 lakh, 75% for INR 8-20 lakh; 25 'Destination India' 100% waivers for non-Indian nationals). No average award published. One tuition waiver per student."
+  },
+  "employment": {
+    "report_url": "https://placements.isb.edu/isbebook/wp-content/uploads/2025/08/Placement-Report-Co2025.pdf",
+    "cohort": "Class of 2026 (salary, offers) / Class of 2025 (sector and function split)",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "base_salary": {
+      "value": 3729000, "currency": "INR", "stat": "mean",
+      "cohort": "PGP Class of 2026",
+      "url": "https://www.isb.edu/news/press-releases/mohali-isb-graduates-25th-pgp-cohort-in-its-silver-jubilee-year",
+      "read_on": "2026-10-13",
+      "note": "'Average salary for the Co2026 stands at INR 37.29 lakh per annum' (about 11% above previous cohort). No median published. Class of 2025 report (PDF) publishes no salary. ISB is not audited under IPRS and does not specify whether the average is base or total package."
+    },
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "offers": {"total_offers": 1117, "international_offers": 30, "cohort": "Class of 2026", "url": "https://www.isb.edu/news/press-releases/mohali-isb-graduates-25th-pgp-cohort-in-its-silver-jubilee-year", "read_on": "2026-10-13"},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting & Professional/Advisory Services", "pct": 37, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "Technology", "pct": 28, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "BFSI (investment banking, venture capital, fintech)", "pct": 12, "salary": null, "stat": null},
+      {"industry": "other", "sub": "FMCG/E-commerce, Media & Entertainment, Pharma, Infrastructure/Manufacturing and Conglomerates (combined)", "pct": 16, "salary": null, "stat": null}
+    ],
+    "by_industry_meta": {"cohort": "Class of 2025", "basis": "share of 1,164 offers (not of graduates)", "url": "https://placements.isb.edu/isbebook/wp-content/uploads/2025/08/Placement-Report-Co2025.pdf", "read_on": "2026-10-13", "note": "Consulting 37% and Technology 28% are read from the sector pie chart; BFSI 12% and the 16% group from the report text (the pie chart label positions suggest 11% for BFSI). No salary by sector published."},
+    "by_function": [
+      {"function": "Business/strategy consulting", "pct": 34, "salary": null}
+    ],
+    "by_function_meta": {"cohort": "Class of 2025", "basis": "share of overall placements", "url": "https://placements.isb.edu/isbebook/wp-content/uploads/2025/08/Placement-Report-Co2025.pdf", "read_on": "2026-10-13", "note": "Other function shares appear in a pie chart whose labels cannot be matched to values from the PDF text; 59% shifted to a new function, 63% to a new industry."},
+    "by_geography": [],
+    "by_geography_meta": {"note": "No geographic split. Class of 2025: 44 international offers (out of 1,164) 'across Southeast Asia, the Middle East and Africa', 37 companies made international offers. Class of 2026: 30 international offers (out of 1,117).", "url": "https://placements.isb.edu/isbebook/wp-content/uploads/2025/08/Placement-Report-Co2025.pdf", "read_on": "2026-10-13"},
+    "top_employers": [
+      {"name": "Accenture", "hires": null, "note": "over 100 offers, Class of 2026"},
+      {"name": "Mastercard", "hires": null, "note": "more than 40 offers, Class of 2026"},
+      {"name": "EY GDS", "hires": null, "note": "more than 40 offers, Class of 2026"},
+      {"name": "McKinsey & Company", "hires": null, "note": "over 20 students, Class of 2025"},
+      {"name": "Nagarro", "hires": null, "note": "over 20 students, Class of 2025"},
+      {"name": "Deloitte", "hires": null, "note": "over 20 students, Class of 2025"},
+      {"name": "BCG", "hires": null, "note": "over 20 students, Class of 2025"},
+      {"name": "PwC", "hires": null, "note": "over 20 students, Class of 2025"},
+      {"name": "PhonePe", "hires": null, "note": "over 20 students, Class of 2025"},
+      {"name": "Indus Insights", "hires": null, "note": "over 20 students, Class of 2025"}
+    ],
+    "url": "https://placements.isb.edu/isbebook/wp-content/uploads/2025/08/Placement-Report-Co2025.pdf",
+    "read_on": "2026-10-13"
+  },
+  "profile": {
+    "intl_pct": null, "avg_age": 26, "avg_work_exp_years": 4, "women_pct": 47, "gmat_median": null,
+    "gmat_mean": 683, "gmat_80pct_range": "635-730",
+    "cohort": "PGP Class of 2026",
+    "url": "https://placements.isb.edu/isbebook/?p=223",
+    "read_on": "2026-10-13",
+    "note": "812 enrolled; 54% from non-engineering backgrounds. Share of international students not published."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 12, "url": "https://www.isb.edu/news/press-releases/isb-ranks-12-globally-in-ft-mba-rankings-2026-retains-1-spot-in-india-for-the-third-time-in-a-row", "read_on": "2026-10-13"}
+  ],
+  "notes": "Two campuses (Hyderabad, Mohali). Salary is an average (no median), not IPRS-audited. Industry shares are shares of offers (two-offer policy), not of graduates."
+}

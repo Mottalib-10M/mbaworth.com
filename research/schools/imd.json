@@ -1,0 +1,67 @@
+{
+  "slug": "imd",
+  "name": "IMD (International Institute for Management Development)",
+  "short": "IMD",
+  "country": "CH",
+  "city": "Lausanne",
+  "region": "Europe",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 90, "cohort": "Class of 2026", "url": "https://imd.widen.net/s/r8g5ssm75n/imd_mba_class_profile_2026", "read_on": "2026-10-13"},
+    "url": "https://imd.widen.net/s/r8g5ssm75n/imd_mba_class_profile_2026",
+    "read_on": "2026-10-13",
+    "note": "Class profile PDF: 'a 12-month leadership-focused journey'. Local copy: research/sources/imd-class-profile-2026.pdf"
+  },
+  "tuition_total": {"value": 80000, "currency": "CHF", "period": "full program", "cohort": "page current on read date (installments, scholarships deadline 'throughout 2026')", "url": "https://www.imd.org/degree/mba/financing/fees-expenses/", "read_on": "2026-10-13"},
+  "mandatory_fees_total": {"value": 17500, "currency": "CHF", "period": "full program", "cohort": "same page", "url": "https://www.imd.org/degree/mba/financing/fees-expenses/", "read_on": "2026-10-13", "note": "Additional mandatory fees: pre-program course, travel & accommodation for IMD-organized projects, coaching, books, lunches on campus days, relocation & visa help. Fees exclusive of VAT/indirect taxes. Installments 10,000 + 22,500 + 45,000 + 20,000 = 97,500."},
+  "living_budget_total": {"value": 36000, "currency": "CHF", "period": "program year, single", "basis": "school budget", "url": "https://www.imd.org/degree/mba/financing/fees-expenses/", "read_on": "2026-10-13", "breakdown": {"apartment": 20335, "swiss_authorities_registration_residence_tax": 599, "insurances": 930, "other_expenses": 14136}, "couple": {"apartment": 30335, "swiss_authorities": 754, "insurances": 4855, "other_expenses": 19056}, "family": {"apartment": 35335, "swiss_authorities": 864, "insurances": 8235, "other_expenses": 25566}, "note": "'The average for a single person is CHF 36,000' based on MBA feedback and budgets required by Swiss authorities."},
+  "scholarship": {"pct_receiving": 48, "average_value": null, "currency": "CHF", "examples": [{"name": "MBA5 Scholarship", "value": 50000}, {"name": "Hilti STEM Scholars Program", "value": 50000}, {"name": "Nestle Scholarship for Women", "value": 40000}, {"name": "Forte Scholarship for Women", "value": 30000}], "type": "merit scholarships and need-based bursaries", "url": "https://www.imd.org/degree/mba/financing/imd-mba-scholarships/", "read_on": "2026-10-13", "note": "'48% of students received a scholarship from IMD'; '>50% of our scholarships are awarded to women'. No average amount published."},
+  "employment": {
+    "report_url": "https://imd.widen.net/s/v5vnptdpgj/mba-career-statistics-digital",
+    "local_copy": "research/sources/imd-career-statistics.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "MBA CSEA",
+    "graduates": 78,
+    "response_rate": null,
+    "employed_3m_pct": 78,
+    "accepted_3m_pct": 70,
+    "base_salary": {"value": 136940, "currency": "USD", "stat": "mean", "note": "Average annualised TOTAL compensation (not base), nominal USD at August 2026 FX; school states it equated to approx. CHF 110,000. PPP-adjusted figure: 176,719 international dollars (the '$180k median salary (USD PPP)' banner on the career page is a rounded marketing figure; the PDF says average)."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 27, "salary": 144659, "salary_ppp": 163533, "stat": "mean"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 18, "salary": 110669, "salary_ppp": 137182, "stat": "mean"},
+      {"industry": "tech", "sub": "Technology", "pct": 16, "salary": 139163, "salary_ppp": 172366, "stat": "mean"},
+      {"industry": "finance", "sub": "Financial Services", "pct": 11, "salary": 106511, "salary_ppp": 176730, "stat": "mean"},
+      {"industry": "consumer", "sub": "FMCG & Retail (salary row labelled FMCG)", "pct": 9, "salary": 109854, "salary_ppp": 156422, "stat": "mean"},
+      {"industry": "energy", "sub": "Energy", "pct": 9, "salary": 152748, "salary_ppp": 215205, "stat": "mean"},
+      {"industry": "other", "sub": "Other Sectors", "pct": 6, "salary": 174785, "salary_ppp": 243457, "stat": "mean"}
+    ],
+    "by_function": [
+      {"function": "Consulting (internal & external)", "pct": 29, "salary": 136909, "salary_ppp": 149184},
+      {"function": "Finance/Accounting", "pct": 18, "salary": 99759, "salary_ppp": 155780},
+      {"function": "General Management", "pct": 18, "salary": 129461, "salary_ppp": 189220},
+      {"function": "Sales/Marketing/Product Management", "pct": 18, "salary": 170011, "salary_ppp": 255018},
+      {"function": "Operations/Logistics", "pct": 6, "salary": 163494, "salary_ppp": 152040},
+      {"function": "Other functions", "pct": 11, "salary": 137411, "salary_ppp": 214956}
+    ],
+    "by_geography": [
+      {"region": "Europe", "pct": 71, "salary": null, "note": "includes Switzerland"},
+      {"region": "Switzerland", "pct": 31, "salary": 177959, "salary_ppp": 154969, "note": "'employed in Switzerland 31%'"},
+      {"region": "Europe (Western Europe, excl. Switzerland)", "pct": null, "salary": 143323, "salary_ppp": 143560},
+      {"region": "Europe (Other Europe)", "pct": null, "salary": 120233, "salary_ppp": 135954},
+      {"region": "Asia", "pct": 15, "salary": null},
+      {"region": "Americas", "pct": 7, "salary": null},
+      {"region": "Middle East & Africa", "pct": 7, "salary": null},
+      {"region": "Rest of World (outside Europe)", "pct": null, "salary": 119532, "salary_ppp": 267152}
+    ],
+    "country_change_pct": null,
+    "top_employers": [],
+    "note": "Salaries are mean annualised total compensation in nominal USD (first column) and PPP international dollars (second column) per the PDF; column mapping deduced from page 1 ($176,719 = PPP) and footnote ($136,940 = approx. CHF 110,000). Geography % on page 1 (Americas 7, Europe 71, Asia 15, Middle East & Africa 7) – the two 7% values are adjacent in the text extraction, harmless since equal. Career page also states '92% switch role, industry, and/or geography' (https://www.imd.org/degree/mba/career/development/). No employer list in the PDF."
+  },
+  "profile": {"intl_pct": null, "nationalities": 34, "avg_age": 30, "avg_work_exp_years": 6, "women_pct": 34, "gmat_median": null, "gmat_mean": 615, "cohort": "Class of 2026", "url": "https://www.imd.org/degree/mba/program/participants/", "read_on": "2026-10-13", "note": "GMAT 615 = 'Average GMAT/GMAC score' on participants page (GMAT Focus scale presumed, not stated). Women 34% and 90 students from the class profile PDF. Share of non-Swiss students not published."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 30, "url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026", "read_on": "2026-10-13", "note": "Third-party extract of the FT table (tied 30th with Fudan); FT.com not read."}],
+  "notes": "IMD publishes average total compensation, not median base. Exclude from median-based comparisons or flag as mean total comp."
+}

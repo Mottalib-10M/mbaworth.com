@@ -1,0 +1,43 @@
+{
+  "slug": "vlerick",
+  "name": "Vlerick Business School",
+  "short": "Vlerick",
+  "country": "BE",
+  "city": "Brussels",
+  "region": "Europe",
+  "program": {
+    "length_months": 10,
+    "format": "1-year",
+    "class_size": {"value": 35, "cohort": "current cohort (page read 2026-10-13, cohort year not stated)", "url": "https://www.vlerick.com/en/programmes/mba-programmes/full-time-mba-programme/", "read_on": "2026-10-13"},
+    "url": "https://www.vlerick.com/en/programmes/mba-programmes/full-time-mba-programme/",
+    "read_on": "2026-10-13",
+    "note": "10 months (September - June), Brussels campus, one intake per year; next edition starts 1 September 2027."
+  },
+  "tuition_total": {"value": 44000, "currency": "EUR", "period": "full program", "cohort": "Intake 1 September 2027", "url": "https://www.vlerick.com/en/programmes/mba-programmes/full-time-mba-programme/", "read_on": "2026-10-13", "note": "Includes tuition, electives, textbooks, career services and coaching, campus facilities, alumni membership, FT digital subscription. A web-search extract of an older version of the page showed EUR 43,000."},
+  "mandatory_fees_total": {"value": null, "currency": "EUR", "period": "full program", "url": "https://www.vlerick.com/en/programmes/mba-programmes/full-time-mba-programme/", "read_on": "2026-10-13", "note": "No separate mandatory fee. International study course (Singapore or South Africa) not included: school estimates EUR 2,000-3,000 for flights, visas, accommodation. Optional instalment plan: EUR 250 admin fee."},
+  "living_budget_total": {"value": null, "currency": "EUR", "period": "10 months, single", "basis": "school budget", "monthly_range": [1200, 1700], "total_range_10_months": [12000, 17000], "breakdown_monthly": {"housing": "500-850", "utilities": 150, "food": 250, "other_personal": 150}, "url": "https://www.vlerick.com/en/programmes/mba-programmes/full-time-mba-programme/", "read_on": "2026-10-13", "note": "School gives monthly range EUR 1,200-1,700; 10-month totals are computed by us (10 x monthly). No single figure published."},
+  "scholarship": {"pct_receiving": null, "average_value": null, "currency": "EUR", "range_pct_of_tuition": [5, 50], "type": "mostly merit-based, first-come first-served", "url": "https://www.vlerick.com/en/programmes/mba-programmes/full-time-mba-programme/", "read_on": "2026-10-13", "note": "'Full-time MBA scholarships range from 5% to 50% of the tuition fee.' Flemish SME e-wallet subsidy discontinued from 1 January 2027."},
+  "employment": {
+    "report_url": "https://www.vlerick.com/en/programmes/mba-programmes/mba-career-services/",
+    "read_on": "2026-10-13",
+    "cohort": null,
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "employed_6m_pct": 85,
+    "accepted_3m_pct": null,
+    "base_salary": {"value": null, "currency": "EUR", "stat": null, "note": "No post-MBA salary published; only '76% salary increase' (cohort, basis and statistic not stated)."},
+    "salary_increase_pct": 76,
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [{"region": "Europe", "pct": 75, "salary": null}],
+    "country_change_pct": null,
+    "top_employers": [],
+    "note": "Vlerick publishes no Full-time MBA employment report (no PDF found on vlerick.com or via search on 2026-10-13). Headline figures only, without cohort: 85% employed within six months, 75% employed in Europe, 65% found a job through Vlerick activities, 76% salary increase, 100+ recruitment partners."
+  },
+  "profile": {"intl_pct": 88, "avg_age": 32, "avg_work_exp_years": null, "women_pct": 40, "gmat_median": null, "cohort": "current cohort (year not stated)", "url": "https://www.vlerick.com/en/programmes/mba-programmes/full-time-mba-programme/", "read_on": "2026-10-13", "note": "35 cohort size, 88% international, 40% female, 32 average age. GMAT minimum 600 (or VBAT/GRE)."},
+  "rankings_cited": [],
+  "notes": "No salary published: exclude from salary-based ROI ranking, keep cost data. FT Global MBA 2026 rank not found on an official or extract source (school page shows '#31 FT European Business School Ranking', undated) -> not recorded."
+}

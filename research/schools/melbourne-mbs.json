@@ -1,0 +1,28 @@
+{
+  "slug": "melbourne-mbs",
+  "name": "Melbourne Business School, The University of Melbourne",
+  "short": "Melbourne Business School",
+  "country": "AU", "city": "Melbourne", "region": "Oceania",
+  "program": {
+    "length_months": 23, "format": "2-year", "credit_points": 225,
+    "class_size": {"value": null, "cohort": null, "url": "https://mbs.edu/programs/mba/full-time-mba", "read_on": "2026-10-13", "note": "mbs.edu returns 403 to curl and WebFetch; not read"},
+    "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ba", "read_on": "2026-10-13",
+    "note": "University of Melbourne 2026 Handbook, MC-BA: 225 credit points, '23 months full-time', delivered by Melbourne Business School (handbook page last updated 11 June 2026). Whether an accelerated route exists not confirmed on an official page."
+  },
+  "tuition_total": {"value": 112536, "currency": "AUD", "period": "full program", "cohort": "2026 indicative total course fee", "stat": "list price (domestic or international not confirmed)", "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-business-administration/", "read_on": "2026-10-13", "source_type": "search excerpt of official page", "note": "Seen only in a search-result excerpt of the official University of Melbourne course page (page itself 403 to curl/WebFetch). To re-read in a browser; an aggregator gives AUD 120,384 for international students (not used)."},
+  "mandatory_fees_total": {"value": null, "currency": "AUD", "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-business-administration/", "read_on": "2026-10-13", "note": "not read (403)"},
+  "living_budget_total": {"value": null, "currency": "AUD", "basis": null, "url": "https://mbs.edu/programs/mba/full-time-mba", "read_on": "2026-10-13", "note": "not read (403)"},
+  "scholarship": {"value": null, "currency": "AUD", "url": "https://mbs.edu/programs/mba/full-time-mba", "read_on": "2026-10-13", "note": "not read (403)"},
+  "employment": {
+    "report_url": null,
+    "url": "https://mbs.edu/programs/mba/full-time-mba", "read_on": "2026-10-13",
+    "cohort": null, "standard": null,
+    "response_rate": null, "employed_3m_pct": null, "accepted_3m_pct": null,
+    "base_salary": null, "signing_bonus": null, "internship_monthly": null,
+    "by_industry": [], "by_function": [], "by_geography": [], "top_employers": [],
+    "note": "No official employment report found: mbs.edu and study.unimelb.edu.au (career-outcomes page) answer 403 to curl and WebFetch; searches return only third-party figures (QS, consultancy guides), not reusable."
+  },
+  "profile": {"intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": null, "gmat_median": null, "url": "https://mbs.edu/programs/mba/full-time-mba", "read_on": "2026-10-13", "note": "not read (403)"},
+  "rankings_cited": [],
+  "notes": "Whole school site behind anti-bot (403). To re-read in a browser: fees, living budget, scholarships, employment report, class profile, FT 2026 rank. QS Global MBA 2026 31st (third-party news, not cited)."
+}

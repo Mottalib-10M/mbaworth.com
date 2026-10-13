@@ -1,0 +1,44 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { KIT as K } from '../../lib/kit';
+import { SCHOOLS, SC_META } from '../../lib/data';
+import { SOURCES } from '../../lib/helpers';
+import { webPageSchema, breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('method', lang);
+const title = 'Admit Rate and Net Price Method 2026: Data and Rules';
+const description = 'How AdmitCost dates each 2026 admit rate, fits a score to the 25th and 75th percentiles, labels reach, target or likely, and reads net price by family income.';
+const Y = SC_META.years;
+const R = K.rule;
+const newer = SCHOOLS.filter((s) => s.adm?.newer).length;
+const h = K.s('harvard');
+const hp = K.satPos('harvard', 1500);
+const a27 = K.actToSat(27)!;
+const src = ['scorecard', 'scorecard_doc', 'ipeds_netprice', 'cds', 'concordance', 'act_enhanced', 'sat_report', 'act_class2025', 'npc_rule'].map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'Method and data', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method and data', path }])]} breadcrumbs={[{ label: 'Method and data' }]} sources={src}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Method and data</h1>
+    <p>Every number on this site comes from one of two places: the federal College Scorecard file released on June 10, 2026, or a document published by the university itself. This page explains which figure comes from where, which year it describes, and the three rules the calculator applies on top: the score position, the reach / target / likely label and the out-of-state adjustment.</p>
+    <h2>1. The admit rate: newest cycle first, always dated</h2>
+    <p>The Scorecard admit rate describes the class that entered in {Y.admissions}. Many universities have published newer counts since, in their Common Data Set (section C1: first-year applicants, admitted, enrolled) or in an official class profile. When we have read such a document, the page uses it, names the entering class and links the document; {newer} of the {SCHOOLS.length} universities are in that case today. The rate is computed from the published counts, never copied as a rounded figure: at Harvard, {h.adm?.admitted ? K.num(h.adm.admitted) : ''} admitted out of {h.adm?.applicants ? K.num(h.adm.applicants) : ''} applicants gives {K.rate('harvard')}. Where no newer official document exists, the page shows the fall 2024 federal rate and says so.</p>
+    <h2>2. SAT and ACT ranges</h2>
+    <p>Universities report the 25th and 75th percentiles of enrolled first-years who sent a score. When the Common Data Set gives a composite SAT range, we use it. When it gives only the two sections, or when only the Scorecard is available, we add the section percentiles (reading and writing plus math). That sum is an approximation: the 25th percentile of the total is not exactly the sum of the two 25th percentiles, and the page says "sum of section percentiles" wherever it is used. Test-free universities (the University of California and the California State University systems) do not look at scores, so no range is shown and the calculator ignores the score.</p>
+    <h2>3. Where your score sits: a fitted curve</h2>
+    <p>To say what share of enrolled students scored below you, we fit a normal curve to the two published percentiles: the middle of the curve is halfway between them and its standard deviation is their gap divided by {K.num(R.iqrToSd, 3)}. For example, at Harvard, whose range is {K.satRange('harvard')}, a total of 1,500 lands at about {hp === null ? 'n/a' : K.pct(hp, 0)}. Real score distributions at selective schools are bunched near the top and cut at 1600, so treat the figure as a rough position, accurate to a few points in the middle of the range and less at the edges.</p>
+    <h2>4. Reach, target, likely: a fixed rule, not a prediction</h2>
+    <p>The label is the same arithmetic for every school and every student. A university admitting under {K.num(R.reachBelow * 100)}% of applicants is a reach for everyone, whatever the score: at that level, most rejected applicants had scores inside the range. Otherwise, a score below the 25th percentile makes it a reach; a school admitting at least {K.num(R.likelyAbove * 100)}% with a score at or above its median is likely; everything else is a target. Without a score (test-free school, or no score sent) the label follows the admit rate alone. We do not publish a percentage chance for one student: no public data links grades, essays, major, residency or legacy status to outcomes, and a precise-looking percentage would be invented.</p>
+    <h2>5. Net price by family income</h2>
+    <p>The net price is the average amount paid, after grants and scholarships, by first-time full-time students who received federal aid, in five family income bands: {K.listOf(K.bands)}. It covers academic year {Y.net} (Scorecard, from the IPEDS Student Financial Aid survey). Loans are not subtracted: they are a way of paying, not a discount. Two limits matter. At public universities the federal figure covers in-state students only; for a nonresident the calculator adds the published gap between out-of-state and in-state tuition and fees ({Y.tuition}), which is an upper figure since some states give nonresident scholarships. And a negative figure means grants exceeded the cost on average; it is shown as $0 with the excess on a separate line.</p>
+    <h2>6. Sticker price and the cost of attendance</h2>
+    <p>The sticker price is the total cost of attendance for a year on campus: tuition, fees, housing, food, books and personal costs. We use the newest budget the university published (often {SCHOOLS.filter((s) => s.sticker?.newer && s.sticker.year === '2026-27').length > 0 ? '2026-27' : '2025-26'}), with what it includes written on the page; when we have not read one, the federal {Y.coa} figure is shown and dated. The net price and the sticker price can belong to different years: the comparison line in the calculator says which.</p>
+    <h2>7. ACT and SAT conversion</h2>
+    <p>Conversions use the 2018 ACT/SAT Concordance Tables published jointly by ACT and the College Board, still the official tables in October 2026: ACT 27, for example, corresponds to SAT {K.num(a27.point)} (range {K.num(a27.low)} to {K.num(a27.high)}). Since September 2025 the ACT Composite averages English, math and reading only; ACT states that the three-section Composite is comparable to the former one, and no new concordance has been published.</p>
+    <h2>8. National SAT and ACT figures</h2>
+    <p>The share of test takers below a given SAT score is interpolated between the quartiles ({K.num(K.P.sat.p25)}, {K.num(K.P.sat.p50)}, {K.num(K.P.sat.p75)}) and the score-band counts that the College Board published for the {K.num(K.P.sat.takers)} students of the class of {K.P.sat.classOf}. The ACT average ({K.num(K.P.act.meanComposite, 1)}) is the national figure for the class of {K.P.act.classOf}.</p>
+    <h2>What the numbers cannot know</h2>
+    <p>Admit rates mix early and regular rounds, in-state and out-of-state applicants, and every major; at many universities one program admits at a fraction of the overall rate. Net prices are averages over aided students, and your own price depends on assets, siblings in college, the school's own formula and merit awards. The university's net price calculator, linked from each page, and its award letter are the figures that count.</p>
+    <p>Corrections: <a href={route('contact', lang)}>contact page</a>. Who we are: <a href={route('about', lang)}>about</a>.</p>
+  </article>
+</PageLayout>

@@ -1,0 +1,464 @@
+{
+  "slug": "ucla-anderson",
+  "name": "UCLA Anderson School of Management",
+  "short": "UCLA Anderson",
+  "country": "US",
+  "city": "Los Angeles",
+  "region": "US",
+  "program": {
+    "length_months": null,
+    "format": "2-year",
+    "class_size": {
+      "value": 287,
+      "cohort": "Class of 2028 (entering 2026)",
+      "url": "https://www.anderson.ucla.edu/degrees/full-time-mba/admissions/class-profile",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 165468,
+    "currency": "USD",
+    "period": "full program",
+    "cohort": "AY 2026-27 + AY 2027-28 estimates",
+    "basis": "sum of the two published estimated MBA program fee totals (82,734 for AY 2026-27 incl. summer 2026, 82,734 for AY 2027-28)",
+    "annual_value": 82734,
+    "url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 20709,
+    "currency": "USD",
+    "period": "full program",
+    "cohort": "AY 2026-27 + AY 2027-28 estimates",
+    "basis": "mandatory UCLA fees 2,105 + 1,893 plus health insurance 8,668 + 8,043 (health insurance listed by the school as a mandatory charge)",
+    "components": {
+      "ucla_fees": 3998,
+      "health_insurance": 16711
+    },
+    "url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 82253,
+    "currency": "USD",
+    "period": "full program",
+    "cohort": "AY 2026-27 + AY 2027-28 estimates",
+    "basis": "school budget",
+    "components_full_program": {
+      "food_housing": 62329,
+      "books_supplies": 4676,
+      "transportation": 8274,
+      "personal": 6974
+    },
+    "total_student_budget_full_program": 268430,
+    "note": "sum of the school's two published annual budgets (137,951 for AY 2026-27 incl. summer; 130,479 for AY 2027-28) minus mandatory charges",
+    "url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "USD",
+    "pct_aided": 50,
+    "note": "School states about half of students receive fellowships and about 75% use some form of financial assistance; no average award published",
+    "url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://www.anderson.ucla.edu/sites/default/files/document/2026-03/Class%20of%202025%20Employment%20Report%20PDF_0.pdf",
+    "url": "https://www.anderson.ucla.edu/sites/default/files/document/2026-03/Class%20of%202025%20Employment%20Report%20PDF_0.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "MBA CSEA",
+    "graduates": 290,
+    "seeking": 241,
+    "response_rate": 95.2,
+    "response_rate_note": "computed: (290 total - 14 no information) / 290; 86.7% of accepting graduates reported salary",
+    "employed_3m_pct": 76.3,
+    "accepted_3m_pct": 74.7,
+    "employed_6m_pct": 85,
+    "employed_3m_note": "offers 76.3% and acceptances 74.7% of job seekers by 3 months (Sept 13, 2025); 85% accepted by 6 months (non-CSEA)",
+    "base_salary": {
+      "value": 160096,
+      "currency": "USD",
+      "stat": "median",
+      "mean": 153566,
+      "median_us_work_authorized": 169250,
+      "median_non_us_work_authorized": 156000
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "mean": 34027,
+      "pct_receiving": 67.3
+    },
+    "internship_monthly": {
+      "value": 9370,
+      "currency": "USD",
+      "stat": "median",
+      "cohort": "Class of 2026 summer internships",
+      "mean": 9491
+    },
+    "by_industry": [
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 28.3,
+        "salary": 147000,
+        "stat": "median",
+        "mean": 148731
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology - Software",
+        "pct": 10,
+        "salary": 170000,
+        "stat": "median"
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology - General",
+        "pct": 10,
+        "salary": 142750,
+        "stat": "median"
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology - Internet Services / E-Commerce",
+        "pct": 3.9,
+        "salary": 142800,
+        "stat": "median"
+      },
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 25.6,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 172289
+      },
+      {
+        "industry": "finance",
+        "sub": "Financial Services",
+        "pct": 19.4,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 158448
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking",
+        "pct": 13.3,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "investment management",
+        "pct": 2.2,
+        "salary": 95343,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "general / insurance",
+        "pct": 2.8,
+        "salary": 120000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity / venture capital",
+        "pct": 1.1,
+        "salary": null,
+        "stat": "median"
+      },
+      {
+        "industry": "other",
+        "sub": "Entertainment & Media",
+        "pct": 7.2,
+        "salary": 135200,
+        "stat": "median",
+        "mean": 135022
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare",
+        "pct": 5.6,
+        "salary": 131500,
+        "stat": "median",
+        "mean": 133675
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Products",
+        "pct": 5.6,
+        "salary": 121500,
+        "stat": "median",
+        "mean": 118500
+      },
+      {
+        "industry": "other",
+        "sub": "Real Estate",
+        "pct": 2.8,
+        "salary": 115000,
+        "stat": "median",
+        "mean": 124000
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy, Utilities & Alt. Energy",
+        "pct": 1.1,
+        "salary": null,
+        "stat": "median"
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Non-Profit / Education",
+        "pct": 1.1,
+        "salary": null,
+        "stat": "median"
+      },
+      {
+        "industry": "other",
+        "sub": "Other (hospitality, manufacturing, transportation, agribusiness, law, engineering)",
+        "pct": 3.3,
+        "salary": 192500,
+        "stat": "median"
+      }
+    ],
+    "by_function": [
+      {
+        "function": "Consulting",
+        "pct": 24.4,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "function": "Finance & Accounting",
+        "pct": 24.4,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "function": "Investment Banking",
+        "pct": 13.3,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "function": "Corporate Finance",
+        "pct": 5.6,
+        "salary": 132000,
+        "stat": "median"
+      },
+      {
+        "function": "Marketing & Sales",
+        "pct": 21.7,
+        "salary": 144000,
+        "stat": "median"
+      },
+      {
+        "function": "Product Management",
+        "pct": 8.9,
+        "salary": 170000,
+        "stat": "median"
+      },
+      {
+        "function": "Product Marketing",
+        "pct": 5.6,
+        "salary": 148125,
+        "stat": "median"
+      },
+      {
+        "function": "General Management",
+        "pct": 13.3,
+        "salary": 142800,
+        "stat": "median"
+      },
+      {
+        "function": "Operations & Logistics",
+        "pct": 7.2,
+        "salary": 132600,
+        "stat": "median"
+      },
+      {
+        "function": "Other",
+        "pct": 7.8,
+        "salary": 145000,
+        "stat": "median"
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US West",
+        "sub": "California (total)",
+        "pct": 67.8,
+        "salary": 171000,
+        "stat": "median"
+      },
+      {
+        "region": "US West",
+        "sub": "Southern California",
+        "pct": 47.8,
+        "salary": 172500,
+        "stat": "median"
+      },
+      {
+        "region": "US West",
+        "sub": "Northern California",
+        "pct": 20,
+        "salary": 171000,
+        "stat": "median"
+      },
+      {
+        "region": "US West",
+        "sub": "West excluding California",
+        "pct": 7.2,
+        "salary": 142800,
+        "stat": "median"
+      },
+      {
+        "region": "US Northeast",
+        "pct": 9.4,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "region": "US Southwest",
+        "pct": 4.4,
+        "salary": 125000,
+        "stat": "median"
+      },
+      {
+        "region": "US Midwest",
+        "pct": 2.2,
+        "salary": 160000,
+        "stat": "median"
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 2.2,
+        "salary": 123950,
+        "stat": "median"
+      },
+      {
+        "region": "US South",
+        "pct": 0.6,
+        "salary": null,
+        "stat": "median"
+      },
+      {
+        "region": "Asia",
+        "pct": 3.3,
+        "salary": 112309,
+        "stat": "median"
+      },
+      {
+        "region": "Latin America",
+        "pct": 2.2,
+        "salary": 92281,
+        "stat": "median"
+      },
+      {
+        "region": "Middle East",
+        "pct": 0.6,
+        "salary": null,
+        "stat": "median"
+      }
+    ],
+    "us_total": {
+      "pct": 93.9,
+      "salary": 168500,
+      "stat": "median"
+    },
+    "international_total": {
+      "pct": 6.1,
+      "salary": 104907,
+      "stat": "median"
+    },
+    "top_employers": [
+      {
+        "name": "Amazon",
+        "hires": null,
+        "band": "20+ (FT + internships)"
+      },
+      {
+        "name": "Microsoft",
+        "hires": null,
+        "band": "20+ (FT + internships)"
+      },
+      {
+        "name": "Bank of America",
+        "hires": null,
+        "band": "10-19"
+      },
+      {
+        "name": "Boston Consulting Group (BCG)",
+        "hires": null,
+        "band": "10-19"
+      },
+      {
+        "name": "Deloitte",
+        "hires": null,
+        "band": "10-19"
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": null,
+        "band": "10-19"
+      },
+      {
+        "name": "Apple",
+        "hires": null,
+        "band": "4-9"
+      },
+      {
+        "name": "Bain & Company",
+        "hires": null,
+        "band": "4-9"
+      },
+      {
+        "name": "Google",
+        "hires": null,
+        "band": "4-9"
+      },
+      {
+        "name": "Jefferies",
+        "hires": null,
+        "band": "4-9"
+      },
+      {
+        "name": "Moelis & Company",
+        "hires": null,
+        "band": "4-9"
+      },
+      {
+        "name": "PwC",
+        "hires": null,
+        "band": "4-9"
+      }
+    ]
+  },
+  "profile": {
+    "cohort": "Class of 2028",
+    "intl_pct": 36,
+    "avg_age": 28,
+    "avg_work_exp_years": 5.4,
+    "women_pct": 39,
+    "gmat_mean": 718,
+    "gmat_median": null,
+    "gmat_note": "school publishes mean GMAT 718 (10th edition) and 660 (Focus Edition), not a median",
+    "url": "https://www.anderson.ucla.edu/degrees/full-time-mba/admissions/class-profile",
+    "read_on": "2026-10-13"
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 32,
+      "url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026",
+      "read_on": "2026-10-13",
+      "note": "third-party extract of the FT table"
+    }
+  ],
+  "notes": "Employment report PDF saved as research/sources/amerique/ucla-anderson-employment-2025.pdf (16 p., CSEA v6). Industry/function % are of graduates who accepted within 3 months. Top employers given in bands combining full-time and internship hires. Entertainment & Media and Real Estate mapped to other."
+}

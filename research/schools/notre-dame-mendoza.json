@@ -1,0 +1,84 @@
+{
+  "slug": "notre-dame-mendoza",
+  "name": "Mendoza College of Business, University of Notre Dame",
+  "short": "Notre Dame Mendoza",
+  "country": "US",
+  "city": "Notre Dame (South Bend), Indiana",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": null, "cohort": null, "url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/", "read_on": "2026-10-13", "note": "Class size not published on the school pages read."}
+  },
+  "tuition_total": {
+    "value": 150920, "currency": "USD", "period": "full program (2 x annual 2026-27 rate)", "annual_value": 75460, "cohort": "2026-2027 academic year",
+    "basis": "School publishes the annual tuition ($75,460 for 2026-27); total = 2 x annual, before any increase for year 2 (school says annual increases are anticipated).",
+    "url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/", "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 6700, "currency": "USD", "period": "full program (2 x annual 2026-27)", "annual_value": 3350, "cohort": "2026-2027 academic year",
+    "detail": {"program_fee": 2700, "student_fees": 650},
+    "url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/", "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 57980, "currency": "USD", "period": "full program (2 x annual 2026-27 budget)", "annual_value": 28990, "cohort": "2026-2027 academic year",
+    "basis": "school budget",
+    "detail": {"housing_and_food": 17820, "books_and_supplies": 1750, "personal": 6720, "transportation": 2700, "total_cost_of_attendance_annual": 107800},
+    "url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/", "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null,
+    "note": "Merit scholarships on holistic review, all applicants considered automatically; Meyer Fellows receive full tuition plus a $25,000 annual stipend. No average award or share of class aided published on the page read.",
+    "url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/", "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://mendoza.nd.edu/wp-content/uploads/2026/04/031026_MBA-Career-Report_Final.pdf",
+    "url": "https://mendoza.nd.edu/wp-content/uploads/2026/04/031026_MBA-Career-Report_Final.pdf", "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "response_rate": null, "salary_data_rate_pct": 98.4,
+    "employed_3m_pct": 71.1, "offers_3m_pct": 72.2, "accepted_3m_pct": 71.1,
+    "base_salary": {"value": 136000, "currency": "USD", "stat": "median", "mean": 139148},
+    "signing_bonus": {"value": 35000, "stat": "median", "mean": 36847, "pct_receiving": null},
+    "internship_monthly": {"value": 9209, "currency": "USD", "stat": "median", "cohort": "Class of 2026"},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 21.9, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "Financial Services", "pct": 31.2, "salary": 130000, "stat": "median"},
+      {"industry": "tech", "sub": "Technology", "pct": 18.8, "salary": 142800, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 10.9, "salary": 130000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 4.7, "salary": 133000, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Products", "pct": 3.1, "salary": null, "stat": "median", "note": "insufficient data"},
+      {"industry": "other", "sub": "Other", "pct": 7.8, "salary": 117000, "stat": "median"},
+      {"industry": "energy", "sub": "Energy", "pct": 1.6, "salary": null, "stat": "median", "note": "insufficient data"}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 23.4, "salary": 175000},
+      {"function": "Finance/Accounting", "pct": 26.6, "salary": 135000},
+      {"function": "General Management", "pct": 14.1, "salary": 130000},
+      {"function": "Marketing/Sales", "pct": 17.2, "salary": 133000},
+      {"function": "Operations/Logistics", "pct": 15.6, "salary": 142800},
+      {"function": "Information Technology", "pct": 1.6, "salary": null},
+      {"function": "Other", "pct": 1.6, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "US Midwest", "pct": 42.2, "salary": null},
+      {"region": "US Northeast", "pct": 12.5, "salary": null},
+      {"region": "US Mid-Atlantic", "pct": 9.4, "salary": null},
+      {"region": "US South", "pct": 12.5, "salary": null},
+      {"region": "US Southwest", "pct": 9.4, "salary": null},
+      {"region": "US West", "pct": 10.9, "salary": null}
+    ],
+    "top_employers": [
+      {"name": "Microsoft", "hires": null}, {"name": "PwC", "hires": null}, {"name": "EY-Parthenon", "hires": null}, {"name": "Amazon", "hires": null},
+      {"name": "JPMorgan Chase & Co.", "hires": null}, {"name": "McKinsey & Company", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "Bank of America", "hires": null}
+    ],
+    "notes": "Industry percentages read from the bar chart (page 3, image checked); salaries are medians. Regions sum to 97.0% (remainder not labelled; no international share given). Top employers: four logos on page 4, others from the 'all employers' list, hire counts not given."
+  },
+  "profile": {
+    "intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": null, "gmat_median": 655, "gre_median": 315, "gpa_avg": 3.3,
+    "cohort": "current admissions figures (cohort not stated)",
+    "url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/", "read_on": "2026-10-13",
+    "note": "Other profile figures not found on school pages read (third-party sites give some, not reused)."
+  },
+  "rankings_cited": [],
+  "notes": "Employment PDF saved as research/sources/amerique/notre-dame-mendoza-employment-2025-nd.pdf (identical copy also served from a Storyblok CDN)."
+}

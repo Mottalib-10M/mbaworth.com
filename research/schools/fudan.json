@@ -1,0 +1,63 @@
+{
+  "slug": "fudan",
+  "name": "Fudan University School of Management (Fudan International MBA)",
+  "short": "Fudan",
+  "country": "CN",
+  "city": "Shanghai",
+  "region": "Asia",
+  "program": {
+    "length_months": 24,
+    "format": "2-year full-time, English-taught (Fudan IMBA, MIT Sloan partnership), September intake",
+    "url": "https://www.fdsm.fudan.edu.cn/fdimba/fudan-mit_imba.html",
+    "read_on": "2026-10-13",
+    "class_size": {"value": 93, "cohort": "Class of 2023 (latest profile published)", "url": "https://www.fdsm.fudan.edu.cn/fdimba/class_profile.html", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {"value": 369800, "currency": "CNY", "period": "full program", "cohort": "Fudan IMBA entry (intake year not stated on page)", "url": "https://www.fdsm.fudan.edu.cn/fdimba/scholarship_fees.html", "read_on": "2026-10-13", "note": "Page states 'Fudan IMBA entry: CNY 369,800' (part-time Chinese-taught Fudan MBA: CNY 539,800). Instalments not stated."},
+  "mandatory_fees_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": null, "url": "https://www.fdsm.fudan.edu.cn/fdimba/scholarship_fees.html", "read_on": "2026-10-13", "note": "No other mandatory fee published on the fees page."},
+  "living_budget_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": null, "basis": null, "url": "https://www.fdsm.fudan.edu.cn/fdimba/housing.html", "read_on": "2026-10-13", "note": "No living budget published. On-campus dormitory fees are given per person per day in images dated 2018 (not reused as current); water and electricity extra."},
+  "scholarship": {"value": null, "currency": "CNY", "stat": null, "pct_receiving": null, "cohort": null, "url": "https://www.fdsm.fudan.edu.cn/fdimba/scholarship_fees.html", "read_on": "2026-10-13", "note": "Entry scholarships (Diversity, Entrepreneurship, Excellence, Women Leadership, Social Responsibility, Young Talent), amounts not stated. GMAT scholarships: 750+ (Focus 715+) 100% of tuition; 710-750 (665-715) 50%; 680-710 (625-665) 30%; 650-680 (595-625) RMB 40,000. Xing Quan Belt and Road Scholarship RMB 250,000 over two years for 2 students/year. Share of students aided not published."},
+  "employment": {
+    "report_url": "https://www.fdsm.fudan.edu.cn/globalmba/download/2025_Graduate_Employment_Report.pdf",
+    "url": "https://www.fdsm.fudan.edu.cn/globalmba/download/2025_Graduate_Employment_Report.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025 (Fudan International MBA)",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 94.4,
+    "base_salary": {"value": null, "currency": "CNY", "stat": null, "note": "The 2025 report publishes no salary figure."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "tech", "sub": "IT/High-tech/Telecom", "pct": 19.6, "salary": null, "stat": null},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 15.7, "salary": null, "stat": null},
+      {"industry": "consulting", "sub": "Consulting Services", "pct": 13.7, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Education/Training", "pct": 11.8, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "Financial Services (mainly asset management, VC/PE, securities/investment banking)", "pct": 9.8, "salary": null, "stat": null}
+    ],
+    "by_function": [
+      {"function": "Marketing", "pct": 13.6, "salary": null},
+      {"function": "Product Management", "pct": 11.4, "salary": null},
+      {"function": "Consulting", "pct": 9.1, "salary": null},
+      {"function": "General Management", "pct": 9.1, "salary": null},
+      {"function": "Sales/Account Management", "pct": 9.1, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "Asia", "sub": "Shanghai", "pct": 70.6, "salary": null},
+      {"region": "Asia", "sub": "Hangzhou", "pct": 5.9, "salary": null},
+      {"region": "Asia", "sub": "Hong Kong", "pct": 2.0, "salary": null},
+      {"region": "Asia", "sub": "Other cities in China (Shenzhen, Guangzhou, Suzhou, Wuxi)", "pct": 7.8, "salary": null},
+      {"region": "other", "sub": "Other countries (Canada, Netherlands, Peru, Germany, Malaysia, Ivory Coast, South Korea)", "pct": 13.7, "salary": null}
+    ],
+    "top_employers": [
+      {"name": "Hailiang Education Group", "hires": 2, "note": "'hired at least 2'"}, {"name": "Tencent", "hires": 2, "note": "'hired at least 2'"},
+      {"name": "Accenture", "hires": null}, {"name": "Advancy", "hires": null}, {"name": "Boehringer-Ingelheim", "hires": null}, {"name": "Booking.com", "hires": null},
+      {"name": "ByteDance", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "EY", "hires": null}, {"name": "Google", "hires": null},
+      {"name": "P&G", "hires": null}, {"name": "RedNote", "hires": null}, {"name": "Olympus Europa", "hires": null}, {"name": "United Imaging Healthcare Europe", "hires": null}, {"name": "SWHYHK", "hires": null}
+    ],
+    "notes": "Only top-5 industries and top-5 functions are published. Other figures: average 1.7 job offers; 21.8% entrepreneurship/family/self-owned business; 80.4% career switch. Employer types: private 66.7%, wholly foreign-owned 21.6%, state-owned 9.7%, government/non-profit 2.0%. Response rate and number of graduates not stated; figures 'based on responses received ... in the three months after graduation'. 'Hired at least 2' marked with hires=2 as a floor."
+  },
+  "profile": {"intl_pct": null, "avg_age": 29.7, "avg_work_exp_years": 3.2, "women_pct": 63, "gmat_median": null, "cohort": "Class of 2023", "url": "https://www.fdsm.fudan.edu.cn/fdimba/class_profile.html", "read_on": "2026-10-13", "note": "Latest class profile on the IMBA site is Class of 2023 (93 enrolled); international share not published."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 30, "url": "https://www.fdsm.fudan.edu.cn/fdimba/imba1556955430644", "read_on": "2026-10-13", "note": "School news 16 Feb 2026: '30th worldwide'."}],
+  "notes": "Source PDF saved as research/sources/fudan-employment-report-2025.pdf. No salary published by the school: excluded from ROI ranking unless a salary is found."
+}

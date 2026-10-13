@@ -1,0 +1,33 @@
+{
+  "slug": "ntu-nanyang",
+  "name": "Nanyang Business School, Nanyang Technological University (Nanyang MBA)",
+  "short": "Nanyang (NTU)",
+  "country": "SG", "city": "Singapore", "region": "Asia",
+  "program": {
+    "length_months": 12, "format": "1-year", "intake": "July (yearly)",
+    "options": "12 months; 14 months (Singapore + Japan double degree); 24 months (double degrees with St Gallen or France)",
+    "class_size": {"value": null, "cohort": null, "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba", "read_on": "2026-10-13", "note": "class size not published on the pages read"},
+    "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/faqs", "read_on": "2026-10-13"
+  },
+  "tuition_total": {"value": 92955.20, "currency": "SGD", "period": "full program", "cohort": "July 2027 intake", "stat": "list price incl. 9% GST (S$85,280 before GST)", "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding", "read_on": "2026-10-13", "note": "Fee schedule total S$92,955.20 incl. GST, enrolment fee payable on acceptance deducted from tuition (S$21,800 on fee schedule, S$21,600 on admissions page). Singapore citizens/PR and NTU alumni get a 10% grant; sponsored employees 15% (20% for 2+ from same organisation)."},
+  "mandatory_fees_total": {"value": 620, "currency": "SGD", "period": "one-time", "cohort": "July 2027 intake", "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding", "read_on": "2026-10-13", "note": "One-time miscellaneous fee S$620 incl. GST (insurance, IT, exam fees per FAQ). Application fee S$100 not included."},
+  "living_budget_total": {"value": null, "currency": "SGD", "monthly_min": 1200, "monthly_max": 1500, "months": 12, "stat": "range", "basis": "school budget", "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/faqs", "read_on": "2026-10-13", "note": "FAQ: average monthly living expenses S$1,200-1,500 assuming on-campus dormitory; no total budget published."},
+  "scholarship": {"value": null, "currency": "SGD", "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/scholarships", "read_on": "2026-10-13", "note": "No average award or share of class published. Named awards: APEC scholarship (full tuition + S$1,350 monthly stipend + S$500 books + travel), ASEAN scholarship (S$25,000 tuition + S$1,350 monthly stipend), K.N. Sellappah (10% of tuition), many partial merit/diversity scholarships (amounts not stated), Corporate Leaders MBA Fellowship (full tuition, sponsored)."},
+  "employment": {
+    "report_url": "https://www.ntu.edu.sg/business/forms/nanyang-mba-career-report-download",
+    "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba", "read_on": "2026-10-13",
+    "cohort": null, "standard": "school",
+    "response_rate": null, "employed_3m_pct": 93, "accepted_3m_pct": null,
+    "base_salary": null,
+    "signing_bonus": null,
+    "internship_monthly": null,
+    "by_industry": [], "by_function": [], "by_geography": [],
+    "top_employers": [{"name": "Amazon", "hires": null}, {"name": "Apple", "hires": null}, {"name": "BCG", "hires": null}, {"name": "Deloitte Consulting", "hires": null}, {"name": "GE", "hires": null}, {"name": "GIC", "hires": null}, {"name": "Goldman Sachs", "hires": null}, {"name": "Hilti", "hires": null}, {"name": "McKinsey & Company", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "P&G", "hires": null}, {"name": "PwC", "hires": null}, {"name": "Shopee", "hires": null}],
+    "top_employers_url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/career-development",
+    "pivot_pct": 92,
+    "note": "Career Stats image on the programme page (cohort not stated): 93% employed within 3 months of graduation; 92% pivoted sector, geography or function; 'Average Alumni Salary' US$134,213 (an alumni figure, not a starting base salary, timing not stated, so not used as base_salary). Full career report is behind a HubSpot lead form (not submitted): industry, function, geography and salary splits not read. Top employers listed without hire counts (GSCDO page, all postgraduate programmes)."
+  },
+  "profile": {"intl_pct": null, "nationalities": 15, "avg_age": 28, "avg_work_exp_years": 6, "women_pct": 40, "gmat_median": null, "cohort": null, "url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba", "read_on": "2026-10-13", "note": "Class Profile image (cohort not stated). Admission minimum: 2 years work experience, FAQ mentions GMAT > 600."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 12, "url": "https://www.ntu.edu.sg/news/detail/nanyang-mba-retains-spot-as-singapore-s-top-mba-programme--rises-to-12th-place-globally", "read_on": "2026-10-13"}],
+  "notes": "NTU news (19 Feb 2026) also reports FT-sourced figures: US$194,918 average salary three years after graduation, +136% vs pre-MBA; these are FT data, cite only as one fact if needed."
+}

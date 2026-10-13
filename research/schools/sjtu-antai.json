@@ -1,0 +1,52 @@
+{
+  "slug": "sjtu-antai",
+  "name": "Antai College of Economics and Management, Shanghai Jiao Tong University (Antai IMBA)",
+  "short": "SJTU Antai",
+  "country": "CN",
+  "city": "Shanghai",
+  "region": "Asia",
+  "program": {
+    "length_months": 24,
+    "format": "2-year full-time International MBA (IMBA), English-taught",
+    "url": "http://mba.sjtu.edu.cn/en/admissions/fee-and-financial-aid.html",
+    "read_on": "2026-10-13",
+    "class_size": {"value": null, "cohort": null, "url": "http://mba.sjtu.edu.cn/zt/imba/", "read_on": "2026-10-13", "note": "No IMBA class profile found on the English site."}
+  },
+  "tuition_total": {"value": 368000, "currency": "CNY", "period": "full program", "cohort": "2025 intake IMBA (latest published)", "url": "http://mba.sjtu.edu.cn/en/admissions/fee-and-financial-aid.html", "read_on": "2026-10-13", "note": "'The tuition fee for 2025 IMBA program (2 years) is 368,000 RMB', two annual instalments. Same figure on https://mba.sjtu.edu.cn/en/admissions/faqs.html. No 2026/2027 figure published yet."},
+  "mandatory_fees_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": "2025 intake", "url": "http://mba.sjtu.edu.cn/en/admissions/fee-and-financial-aid.html", "read_on": "2026-10-13", "note": "No other mandatory fee listed. Application fee RMB 800 or USD 120."},
+  "living_budget_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": "2025 intake", "basis": null, "url": "http://mba.sjtu.edu.cn/en/admissions/fee-and-financial-aid.html", "read_on": "2026-10-13",
+    "components": [
+      {"item": "on-campus single room (Xuhui)", "value_min": 9300, "value_max": 11900, "per": "semester"},
+      {"item": "on-campus double room", "value_min": 4600, "value_max": 6600, "per": "semester"},
+      {"item": "single bedroom in shared off-campus apartment", "value_min": 2500, "value_max": 4000, "per": "month"},
+      {"item": "self-contained apartment", "value_min": 4000, "value_max": 8000, "per": "month"},
+      {"item": "living costs excluding rent", "value_min": 4000, "value_max": 5000, "per": "month"}
+    ],
+    "note": "No total budget published; ranges only. The FAQ page (https://mba.sjtu.edu.cn/en/admissions/faqs.html) says rent about RMB 4,000/month and 'budgeting 8,000/month (outside of rent)', which differs from the fee page (4,000-5,000)."},
+  "scholarship": {"value": null, "currency": "CNY", "stat": null, "pct_receiving": null, "cohort": "2025 intake", "url": "http://mba.sjtu.edu.cn/en/admissions/fee-and-financial-aid.html", "read_on": "2026-10-13", "note": "GMAT 730+ (Focus 675+): 50% of tuition; 680+ (625+): 25%; 630+ (585+): RMB 50,000. Interview ranking: 1st 50%, 2nd-4th 25%, 5th-13th RMB 50,000. Early Bird RMB 10,000 (top 5 of rounds 1-2). CFA RMB 5,000-15,000. Performance-based partial scholarships for 'almost 30%' (IMBA microsite) or 'almost 20%' (FAQ) of MBA students: inconsistent."},
+  "employment": {
+    "report_url": "https://mba.sjtu.edu.cn/en/career/report.html",
+    "url": "https://mba.sjtu.edu.cn/en/career/report.html",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2016 (latest IMBA report on the site)",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "base_salary": {"value": null, "currency": "CNY", "stat": null, "note": "No salary published by the school."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "finance", "sub": "Financial services", "pct": 21, "salary": null, "stat": null},
+      {"industry": "manufacturing", "sub": "Industrial products/equipment", "pct": 18, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "IT/networking/communications", "pct": 14, "salary": null, "stat": null}
+    ],
+    "by_function": [],
+    "by_geography": [],
+    "top_employers": [],
+    "notes": "Data are for 2016 IMBA graduates (too old for the site's current figures; kept for reference only). Employer type 2016: state-owned 40%, foreign-funded 28%, NGO/private holding 9%. A 2024 news item (https://mba.sjtu.edu.cn/en/news/84964.html) on the 2023 full-time MBA report gives only 2.5 job opportunities per capita and 'highest salary growth rate 166.7%', no salary level."
+  },
+  "profile": {"intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": null, "gmat_median": null, "cohort": null, "url": "https://mba.sjtu.edu.cn/en/admissions/faqs.html", "read_on": "2026-10-13", "note": "No class profile published. Minimums: GMAT 550+, two years' work experience."},
+  "rankings_cited": [],
+  "notes": "Not found in FT Global MBA 2026 (school news cites FT MiM 2026 rank 3, not the MBA; ClearAdmit's FT 2026 MBA table does not list Antai). The school cites 'ranked 34th ... by the Financial Times' in 2018. No current employment report or salary: no ROI possible; keep cost-only profile or drop from the 75."
+}

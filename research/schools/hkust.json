@@ -1,0 +1,57 @@
+{
+  "slug": "hkust",
+  "name": "HKUST Business School, The Hong Kong University of Science and Technology",
+  "short": "HKUST",
+  "country": "HK",
+  "city": "Hong Kong",
+  "region": "Asia",
+  "program": {
+    "length_months": 16,
+    "format": "1-year",
+    "length_note": "16-month Standard Mode (with summer internship) or 12-month Accelerator Mode",
+    "class_size": {"value": null, "cohort": "2026 cohort", "url": "https://mba.hkust.edu.hk/full-time", "read_on": "2026-10-13", "note": "class size not stated on the full-time page"}
+  },
+  "tuition_total": {"value": 600000, "currency": "HKD", "period": "full program", "cohort": "Intake 2026", "url": "https://mba.hkust.edu.hk/full-time-financing", "read_on": "2026-10-13", "note": "Program fee covers tuition, textbooks and materials for core courses and select co-curricular activities; school gives ~USD 77,500. Non-refundable deposit HK$65,000 deducted from the fee; payable in two installments. Same 600,000 HKD on https://mba.hkust.edu.hk/admissions/fees-and-financing"},
+  "mandatory_fees_total": {"value": null, "currency": "HKD", "period": "full program", "cohort": "Intake 2026", "url": "https://mba.hkust.edu.hk/full-time-financing", "read_on": "2026-10-13", "note": "no separate mandatory fees listed; core textbooks included in program fee. Application fee HKD 500 (waivable)."},
+  "living_budget_total": {"value": 244000, "currency": "HKD", "period": "12 months", "basis": "school budget", "cohort": "Intake 2026", "url": "https://mba.hkust.edu.hk/full-time-financing", "read_on": "2026-10-13",
+    "items": [{"item": "Accommodation off campus, shared 2-bedroom (12 months)", "value": 120000}, {"item": "Books and supplies", "value": 10000}, {"item": "Living expenses (12 months)", "value": 84000}, {"item": "Miscellaneous", "value": 30000}],
+    "note": "School table total HK$859,000 (~USD 110,740) includes the 600,000 fee and HK$15,000 optional field trips/travel, excluded here. Budget is for 12 months; the 16-month mode is not budgeted by the school."},
+  "scholarship": {"value": null, "currency": "HKD", "stat": null, "url": "https://mba.hkust.edu.hk/admissions/fees-and-financing", "read_on": "2026-10-13", "note": "Merit scholarships and professional awards, automatic consideration; average award not published. HKUST MBA-Hinrich Foundation Global Trade Leader Scholarships: three awards of HK$350,000 each. Other named awards: Jebsen Educational Foundation (mainland China/HK residents), Terry Tsang MBA Admissions Scholarship."},
+  "employment": {
+    "report_url": "https://mbaoffice.hkust.edu.hk/career-report",
+    "report_note": "The MBA CSEA career report is behind a download form (not read). Headline stats from https://mba.hkust.edu.hk/full-time-career-development (Full-time MBA Intake of 2025, MBA CSEA standards). Salary, sector, function and location figures below come from the university-wide HKUST Graduate Employment Survey 2025, Taught Postgraduate (MBA respondents, n=42; may not match the MBA CSEA cohort), PDF https://career.hkust.edu.hk/web/public/documents/SurveyFindings_TPG_2025.pdf saved as research/sources/hkust-ges-tpg-2025.pdf.",
+    "url": "https://mba.hkust.edu.hk/full-time-career-development",
+    "read_on": "2026-10-13",
+    "cohort": "Full-time MBA Intake of 2025 (headline); MBA graduates 2025 (GES)",
+    "standard": "MBA CSEA (headline); school (GES)",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 95,
+    "changed_industry_pct": 63,
+    "changed_function_pct": 42,
+    "changed_location_pct": 74,
+    "base_salary": {"value": 49250, "currency": "HKD", "stat": "median", "period": "month", "basis": "gross monthly income incl. commission, bonuses and allowances (not base salary)", "mean": 52624, "url": "https://career.hkust.edu.hk/web/public/documents/SurveyFindings_TPG_2025.pdf", "read_on": "2026-10-13", "note": "GES 2025 Table 5, MBA overall, full-time and self-employed respondents. Annual base salary not published outside the gated report."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null, "url": "https://mba.hkust.edu.hk/full-time-career-development", "read_on": "2026-10-13"},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "other", "sub": "Commerce and Business", "pct": 64.5, "salary": 48500, "stat": "median", "salary_mean": 50888, "salary_period": "month (gross)"},
+      {"industry": "other", "sub": "Engineering and Industry", "pct": 32.3, "salary": 50000, "stat": "median", "salary_mean": 55750, "salary_period": "month (gross)"},
+      {"industry": "other", "sub": "Education", "pct": 3.2, "salary": null, "stat": null}
+    ],
+    "by_industry_source": {"url": "https://career.hkust.edu.hk/web/public/documents/SurveyFindings_TPG_2025.pdf", "read_on": "2026-10-13", "note": "GES 2025 Tables 3 and 6, n=31; GES uses broad employment sectors, not consulting/finance/tech."},
+    "by_function": [
+      {"function": "Banking / Finance", "pct": 65.6, "salary": 47083, "stat": "median", "salary_mean": 51397, "salary_period": "month (gross)"},
+      {"function": "Administration / Management", "pct": 31.3, "salary": 52013, "stat": "median", "salary_mean": 55694, "salary_period": "month (gross)"}
+    ],
+    "by_function_source": {"url": "https://career.hkust.edu.hk/web/public/documents/SurveyFindings_TPG_2025.pdf", "read_on": "2026-10-13", "note": "GES 2025 §3.1 and Table 7, n=32 (job nature)"},
+    "by_geography": [
+      {"region": "Asia", "sub": "Hong Kong", "pct": 71.9, "salary": null},
+      {"region": "Asia", "sub": "Outside Hong Kong (Chinese Mainland 5, India 3, Japan 1 graduates)", "pct": 28.1, "salary": null}
+    ],
+    "by_geography_source": {"url": "https://career.hkust.edu.hk/web/public/documents/SurveyFindings_TPG_2025.pdf", "read_on": "2026-10-13", "note": "GES 2025 Table 8, n=32 work base location"},
+    "top_employers": []
+  },
+  "profile": {"intl_pct": 89, "intl_note": "89% non-Hong Kong", "avg_age": 30, "avg_work_exp_years": null, "work_exp_range": "2-25 years", "age_range": "21-53", "women_pct": 37, "gmat_median": null, "cohort": "2026 cohort", "url": "https://mba.hkust.edu.hk/full-time", "read_on": "2026-10-13"},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 24, "url": "https://bm.hkust.edu.hk/news/2026/03/hkust-mba-jumps-12-spots", "read_on": "2026-10-13"}],
+  "notes": "Full MBA CSEA career report (salary by industry, top employers) is gated by a Mailchimp form at mbaoffice.hkust.edu.hk/career-report; to read via browser. GES salaries are monthly gross income (incl. bonuses/allowances), not annual base salary: do not compare directly with base-salary medians."
+}

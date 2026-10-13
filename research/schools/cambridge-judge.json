@@ -1,0 +1,99 @@
+{
+  "slug": "cambridge-judge",
+  "name": "Cambridge Judge Business School, University of Cambridge",
+  "short": "Cambridge Judge",
+  "country": "GB",
+  "city": "Cambridge",
+  "region": "UK",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 222, "cohort": "current class shown on class profile page (year not stated)", "url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/class-profile/", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {"value": 86250, "currency": "GBP", "period": "full program", "cohort": "September 2027 entry", "url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/", "read_on": "2026-10-13", "application_fee": 165, "note": "Same fee for British and overseas students. University of Cambridge alumni get a GBP 10,000 reduction. September 2026 entry fee not shown on the page anymore."},
+  "mandatory_fees_total": {"value": null, "currency": "GBP", "url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/", "read_on": "2026-10-13", "note": "No other mandatory fee listed apart from the GBP 165 application fee."},
+  "living_budget_total": {"value": 20700, "currency": "GBP", "period": "2027/28 academic year, full-time student", "basis": "school budget", "url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/", "read_on": "2026-10-13", "note": "School states set-up costs (laptop, mobile, bike), travel and utilities are extra."},
+  "scholarship": {"value": null, "currency": "GBP", "url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/", "read_on": "2026-10-13", "note": "Scholarships and merit bursaries exist (Forte, Global Impact, ROMBA...) but no average amount or share of class is published."},
+  "employment": {
+    "report_url": "https://www.jbs.cam.ac.uk/wp-content/uploads/2026/04/hdn-mba-2026-employment-report.pdf",
+    "report_page": "https://www.jbs.cam.ac.uk/masters-degrees/mba/careers/employment-report/",
+    "local_copy": "research/sources/cambridge-judge-employment-report-2026.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2024/25 (Employment Report 2026)",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": 73,
+    "accepted_3m_pct": null,
+    "offer_3m_pct": 80,
+    "employed_4m_pct": 76,
+    "offer_4m_pct": 82,
+    "employed_note": "PDF summary page: three months out 73% employed / 80% with job offers; four months out 76% employed / 82% with offers (pairing read from PDF text layout; the web page confirms 82% offers at 4 months of those seeking employment).",
+    "base_salary": {"value": 71216, "currency": "GBP", "stat": "mean", "usd_ppp_value": 134357, "note": "Average base salary; USD figure is PPP-converted by the school. No median published."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "switchers": {"switched_any_pct": 88, "switched_sector_pct": 75, "switched_function_pct": 67, "switched_country_pct": 45, "switched_all_three_pct": 30, "returned_to_pre_mba_country_pct_of_switchers": 55, "switched_to_uk_pct_of_country_switchers": 74},
+    "by_industry": [
+      {"industry": "finance", "sub": "Finance", "pct": 23, "salary": null, "note": "26% of finance hires work in VC/PE"},
+      {"industry": "consulting", "sub": "Consulting", "pct": 17, "salary": null, "note": "57% of consulting hires work in strategy consulting. Web page text says 19% consulting."},
+      {"industry": "tech", "sub": "Industry - Technology", "pct": 18, "salary": null},
+      {"industry": "tech", "sub": "Industry - Internet / eCommerce", "pct": 6, "salary": null},
+      {"industry": "healthcare", "sub": "Industry - Healthcare / Pharma / Biotech", "pct": 7, "salary": null},
+      {"industry": "other", "sub": "Industry - Professional Services", "pct": 6, "salary": null},
+      {"industry": "energy", "sub": "Industry - Energy / Utilities", "pct": 4, "salary": null},
+      {"industry": "other", "sub": "Industry - Other", "pct": 14, "salary": null},
+      {"industry": "nonprofit", "sub": "Public Sector / NGO / Other", "pct": 2, "salary": null}
+    ],
+    "by_industry_note": "Salary by sector not published. Web page summary: 55% industry, 23% finance, 19% consulting.",
+    "by_function": [
+      {"function": "Corporate Planning / Strategy", "pct": 19, "salary": null},
+      {"function": "Consulting", "pct": 16, "salary": null},
+      {"function": "Product Management", "pct": 9, "salary": null},
+      {"function": "Investment / Asset Management (Private Markets)", "pct": 8, "salary": null},
+      {"function": "Business Development", "pct": 8, "salary": null},
+      {"function": "Marketing / Sales", "pct": 7, "salary": null},
+      {"function": "Investment Banking & Corporate Finance", "pct": 5, "salary": null},
+      {"function": "Project Management", "pct": 5, "salary": null},
+      {"function": "General Management", "pct": 3, "salary": null},
+      {"function": "Investment / Asset Management (Debt & Equity)", "pct": 3, "salary": null},
+      {"function": "Product Development", "pct": 3, "salary": null},
+      {"function": "Technology Management", "pct": 3, "salary": null},
+      {"function": "Other", "pct": 11, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "UK", "label": "United Kingdom", "pct": 43, "salary": null},
+      {"region": "Europe", "label": "Western Europe (excluding UK)", "pct": 3, "salary": null},
+      {"region": "North America", "label": "North America", "pct": 10, "salary": null},
+      {"region": "Asia", "label": "Southeast Asia", "pct": 18, "salary": null},
+      {"region": "Asia", "label": "East Asia", "pct": 9, "salary": null},
+      {"region": "Asia", "label": "South Asia", "pct": 7, "salary": null},
+      {"region": "Asia", "label": "Central Asia", "pct": 1, "salary": null},
+      {"region": "Middle East", "label": "Middle East & N Africa", "pct": 5, "salary": null},
+      {"region": "Latin America", "label": "Latin America & Caribbean", "pct": 1, "salary": null},
+      {"region": "Oceania", "label": "Australasia", "pct": 3, "salary": null}
+    ],
+    "by_geography_note": "Jobs taken in 24 countries. Salary by region not published.",
+    "top_employers": [
+      {"name": "Boston Consulting Group", "hires": null}, {"name": "Bayer", "hires": null}, {"name": "PwC", "hires": null}, {"name": "TikTok", "hires": null}, {"name": "Google", "hires": null}, {"name": "Model ML", "hires": null},
+      {"name": "McKinsey & Company", "hires": null}, {"name": "Bain & Company", "hires": null}, {"name": "Amazon", "hires": null}, {"name": "KKR", "hires": null}, {"name": "Morgan Stanley", "hires": null}, {"name": "Shell", "hires": null}
+    ],
+    "top_employers_note": "PDF: 'companies employing the most Cambridge MBAs: Boston Consulting Group, Bayer, PwC, TikTok'; web page: 'Google, Model ML, PwC, TikTok'. Others from the full recruiter list. No hire counts."
+  },
+  "profile": {
+    "cohort": "current class (class profile page, year not stated)",
+    "url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/class-profile/",
+    "read_on": "2026-10-13",
+    "class_size": 222,
+    "intl_pct": null,
+    "intl_note": "School says each class is 'c.90% non-British'",
+    "nationalities": 43,
+    "avg_age": 29,
+    "avg_work_exp_years": 6,
+    "women_pct": 47,
+    "gmat_median": null,
+    "gmat_mean": 690
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 17, "note": "tie; read in a Clear Admit summary of the FT ranking", "url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/", "read_on": "2026-10-13"}
+  ],
+  "notes": "Full report PDF is behind a form on the school page but hosted at a public URL (found under wp-content/uploads/2026/04/). Salaries are means; no salary by sector or region."
+}

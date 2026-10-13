@@ -1,0 +1,9854 @@
+{
+"built": "2026-10-13",
+"fxDate": "2026-10-13",
+"schools": [
+{
+"slug": "alliance-manchester",
+"name": "Alliance Manchester Business School, The University of Manchester",
+"short": "Alliance MBS",
+"country": "GB",
+"city": "Manchester",
+"region": "UK",
+"campuses": [],
+"months": 18.0,
+"monthsDerived": false,
+"monthsNote": "15 or 18 months (same fee); September 2027 start",
+"format": "1-year",
+"twoYear": false,
+"classSize": 99.0,
+"classSizeText": "",
+"classCohort": "Class of 2024",
+"cur": "GBP",
+"tuition": {
+"v": 51500.0,
+"mult": 1,
+"note": "",
+"cohort": "September 2027 intake",
+"url": "https://www.alliancembs.manchester.ac.uk/study/mba/full-time-mba/fees-funding/",
+"readOn": "2026-10-13",
+"raw": 51500.0,
+"period": "full program"
+},
+"fees": null,
+"living": {
+"v": 27282,
+"basis": "school",
+"note": "Living budget: the school publishes 12 months; scaled to the 18-month program.",
+"url": "https://www.manchester.ac.uk/study/postgraduate-research/funding/living-costs/",
+"readOn": "2026-10-13",
+"raw": 18188.0,
+"period": "12 months (52 weeks)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Manchester Bee scholarships £5,150-£25,750 (one award per applicant); Forte Fellowships 5 x £30,000; some full-tuition donor scholarships; 20% alumni bursary for UoM graduates. No average award or share of class aided published",
+"url": "https://www.alliancembs.manchester.ac.uk/study/mba/full-time-mba/fees-funding/"
+},
+"directLocal": 51500.0,
+"totalLocal": 78782.0,
+"emp": {
+"cohort": "Class of 2024",
+"standard": "school",
+"url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/mba/ambs-2025-ftmba-employment-report.pdf",
+"page": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/mba/ambs-2025-ftmba-employment-report.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 94.0,
+"employedLabel": "employed within three months",
+"salary": null,
+"salaryMissing": "The report gives no graduate starting salary. It shows '$151,826 avg weighted salary' and '99% salary increase', taken from FT rankings for alumni 3 years post-MBA (not a graduation salary). The careers page shows $144,170 average alumni salary three years after graduating (FT basis).",
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "finance",
+"label": "Financial Services & Banking",
+"pct": 25.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "tech",
+"label": "Technology + Telecommunications",
+"pct": 22.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 12.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 8.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 7.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 7.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Media & Entertainment + Real Estate + Other",
+"pct": 10.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consumer",
+"label": "Retail",
+"pct": 4.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Government/Public Sector",
+"pct": 2.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "Financial Services & Banking",
+"pct": 25.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": false,
+"derived": "",
+"pct": 5.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "UK",
+"label": "UK",
+"exact": true,
+"derived": "",
+"pct": 57.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 18.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East",
+"exact": true,
+"derived": "",
+"pct": 8.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Africa",
+"label": "Africa",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 8.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 29.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 28.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 17.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 11.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 7.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "ESG",
+"pct": 4.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Human Resources",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "American Express",
+"hires": null
+},
+{
+"name": "Citigroup",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "Johnson & Johnson",
+"hires": null
+},
+{
+"name": "Eli Lilly",
+"hires": null
+},
+{
+"name": "AlixPartners",
+"hires": null
+},
+{
+"name": "HSBC",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "McKinsey",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 95.0,
+"age": 30.0,
+"exp": 6.5,
+"women": 45.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 27.0,
+"cohort": "Class of 2024",
+"url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/mba/ambs-2025-ftmba-employment-report.pdf"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 49.0,
+"url": "https://www.alliancembs.manchester.ac.uk/news/alliance-manchester-business-schools-mba-ranked-5thin-the-uk-by-ft/"
+}
+]
+},
+{
+"slug": "berkeley-haas",
+"name": "Haas School of Business, University of California, Berkeley",
+"short": "Berkeley Haas",
+"country": "US",
+"city": "Berkeley",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": 273.0,
+"classSizeText": "",
+"classCohort": "Class of 2027",
+"cur": "USD",
+"tuition": {
+"v": 180382.0,
+"mult": 2,
+"note": "Tuition: the school publishes one academic year; two academic years counted.",
+"cohort": "2026-27 entering",
+"url": "https://haas.berkeley.edu/financial-aid/full-time-mba/cost/",
+"readOn": "2026-10-13",
+"raw": 90191.0,
+"period": "year 1 (2026-27), non-resident"
+},
+"fees": {
+"v": 5128.0,
+"note": "Fees: the school publishes one academic year; two academic years counted.",
+"url": "https://haas.berkeley.edu/financial-aid/full-time-mba/cost/",
+"raw": 2564.0
+},
+"living": {
+"v": 75920.0,
+"basis": "school",
+"note": "Living budget: the school publishes one academic year; two academic years counted.",
+"url": "https://haas.berkeley.edu/financial-aid/full-time-mba/cost/",
+"readOn": "2026-10-13",
+"raw": 37960.0,
+"period": "year 1, 9 months (2026-27)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Read via search excerpt of the official Haas blog; no current average award published (the 26,000 USD average dates from 2014).",
+"url": "https://blogs.haas.berkeley.edu/the-berkeley-mba/the-berkeley-haas-scholarship-guide-for-full-time-and-part-time-mba-students"
+},
+"directLocal": 185510.0,
+"totalLocal": 261430.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://mba.haas.berkeley.edu/hubfs/Website%20Pages/Full-Time/Graphics/Employment%20Report/Haas%20FTMBA%202025%20Employment%20Report%20Tables%20FINAL-s.pdf",
+"page": "https://mba.haas.berkeley.edu/hubfs/Website%20Pages/Full-Time/Graphics/Employment%20Report/Haas%20FTMBA%202025%20Employment%20Report%20Tables%20FINAL-s.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 84.1,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 167250.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 167250,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30000.0,
+"cur": "USD",
+"usd": 30000,
+"pct": 75.0,
+"stat": "median",
+"note": ""
+},
+"intern": {
+"monthly": 8667.0,
+"cur": "USD",
+"usd": 8667,
+"stat": "median"
+},
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 26.8,
+"salary": 190000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "consumer",
+"label": "Consumer Products",
+"pct": 2.6,
+"salary": 131000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 131000
+},
+{
+"key": "energy",
+"label": "Energy / Utilities",
+"pct": 5.2,
+"salary": 150000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "finance",
+"label": "Financial Services (total)",
+"pct": 15.7,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "nonprofit",
+"label": "Government",
+"pct": 0.7,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Healthcare - Biotech/Pharma",
+"pct": 3.3,
+"salary": 144000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 144000
+},
+{
+"key": "other",
+"label": "Real Estate",
+"pct": 2.0,
+"salary": 110000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 110000
+},
+{
+"key": "tech",
+"label": "Technology / Telecom (total)",
+"pct": 38.6,
+"salary": 159000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 159000
+},
+{
+"key": "manufacturing",
+"label": "Transportation / Logistics",
+"pct": 2.0,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "investment banking",
+"pct": 6.5,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "pe",
+"label": "private equity / venture capital (VC/PE)",
+"pct": 4.6,
+"salary": 170500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 170500
+},
+{
+"key": "vc",
+"label": "private equity / venture capital (VC/PE)",
+"pct": 4.6,
+"salary": 170500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 170500
+},
+{
+"key": "am",
+"label": "asset management (Investment Management)",
+"pct": 0.7,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 96.8,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": "San Francisco/Peninsula 49.0% $175,000; South Bay 14.4% $160,000; Seattle 8.5% $142,800; East Bay 5.2% $136,000; Greater LA 3.3% $190,000"
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 0.7,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Africa",
+"label": "Africa",
+"exact": true,
+"derived": "",
+"pct": 0.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 0.7,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Oceania",
+"label": "Oceania",
+"exact": true,
+"derived": "",
+"pct": 0.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 27.5,
+"salary": 190000.0,
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 19.0,
+"salary": 160000.0,
+"cur": "USD",
+"usd": 160000
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 15.7,
+"salary": 153500.0,
+"cur": "USD",
+"usd": 153500
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 15.0,
+"salary": 163000.0,
+"cur": "USD",
+"usd": 163000
+},
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 9.2,
+"salary": 151125.0,
+"cur": "USD",
+"usd": 151125
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 5.9,
+"salary": 152500.0,
+"cur": "USD",
+"usd": 152500
+},
+{
+"key": "other",
+"label": "Human Resources",
+"pct": 0.7,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 7.2,
+"salary": 143400.0,
+"cur": "USD",
+"usd": 143400
+}
+],
+"employers": [
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Amazon.com, Inc.",
+"hires": null
+},
+{
+"name": "Microsoft Corporation",
+"hires": null
+},
+{
+"name": "NVIDIA Corporation",
+"hires": null
+},
+{
+"name": "Salesforce.com",
+"hires": null
+},
+{
+"name": "Deloitte Consulting LLP",
+"hires": null
+},
+{
+"name": "J.P. Morgan Chase & Co",
+"hires": null
+},
+{
+"name": "Morgan Stanley",
+"hires": null
+},
+{
+"name": "Adobe Systems Inc.",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 44.0,
+"age": null,
+"exp": 5.6,
+"women": 43.0,
+"gmat": 730.0,
+"gmatLabel": "median",
+"countries": 42.0,
+"cohort": "Class of 2027",
+"url": "https://mba.haas.berkeley.edu/admissions/class-profile"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 9.0,
+"url": "https://newsroom.haas.berkeley.edu/berkeley-haas-reaches-historic-high-in-financial-times-ranking/"
+}
+]
+},
+{
+"slug": "bu-questrom",
+"name": "Questrom School of Business, Boston University",
+"short": "BU Questrom",
+"country": "US",
+"city": "Boston, Massachusetts",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": 117.0,
+"classSizeText": "",
+"classCohort": "Incoming class September 2025 (Class of 2027)",
+"cur": "USD",
+"tuition": {
+"v": 146048.0,
+"mult": 1,
+"note": "",
+"cohort": "Entering 2026 (year 1 2026-27, year 2 2027-28 estimated at same rate)",
+"url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/",
+"readOn": "2026-10-13",
+"raw": 146048.0,
+"period": "full program (2 years)"
+},
+"fees": {
+"v": 2896.0,
+"note": "",
+"url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/",
+"raw": 2896.0
+},
+"living": {
+"v": 51976.0,
+"basis": "school",
+"note": "",
+"url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/",
+"readOn": "2026-10-13",
+"raw": 51976.0,
+"period": "full program (2 x 2026-27 annual estimate)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "91% of the incoming class received scholarships (merit, awarded at admission). Average award not published on pages read.",
+"url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/class-profile/"
+},
+"directLocal": 148944.0,
+"totalLocal": 200920.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "school",
+"url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/34/2026/03/26102_Feld_FTMBA_EmploymentReport-8.5X11-003.pdf",
+"page": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/34/2026/03/26102_Feld_FTMBA_EmploymentReport-8.5X11-003.pdf",
+"readOn": "2026-10-13",
+"response": 91.0,
+"employed": 80.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 115000.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 115000,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 10000.0,
+"cur": "USD",
+"usd": 10000,
+"pct": null,
+"stat": "median",
+"note": ""
+},
+"intern": null,
+"industries": [
+{
+"key": "tech",
+"label": "Technology",
+"pct": 27.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 19.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 12.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consumer",
+"label": "Consumer Packaged Goods",
+"pct": 9.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 8.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 7.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Non-profit + Education",
+"pct": 8.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Real Estate + Legal",
+"pct": 7.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 3.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "US (state missing) + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 98.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 26.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 21.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 16.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 16.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 10.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 7.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Human Resources",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Legal",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Dell Technologies",
+"hires": null
+},
+{
+"name": "Goldman Sachs",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "Procter & Gamble",
+"hires": null
+},
+{
+"name": "Biogen",
+"hires": null
+},
+{
+"name": "Cisco Systems",
+"hires": null
+},
+{
+"name": "State Street",
+"hires": null
+},
+{
+"name": "Sanofi",
+"hires": null
+},
+{
+"name": "Philips",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 63.0,
+"age": 29.0,
+"exp": 6.0,
+"women": 45.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Incoming class September 2025",
+"url": "https://www.bu.edu/questrom/graduate-programs/mba-programs/full-time-mba/admissions/class-profile/"
+},
+"ranks": []
+},
+{
+"slug": "cambridge-judge",
+"name": "Cambridge Judge Business School, University of Cambridge",
+"short": "Cambridge Judge",
+"country": "GB",
+"city": "Cambridge",
+"region": "UK",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": 222.0,
+"classSizeText": "",
+"classCohort": "current class shown on class profile page (year not stated)",
+"cur": "GBP",
+"tuition": {
+"v": 86250.0,
+"mult": 1,
+"note": "",
+"cohort": "September 2027 entry",
+"url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/",
+"readOn": "2026-10-13",
+"raw": 86250.0,
+"period": "full program"
+},
+"fees": null,
+"living": {
+"v": 20700.0,
+"basis": "school",
+"note": "",
+"url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/",
+"readOn": "2026-10-13",
+"raw": 20700.0,
+"period": "2027/28 academic year, full-time student"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Scholarships and merit bursaries exist (Forte, Global Impact, ROMBA...) but no average amount or share of class is published.",
+"url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/"
+},
+"directLocal": 86250.0,
+"totalLocal": 106950.0,
+"emp": {
+"cohort": "Class of 2024/25 (Employment Report 2026)",
+"standard": "school",
+"url": "https://www.jbs.cam.ac.uk/wp-content/uploads/2026/04/hdn-mba-2026-employment-report.pdf",
+"page": "https://www.jbs.cam.ac.uk/wp-content/uploads/2026/04/hdn-mba-2026-employment-report.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 73.0,
+"employedLabel": "employed within three months",
+"salary": {
+"v": 71216.0,
+"cur": "GBP",
+"kind": "base-mean",
+"usd": 94336,
+"p25": null,
+"p75": null,
+"note": "Average base salary; USD figure is PPP-converted by the school. No median published."
+},
+"salaryMissing": null,
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "finance",
+"label": "Finance",
+"pct": 23.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 17.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "tech",
+"label": "Industry - Technology + Industry - Internet / eCommerce",
+"pct": 24.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Industry - Healthcare / Pharma / Biotech",
+"pct": 7.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "other",
+"label": "Industry - Professional Services + Industry - Other",
+"pct": 20.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Industry - Energy / Utilities",
+"pct": 4.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Public Sector / NGO / Other",
+"pct": 2.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": false,
+"derived": "",
+"pct": 10.0,
+"salary": null,
+"cur": "GBP",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "UK",
+"label": "United Kingdom",
+"exact": true,
+"derived": "",
+"pct": 43.0,
+"salary": null,
+"cur": "GBP",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Western Europe (excluding UK)",
+"exact": true,
+"derived": "",
+"pct": 3.0,
+"salary": null,
+"cur": "GBP",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Central Asia + East Asia + South Asia + Southeast Asia",
+"exact": true,
+"derived": "",
+"pct": 35.0,
+"salary": null,
+"cur": "GBP",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East & N Africa",
+"exact": true,
+"derived": "",
+"pct": 5.0,
+"salary": null,
+"cur": "GBP",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America & Caribbean",
+"exact": true,
+"derived": "",
+"pct": 1.0,
+"salary": null,
+"cur": "GBP",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Oceania",
+"label": "Australasia",
+"exact": true,
+"derived": "",
+"pct": 3.0,
+"salary": null,
+"cur": "GBP",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Corporate Planning / Strategy",
+"pct": 19.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 16.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "product",
+"label": "Product Management",
+"pct": 9.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "other",
+"label": "Investment / Asset Management (Private Markets)",
+"pct": 8.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "bizdev",
+"label": "Business Development",
+"pct": 8.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "marketing",
+"label": "Marketing / Sales",
+"pct": 7.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "ib",
+"label": "Investment Banking & Corporate Finance",
+"pct": 5.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "other",
+"label": "Project Management",
+"pct": 5.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 3.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "other",
+"label": "Investment / Asset Management (Debt & Equity)",
+"pct": 3.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "other",
+"label": "Product Development",
+"pct": 3.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "other",
+"label": "Technology Management",
+"pct": 3.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 11.0,
+"salary": null,
+"cur": "GBP",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Bayer",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "TikTok",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Model ML",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "KKR",
+"hires": null
+},
+{
+"name": "Morgan Stanley",
+"hires": null
+},
+{
+"name": "Shell",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": null,
+"age": 29.0,
+"exp": 6.0,
+"women": 47.0,
+"gmat": 690.0,
+"gmatLabel": "average",
+"countries": 43.0,
+"cohort": "current class (class profile page, year not stated)",
+"url": "https://www.jbs.cam.ac.uk/masters-degrees/mba/class-profile/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 17.0,
+"url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/"
+}
+]
+},
+{
+"slug": "ceibs",
+"name": "China Europe International Business School (CEIBS)",
+"short": "CEIBS",
+"country": "CN",
+"city": "Shanghai",
+"region": "Asia",
+"campuses": [],
+"months": 16.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "16-month full-time, English-taught (one-year option)",
+"twoYear": false,
+"classSize": 104.0,
+"classSizeText": "",
+"classCohort": "MBA2026 (enrolled)",
+"cur": "CNY",
+"tuition": {
+"v": 488000.0,
+"mult": 1,
+"note": "",
+"cohort": "MBA 2029 (2027 intake)",
+"url": "https://www.ceibs.edu/mba/fees-financial-aid",
+"readOn": "2026-10-13",
+"raw": 488000.0,
+"period": "full program"
+},
+"fees": null,
+"living": null,
+"livingMissing": "No full living budget published; only on-campus dormitory rent.",
+"scholarship": {
+"v": null,
+"note": "'More than 40%' of MBA 2028 students received financial aid. Named awards include Monthly Giving Scholarship RMB 100,000 (5/yr), He'an Education Fund RMB 100,000 (2/yr), Wu Jinglian Academic Fund up to 3 x RMB 100,000 (mainland need-based), Welly and Techking scholarships RMB 60,000; many fellowships with unstated amounts. Dishuiquan interest subsidy up to RMB 30,000 for foreign loan users. Average award not published.",
+"url": "https://www.ceibs.edu/mba/fees-financial-aid"
+},
+"directLocal": 488000.0,
+"totalLocal": null,
+"emp": {
+"cohort": "Class of 2025 (MBA2025)",
+"standard": "school",
+"url": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/CEIBS-MBA2025-Career-Report.pdf",
+"page": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/CEIBS-MBA2025-Career-Report.pdf",
+"readOn": "2026-10-13",
+"response": 100.0,
+"employed": 90.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 420000.0,
+"cur": "CNY",
+"kind": "base-median",
+"usd": 62745,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "tech",
+"label": "Technology",
+"pct": 31.9,
+"salary": 443000.0,
+"stat": "median",
+"cur": "CNY",
+"usd": 66181
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 20.8,
+"salary": 495000.0,
+"stat": "median",
+"cur": "CNY",
+"usd": 73949
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 15.3,
+"salary": 600000.0,
+"stat": "median",
+"cur": "CNY",
+"usd": 89635
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 9.7,
+"salary": 597000.0,
+"stat": "median",
+"cur": "CNY",
+"usd": 89187
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 9.7,
+"salary": 390000.0,
+"stat": "median",
+"cur": "CNY",
+"usd": 58263
+},
+{
+"key": "other",
+"label": "Education + Others",
+"pct": 12.6,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 5.6,
+"salary": 300000.0,
+"cur": "CNY",
+"usd": 44818,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 94.4,
+"salary": null,
+"cur": "CNY",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "marketing",
+"label": "Marketing / Sales",
+"pct": 32.4,
+"salary": 500000.0,
+"cur": "CNY",
+"usd": 74696
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 26.8,
+"salary": 569000.0,
+"cur": "CNY",
+"usd": 85004
+},
+{
+"key": "corpfin",
+"label": "Finance / Accounting",
+"pct": 18.3,
+"salary": 475000.0,
+"cur": "CNY",
+"usd": 70961
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 9.9,
+"salary": 610000.0,
+"cur": "CNY",
+"usd": 91129
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 4.2,
+"salary": 420000.0,
+"cur": "CNY",
+"usd": 62745
+},
+{
+"key": "operations",
+"label": "Operations / Logistics",
+"pct": 4.2,
+"salary": 450000.0,
+"cur": "CNY",
+"usd": 67227
+},
+{
+"key": "other",
+"label": "Others",
+"pct": 4.2,
+"salary": 550000.0,
+"cur": "CNY",
+"usd": 82166
+}
+],
+"employers": [
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Roland Berger",
+"hires": null
+},
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "Tencent",
+"hires": null
+},
+{
+"name": "ByteDance",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Apple",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Xiaomi",
+"hires": null
+},
+{
+"name": "Meituan",
+"hires": null
+},
+{
+"name": "AstraZeneca",
+"hires": null
+},
+{
+"name": "Roche",
+"hires": null
+},
+{
+"name": "Eli Lilly",
+"hires": null
+},
+{
+"name": "L'Oréal",
+"hires": null
+},
+{
+"name": "LVMH",
+"hires": null
+},
+{
+"name": "PepsiCo",
+"hires": null
+},
+{
+"name": "Bosch",
+"hires": null
+},
+{
+"name": "BASF",
+"hires": null
+},
+{
+"name": "Michelin",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 17.3,
+"age": 29.3,
+"exp": 5.5,
+"women": 51.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "MBA2026",
+"url": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/CEIBS-MBA2025-Career-Report.pdf"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 8.0,
+"url": "https://www.ceibs.edu/media/news/mba/28536"
+}
+]
+},
+{
+"slug": "cmu-tepper",
+"name": "Tepper School of Business, Carnegie Mellon University",
+"short": "CMU Tepper",
+"country": "US",
+"city": "Pittsburgh",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": true,
+"monthsNote": "Two-year format; 21 months assumed (two academic years).",
+"format": "2-year",
+"twoYear": true,
+"classSize": 144.0,
+"classSizeText": "",
+"classCohort": "Full-Time MBA Class of 2027",
+"cur": "USD",
+"tuition": {
+"v": 168372.0,
+"mult": 1,
+"note": "",
+"cohort": "AY 2026-27 rate",
+"url": "https://www.cmu.edu/sfs/tuition/graduate/tepper/full-accel-mba.html",
+"readOn": "2026-10-13",
+"raw": 168372.0,
+"period": "full program"
+},
+"fees": {
+"v": 8784.0,
+"note": "",
+"url": "https://www.cmu.edu/sfs/tuition/graduate/tepper/full-accel-mba.html",
+"raw": 8784.0
+},
+"living": {
+"v": 61440.0,
+"basis": "school",
+"note": "",
+"url": "https://www.cmu.edu/sfs/tuition/graduate/tepper/full-accel-mba.html",
+"readOn": "2026-10-13",
+"raw": 61440.0,
+"period": "full program"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "No average scholarship found on pages read",
+"url": ""
+},
+"directLocal": 177156.0,
+"totalLocal": 238596.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://www.cmu.edu/sites/default/files/cmu-tepper-site-files/documents/2025%20MCC%20MBA%20Employment%20Summary%20Report.pdf",
+"page": "https://www.cmu.edu/sites/default/files/cmu-tepper-site-files/documents/2025%20MCC%20MBA%20Employment%20Summary%20Report.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 83.0,
+"employedLabel": "employed within three months",
+"salary": {
+"v": 160000.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 160000,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 38610.0,
+"cur": "USD",
+"usd": 38610,
+"pct": null,
+"stat": "mean",
+"note": ""
+},
+"intern": {
+"monthly": 10053.0,
+"cur": "USD",
+"usd": 10053,
+"stat": "median"
+},
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 35.7,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 25.1,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 9.9,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 5.4,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy/Petroleum/Utilities",
+"pct": 3.6,
+"salary": 145000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 145000
+},
+{
+"key": "consumer",
+"label": "Consumer Products",
+"pct": 2.7,
+"salary": 120000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 120000
+},
+{
+"key": "healthcare",
+"label": "Medical Product/Devices + Medical Services + Pharmaceuticals",
+"pct": 6.3,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 8.0,
+"salary": 136500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 136500
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "investment banking",
+"pct": 4.5,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "pe",
+"label": "private equity/venture capital",
+"pct": 0.9,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "vc",
+"label": "private equity/venture capital",
+"pct": 0.9,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "am",
+"label": "asset management",
+"pct": 0.9,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 93.7,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 35.1,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting - Management/Strategy",
+"pct": 34.2,
+"salary": 188000.0,
+"cur": "USD",
+"usd": 188000
+},
+{
+"key": "corpfin",
+"label": "Finance",
+"pct": 19.8,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "corpfin",
+"label": "Finance - Corporate (Analysis/Treasury)",
+"pct": 11.7,
+"salary": 135000.0,
+"cur": "USD",
+"usd": 135000
+},
+{
+"key": "ib",
+"label": "Finance - Investment Banking",
+"pct": 3.6,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 12.6,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "general",
+"label": "General Management - General/LDPs",
+"pct": 6.3,
+"salary": 135000.0,
+"cur": "USD",
+"usd": 135000
+},
+{
+"key": "general",
+"label": "General Management - Strategic Planning/Business Development",
+"pct": 4.5,
+"salary": 112700.0,
+"cur": "USD",
+"usd": 112700
+},
+{
+"key": "marketing",
+"label": "Marketing",
+"pct": 12.6,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "product",
+"label": "Marketing - Product/Industrial (B2B)",
+"pct": 9.0,
+"salary": 170050.0,
+"cur": "USD",
+"usd": 170050
+},
+{
+"key": "marketing",
+"label": "Marketing - Brand (B2C)",
+"pct": 2.7,
+"salary": 120000.0,
+"cur": "USD",
+"usd": 120000
+},
+{
+"key": "operations",
+"label": "Production and Operations Management",
+"pct": 11.7,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "operations",
+"label": "Operations Management",
+"pct": 9.9,
+"salary": 142800.0,
+"cur": "USD",
+"usd": 142800
+},
+{
+"key": "other",
+"label": "Information Systems/Technology",
+"pct": 3.6,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "IS/Technology - Management",
+"pct": 2.7,
+"salary": 160000.0,
+"cur": "USD",
+"usd": 160000
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 4.5,
+"salary": 120000.0,
+"cur": "USD",
+"usd": 120000
+}
+],
+"employers": [
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Republic Services",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Jefferies",
+"hires": null
+},
+{
+"name": "Ford Motor Co.",
+"hires": null
+},
+{
+"name": "Kearney",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 38.0,
+"age": 29.0,
+"exp": null,
+"women": null,
+"gmat": 710.0,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Full-Time MBA Class of 2027",
+"url": "https://www.cmu.edu/tepper/programs/mba/admissions/ft-class-profile"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 41.0,
+"url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026"
+}
+]
+},
+{
+"slug": "cornell-johnson",
+"name": "Samuel Curtis Johnson Graduate School of Management, Cornell University",
+"short": "Cornell Johnson",
+"country": "US",
+"city": "Ithaca",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": true,
+"monthsNote": "Two-year format; 21 months assumed (two academic years).",
+"format": "2-year",
+"twoYear": true,
+"classSize": 276.0,
+"classSizeText": "",
+"classCohort": "Class of 2027 (Two-Year MBA, enrolled)",
+"cur": "USD",
+"tuition": {
+"v": 177868.0,
+"mult": 1,
+"note": "",
+"cohort": "AY 2026-27 rate",
+"url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/",
+"readOn": "2026-10-13",
+"raw": 177868.0,
+"period": "full program"
+},
+"fees": {
+"v": 2900.0,
+"note": "",
+"url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/",
+"raw": 2900.0
+},
+"living": {
+"v": 72288.0,
+"basis": "school",
+"note": "",
+"url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/",
+"readOn": "2026-10-13",
+"raw": 72288.0,
+"period": "full program"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "No average award or share of class aided published on the page read",
+"url": "https://business.cornell.edu/admissions/graduate/mba/tuition-financing/"
+},
+"directLocal": 180768.0,
+"totalLocal": 253056.0,
+"emp": {
+"cohort": "Class of 2025 (Two-Year MBA)",
+"standard": "school",
+"url": "https://business.cornell.edu/admissions/graduate/mba/career-outcomes/",
+"page": "https://business.cornell.edu/admissions/graduate/mba/career-outcomes/",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 83.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 175000.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 175000,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 39795.0,
+"cur": "USD",
+"usd": 39795,
+"pct": null,
+"stat": "mean",
+"note": ""
+},
+"intern": null,
+"industries": [
+{
+"key": "finance",
+"label": "Financial services",
+"pct": 41.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 28.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "tech",
+"label": "Technology & Telecommunications",
+"pct": 11.0,
+"salary": 133700.0,
+"stat": "median",
+"cur": "USD",
+"usd": 133700
+},
+{
+"key": "consumer",
+"label": "Consumer Packaged Goods",
+"pct": 5.0,
+"salary": 126000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 126000
+},
+{
+"key": "healthcare",
+"label": "Healthcare/Medical Services/Pharmaceuticals",
+"pct": 4.0,
+"salary": 137000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 137000
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 4.0,
+"salary": 135000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 135000
+},
+{
+"key": "energy",
+"label": "Energy/Utilities",
+"pct": 2.0,
+"salary": 150000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "other",
+"label": "Other (education, government, hospitality, legal, real estate, retail)",
+"pct": 8.0,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": false,
+"derived": "derived: 100% minus the shares placed outside the US",
+"pct": 94.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 4.0,
+"salary": 128000.0,
+"cur": "USD",
+"usd": 128000,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "ib",
+"label": "Finance & Investment Banking",
+"pct": 43.0,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 29.0,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "marketing",
+"label": "Marketing",
+"pct": 12.0,
+"salary": 132000.0,
+"cur": "USD",
+"usd": 132000
+},
+{
+"key": "other",
+"label": "Management",
+"pct": 9.0,
+"salary": 140000.0,
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "other",
+"label": "Human Resources",
+"pct": 3.0,
+"salary": 120000.0,
+"cur": "USD",
+"usd": 120000
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 3.0,
+"salary": 102500.0,
+"cur": "USD",
+"usd": 102500
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 2.0,
+"salary": 182500.0,
+"cur": "USD",
+"usd": 182500
+}
+],
+"employers": [
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Boston Consulting Group (BCG)",
+"hires": null
+},
+{
+"name": "Citi",
+"hires": null
+},
+{
+"name": "Deloitte Consulting LLP",
+"hires": null
+},
+{
+"name": "EY",
+"hires": null
+},
+{
+"name": "EY-Parthenon",
+"hires": null
+},
+{
+"name": "Guggenheim Partners",
+"hires": null
+},
+{
+"name": "Jefferies",
+"hires": null
+},
+{
+"name": "JP Morgan Chase & Co.",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "Moelis & Company",
+"hires": null
+},
+{
+"name": "Morgan Stanley",
+"hires": null
+},
+{
+"name": "Royal Bank of Canada (RBC)",
+"hires": null
+},
+{
+"name": "Wells Fargo & Company",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 42.0,
+"age": null,
+"exp": null,
+"women": 38.0,
+"gmat": 710.0,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Class of 2027",
+"url": "https://www.gmac.com/resources/learners/business-programs/explore-programs/cornell-johnson-mba-class-profile"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 15.0,
+"url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026"
+}
+]
+},
+{
+"slug": "essec",
+"name": "ESSEC Business School, Global MBA",
+"short": "ESSEC",
+"country": "FR",
+"city": "Paris La Défense",
+"region": "Europe",
+"campuses": [
+"Paris La Défense (France)",
+"Singapore"
+],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year (extendable to 16 months)",
+"twoYear": false,
+"classSize": null,
+"classSizeText": "",
+"classCohort": "",
+"cur": "EUR",
+"tuition": null,
+"fees": null,
+"living": null,
+"livingMissing": "No school living budget published on the pages read.",
+"scholarship": {
+"v": null,
+"note": "Other categories listed without amounts (European nationals, International Experience, Women Leaders, High Potential, Diversity & Inclusion, Sustainable Leaders, Digital Transformers, Innovation & Entrepreneurship). No share of class published.",
+"url": "https://www.essec.edu/en/program/global-mba/"
+},
+"directLocal": null,
+"totalLocal": null,
+"emp": {
+"cohort": "",
+"standard": "school",
+"url": "https://info.essec.edu/GMBA-GTC-Employment-Report_1-GMBA-Download-Employment-Report-25-26.html",
+"page": "https://info.essec.edu/GMBA-GTC-Employment-Report_1-GMBA-Download-Employment-Report-25-26.html",
+"readOn": "2026-10-13",
+"response": null,
+"employed": null,
+"employedLabel": "accepted an offer within three months",
+"salary": null,
+"salaryMissing": "Employment report (25-26) is gated behind a lead form (Marketo); not downloaded. Landing page states only: per the last Career Survey, 74% of graduates changed sector and 97% changed function (an older page, https://info.essec.edu/GlobalMBA-EmploymentReport.html, says 60% and 93%).",
+"bonus": null,
+"intern": null,
+"industries": [],
+"segments": [],
+"zones": [],
+"functions": [],
+"employers": []
+},
+"profile": {
+"intl": 100.0,
+"age": 30.0,
+"exp": 6.0,
+"women": 55.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "current class (year not stated)",
+"url": "https://www.essec.edu/en/program/global-mba/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 24.0,
+"url": "https://essec.edu/en/news/financial-times-2026-mba-ranking-essec-ascends-to-24th-worldwide/"
+}
+]
+},
+{
+"slug": "fudan",
+"name": "Fudan University School of Management (Fudan International MBA)",
+"short": "Fudan",
+"country": "CN",
+"city": "Shanghai",
+"region": "Asia",
+"campuses": [],
+"months": 24.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year full-time, English-taught (Fudan IMBA, MIT Sloan partnership), September intake",
+"twoYear": true,
+"classSize": 93.0,
+"classSizeText": "",
+"classCohort": "Class of 2023 (latest profile published)",
+"cur": "CNY",
+"tuition": {
+"v": 369800.0,
+"mult": 1,
+"note": "",
+"cohort": "Fudan IMBA entry (intake year not stated on page)",
+"url": "https://www.fdsm.fudan.edu.cn/fdimba/scholarship_fees.html",
+"readOn": "2026-10-13",
+"raw": 369800.0,
+"period": "full program"
+},
+"fees": null,
+"living": null,
+"livingMissing": "No living budget published. On-campus dormitory fees are given per person per day in images dated 2018 (not reused as current); water and electricity extra.",
+"scholarship": {
+"v": null,
+"note": "Entry scholarships (Diversity, Entrepreneurship, Excellence, Women Leadership, Social Responsibility, Young Talent), amounts not stated. GMAT scholarships: 750+ (Focus 715+) 100% of tuition; 710-750 (665-715) 50%; 680-710 (625-665) 30%; 650-680 (595-625) RMB 40,000. Xing Quan Belt and Road Scholarship RMB 250,000 over two years for 2 students/year. Share of students aided not published.",
+"url": "https://www.fdsm.fudan.edu.cn/fdimba/scholarship_fees.html"
+},
+"directLocal": 369800.0,
+"totalLocal": null,
+"emp": {
+"cohort": "Class of 2025 (Fudan International MBA)",
+"standard": "school",
+"url": "https://www.fdsm.fudan.edu.cn/globalmba/download/2025_Graduate_Employment_Report.pdf",
+"page": "https://www.fdsm.fudan.edu.cn/globalmba/download/2025_Graduate_Employment_Report.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 94.4,
+"employedLabel": "accepted an offer within three months",
+"salary": null,
+"salaryMissing": "The 2025 report publishes no salary figure.",
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "tech",
+"label": "IT/High-tech/Telecom",
+"pct": 19.6,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 15.7,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting Services",
+"pct": 13.7,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "other",
+"label": "Education/Training",
+"pct": 11.8,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "finance",
+"label": "Financial Services (mainly asset management, VC/PE, securities/investment banking)",
+"pct": 9.8,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "Financial Services (mainly asset management, VC/PE, securities/investment banking)",
+"pct": 9.8,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "am",
+"label": "Financial Services (mainly asset management, VC/PE, securities/investment banking)",
+"pct": 9.8,
+"salary": null,
+"stat": null,
+"cur": "CNY",
+"usd": null
+}
+],
+"zones": [
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 86.3,
+"salary": null,
+"cur": "CNY",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "marketing",
+"label": "Marketing",
+"pct": 13.6,
+"salary": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "product",
+"label": "Product Management",
+"pct": 11.4,
+"salary": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 9.1,
+"salary": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 9.1,
+"salary": null,
+"cur": "CNY",
+"usd": null
+},
+{
+"key": "bizdev",
+"label": "Sales/Account Management",
+"pct": 9.1,
+"salary": null,
+"cur": "CNY",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Hailiang Education Group",
+"hires": 2.0
+},
+{
+"name": "Tencent",
+"hires": 2.0
+},
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Advancy",
+"hires": null
+},
+{
+"name": "Boehringer-Ingelheim",
+"hires": null
+},
+{
+"name": "Booking.com",
+"hires": null
+},
+{
+"name": "ByteDance",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "EY",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "P&G",
+"hires": null
+},
+{
+"name": "RedNote",
+"hires": null
+},
+{
+"name": "Olympus Europa",
+"hires": null
+},
+{
+"name": "United Imaging Healthcare Europe",
+"hires": null
+},
+{
+"name": "SWHYHK",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": null,
+"age": 29.7,
+"exp": 3.2,
+"women": 63.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Class of 2023",
+"url": "https://www.fdsm.fudan.edu.cn/fdimba/class_profile.html"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 30.0,
+"url": "https://www.fdsm.fudan.edu.cn/fdimba/imba1556955430644"
+}
+]
+},
+{
+"slug": "hec-paris",
+"name": "HEC Paris",
+"short": "HEC Paris",
+"country": "FR",
+"city": "Jouy-en-Josas (Paris area)",
+"region": "Europe",
+"campuses": [],
+"months": 16.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "16-month (12 possible for January intake)",
+"twoYear": false,
+"classSize": 265.0,
+"classSizeText": "",
+"classCohort": "Class of 2026",
+"cur": "EUR",
+"tuition": {
+"v": 102000.0,
+"mult": 1,
+"note": "",
+"cohort": "January 2027 and September 2027 intakes",
+"url": "https://www.hec.edu/en/mba-executive-mba/mba/admissions/fees-funding",
+"readOn": "2026-10-13",
+"raw": 102000.0,
+"period": "full program"
+},
+"fees": null,
+"living": {
+"v": 25300.0,
+"basis": "school",
+"note": "",
+"url": "https://www.hec.edu/en/mba-executive-mba/mba/admissions/fees-funding",
+"readOn": "2026-10-13",
+"raw": 25300.0,
+"period": "16 months, single"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "School states 'over EUR 1,000,000 in aid every year' (HEC Foundation); no average award or share of class published on the page.",
+"url": "https://www.hec.edu/en/mba-executive-mba/mba/admissions/fees-funding"
+},
+"directLocal": 102000.0,
+"totalLocal": 127300.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://www.hec.edu/en/mba-executive-mba/mba/careers/employment-statistics",
+"page": "https://www.hec.edu/en/mba-executive-mba/mba/careers/employment-statistics",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 75.0,
+"employedLabel": "accepted an offer within three months",
+"salary": null,
+"salaryMissing": "Class of 2025 salaries are only in the 2025 report hosted as a private Calameo flipbook (https://www.calameo.com/read/0074570460be6b03185d2?authid=oF5iZhXRIwMR); page images are URL-signed and could not be read. See employment_previous for the Class of 2024 figures.",
+"bonus": null,
+"intern": null,
+"industries": [],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": true,
+"derived": "",
+"pct": 11.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 52.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia and Oceania",
+"exact": true,
+"derived": "",
+"pct": 25.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Africa & Middle East",
+"exact": true,
+"derived": "",
+"pct": 8.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America & the Caribbean",
+"exact": true,
+"derived": "",
+"pct": 4.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [],
+"employers": []
+},
+"profile": {
+"intl": 94.0,
+"age": 30.0,
+"exp": 6.0,
+"women": 40.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 61.0,
+"cohort": "Class of 2026",
+"url": "https://www.hec.edu/sites/default/files/documents/HEC-Paris_MBA_EMPLOYMENT-REPORT-2024-140x297_2Mo_compressed.pdf"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 6.0,
+"url": "https://www.campusfrance.org/en/financial-times-mba-ranking-2026-7-french-schools-in-the-world-s-top-100"
+}
+]
+},
+{
+"slug": "hkust",
+"name": "HKUST Business School, The Hong Kong University of Science and Technology",
+"short": "HKUST",
+"country": "HK",
+"city": "Hong Kong",
+"region": "Asia",
+"campuses": [],
+"months": 16.0,
+"monthsDerived": false,
+"monthsNote": "16-month Standard Mode (with summer internship) or 12-month Accelerator Mode",
+"format": "1-year",
+"twoYear": false,
+"classSize": null,
+"classSizeText": "",
+"classCohort": "2026 cohort",
+"cur": "HKD",
+"tuition": {
+"v": 600000.0,
+"mult": 1,
+"note": "",
+"cohort": "Intake 2026",
+"url": "https://mba.hkust.edu.hk/full-time-financing",
+"readOn": "2026-10-13",
+"raw": 600000.0,
+"period": "full program"
+},
+"fees": null,
+"living": {
+"v": 325325,
+"basis": "school",
+"note": "Living budget: the school publishes 12 months; scaled to the 16-month program.",
+"url": "https://mba.hkust.edu.hk/full-time-financing",
+"readOn": "2026-10-13",
+"raw": 244000.0,
+"period": "12 months"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Merit scholarships and professional awards, automatic consideration; average award not published. HKUST MBA-Hinrich Foundation Global Trade Leader Scholarships: three awards of HK$350,000 each. Other named awards: Jebsen Educational Foundation (mainland China/HK residents), Terry Tsang MBA Admissions Scholarship.",
+"url": "https://mba.hkust.edu.hk/admissions/fees-and-financing"
+},
+"directLocal": 600000.0,
+"totalLocal": 925325.0,
+"emp": {
+"cohort": "Full-time MBA Intake of 2025 (headline); MBA graduates 2025 (GES)",
+"standard": "MBA CSEA (headline); school (GES)",
+"url": "https://mbaoffice.hkust.edu.hk/career-report",
+"page": "https://mba.hkust.edu.hk/full-time-career-development",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 95.0,
+"employedLabel": "accepted an offer within three months",
+"salary": null,
+"salaryMissing": "GES 2025 Table 5, MBA overall, full-time and self-employed respondents. Annual base salary not published outside the gated report.",
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "other",
+"label": "Commerce and Business + Engineering and Industry + Education",
+"pct": 100.0,
+"salary": null,
+"stat": null,
+"cur": "HKD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 100.0,
+"salary": null,
+"cur": "HKD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "corpfin",
+"label": "Banking / Finance",
+"pct": 65.6,
+"salary": 47083.0,
+"cur": "HKD",
+"usd": 5999
+},
+{
+"key": "other",
+"label": "Administration / Management",
+"pct": 31.3,
+"salary": 52013.0,
+"cur": "HKD",
+"usd": 6628
+}
+],
+"employers": []
+},
+"profile": {
+"intl": 89.0,
+"age": 30.0,
+"exp": null,
+"women": 37.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "2026 cohort",
+"url": "https://mba.hkust.edu.hk/full-time"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 24.0,
+"url": "https://bm.hkust.edu.hk/news/2026/03/hkust-mba-jumps-12-spots"
+}
+]
+},
+{
+"slug": "ie",
+"name": "IE Business School (IE University)",
+"short": "IE",
+"country": "ES",
+"city": "Madrid",
+"region": "Europe",
+"campuses": [],
+"months": 11.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": null,
+"classSizeText": "",
+"classCohort": "",
+"cur": "EUR",
+"tuition": {
+"v": 89900.0,
+"mult": 1,
+"note": "",
+"cohort": "current tuition (reviewed annually; intake year not stated)",
+"url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/",
+"readOn": "2026-10-13",
+"raw": 89900.0,
+"period": "full program"
+},
+"fees": {
+"v": 1200.0,
+"note": "",
+"url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/",
+"raw": 1200.0
+},
+"living": null,
+"livingMissing": "No official living budget found on the programme or fees page.",
+"scholarship": {
+"v": null,
+"note": "Merit-based aid, loan programmes and programme-specific scholarships; no amounts or share of class published on the page.",
+"url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/"
+},
+"directLocal": 91100.0,
+"totalLocal": null,
+"emp": {
+"cohort": "",
+"standard": "school",
+"url": "https://www.ie.edu/business-school/programs/full-time/international-mba/#outcomes",
+"page": "https://www.ie.edu/business-school/programs/full-time/international-mba/",
+"readOn": "2026-10-13",
+"response": null,
+"employed": null,
+"employedLabel": "accepted an offer within three months",
+"salary": null,
+"salaryMissing": "No salary published on the school's pages; Bloomberg figure (third party) not reused.",
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "tech",
+"label": "Technology",
+"pct": 21.79,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "finance",
+"label": "Finance",
+"pct": 21.4,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 18.29,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other + Diversified Industries + Architecture/Urbanism/Real Estate/ Design + Legal Services",
+"pct": 23.3,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy & Industrial Products",
+"pct": 7.0,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "consumer",
+"label": "Consumer, Luxury and Retail",
+"pct": 5.45,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Global Impact",
+"pct": 2.72,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+}
+],
+"segments": [],
+"zones": [],
+"functions": [
+{
+"key": "bizdev",
+"label": "Sales Roles",
+"pct": 18.37,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting Roles",
+"pct": 17.96,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "corpfin",
+"label": "Finance Roles",
+"pct": 17.14,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Strategy Roles",
+"pct": 14.69,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "operations",
+"label": "Operations Roles",
+"pct": 11.43,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "marketing",
+"label": "Marketing Roles",
+"pct": 10.2,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Tech Roles",
+"pct": 3.67,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Academic roles",
+"pct": 1.22,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Architecture, Real Estate & Design Roles",
+"pct": 0.82,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Entrepreneurship Roles",
+"pct": 0.82,
+"salary": null,
+"cur": "EUR",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Uber",
+"hires": null
+},
+{
+"name": "KPMG",
+"hires": null
+},
+{
+"name": "BCG",
+"hires": null
+},
+{
+"name": "J.P. Morgan",
+"hires": null
+},
+{
+"name": "Salesforce",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 92.0,
+"age": 29.0,
+"exp": 6.0,
+"women": 33.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 57.0,
+"cohort": "",
+"url": "https://www.ie.edu/business-school/programs/full-time/international-mba/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 21.0,
+"url": "https://www.clearadmit.com/mba-rankings/financial-times/"
+}
+]
+},
+{
+"slug": "iese",
+"name": "IESE Business School, University of Navarra",
+"short": "IESE",
+"country": "ES",
+"city": "Barcelona",
+"region": "Europe",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": true,
+"monthsNote": "Two-year format; 21 months assumed (two academic years).",
+"format": "2-year",
+"twoYear": true,
+"classSize": 370.0,
+"classSizeText": "",
+"classCohort": "current class (year not stated on page)",
+"cur": "EUR",
+"tuition": {
+"v": 117000.0,
+"mult": 1,
+"note": "",
+"cohort": "September 2027 intake (Class of 2029): commitment fee 10,000 + Year 1 48,500 + Year 2 58,500",
+"url": "https://www.iese.edu/mba/admissions-fees/",
+"readOn": "2026-10-13",
+"raw": 117000.0,
+"period": "full program"
+},
+"fees": null,
+"living": null,
+"livingMissing": "No official living budget published on the fees or loans pages (only 'comparably less' than other large European cities).",
+"scholarship": {
+"v": null,
+"note": "Individual scholarships typically cover 10% to 50% of tuition; Excellence Scholarship to top 7-10% of admitted students; Future Female Leaders Award 5,000-50,000 EUR; Laidlaw Women's scholarship full tuition. No average award or share of class aided published.",
+"url": "https://www.iese.edu/loans-scholarships/"
+},
+"directLocal": 117000.0,
+"totalLocal": null,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "school",
+"url": "https://www.iese.edu/mba/career-impact/",
+"page": "https://www.iese.edu/stories/iese-mba-career-impact/",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 80.0,
+"employedLabel": "employed within three months",
+"salary": null,
+"salaryMissing": "No salary published on IESE's open pages for the Class of 2025; full report is behind a lead form (https://formscloud.iese.edu/landings-mba-employment). Third-party figures (Bloomberg, Magoosh) not reused.",
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 41.0,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Diversified industries",
+"pct": 33.0,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "finance",
+"label": "Finance",
+"pct": 16.0,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 9.0,
+"salary": null,
+"stat": null,
+"cur": "EUR",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": false,
+"derived": "",
+"pct": 3.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 41.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 15.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East",
+"exact": true,
+"derived": "",
+"pct": 11.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Africa",
+"label": "Africa",
+"exact": true,
+"derived": "",
+"pct": 3.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 27.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 48.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "marketing",
+"label": "Sales & marketing",
+"pct": 17.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "corpfin",
+"label": "Finance",
+"pct": 16.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "general",
+"label": "General management",
+"pct": 8.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "operations",
+"label": "Operations & logistics",
+"pct": 7.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Information technology",
+"pct": 2.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Human resources",
+"pct": 1.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 1.0,
+"salary": null,
+"cur": "EUR",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Almirall",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Fever",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Kearney",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Strategy&",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 89.0,
+"age": 29.0,
+"exp": 5.4,
+"women": 38.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "",
+"url": "https://www.iese.edu/mba/class-profile/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 4.0,
+"url": "https://www.iese.edu/mba/career-impact/"
+}
+]
+},
+{
+"slug": "iim-ahmedabad",
+"name": "Indian Institute of Management Ahmedabad, MBA-PGPX (One Year MBA)",
+"short": "IIM Ahmedabad PGPX",
+"country": "IN",
+"city": "Ahmedabad",
+"region": "India",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": 157.0,
+"classSizeText": "",
+"classCohort": "PGPX 2025-26 (graduating 2026)",
+"cur": "INR",
+"tuition": {
+"v": 3500000.0,
+"mult": 1,
+"note": "",
+"cohort": "PGPX 2026-27",
+"url": "https://www.iima.ac.in/academics/MBA-PGPX/admission/fee-structure",
+"readOn": "2026-10-13",
+"raw": 3500000.0,
+"period": "full program"
+},
+"fees": null,
+"living": null,
+"livingMissing": "Accommodation is included in the programme fee; IIMA publishes no budget for food and personal expenses.",
+"scholarship": {
+"v": null,
+"note": "Entry scholarships up to 25% of the SSH fee (underrepresented genders, non-Indian passport holders, armed forces, government/not-for-profit experience, etc.); graduation scholarships up to 15% of the SSH fee for performance. Number and average award not published.",
+"url": "https://www.iima.ac.in/academics/MBA-PGPX/admission/fee-structure"
+},
+"directLocal": 3500000.0,
+"totalLocal": null,
+"emp": {
+"cohort": "PGPX Class of 2026 (final placements, audited)",
+"standard": "IPRS Revision 2.2 (audited by B2K Analytics, 16 July 2026)",
+"url": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf",
+"page": "https://www01.iima.ac.in/iprs/gallery/2026/PGPX_Finals_2026_IPRS_Report.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 96.4,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 3258750.0,
+"cur": "INR",
+"kind": "base-median",
+"usd": 34202,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 200000.0,
+"cur": "INR",
+"usd": 2099,
+"pct": 65.7,
+"stat": "median",
+"note": "One-time cash component, median INR 2,00,000 (mean 3,33,750) received in 88 of 134 accepted offers (our division)."
+},
+"intern": null,
+"industries": [
+{
+"key": "tech",
+"label": "IT Consulting + IT Services + Online Services",
+"pct": 41.0,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 17.9,
+"salary": 3375000.0,
+"stat": "median",
+"cur": "INR",
+"usd": 35422
+},
+{
+"key": "healthcare",
+"label": "Pharmaceutical/Healthcare",
+"pct": 11.9,
+"salary": 3700000.0,
+"stat": "median",
+"cur": "INR",
+"usd": 38833
+},
+{
+"key": "finance",
+"label": "Banking, Financial Services and Insurance (BFSI)",
+"pct": 10.4,
+"salary": 3536862.0,
+"stat": "median",
+"cur": "INR",
+"usd": 37120
+},
+{
+"key": "consumer",
+"label": "Consumer Goods (FMCG) + Retail",
+"pct": 7.5,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "other",
+"label": "Conglomerate + Infrastructure",
+"pct": 4.4,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing + Automotive",
+"pct": 5.2,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Environment & Energy",
+"pct": 1.5,
+"salary": 2900000.0,
+"stat": "median",
+"cur": "INR",
+"usd": 30436
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "Banking, Financial Services and Insurance (BFSI)",
+"pct": 10.4,
+"salary": 3536862.0,
+"stat": "median",
+"cur": "INR",
+"usd": 37120
+}
+],
+"zones": [
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 1.5,
+"salary": 95145.0,
+"cur": "USD",
+"usd": 95145,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "India",
+"exact": false,
+"derived": "",
+"pct": 98.5,
+"salary": 3216250.0,
+"cur": "INR",
+"usd": 33756,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 32.8,
+"salary": 3117600.0,
+"cur": "INR",
+"usd": 32720
+},
+{
+"key": "product",
+"label": "Product/Category Management",
+"pct": 14.9,
+"salary": 3318257.0,
+"cur": "INR",
+"usd": 34826
+},
+{
+"key": "marketing",
+"label": "Sales/Marketing",
+"pct": 14.2,
+"salary": 3536862.0,
+"cur": "INR",
+"usd": 37120
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 9.7,
+"salary": 3700000.0,
+"cur": "INR",
+"usd": 38833
+},
+{
+"key": "bizdev",
+"label": "Business Development",
+"pct": 6.7,
+"salary": 4500000.0,
+"cur": "INR",
+"usd": 47229
+},
+{
+"key": "consulting",
+"label": "Strategy",
+"pct": 6.0,
+"salary": 3200000.0,
+"cur": "INR",
+"usd": 33585
+},
+{
+"key": "operations",
+"label": "Supply Chain/Operations",
+"pct": 6.0,
+"salary": 2800000.0,
+"cur": "INR",
+"usd": 29387
+},
+{
+"key": "other",
+"label": "Program Management",
+"pct": 5.2,
+"salary": 3215000.0,
+"cur": "INR",
+"usd": 33742
+},
+{
+"key": "corpfin",
+"label": "Finance",
+"pct": 2.2,
+"salary": 3800000.0,
+"cur": "INR",
+"usd": 39882
+},
+{
+"key": "other",
+"label": "Project Management",
+"pct": 1.5,
+"salary": 3000000.0,
+"cur": "INR",
+"usd": 31486
+},
+{
+"key": "analytics",
+"label": "Analytics",
+"pct": 0.7,
+"salary": 3150000.0,
+"cur": "INR",
+"usd": 33060
+}
+],
+"employers": [
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Eli Lilly",
+"hires": null
+},
+{
+"name": "EY",
+"hires": null
+},
+{
+"name": "FinIQ Consulting",
+"hires": null
+},
+{
+"name": "Genpact",
+"hires": null
+},
+{
+"name": "NTT Data",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": null,
+"age": 31.0,
+"exp": null,
+"women": 30.0,
+"gmat": 692.0,
+"gmatLabel": "average",
+"countries": null,
+"cohort": "PGPX 2025-26",
+"url": "https://www.iima.ac.in/sites/default/files/2025-10/PGPX%20Brochure%202026-27%20%281%29_0.pdf"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 27.0,
+"url": "https://iima.ac.in/the-institute/rankings"
+}
+]
+},
+{
+"slug": "imd",
+"name": "IMD (International Institute for Management Development)",
+"short": "IMD",
+"country": "CH",
+"city": "Lausanne",
+"region": "Europe",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": 90.0,
+"classSizeText": "",
+"classCohort": "Class of 2026",
+"cur": "CHF",
+"tuition": {
+"v": 80000.0,
+"mult": 1,
+"note": "",
+"cohort": "page current on read date (installments, scholarships deadline 'throughout 2026')",
+"url": "https://www.imd.org/degree/mba/financing/fees-expenses/",
+"readOn": "2026-10-13",
+"raw": 80000.0,
+"period": "full program"
+},
+"fees": {
+"v": 17500.0,
+"note": "",
+"url": "https://www.imd.org/degree/mba/financing/fees-expenses/",
+"raw": 17500.0
+},
+"living": {
+"v": 36000.0,
+"basis": "school",
+"note": "",
+"url": "https://www.imd.org/degree/mba/financing/fees-expenses/",
+"readOn": "2026-10-13",
+"raw": 36000.0,
+"period": "program year, single"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "'48% of students received a scholarship from IMD'; '>50% of our scholarships are awarded to women'. No average amount published.",
+"url": "https://www.imd.org/degree/mba/financing/imd-mba-scholarships/"
+},
+"directLocal": 97500.0,
+"totalLocal": 133500.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://imd.widen.net/s/v5vnptdpgj/mba-career-statistics-digital",
+"page": "https://imd.widen.net/s/v5vnptdpgj/mba-career-statistics-digital",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 70.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 136940.0,
+"cur": "USD",
+"kind": "total-mean",
+"usd": 136940,
+"p25": null,
+"p75": null,
+"note": "Average annualised TOTAL compensation (not base), nominal USD at August 2026 FX; school states it equated to approx. CHF 110,000. PPP-adjusted figure: 176,719 international dollars (the '$180k median salary (USD PPP)' banner on the career page is a rounded marketing figure; the PDF says average)."
+},
+"salaryMissing": null,
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 27.0,
+"salary": 144659.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 144659
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 18.0,
+"salary": 110669.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 110669
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 16.0,
+"salary": 139163.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 139163
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 11.0,
+"salary": 106511.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 106511
+},
+{
+"key": "consumer",
+"label": "FMCG & Retail (salary row labelled FMCG)",
+"pct": 9.0,
+"salary": 109854.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 109854
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 9.0,
+"salary": 152748.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 152748
+},
+{
+"key": "other",
+"label": "Other Sectors",
+"pct": 6.0,
+"salary": 174785.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 174785
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 71.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 15.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East & Africa",
+"exact": false,
+"derived": "",
+"pct": 7.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting (internal & external)",
+"pct": 29.0,
+"salary": 136909.0,
+"cur": "USD",
+"usd": 136909
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 18.0,
+"salary": 99759.0,
+"cur": "USD",
+"usd": 99759
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 18.0,
+"salary": 129461.0,
+"cur": "USD",
+"usd": 129461
+},
+{
+"key": "product",
+"label": "Sales/Marketing/Product Management",
+"pct": 18.0,
+"salary": 170011.0,
+"cur": "USD",
+"usd": 170011
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 6.0,
+"salary": 163494.0,
+"cur": "USD",
+"usd": 163494
+},
+{
+"key": "other",
+"label": "Other functions",
+"pct": 11.0,
+"salary": 137411.0,
+"cur": "USD",
+"usd": 137411
+}
+],
+"employers": []
+},
+"profile": {
+"intl": null,
+"age": 30.0,
+"exp": 6.0,
+"women": 34.0,
+"gmat": 615.0,
+"gmatLabel": "average",
+"countries": 34.0,
+"cohort": "Class of 2026",
+"url": "https://www.imd.org/degree/mba/program/participants/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 30.0,
+"url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026"
+}
+]
+},
+{
+"slug": "indiana-kelley",
+"name": "Kelley School of Business, Indiana University Bloomington",
+"short": "Indiana Kelley",
+"country": "US",
+"city": "Bloomington",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year (Full-Time +Flex: year 2 may be taken online)",
+"twoYear": true,
+"classSize": 57.0,
+"classSizeText": "",
+"classCohort": "Class of 2028",
+"cur": "USD",
+"tuition": {
+"v": 111390.0,
+"mult": 1,
+"note": "",
+"cohort": "2026-2027, nonresident/international",
+"url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html",
+"readOn": "2026-10-13",
+"raw": 111390.0,
+"period": "full program (2 x published 2026-27 annual figure)"
+},
+"fees": {
+"v": 4846.0,
+"note": "",
+"url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html",
+"raw": 4846.0
+},
+"living": {
+"v": 52022.0,
+"basis": "school",
+"note": "",
+"url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html",
+"readOn": "2026-10-13",
+"raw": 52022.0,
+"period": "full program (2 x one academic year)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "School: 'Most awards range between $15,000 and $35,000 per year.' Share of class aided not published.",
+"url": "https://kelley.iu.edu/programs/full-time-mba/admissions/tuition-aid-scholarships.html"
+},
+"directLocal": 116236.0,
+"totalLocal": 168258.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "school",
+"url": "https://kelley.iu.edu/doc/bloomington/full-time-mba/ftmba+flex-gcs-data-sheet.pdf",
+"page": "https://kelley.iu.edu/doc/bloomington/full-time-mba/ftmba+flex-gcs-data-sheet.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 89.2,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 127900.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 127900,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30000.0,
+"cur": "USD",
+"usd": 30000,
+"pct": 87.3,
+"stat": "median",
+"note": ""
+},
+"intern": {
+"monthly": 7800.0,
+"cur": "USD",
+"usd": 7800,
+"stat": "median"
+},
+"industries": [
+{
+"key": "tech",
+"label": "Technology",
+"pct": 23.0,
+"salary": 134000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 134000
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 16.2,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 14.9,
+"salary": 125000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 125000
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 13.5,
+"salary": 127000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 127000
+},
+{
+"key": "consumer",
+"label": "Consumer Packaged Goods",
+"pct": 12.2,
+"salary": 122500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 122500
+},
+{
+"key": "healthcare",
+"label": "Healthcare (including products & services)",
+"pct": 5.4,
+"salary": 134000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 134000
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "US Northeast and Mid-Atlantic + US West and Southwest",
+"exact": true,
+"derived": "",
+"pct": 37.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 21.6,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 20.3,
+"salary": 128500.0,
+"cur": "USD",
+"usd": 128500
+},
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 20.3,
+"salary": 127900.0,
+"cur": "USD",
+"usd": 127900
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 16.2,
+"salary": 127000.0,
+"cur": "USD",
+"usd": 127000
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 10.8,
+"salary": 119000.0,
+"cur": "USD",
+"usd": 119000
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 8.1,
+"salary": 126500.0,
+"cur": "USD",
+"usd": 126500
+}
+],
+"employers": [
+{
+"name": "Amazon",
+"hires": 6.0
+},
+{
+"name": "EY US LLP",
+"hires": 5.0
+},
+{
+"name": "Microsoft",
+"hires": 5.0
+},
+{
+"name": "Pella Corporation",
+"hires": 4.0
+},
+{
+"name": "Discover Financial Services",
+"hires": 3.0
+},
+{
+"name": "Tekniplex",
+"hires": 3.0
+},
+{
+"name": "Deloitte Consulting",
+"hires": 3.0
+},
+{
+"name": "Tyson Foods",
+"hires": 3.0
+},
+{
+"name": "Eli Lilly and Company",
+"hires": 2.0
+},
+{
+"name": "J.P. Morgan Chase & Co.",
+"hires": 2.0
+},
+{
+"name": "Procter & Gamble",
+"hires": 2.0
+},
+{
+"name": "Capital One",
+"hires": 2.0
+},
+{
+"name": "FedEx",
+"hires": 2.0
+},
+{
+"name": "Infosys Limited",
+"hires": 2.0
+}
+]
+},
+"profile": {
+"intl": 39.0,
+"age": 30.0,
+"exp": 6.0,
+"women": 35.0,
+"gmat": 618.0,
+"gmatLabel": "average",
+"countries": null,
+"cohort": "Class of 2028",
+"url": "https://kelley.iu.edu/programs/full-time-mba/admissions/class-profile.html"
+},
+"ranks": []
+},
+{
+"slug": "insead",
+"name": "INSEAD",
+"short": "INSEAD",
+"country": "FR",
+"city": "Fontainebleau",
+"region": "Europe",
+"campuses": [
+"Fontainebleau (France)",
+"Singapore"
+],
+"months": 10.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": null,
+"classSizeText": "900-950",
+"classCohort": "typical class, two intakes per year",
+"cur": "EUR",
+"tuition": {
+"v": 109860.0,
+"mult": 1,
+"note": "",
+"cohort": "August 2026 and January 2027 intakes",
+"url": "https://www.insead.edu/master-programmes/mba/financing",
+"readOn": "2026-10-13",
+"raw": 109860.0,
+"period": "full program"
+},
+"fees": {
+"v": 0.0,
+"note": "",
+"url": "https://www.insead.edu/master-programmes/mba/financing",
+"raw": 0.0
+},
+"living": {
+"v": 30000.0,
+"basis": "school",
+"note": "",
+"url": "https://www.insead.edu/master-programmes/mba/financing",
+"readOn": "2026-10-13",
+"raw": 30000.0,
+"period": "10-month programme, single"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Categories published (financial need, merit and leadership, special attributes, sustainability and social impact); no amount, count or share of class published on the pages read.",
+"url": "https://www.insead.edu/master-programmes/mba/financing/scholarship-guide"
+},
+"directLocal": 109860.0,
+"totalLocal": 139860.0,
+"emp": {
+"cohort": "Classes of December 2024 and July 2025 (929 graduates)",
+"standard": "school",
+"url": "https://www.insead.edu/master-programmes/master-business-administration/career-statistics",
+"page": "https://www.insead.edu/master-programmes/master-business-administration/career-statistics",
+"readOn": "2026-10-13",
+"response": 98.0,
+"employed": 81.0,
+"employedLabel": "had an offer within three months",
+"salary": {
+"v": 100000.0,
+"cur": "EUR",
+"kind": "base-median",
+"usd": 111880,
+"p25": null,
+"p75": null,
+"note": "Labelled 'annual salary' on the page; 73% of the class reported full salary information. offer_3m_pct = received at least one job offer within 3 months."
+},
+"salaryMissing": null,
+"bonus": {
+"v": 28900.0,
+"cur": "EUR",
+"usd": 32333,
+"pct": null,
+"stat": "median",
+"note": ""
+},
+"intern": {
+"monthly": 3900.0,
+"cur": "EUR",
+"usd": 4363,
+"stat": "median"
+},
+"industries": [
+{
+"key": "consulting",
+"label": "Management Consulting",
+"pct": 50.0,
+"salary": 106100.0,
+"stat": "median",
+"cur": "EUR",
+"usd": 118705
+},
+{
+"key": "other",
+"label": "Corporate Sectors",
+"pct": 17.0,
+"salary": 91900.0,
+"stat": "median",
+"cur": "EUR",
+"usd": 102818
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 15.0,
+"salary": 96000.0,
+"stat": "median",
+"cur": "EUR",
+"usd": 107405
+},
+{
+"key": "tech",
+"label": "Technology, Media & Telecom",
+"pct": 18.0,
+"salary": 94600.0,
+"stat": "median",
+"cur": "EUR",
+"usd": 105838
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": true,
+"derived": "",
+"pct": 6.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Eastern Europe + Northern & Western Europe + Southern Europe",
+"exact": true,
+"derived": "",
+"pct": 44.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia Pacific",
+"exact": true,
+"derived": "",
+"pct": 23.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Africa/Middle East",
+"exact": true,
+"derived": "",
+"pct": 18.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "South America",
+"exact": true,
+"derived": "",
+"pct": 9.0,
+"salary": null,
+"cur": "EUR",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [],
+"employers": [
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Strategy&",
+"hires": null
+},
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Kearney",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Oliver Wyman",
+"hires": null
+},
+{
+"name": "FTI Consulting",
+"hires": null
+},
+{
+"name": "Dell Technologies",
+"hires": null
+},
+{
+"name": "Eli Lilly and Company",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "Samsung",
+"hires": null
+},
+{
+"name": "Development Bank of Japan",
+"hires": null
+},
+{
+"name": "Mastercard",
+"hires": null
+},
+{
+"name": "Uber",
+"hires": null
+},
+{
+"name": "AlixPartners",
+"hires": null
+},
+{
+"name": "Roland Berger",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": null,
+"age": 29.0,
+"exp": null,
+"women": 38.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 90.0,
+"cohort": "",
+"url": "https://www.insead.edu/master-programmes/mba"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 2.0,
+"url": "https://www.insead.edu/news/financial-times-does-roi-add-mba-insead-ranks-2-ft-global-mba-2026-rankings-raining-wang-mba24d"
+}
+]
+},
+{
+"slug": "isb",
+"name": "Indian School of Business (ISB), Post Graduate Programme in Management (PGP)",
+"short": "ISB",
+"country": "IN",
+"city": "Hyderabad / Mohali",
+"region": "India",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": 812.0,
+"classSizeText": "",
+"classCohort": "PGP Class of 2026",
+"cur": "INR",
+"tuition": {
+"v": 3214000.0,
+"mult": 1,
+"note": "",
+"cohort": "PGP 2027-28 (single-instalment payment)",
+"url": "https://indian-school-of-business.aueast01.umbraco.io/media/0k1epmko/pgp-fee-structure-for-2027-28.pdf",
+"readOn": "2026-10-13",
+"raw": 3214000.0,
+"period": "full program"
+},
+"fees": {
+"v": 578520.0,
+"note": "",
+"url": "https://indian-school-of-business.aueast01.umbraco.io/media/0k1epmko/pgp-fee-structure-for-2027-28.pdf",
+"raw": 578520.0
+},
+"living": {
+"v": 459000.0,
+"basis": "school",
+"note": "",
+"url": "https://indian-school-of-business.aueast01.umbraco.io/media/0k1epmko/pgp-fee-structure-for-2027-28.pdf",
+"readOn": "2026-10-13",
+"raw": 459000.0,
+"period": "1 academic year (full program)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "ISB: 'approximately 25% of our PGP students receive financial support' each year. Waivers from 25% to 100% of tuition (merit, diversity, need: 100% for family income up to INR 8 lakh, 75% for INR 8-20 lakh; 25 'Destination India' 100% waivers for non-Indian nationals). No average award published. One tuition waiver per student.",
+"url": "https://www.isb.edu/programmes/post-graduate-programmes/pgp-in-management/fees-and-scholarships"
+},
+"directLocal": 3792520.0,
+"totalLocal": 4251520.0,
+"emp": {
+"cohort": "Class of 2026 (salary, offers) / Class of 2025 (sector and function split)",
+"standard": "school",
+"url": "https://placements.isb.edu/isbebook/wp-content/uploads/2025/08/Placement-Report-Co2025.pdf",
+"page": "https://placements.isb.edu/isbebook/wp-content/uploads/2025/08/Placement-Report-Co2025.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": null,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 3729000.0,
+"cur": "INR",
+"kind": "total-mean",
+"usd": 39137,
+"p25": null,
+"p75": null,
+"note": "'Average salary for the Co2026 stands at INR 37.29 lakh per annum' (about 11% above previous cohort). No median published. Class of 2025 report (PDF) publishes no salary. ISB is not audited under IPRS and does not specify whether the average is base or total package."
+},
+"salaryMissing": null,
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting & Professional/Advisory Services",
+"pct": 37.0,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 28.0,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "finance",
+"label": "BFSI (investment banking, venture capital, fintech)",
+"pct": 12.0,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "other",
+"label": "FMCG/E-commerce, Media & Entertainment, Pharma, Infrastructure/Manufacturing and Conglomerates (combined)",
+"pct": 16.0,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "BFSI (investment banking, venture capital, fintech)",
+"pct": 12.0,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+},
+{
+"key": "vc",
+"label": "BFSI (investment banking, venture capital, fintech)",
+"pct": 12.0,
+"salary": null,
+"stat": null,
+"cur": "INR",
+"usd": null
+}
+],
+"zones": [],
+"functions": [
+{
+"key": "consulting",
+"label": "Business/strategy consulting",
+"pct": 34.0,
+"salary": null,
+"cur": "INR",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Mastercard",
+"hires": null
+},
+{
+"name": "EY GDS",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Nagarro",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "BCG",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "PhonePe",
+"hires": null
+},
+{
+"name": "Indus Insights",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": null,
+"age": 26.0,
+"exp": 4.0,
+"women": 47.0,
+"gmat": 683.0,
+"gmatLabel": "average",
+"countries": null,
+"cohort": "PGP Class of 2026",
+"url": "https://placements.isb.edu/isbebook/?p=223"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 12.0,
+"url": "https://www.isb.edu/news/press-releases/isb-ranks-12-globally-in-ft-mba-rankings-2026-retains-1-spot-in-india-for-the-third-time-in-a-row"
+}
+]
+},
+{
+"slug": "lbs",
+"name": "London Business School",
+"short": "LBS",
+"country": "GB",
+"city": "London",
+"region": "UK",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "15 to 21 months, flexible exit point; tuition does not change with exit point",
+"format": "15-21 months",
+"twoYear": true,
+"classSize": 488.0,
+"classSizeText": "",
+"classCohort": "MBA2025 (graduating class)",
+"cur": "GBP",
+"tuition": {
+"v": 123950.0,
+"mult": 1,
+"note": "",
+"cohort": "2026 intake",
+"url": "https://www.london.edu/masters-degrees/mba/fees-financing-and-scholarships",
+"readOn": "2026-10-13",
+"raw": 123950.0,
+"period": "full program"
+},
+"fees": {
+"v": 400.0,
+"note": "",
+"url": "https://www.london.edu/masters-degrees/mba/fees-financing-and-scholarships",
+"raw": 400.0
+},
+"living": {
+"v": 32109.0,
+"basis": "visa",
+"note": "No school budget published: UK student visa minimum (London) for each month of the program, a floor rather than a budget.",
+"url": "https://www.gov.uk/student-visa/money",
+"readOn": "2026-10-13",
+"raw": null,
+"period": ""
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "No average amount or share of class published; admitted students are automatically considered for all awards.",
+"url": "https://www.london.edu/masters-degrees/mba/fees-financing-and-scholarships"
+},
+"directLocal": 124350.0,
+"totalLocal": 156459.0,
+"emp": {
+"cohort": "Class of 2025 (MBA2025)",
+"standard": "MBA CSEA",
+"url": "https://assets.london.edu/hxo16fanegqh/3AUIB9h2HJvzgh89cXjwdt/73abce036f2fe9511567750fb15755b3/mba_employment_report.pdf",
+"page": "https://assets.london.edu/hxo16fanegqh/3AUIB9h2HJvzgh89cXjwdt/73abce036f2fe9511567750fb15755b3/mba_employment_report.pdf",
+"readOn": "2026-10-13",
+"response": 98.0,
+"employed": 86.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 91928.0,
+"cur": "GBP",
+"kind": "base-mean",
+"usd": 121772,
+"p25": null,
+"p75": null,
+"note": "LBS publishes means only (no median). Max GBP 237,682, min GBP 22,465. Excludes sponsored and self-employed."
+},
+"salaryMissing": null,
+"bonus": {
+"v": 41000.0,
+"cur": "GBP",
+"usd": 54311,
+"pct": 83.0,
+"stat": "mean",
+"note": "'Other compensation' = sign-on plus end-of-year bonus; 83% of students who accepted an offer received other compensation/bonuses"
+},
+"intern": null,
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 40.0,
+"salary": 98856.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 130950
+},
+{
+"key": "finance",
+"label": "Finance (total)",
+"pct": 25.0,
+"salary": 93406.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 123730
+},
+{
+"key": "tech",
+"label": "Technology (total)",
+"pct": 24.0,
+"salary": 83287.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 110326
+},
+{
+"key": "other",
+"label": "Diversified (total)",
+"pct": 11.0,
+"salary": 87289.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 115627
+},
+{
+"key": "manufacturing",
+"label": "Industrials",
+"pct": 3.0,
+"salary": 79887.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 105822
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 2.0,
+"salary": 62868.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 83278
+},
+{
+"key": "consumer",
+"label": "Consumer & Retail",
+"pct": 1.0,
+"salary": 78410.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 103866
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 1.0,
+"salary": 94907.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 125719
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "Banking",
+"pct": 5.0,
+"salary": 102968.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 136397
+},
+{
+"key": "pe",
+"label": "Private Equity",
+"pct": 6.0,
+"salary": 100905.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 133664
+},
+{
+"key": "vc",
+"label": "Venture Capital",
+"pct": 2.0,
+"salary": 97983.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 129793
+},
+{
+"key": "am",
+"label": "Investment Management",
+"pct": 6.0,
+"salary": 88063.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 116653
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": false,
+"derived": "",
+"pct": 12.0,
+"salary": 143262.0,
+"cur": "GBP",
+"usd": 189772,
+"detail": ""
+},
+{
+"zone": "UK",
+"label": "United Kingdom",
+"exact": true,
+"derived": "",
+"pct": 43.0,
+"salary": 88516.0,
+"cur": "GBP",
+"usd": 117253,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe (excl. UK)",
+"exact": true,
+"derived": "",
+"pct": 8.0,
+"salary": 79344.0,
+"cur": "GBP",
+"usd": 105103,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "South East/East Asia 12% + South Asia 2% (salary table: Asia)",
+"exact": true,
+"derived": "",
+"pct": 14.0,
+"salary": 68417.0,
+"cur": "GBP",
+"usd": 90629,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Africa/Middle East",
+"exact": false,
+"derived": "",
+"pct": 11.0,
+"salary": 106108.0,
+"cur": "GBP",
+"usd": 140556,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America (incl. Caribbean)",
+"exact": true,
+"derived": "",
+"pct": 10.0,
+"salary": 78784.0,
+"cur": "GBP",
+"usd": 104361,
+"detail": ""
+},
+{
+"zone": "Oceania",
+"label": "Oceania",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": 102611.0,
+"cur": "GBP",
+"usd": 135924,
+"detail": ""
+}
+],
+"functions": [],
+"employers": [
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "AlixPartners",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "Kearney",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Oliver Wyman",
+"hires": null
+},
+{
+"name": "Roland Berger",
+"hires": null
+},
+{
+"name": "Strategy&",
+"hires": null
+},
+{
+"name": "Goldman Sachs",
+"hires": null
+},
+{
+"name": "Morgan Stanley",
+"hires": null
+},
+{
+"name": "Citi",
+"hires": null
+},
+{
+"name": "Bridgepoint Capital",
+"hires": null
+},
+{
+"name": "PIMCO",
+"hires": null
+},
+{
+"name": "IFC",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Meta",
+"hires": null
+},
+{
+"name": "Revolut",
+"hires": null
+},
+{
+"name": "Uber",
+"hires": null
+},
+{
+"name": "TikTok",
+"hires": null
+},
+{
+"name": "Mastercard",
+"hires": null
+},
+{
+"name": "American Express",
+"hires": null
+},
+{
+"name": "Aramco",
+"hires": null
+},
+{
+"name": "Eli Lilly and Company",
+"hires": null
+},
+{
+"name": "Kraft Heinz Company",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 93.0,
+"age": 28.0,
+"exp": 6.0,
+"women": 44.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 64.0,
+"cohort": "MBA2025",
+"url": "https://assets.london.edu/hxo16fanegqh/3AUIB9h2HJvzgh89cXjwdt/73abce036f2fe9511567750fb15755b3/mba_employment_report.pdf"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 4.0,
+"url": "https://www.london.edu/news/lbs-mba-places-fourth-in-ft-mba-ranking"
+}
+]
+},
+{
+"slug": "melbourne-mbs",
+"name": "Melbourne Business School, The University of Melbourne",
+"short": "Melbourne Business School",
+"country": "AU",
+"city": "Melbourne",
+"region": "Oceania",
+"campuses": [],
+"months": 23.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": null,
+"classSizeText": "",
+"classCohort": "",
+"cur": "AUD",
+"tuition": {
+"v": 112536.0,
+"mult": 1,
+"note": "",
+"cohort": "2026 indicative total course fee",
+"url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-business-administration/",
+"readOn": "2026-10-13",
+"raw": 112536.0,
+"period": "full program"
+},
+"fees": null,
+"living": null,
+"livingMissing": "not read (403)",
+"scholarship": {
+"v": null,
+"note": "not read (403)",
+"url": "https://mbs.edu/programs/mba/full-time-mba"
+},
+"directLocal": 112536.0,
+"totalLocal": null,
+"emp": {
+"cohort": "",
+"standard": "",
+"url": "https://mbs.edu/programs/mba/full-time-mba",
+"page": "https://mbs.edu/programs/mba/full-time-mba",
+"readOn": "2026-10-13",
+"response": null,
+"employed": null,
+"employedLabel": "accepted an offer within three months",
+"salary": null,
+"salaryMissing": "No graduate salary published by the school.",
+"bonus": null,
+"intern": null,
+"industries": [],
+"segments": [],
+"zones": [],
+"functions": [],
+"employers": []
+},
+"profile": {
+"intl": null,
+"age": null,
+"exp": null,
+"women": null,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "",
+"url": "https://mbs.edu/programs/mba/full-time-mba"
+},
+"ranks": []
+},
+{
+"slug": "minnesota-carlson",
+"name": "Carlson School of Management, University of Minnesota",
+"short": "Minnesota Carlson",
+"country": "US",
+"city": "Minneapolis, Minnesota",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": 80.0,
+"classSizeText": "",
+"classCohort": "Class of 2025 graduates (66 seeking full-time employment)",
+"cur": "USD",
+"tuition": {
+"v": 124560.0,
+"mult": 1,
+"note": "",
+"cohort": "2025-2026 academic year",
+"url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid",
+"readOn": "2026-10-13",
+"raw": 124560.0,
+"period": "full program (2 x annual 2025-26 non-resident/international rate)"
+},
+"fees": {
+"v": 13023.76,
+"note": "",
+"url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid",
+"raw": 13023.76
+},
+"living": {
+"v": 58396.0,
+"basis": "school",
+"note": "",
+"url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid",
+"readOn": "2026-10-13",
+"raw": 58396.0,
+"period": "full program (2 x annual estimate)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": 29500.0,
+"note": "$2.0M in merit-based scholarships available; 97% of the class of 2024 received an award; average $29,500 per year. All admitted applicants considered automatically.",
+"url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid/scholarships"
+},
+"directLocal": 137583.76,
+"totalLocal": 195979.76,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "school",
+"url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf",
+"page": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 73.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 135058.0,
+"cur": "USD",
+"kind": "base-mean",
+"usd": 135058,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30317.0,
+"cur": "USD",
+"usd": 30317,
+"pct": null,
+"stat": "mean",
+"note": ""
+},
+"intern": null,
+"industries": [
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 18.8,
+"salary": 120125.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 120125
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 16.7,
+"salary": 186000.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 186000
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 12.5,
+"salary": 138700.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 138700
+},
+{
+"key": "consumer",
+"label": "Consumer Packaged Goods + Retail",
+"pct": 18.7,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 6.2,
+"salary": 101000.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 101000
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 6.2,
+"salary": null,
+"stat": "mean",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Non-Profit + Government",
+"pct": 6.3,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 2.1,
+"salary": null,
+"stat": "mean",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Transportation & Logistics + Other",
+"pct": 12.5,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 96.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "marketing",
+"label": "Marketing & Sales",
+"pct": 33.3,
+"salary": 117727.0,
+"cur": "USD",
+"usd": 117727
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 25.0,
+"salary": 127578.0,
+"cur": "USD",
+"usd": 127578
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 18.8,
+"salary": 179111.0,
+"cur": "USD",
+"usd": 179111
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 8.3,
+"salary": 112500.0,
+"cur": "USD",
+"usd": 112500
+},
+{
+"key": "operations",
+"label": "Operations & Logistics",
+"pct": 6.2,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other (incl. HR)",
+"pct": 8.4,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Boston Scientific",
+"hires": null
+},
+{
+"name": "KOST Management",
+"hires": null
+},
+{
+"name": "University of Minnesota",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "Ecolab",
+"hires": null
+},
+{
+"name": "JPMorgan Chase",
+"hires": null
+},
+{
+"name": "Medtronic",
+"hires": null
+},
+{
+"name": "Post Consumer Brands",
+"hires": null
+},
+{
+"name": "Target Corporation",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 17.0,
+"age": 29.0,
+"exp": 5.0,
+"women": 39.0,
+"gmat": 710.0,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Class of 2027",
+"url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf"
+},
+"ranks": []
+},
+{
+"slug": "notre-dame-mendoza",
+"name": "Mendoza College of Business, University of Notre Dame",
+"short": "Notre Dame Mendoza",
+"country": "US",
+"city": "Notre Dame (South Bend), Indiana",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": null,
+"classSizeText": "",
+"classCohort": "",
+"cur": "USD",
+"tuition": {
+"v": 150920.0,
+"mult": 1,
+"note": "",
+"cohort": "2026-2027 academic year",
+"url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/",
+"readOn": "2026-10-13",
+"raw": 150920.0,
+"period": "full program (2 x annual 2026-27 rate)"
+},
+"fees": {
+"v": 6700.0,
+"note": "",
+"url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/",
+"raw": 6700.0
+},
+"living": {
+"v": 57980.0,
+"basis": "school",
+"note": "",
+"url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/",
+"readOn": "2026-10-13",
+"raw": 57980.0,
+"period": "full program (2 x annual 2026-27 budget)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Merit scholarships on holistic review, all applicants considered automatically; Meyer Fellows receive full tuition plus a $25,000 annual stipend. No average award or share of class aided published on the page read.",
+"url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/two-year-mba-tuition-aid/"
+},
+"directLocal": 157620.0,
+"totalLocal": 215600.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "school",
+"url": "https://mendoza.nd.edu/wp-content/uploads/2026/04/031026_MBA-Career-Report_Final.pdf",
+"page": "https://mendoza.nd.edu/wp-content/uploads/2026/04/031026_MBA-Career-Report_Final.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 71.1,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 136000.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 136000,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 35000.0,
+"cur": "USD",
+"usd": 35000,
+"pct": null,
+"stat": "median",
+"note": ""
+},
+"intern": {
+"monthly": 9209.0,
+"cur": "USD",
+"usd": 9209,
+"stat": "median"
+},
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 21.9,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 31.2,
+"salary": 130000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 130000
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 18.8,
+"salary": 142800.0,
+"stat": "median",
+"cur": "USD",
+"usd": 142800
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 10.9,
+"salary": 130000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 130000
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 4.7,
+"salary": 133000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 133000
+},
+{
+"key": "consumer",
+"label": "Consumer Products",
+"pct": 3.1,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 7.8,
+"salary": 117000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 117000
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 1.6,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 96.9,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 23.4,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 26.6,
+"salary": 135000.0,
+"cur": "USD",
+"usd": 135000
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 14.1,
+"salary": 130000.0,
+"cur": "USD",
+"usd": 130000
+},
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 17.2,
+"salary": 133000.0,
+"cur": "USD",
+"usd": 133000
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 15.6,
+"salary": 142800.0,
+"cur": "USD",
+"usd": 142800
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 1.6,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 1.6,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "EY-Parthenon",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "JPMorgan Chase & Co.",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "Bank of America",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": null,
+"age": null,
+"exp": null,
+"women": null,
+"gmat": 655.0,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "current admissions figures (cohort not stated)",
+"url": "https://mendoza.nd.edu/graduate-programs/the-notre-dame-mba/"
+},
+"ranks": []
+},
+{
+"slug": "ntu-nanyang",
+"name": "Nanyang Business School, Nanyang Technological University (Nanyang MBA)",
+"short": "Nanyang (NTU)",
+"country": "SG",
+"city": "Singapore",
+"region": "Asia",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": null,
+"classSizeText": "",
+"classCohort": "",
+"cur": "SGD",
+"tuition": {
+"v": 92955.2,
+"mult": 1,
+"note": "",
+"cohort": "July 2027 intake",
+"url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding",
+"readOn": "2026-10-13",
+"raw": 92955.2,
+"period": "full program"
+},
+"fees": {
+"v": 620.0,
+"note": "",
+"url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding",
+"raw": 620.0
+},
+"living": null,
+"livingMissing": "FAQ: average monthly living expenses S$1,200-1,500 assuming on-campus dormitory; no total budget published.",
+"scholarship": {
+"v": null,
+"note": "No average award or share of class published. Named awards: APEC scholarship (full tuition + S$1,350 monthly stipend + S$500 books + travel), ASEAN scholarship (S$25,000 tuition + S$1,350 monthly stipend), K.N. Sellappah (10% of tuition), many partial merit/diversity scholarships (amounts not stated), Corporate Leaders MBA Fellowship (full tuition, sponsored).",
+"url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/scholarships"
+},
+"directLocal": 93575.2,
+"totalLocal": null,
+"emp": {
+"cohort": "",
+"standard": "school",
+"url": "https://www.ntu.edu.sg/business/forms/nanyang-mba-career-report-download",
+"page": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 93.0,
+"employedLabel": "employed within three months",
+"salary": null,
+"salaryMissing": "No graduate salary published by the school.",
+"bonus": null,
+"intern": null,
+"industries": [],
+"segments": [],
+"zones": [],
+"functions": [],
+"employers": [
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Apple",
+"hires": null
+},
+{
+"name": "BCG",
+"hires": null
+},
+{
+"name": "Deloitte Consulting",
+"hires": null
+},
+{
+"name": "GE",
+"hires": null
+},
+{
+"name": "GIC",
+"hires": null
+},
+{
+"name": "Goldman Sachs",
+"hires": null
+},
+{
+"name": "Hilti",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "P&G",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "Shopee",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": null,
+"age": 28.0,
+"exp": 6.0,
+"women": 40.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 15.0,
+"cohort": "",
+"url": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 12.0,
+"url": "https://www.ntu.edu.sg/news/detail/nanyang-mba-retains-spot-as-singapore-s-top-mba-programme--rises-to-12th-place-globally"
+}
+]
+},
+{
+"slug": "oxford-said",
+"name": "Saïd Business School, University of Oxford",
+"short": "Oxford Saïd",
+"country": "GB",
+"city": "Oxford",
+"region": "UK",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": 339.0,
+"classSizeText": "",
+"classCohort": "MBA 2024-25 (graduating class)",
+"cur": "GBP",
+"tuition": {
+"v": 88800.0,
+"mult": 1,
+"note": "",
+"cohort": "2026-27 programme",
+"url": "https://www.sbs.ox.ac.uk/programmes/mbas/oxford-mba",
+"readOn": "2026-10-13",
+"raw": 88800.0,
+"period": "full program"
+},
+"fees": null,
+"living": null,
+"livingMissing": "University of Oxford official estimate (all students), read via search extract (site returns 403 to robots). Total not computed here: 12 x monthly range.",
+"scholarship": {
+"v": null,
+"note": "No official average award or share of class readable (site 403).",
+"url": "https://www.sbs.ox.ac.uk/programmes/mbas/oxford-mba"
+},
+"directLocal": 88800.0,
+"totalLocal": null,
+"emp": {
+"cohort": "Class of 2024-25",
+"standard": "school",
+"url": "https://www.sbs.ox.ac.uk/sites/default/files/2026-06/mba-employment-report-25.pdf",
+"page": "https://www.sbs.ox.ac.uk/sites/default/files/2026-06/mba-employment-report-25.pdf",
+"readOn": "2026-10-13",
+"response": 87.0,
+"employed": 75.0,
+"employedLabel": "had an offer within three months",
+"salary": {
+"v": 81466.0,
+"cur": "GBP",
+"kind": "base-mean",
+"usd": 107914,
+"p25": null,
+"p75": null,
+"note": "Average base salary at 90 days; min GBP 17,115, max GBP 192,288; +9.9% vs 2023-24. No median published."
+},
+"salaryMissing": null,
+"bonus": {
+"v": 15985.0,
+"cur": "GBP",
+"usd": 21175,
+"pct": null,
+"stat": "mean",
+"note": "'Average bonus salary' as published; type of bonus not specified"
+},
+"intern": null,
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting (total)",
+"pct": 22.2,
+"salary": 90746.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 120207
+},
+{
+"key": "finance",
+"label": "Financial services (total)",
+"pct": 38.6,
+"salary": 78017.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 103345
+},
+{
+"key": "tech",
+"label": "Technology and e-commerce (total)",
+"pct": 13.3,
+"salary": 85286.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 112974
+},
+{
+"key": "other",
+"label": "Global industry (total)",
+"pct": 21.5,
+"salary": 79875.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 105806
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 3.2,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "consumer",
+"label": "Consumer goods 3.8, retail 1.3",
+"pct": 5.1,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy / Utilities",
+"pct": 2.5,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Industrials 2.5, manufacturing 1.3, aerospace/aviation/defence 1.9, mobility 1.3",
+"pct": 7.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Impact (total: nonprofits/social enterprises, social impact, government, education)",
+"pct": 4.4,
+"salary": 58936.0,
+"stat": "mean",
+"cur": "GBP",
+"usd": 78070
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "Investment banking (corporate finance 1.9, securities 0.6, other 2.5)",
+"pct": 5.0,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+},
+{
+"key": "am",
+"label": "Investment management",
+"pct": 14.6,
+"salary": null,
+"stat": null,
+"cur": "GBP",
+"usd": null
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": false,
+"derived": "",
+"pct": 14.0,
+"salary": 116827.0,
+"cur": "GBP",
+"usd": 154755,
+"detail": ""
+},
+{
+"zone": "UK",
+"label": "United Kingdom",
+"exact": true,
+"derived": "",
+"pct": 48.0,
+"salary": 80718.0,
+"cur": "GBP",
+"usd": 106923,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 9.0,
+"salary": 79914.0,
+"cur": "GBP",
+"usd": 105858,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 12.0,
+"salary": 40399.0,
+"cur": "GBP",
+"usd": 53515,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East and North Africa",
+"exact": true,
+"derived": "",
+"pct": 4.0,
+"salary": 88475.0,
+"cur": "GBP",
+"usd": 117198,
+"detail": ""
+},
+{
+"zone": "Africa",
+"label": "Africa, Sub-Saharan",
+"exact": true,
+"derived": "",
+"pct": 3.0,
+"salary": 75196.0,
+"cur": "GBP",
+"usd": 99608,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America and the Caribbean",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": 53922.0,
+"cur": "GBP",
+"usd": 71428,
+"detail": ""
+},
+{
+"zone": "Oceania",
+"label": "Australia and Oceania",
+"exact": true,
+"derived": "",
+"pct": 4.0,
+"salary": 109224.0,
+"cur": "GBP",
+"usd": 144684,
+"detail": ""
+}
+],
+"functions": [],
+"employers": [
+{
+"name": "AlixPartners",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "BCG",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Roland Berger",
+"hires": null
+},
+{
+"name": "ZS Associates",
+"hires": null
+},
+{
+"name": "American Express",
+"hires": null
+},
+{
+"name": "Barclays",
+"hires": null
+},
+{
+"name": "BlackRock",
+"hires": null
+},
+{
+"name": "British International Investment",
+"hires": null
+},
+{
+"name": "Citi UK",
+"hires": null
+},
+{
+"name": "JP Morgan",
+"hires": null
+},
+{
+"name": "Revolut",
+"hires": null
+},
+{
+"name": "The World Bank Group",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "ByteDance/TikTok",
+"hires": null
+},
+{
+"name": "PlayStation",
+"hires": null
+},
+{
+"name": "ExxonMobil",
+"hires": null
+},
+{
+"name": "Mercedes-Benz",
+"hires": null
+},
+{
+"name": "Nike",
+"hires": null
+},
+{
+"name": "SpaceX",
+"hires": null
+},
+{
+"name": "Unilever",
+"hires": null
+},
+{
+"name": "Toyota",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 97.0,
+"age": null,
+"exp": 6.0,
+"women": 48.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 63.0,
+"cohort": "MBA 2024-25",
+"url": "https://www.sbs.ox.ac.uk/sites/default/files/2026-06/mba-employment-report-25.pdf"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 27.0,
+"url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/"
+}
+]
+},
+{
+"slug": "rice-jones",
+"name": "Jones Graduate School of Business, Rice University",
+"short": "Rice Jones",
+"country": "US",
+"city": "Houston",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": 134.0,
+"classSizeText": "",
+"classCohort": "Class of 2027",
+"cur": "USD",
+"tuition": {
+"v": 158232.0,
+"mult": 1,
+"note": "",
+"cohort": "2026-2027",
+"url": "https://business.rice.edu/rice-mba/full-time-mba/tuition-and-financial-aid",
+"readOn": "2026-10-13",
+"raw": 158232.0,
+"period": "full program (2 x published 2026-27 annual figure)"
+},
+"fees": {
+"v": 2646.0,
+"note": "",
+"url": "https://business.rice.edu/rice-mba/full-time-mba/tuition-and-financial-aid",
+"raw": 2646.0
+},
+"living": null,
+"livingMissing": "No current living-cost budget found on Rice Business pages; financialaid.rice.edu returns HTTP 406 to curl. Last school COA PDFs found are 2018-19 and 2020-21 (outdated, not used).",
+"scholarship": {
+"v": 91000.0,
+"note": "Page states '95% of our Full-Time MBA students receive scholarships upon admission, with an average award of $91k' (elsewhere on the same page: 96%). Award period not specified (presumably whole program).",
+"url": "https://business.rice.edu/rice-mba/full-time-mba/tuition-and-financial-aid"
+},
+"directLocal": 160878.0,
+"totalLocal": null,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/99/2026/02/2025-FTMBA-Employment-Outcomes-Data.pdf",
+"page": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/99/2026/02/2025-FTMBA-Employment-Outcomes-Data.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 71.3,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 141500.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 141500,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30000.0,
+"cur": "USD",
+"usd": 30000,
+"pct": 67.1,
+"stat": "median",
+"note": ""
+},
+"intern": {
+"monthly": 6942.0,
+"cur": "USD",
+"usd": 6942,
+"stat": "mean"
+},
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 24.1,
+"salary": 190000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 24.1,
+"salary": 130672.0,
+"stat": "median",
+"cur": "USD",
+"usd": 130672
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 16.1,
+"salary": 137500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 137500
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 14.9,
+"salary": 172500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 172500
+},
+{
+"key": "consumer",
+"label": "Consumer Packaged Goods",
+"pct": 4.6,
+"salary": null,
+"stat": "I/D",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Healthcare (including products and services)",
+"pct": 3.4,
+"salary": 116300.0,
+"stat": "median",
+"cur": "USD",
+"usd": 116300
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 3.4,
+"salary": null,
+"stat": "I/D",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Non-Profit/Education",
+"pct": 3.4,
+"salary": null,
+"stat": "I/D",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Real Estate + Other",
+"pct": 5.7,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 97.6,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 1.1,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 34.5,
+"salary": 150000.0,
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 26.4,
+"salary": 190000.0,
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 17.2,
+"salary": 115000.0,
+"cur": "USD",
+"usd": 115000
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 10.3,
+"salary": 125000.0,
+"cur": "USD",
+"usd": 125000
+},
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 9.2,
+"salary": 140000.0,
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 2.3,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "Infosys Consulting",
+"hires": null
+},
+{
+"name": "Chevron",
+"hires": null
+},
+{
+"name": "ExxonMobil",
+"hires": null
+},
+{
+"name": "Phillips 66",
+"hires": null
+},
+{
+"name": "CenterPoint Energy",
+"hires": null
+},
+{
+"name": "Dell Technologies",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "JP Morgan Chase",
+"hires": null
+},
+{
+"name": "Morgan Stanley",
+"hires": null
+},
+{
+"name": "RBC Capital Markets",
+"hires": null
+},
+{
+"name": "Barclays",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 37.0,
+"age": null,
+"exp": 5.4,
+"women": 36.0,
+"gmat": 694.0,
+"gmatLabel": "average",
+"countries": null,
+"cohort": "Class of 2027 (intl_pct: Class of 2026)",
+"url": "https://business.rice.edu/rice-mba/full-time-mba/class-profile"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 38.0,
+"url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026"
+}
+]
+},
+{
+"slug": "rsm",
+"name": "Rotterdam School of Management, Erasmus University (RSM)",
+"short": "RSM",
+"country": "NL",
+"city": "Rotterdam",
+"region": "Europe",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": 97.0,
+"classSizeText": "",
+"classCohort": "Class of 2027",
+"cur": "EUR",
+"tuition": {
+"v": 70000.0,
+"mult": 1,
+"note": "",
+"cohort": "Intake January 2027",
+"url": "https://www.rsm.nl/education/mba/international-full-time-mba/fees-and-finance/",
+"readOn": "2026-10-13",
+"raw": 70000.0,
+"period": "full program"
+},
+"fees": {
+"v": 254.0,
+"note": "",
+"url": "https://www.rsm.nl/education/mba/international-full-time-mba/fees-and-finance/",
+"raw": 254.0
+},
+"living": {
+"v": 21600.0,
+"basis": "school",
+"note": "",
+"url": "https://www.rsm.nl/education/mba/international-full-time-mba/fees-and-finance/",
+"readOn": "2026-10-13",
+"raw": 21600.0,
+"period": "12 months, single"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "'Scholarship amounts vary'; no average amount or share of class published.",
+"url": "https://www.rsm.nl/education/mba/international-full-time-mba/scholarships/"
+},
+"directLocal": 70254.0,
+"totalLocal": 91854.0,
+"emp": {
+"cohort": "Class of 2026",
+"standard": "school",
+"url": "https://www.rsm.nl/fileadmin/Education/MBA/FTMBA/Employment_Report_for_Full-time_MBA_Class_of_2026.pdf",
+"page": "https://www.rsm.nl/fileadmin/Education/MBA/FTMBA/Employment_Report_for_Full-time_MBA_Class_of_2026.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 81.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 105125.0,
+"cur": "USD",
+"kind": "total-mean",
+"usd": 105125,
+"p25": null,
+"p75": null,
+"note": "'Overall average salary' (base, adjusted with PPP, in USD); report says figures do not reflect salary packages or bonuses. Programme page states 84% found a job within three months (older or different basis)."
+},
+"salaryMissing": null,
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "manufacturing",
+"label": "Manufacturing/Industrial",
+"pct": 27.0,
+"salary": 117269.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 117269
+},
+{
+"key": "finance",
+"label": "Financial and Insurance Services/Banking",
+"pct": 19.0,
+"salary": 99088.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 99088
+},
+{
+"key": "consumer",
+"label": "Consumer Packaged Goods + Retail/E-commerce",
+"pct": 21.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "tech",
+"label": "Technology/Telecoms/IT",
+"pct": 6.0,
+"salary": 123049.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 123049
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 4.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 4.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Other* aggregate (all sectors below 6%) - salary row",
+"pct": 27.0,
+"salary": 102434.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 102434
+},
+{
+"key": "nonprofit",
+"label": "Government/Public Sector + NGOs + Social Enterprise/B Corp",
+"pct": 6.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy/Utilities",
+"pct": 2.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "Financial and Insurance Services/Banking",
+"pct": 19.0,
+"salary": 99088.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 99088
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": false,
+"derived": "",
+"pct": 8.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "largest of overlapping rows",
+"pct": 80.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 10.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [],
+"employers": [
+{
+"name": "BCG",
+"hires": null
+},
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "ASML",
+"hires": null
+},
+{
+"name": "Siemens",
+"hires": null
+},
+{
+"name": "Airbus",
+"hires": null
+},
+{
+"name": "Unilever",
+"hires": null
+},
+{
+"name": "Danone",
+"hires": null
+},
+{
+"name": "ING",
+"hires": null
+},
+{
+"name": "Rabobank",
+"hires": null
+},
+{
+"name": "Adyen",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Uber",
+"hires": null
+},
+{
+"name": "IKEA",
+"hires": null
+},
+{
+"name": "Maersk",
+"hires": null
+},
+{
+"name": "Philips",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 99.0,
+"age": 31.0,
+"exp": 8.0,
+"women": 38.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 28.0,
+"cohort": "Class of 2027",
+"url": "https://www.rsm.nl/fileadmin/Education/MBA/FTMBA/Class_Profile_of_2027_NEW.pdf"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 52.0,
+"url": "https://www.find-mba.com/university/693/rsm-erasmus-university-rotterdam-school-of-management"
+}
+]
+},
+{
+"slug": "smu",
+"name": "Lee Kong Chian School of Business, Singapore Management University (SMU MBA)",
+"short": "SMU",
+"country": "SG",
+"city": "Singapore",
+"region": "Asia",
+"campuses": [],
+"months": 15.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "1-year",
+"twoYear": false,
+"classSize": 58.0,
+"classSizeText": "",
+"classCohort": "Class of 2019",
+"cur": "SGD",
+"tuition": {
+"v": 82840.0,
+"mult": 1,
+"note": "",
+"cohort": "August 2027 intake (indicative)",
+"url": "https://business.smu.edu.sg/mba",
+"readOn": "2026-10-13",
+"raw": 82840.0,
+"period": "full program"
+},
+"fees": {
+"v": 600,
+"note": "Fees: the school publishes 12 months; scaled to the 15-month program.",
+"url": "https://business.smu.edu.sg/mba",
+"raw": 480.0
+},
+"living": null,
+"livingMissing": "No official living budget found on the MBA page.",
+"scholarship": {
+"v": 21000.0,
+"note": "Partial scholarships up to S$21,000 of tuition, no bond (Academic Excellence, Global Awareness, Leadership, Community Impact, Impact on Asia, Women in Business, SMU-ASEAN). Share of class funded not published.",
+"url": "https://business.smu.edu.sg/mba"
+},
+"directLocal": 83440.0,
+"totalLocal": null,
+"emp": {
+"cohort": "Class of 2019",
+"standard": "school",
+"url": "https://masters.smu.edu.sg/sites/masters.smu.edu.sg/files/2022-04/SMU_MBAEmploymentReport2019.pdf",
+"page": "https://masters.smu.edu.sg/sites/masters.smu.edu.sg/files/2022-04/SMU_MBAEmploymentReport2019.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 80.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 98623.0,
+"cur": "SGD",
+"kind": "base-mean",
+"usd": 77058,
+"p25": null,
+"p75": null,
+"note": "mean salary at 6 months after graduation, per annum; maximum S$200,000"
+},
+"salaryMissing": null,
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 21.0,
+"salary": null,
+"stat": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 19.0,
+"salary": null,
+"stat": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 10.0,
+"salary": null,
+"stat": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 10.0,
+"salary": null,
+"stat": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 10.0,
+"salary": null,
+"stat": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Real Estate + Auditing / Accounting + Others",
+"pct": 30.0,
+"salary": null,
+"stat": null,
+"cur": "SGD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 97.5,
+"salary": null,
+"cur": "SGD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Africa",
+"label": "Africa",
+"exact": true,
+"derived": "",
+"pct": 2.5,
+"salary": null,
+"cur": "SGD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "marketing",
+"label": "Marketing / Sales",
+"pct": 26.0,
+"salary": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "corpfin",
+"label": "Finance / Accounting",
+"pct": 20.0,
+"salary": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 18.0,
+"salary": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "operations",
+"label": "Operations / Supply Chains / Logistics",
+"pct": 13.0,
+"salary": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 10.0,
+"salary": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Technology",
+"pct": 3.0,
+"salary": null,
+"cur": "SGD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Others",
+"pct": 10.0,
+"salary": null,
+"cur": "SGD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Accenture Strategy",
+"hires": null
+},
+{
+"name": "American Express",
+"hires": null
+},
+{
+"name": "Mastercard",
+"hires": null
+},
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "OCBC Bank",
+"hires": null
+},
+{
+"name": "UOB",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "KPMG",
+"hires": null
+},
+{
+"name": "Ernst & Young",
+"hires": null
+},
+{
+"name": "Johnson & Johnson",
+"hires": null
+},
+{
+"name": "SAP Asia",
+"hires": null
+},
+{
+"name": "Agoda",
+"hires": null
+},
+{
+"name": "Twitter",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 63.0,
+"age": 30.0,
+"exp": 5.9,
+"women": 40.0,
+"gmat": 640.0,
+"gmatLabel": "average",
+"countries": 26.0,
+"cohort": "Classes of 2018-2021 (full-time and part-time); GMAT mean is Class of 2019",
+"url": "https://business.smu.edu.sg/mba"
+},
+"ranks": []
+},
+{
+"slug": "tuck",
+"name": "Tuck School of Business at Dartmouth",
+"short": "Dartmouth Tuck",
+"country": "US",
+"city": "Hanover",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": 304.0,
+"classSizeText": "",
+"classCohort": "Class of 2027",
+"cur": "USD",
+"tuition": {
+"v": 175072.0,
+"mult": 2,
+"note": "Tuition: the school publishes one academic year; two academic years counted.",
+"cohort": "Class of 2028 (first year) and Class of 2027 (second year)",
+"url": "https://tuck.dartmouth.edu/admissions/finance-your-degree/cost-attendance",
+"readOn": "2026-10-13",
+"raw": 87536.0,
+"period": "per year (2026-27)"
+},
+"fees": {
+"v": 12300.0,
+"note": "Fees: the school publishes one academic year; two academic years counted.",
+"url": "https://tuck.dartmouth.edu/admissions/finance-your-degree/cost-attendance",
+"raw": 6150.0
+},
+"living": {
+"v": 72858.0,
+"basis": "school",
+"note": "Living budget: the school publishes one academic year; two academic years counted.",
+"url": "https://tuck.dartmouth.edu/admissions/finance-your-degree/cost-attendance",
+"readOn": "2026-10-13",
+"raw": 36429.0,
+"period": "first year (2026-27), on-campus, 4 terms"
+},
+"livingMissing": null,
+"scholarship": {
+"v": 34679.0,
+"note": "",
+"url": "https://tuck.dartmouth.edu/admissions/finance-your-degree/scholarships-fellowships-sponsorships"
+},
+"directLocal": 187372.0,
+"totalLocal": 260230.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "school",
+"url": "https://tuck.dartmouth.edu/mba/career-services/employment-statistics",
+"page": "https://tuck.dartmouth.edu/mba/career-services/employment-statistics",
+"readOn": "2026-10-13",
+"response": 89.0,
+"employed": 87.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 175000.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 175000,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30000.0,
+"cur": "USD",
+"usd": 30000,
+"pct": 83.0,
+"stat": "median",
+"note": ""
+},
+"intern": null,
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 41.0,
+"salary": 190000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "finance",
+"label": "Financial Services (total)",
+"pct": 27.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 13.0,
+"salary": 145000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 145000
+},
+{
+"key": "healthcare",
+"label": "Health Care, Pharma, Biotech",
+"pct": 7.0,
+"salary": 140000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "consumer",
+"label": "Consumer Goods, Retail",
+"pct": 6.0,
+"salary": 132500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 132500
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 3.0,
+"salary": 164100.0,
+"stat": "median",
+"cur": "USD",
+"usd": 164100
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 2.0,
+"salary": 140000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "other",
+"label": "Media, Entertainment, Sports",
+"pct": 1.0,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Government, Nonprofit, Education",
+"pct": 1.0,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "investment banking",
+"pct": 13.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "pe",
+"label": "private equity / venture capital",
+"pct": 3.0,
+"salary": 150000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "vc",
+"label": "private equity / venture capital",
+"pct": 3.0,
+"salary": 150000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "am",
+"label": "asset management (Investment Management)",
+"pct": 5.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 97.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": "New York 27% $175,000; Boston 27% $185,000; Other Northeast 1% $125,000; San Francisco Bay Area 9% $167,500; Seattle 5% $142,800; Other West 2% $145,000; Chicago 4% $190,000; Other Midwest 4% $141,400"
+},
+{
+"zone": "Canada",
+"label": "Canada",
+"exact": true,
+"derived": "",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 42.0,
+"salary": 190000.0,
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "corpfin",
+"label": "Finance (total)",
+"pct": 27.0,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "ib",
+"label": "Investment Banking",
+"pct": 14.0,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "corpfin",
+"label": "Corporate Finance",
+"pct": 4.0,
+"salary": 142800.0,
+"cur": "USD",
+"usd": 142800
+},
+{
+"key": "investor",
+"label": "Private Equity, Venture Capital",
+"pct": 4.0,
+"salary": 150000.0,
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "corpfin",
+"label": "Other Finance",
+"pct": 3.0,
+"salary": 160000.0,
+"cur": "USD",
+"usd": 160000
+},
+{
+"key": "other",
+"label": "Investment Management",
+"pct": 2.0,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "marketing",
+"label": "Marketing",
+"pct": 13.0,
+"salary": 140000.0,
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 8.0,
+"salary": 150000.0,
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 5.0,
+"salary": 176000.0,
+"cur": "USD",
+"usd": 176000
+},
+{
+"key": "operations",
+"label": "Operations, Logistics",
+"pct": 3.0,
+"salary": 142800.0,
+"cur": "USD",
+"usd": 142800
+},
+{
+"key": "other",
+"label": "Human Resources",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Bank of America",
+"hires": null
+},
+{
+"name": "Boston Consulting Group",
+"hires": null
+},
+{
+"name": "Citi",
+"hires": null
+},
+{
+"name": "Colgate-Palmolive",
+"hires": null
+},
+{
+"name": "General Mills",
+"hires": null
+},
+{
+"name": "Goldman Sachs",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "McKinsey & Co",
+"hires": null
+},
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "Morgan Stanley",
+"hires": null
+},
+{
+"name": "Nike",
+"hires": null
+},
+{
+"name": "TikTok",
+"hires": null
+},
+{
+"name": "NVIDIA",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 22.0,
+"age": null,
+"exp": null,
+"women": 44.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 46.0,
+"cohort": "Class of 2027",
+"url": "https://tuck.dartmouth.edu/news/articles/an-ambitious-and-inspired-first-year-class-is-off-to-the-races-at-tuck"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 26.0,
+"url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/"
+}
+]
+},
+{
+"slug": "ucd-smurfit",
+"name": "UCD Michael Smurfit Graduate Business School, University College Dublin",
+"short": "UCD Smurfit",
+"country": "IE",
+"city": "Dublin",
+"region": "Europe",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "12 months; class starting end August 2027",
+"format": "1-year",
+"twoYear": false,
+"classSize": null,
+"classSizeText": "",
+"classCohort": "Class of 2025/2026",
+"cur": "EUR",
+"tuition": {
+"v": 39640.0,
+"mult": 1,
+"note": "",
+"cohort": "academic year 2027/2028",
+"url": "https://www.smurfitschool.ie/admissions/mba/",
+"readOn": "2026-10-13",
+"raw": 39640.0,
+"period": "full program"
+},
+"fees": {
+"v": 7000.0,
+"note": "",
+"url": "https://www.smurfitschool.ie/admissions/mba/",
+"raw": 7000.0
+},
+"living": {
+"v": 20440.0,
+"basis": "school",
+"note": "",
+"url": "https://www.smurfitschool.ie/admissions/mba/",
+"readOn": "2026-10-13",
+"raw": 20440.0,
+"period": "12 months"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Merit-based and need-based scholarships exist; no amounts or share of class published on the page read",
+"url": "https://www.smurfitschool.ie/admissions/scholarships/"
+},
+"directLocal": 46640.0,
+"totalLocal": 67080.0,
+"emp": {
+"cohort": "",
+"standard": "school",
+"url": "",
+"page": "",
+"readOn": "2026-10-13",
+"response": null,
+"employed": null,
+"employedLabel": "accepted an offer within three months",
+"salary": null,
+"salaryMissing": "No employment report or graduate salary published by the school (searched school site and web, 2026-10-13). School cites only FT 2026: average salary growth of 100% after 3 years",
+"bonus": null,
+"intern": null,
+"industries": [],
+"segments": [],
+"zones": [],
+"functions": [],
+"employers": [
+{
+"name": "McKinsey",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Kellogg's",
+"hires": null
+},
+{
+"name": "EY",
+"hires": null
+},
+{
+"name": "Grant Thornton",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+},
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "HubSpot",
+"hires": null
+},
+{
+"name": "Facebook",
+"hires": null
+},
+{
+"name": "LinkedIn",
+"hires": null
+},
+{
+"name": "Salesforce",
+"hires": null
+},
+{
+"name": "Mainstream Renewable Power",
+"hires": null
+},
+{
+"name": "KPMG",
+"hires": null
+},
+{
+"name": "Novartis",
+"hires": null
+},
+{
+"name": "Accenture",
+"hires": null
+},
+{
+"name": "Roche",
+"hires": null
+},
+{
+"name": "CRH",
+"hires": null
+},
+{
+"name": "Glanbia",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 83.0,
+"age": 32.0,
+"exp": 9.0,
+"women": 49.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Class of 2025/2026",
+"url": "https://www.smurfitschool.ie/programmes/thesmurfitmba/fulltimemba/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 73.0,
+"url": "https://www.smurfitschool.ie/programmes/thesmurfitmba/fulltimemba/"
+}
+]
+},
+{
+"slug": "ucla-anderson",
+"name": "UCLA Anderson School of Management",
+"short": "UCLA Anderson",
+"country": "US",
+"city": "Los Angeles",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": true,
+"monthsNote": "Two-year format; 21 months assumed (two academic years).",
+"format": "2-year",
+"twoYear": true,
+"classSize": 287.0,
+"classSizeText": "",
+"classCohort": "Class of 2028 (entering 2026)",
+"cur": "USD",
+"tuition": {
+"v": 165468.0,
+"mult": 1,
+"note": "",
+"cohort": "AY 2026-27 + AY 2027-28 estimates",
+"url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing",
+"readOn": "2026-10-13",
+"raw": 165468.0,
+"period": "full program"
+},
+"fees": {
+"v": 20709.0,
+"note": "",
+"url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing",
+"raw": 20709.0
+},
+"living": {
+"v": 82253.0,
+"basis": "school",
+"note": "",
+"url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing",
+"readOn": "2026-10-13",
+"raw": 82253.0,
+"period": "full program"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "School states about half of students receive fellowships and about 75% use some form of financial assistance; no average award published",
+"url": "https://www.anderson.ucla.edu/degrees/full-time-mba/financing"
+},
+"directLocal": 186177.0,
+"totalLocal": 268430.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://www.anderson.ucla.edu/sites/default/files/document/2026-03/Class%20of%202025%20Employment%20Report%20PDF_0.pdf",
+"page": "https://www.anderson.ucla.edu/sites/default/files/document/2026-03/Class%20of%202025%20Employment%20Report%20PDF_0.pdf",
+"readOn": "2026-10-13",
+"response": 95.2,
+"employed": 74.7,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 160096.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 160096,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30000.0,
+"cur": "USD",
+"usd": 30000,
+"pct": 67.3,
+"stat": "median",
+"note": ""
+},
+"intern": {
+"monthly": 9370.0,
+"cur": "USD",
+"usd": 9370,
+"stat": "median"
+},
+"industries": [
+{
+"key": "tech",
+"label": "Technology",
+"pct": 28.3,
+"salary": 147000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 147000
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 25.6,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 19.4,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "other",
+"label": "Entertainment & Media",
+"pct": 7.2,
+"salary": 135200.0,
+"stat": "median",
+"cur": "USD",
+"usd": 135200
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 5.6,
+"salary": 131500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 131500
+},
+{
+"key": "consumer",
+"label": "Consumer Products",
+"pct": 5.6,
+"salary": 121500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 121500
+},
+{
+"key": "energy",
+"label": "Energy, Utilities & Alt. Energy",
+"pct": 1.1,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Non-Profit / Education",
+"pct": 1.1,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "investment banking",
+"pct": 13.3,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "pe",
+"label": "private equity / venture capital",
+"pct": 1.1,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "vc",
+"label": "private equity / venture capital",
+"pct": 1.1,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "am",
+"label": "investment management",
+"pct": 2.2,
+"salary": 95343.0,
+"stat": "median",
+"cur": "USD",
+"usd": 95343
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "derived: 100% minus the shares placed outside the US",
+"pct": 93.9,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 3.3,
+"salary": 112309.0,
+"cur": "USD",
+"usd": 112309,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East",
+"exact": true,
+"derived": "",
+"pct": 0.6,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 2.2,
+"salary": 92281.0,
+"cur": "USD",
+"usd": 92281,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 24.4,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "corpfin",
+"label": "Finance & Accounting",
+"pct": 24.4,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "ib",
+"label": "Investment Banking",
+"pct": 13.3,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "corpfin",
+"label": "Corporate Finance",
+"pct": 5.6,
+"salary": 132000.0,
+"cur": "USD",
+"usd": 132000
+},
+{
+"key": "marketing",
+"label": "Marketing & Sales",
+"pct": 21.7,
+"salary": 144000.0,
+"cur": "USD",
+"usd": 144000
+},
+{
+"key": "product",
+"label": "Product Management",
+"pct": 8.9,
+"salary": 170000.0,
+"cur": "USD",
+"usd": 170000
+},
+{
+"key": "marketing",
+"label": "Product Marketing",
+"pct": 5.6,
+"salary": 148125.0,
+"cur": "USD",
+"usd": 148125
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 13.3,
+"salary": 142800.0,
+"cur": "USD",
+"usd": 142800
+},
+{
+"key": "operations",
+"label": "Operations & Logistics",
+"pct": 7.2,
+"salary": 132600.0,
+"cur": "USD",
+"usd": 132600
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 7.8,
+"salary": 145000.0,
+"cur": "USD",
+"usd": 145000
+}
+],
+"employers": [
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Microsoft",
+"hires": null
+},
+{
+"name": "Bank of America",
+"hires": null
+},
+{
+"name": "Boston Consulting Group (BCG)",
+"hires": null
+},
+{
+"name": "Deloitte",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Apple",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Google",
+"hires": null
+},
+{
+"name": "Jefferies",
+"hires": null
+},
+{
+"name": "Moelis & Company",
+"hires": null
+},
+{
+"name": "PwC",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 36.0,
+"age": 28.0,
+"exp": 5.4,
+"women": 39.0,
+"gmat": 718.0,
+"gmatLabel": "average",
+"countries": null,
+"cohort": "Class of 2028",
+"url": "https://www.anderson.ucla.edu/degrees/full-time-mba/admissions/class-profile"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 32.0,
+"url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026"
+}
+]
+},
+{
+"slug": "unc-kenan-flagler",
+"name": "UNC Kenan-Flagler Business School, University of North Carolina at Chapel Hill",
+"short": "UNC Kenan-Flagler",
+"country": "US",
+"city": "Chapel Hill",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": 206.0,
+"classSizeText": "",
+"classCohort": "Class of 2027",
+"cur": "USD",
+"tuition": {
+"v": 148384.0,
+"mult": 1,
+"note": "",
+"cohort": "2026-2027, non-North Carolina resident",
+"url": "https://www.kenan-flagler.unc.edu/programs/mba/full-time-mba/admissions/tuition-financial-aid/",
+"readOn": "2026-10-13",
+"raw": 148384.0,
+"period": "full program (2 x published 2026-27 annual figure)"
+},
+"fees": null,
+"living": {
+"v": 58840.0,
+"basis": "school",
+"note": "",
+"url": "https://www.kenan-flagler.unc.edu/programs/mba/full-time-mba/admissions/tuition-financial-aid/",
+"readOn": "2026-10-13",
+"raw": 58840.0,
+"period": "full program (2 x one academic year)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "School says 'nearly 50%' of students receive some fellowship assistance; no average award published.",
+"url": "https://www.kenan-flagler.unc.edu/programs/mba/full-time-mba/admissions/tuition-financial-aid/fellowships/"
+},
+"directLocal": 148384.0,
+"totalLocal": 207224.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2025/12/FTMBA26-032-Employment-Statistics-One-Pager_FNL.pdf",
+"page": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2025/12/FTMBA26-032-Employment-Statistics-One-Pager_FNL.pdf",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 88.0,
+"employedLabel": "employed within three months",
+"salary": {
+"v": 139637.0,
+"cur": "USD",
+"kind": "base-mean",
+"usd": 139637,
+"p25": null,
+"p75": null,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 32558.0,
+"cur": "USD",
+"usd": 32558,
+"pct": null,
+"stat": "mean",
+"note": ""
+},
+"intern": null,
+"industries": [
+{
+"key": "finance",
+"label": "Financial Services",
+"pct": 25.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 18.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "healthcare",
+"label": "Healthcare (including products & services)",
+"pct": 14.0,
+"salary": 132000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 132000
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 13.0,
+"salary": 142000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 142000
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 8.0,
+"salary": 128000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 128000
+},
+{
+"key": "other",
+"label": "Real Estate + Other (hospitality, manufacturing, media/entertainment, non-profit/public sector, transportation & logistics)",
+"pct": 15.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consumer",
+"label": "Consumer Packaged Goods + Retail",
+"pct": 8.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 96.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "corpfin",
+"label": "Finance (all)",
+"pct": 40.0,
+"salary": 140000.0,
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "ib",
+"label": "Finance - Investment Banking",
+"pct": 15.0,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "corpfin",
+"label": "Finance - Real Estate",
+"pct": 7.0,
+"salary": 130000.0,
+"cur": "USD",
+"usd": 130000
+},
+{
+"key": "corpfin",
+"label": "Finance - Industry Finance",
+"pct": 6.0,
+"salary": 122500.0,
+"cur": "USD",
+"usd": 122500
+},
+{
+"key": "corpfin",
+"label": "Finance - Capital Markets & Investment Management",
+"pct": 3.0,
+"salary": 150000.0,
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "corpfin",
+"label": "Finance - Private Wealth Management",
+"pct": 2.0,
+"salary": 125000.0,
+"cur": "USD",
+"usd": 125000
+},
+{
+"key": "ib",
+"label": "Finance - Banking (non-Investment Banking)",
+"pct": 1.0,
+"salary": 130000.0,
+"cur": "USD",
+"usd": 130000
+},
+{
+"key": "investor",
+"label": "Finance - Private Equity",
+"pct": 1.0,
+"salary": 125000.0,
+"cur": "USD",
+"usd": 125000
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 17.0,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 15.0,
+"salary": 130000.0,
+"cur": "USD",
+"usd": 130000
+},
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 13.0,
+"salary": 125000.0,
+"cur": "USD",
+"usd": 125000
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 11.0,
+"salary": 137500.0,
+"cur": "USD",
+"usd": 137500
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 3.0,
+"salary": 146000.0,
+"cur": "USD",
+"usd": 146000
+},
+{
+"key": "other",
+"label": "Other",
+"pct": 4.0,
+"salary": 162500.0,
+"cur": "USD",
+"usd": 162500
+}
+],
+"employers": [
+{
+"name": "Amazon",
+"hires": null
+},
+{
+"name": "Bain & Company",
+"hires": null
+},
+{
+"name": "Deloitte Consulting",
+"hires": null
+},
+{
+"name": "EY-Parthenon",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Bank of America",
+"hires": null
+},
+{
+"name": "Duke Energy",
+"hires": null
+},
+{
+"name": "ExxonMobil",
+"hires": null
+},
+{
+"name": "Kenvue",
+"hires": null
+},
+{
+"name": "PepsiCo",
+"hires": null
+},
+{
+"name": "JPMorgan Chase",
+"hires": null
+},
+{
+"name": "Harris Williams",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 35.0,
+"age": 28.0,
+"exp": 5.0,
+"women": 32.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Class of 2027",
+"url": "https://www.kenan-flagler.unc.edu/programs/mba/full-time-mba/admissions/class-profile/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 40.0,
+"url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026"
+}
+]
+},
+{
+"slug": "warwick",
+"name": "Warwick Business School, University of Warwick",
+"short": "Warwick",
+"country": "GB",
+"city": "Coventry",
+"region": "UK",
+"campuses": [],
+"months": 12.0,
+"monthsDerived": false,
+"monthsNote": "12-month or 16-month options; September 2027 start",
+"format": "1-year",
+"twoYear": false,
+"classSize": 70.0,
+"classSizeText": "",
+"classCohort": "Graduating Class of 2025",
+"cur": "GBP",
+"tuition": {
+"v": 62500.0,
+"mult": 1,
+"note": "",
+"cohort": "September 2027 intake (2027/28)",
+"url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/",
+"readOn": "2026-10-13",
+"raw": 62500.0,
+"period": "full program"
+},
+"fees": null,
+"living": {
+"v": 13632.0,
+"basis": "school",
+"note": "",
+"url": "https://warwick.ac.uk/study/international/admissions/finance/livingcosts/",
+"readOn": "2026-10-13",
+"raw": 13632.0,
+"period": "12 months"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Scholarships of 10% to 50% of tuition (£6,250-£31,250) for September 2027 entry; Sainsbury Engineering / Science Management Fellowships £50,000 (external). No average award or share of class aided published",
+"url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/"
+},
+"directLocal": 62500.0,
+"totalLocal": 76132.0,
+"emp": {
+"cohort": "Graduating Class of 2025",
+"standard": "school",
+"url": "https://online.flippingbook.com/view/622705779/",
+"page": "https://online.flippingbook.com/view/622705779/",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 81.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 137924.0,
+"cur": "USD",
+"kind": "base-mean",
+"usd": 137924,
+"p25": null,
+"p75": null,
+"note": "Overall average salary three months post-MBA, in purchasing power parity dollars ($PPP), as published; maximum $357,675 PPP; average salary increase 44%"
+},
+"salaryMissing": null,
+"bonus": null,
+"intern": null,
+"industries": [
+{
+"key": "tech",
+"label": "Technology",
+"pct": 18.0,
+"salary": 101372.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 101372
+},
+{
+"key": "finance",
+"label": "Finance",
+"pct": 18.0,
+"salary": 138342.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 138342
+},
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 12.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 11.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 9.0,
+"salary": 114547.0,
+"stat": "mean",
+"cur": "USD",
+"usd": 114547
+},
+{
+"key": "healthcare",
+"label": "Healthcare",
+"pct": 8.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Government + Education + NGOs",
+"pct": 12.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "consumer",
+"label": "Retail",
+"pct": 4.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Transport/logistics + Law + Entertainment + Hospitality/tourism",
+"pct": 8.0,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [],
+"zones": [
+{
+"zone": "US",
+"label": "North America",
+"exact": false,
+"derived": "",
+"pct": 5.9,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "UK",
+"label": "UK",
+"exact": true,
+"derived": "",
+"pct": 43.1,
+"salary": 160551.0,
+"cur": "USD",
+"usd": 160551,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 5.9,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 27.4,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East",
+"exact": true,
+"derived": "",
+"pct": 2.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Africa",
+"label": "Africa",
+"exact": true,
+"derived": "",
+"pct": 9.8,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 5.9,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [],
+"employers": [
+{
+"name": "J.P. Morgan",
+"hires": null
+},
+{
+"name": "American Express",
+"hires": null
+},
+{
+"name": "Hilltop Capital Partners",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 93.0,
+"age": 31.0,
+"exp": null,
+"women": 34.0,
+"gmat": null,
+"gmatLabel": "median",
+"countries": 22.0,
+"cohort": "Graduating Class of 2025 (cohort size 70, age range 24-43)",
+"url": "https://online.flippingbook.com/view/622705779/"
+},
+"ranks": []
+},
+{
+"slug": "wharton",
+"name": "The Wharton School, University of Pennsylvania",
+"short": "Wharton",
+"country": "US",
+"city": "Philadelphia",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "two academic years; months derived from the 2-year format, not stated as a number by the school",
+"format": "2-year",
+"twoYear": true,
+"classSize": 888.0,
+"classSizeText": "",
+"classCohort": "Class of 2027 (enrolled; profile as of Aug 12, 2025)",
+"cur": "USD",
+"tuition": {
+"v": 175940.0,
+"mult": 1,
+"note": "",
+"cohort": "2026-2027 budget, first year $87,970 + second year $87,970",
+"url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+"readOn": "2026-10-13",
+"raw": 175940.0,
+"period": "full program"
+},
+"fees": {
+"v": 10076.0,
+"note": "",
+"url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+"raw": 10076.0
+},
+"living": {
+"v": 84866.0,
+"basis": "school",
+"note": "",
+"url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+"readOn": "2026-10-13",
+"raw": 84866.0,
+"period": "full program (2 x $42,433 per year)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": null,
+"note": "Wharton tuition page gives no average fellowship amount or share of class aided; Yellow Ribbon up to $24,000 (matched by the VA) for eligible veterans.",
+"url": "https://mba.wharton.upenn.edu/tuition-financial-aid/"
+},
+"directLocal": 186016.0,
+"totalLocal": 270882.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "MBA CSEA",
+"url": "https://statistics.mbacareers.wharton.upenn.edu/wp-content/uploads/2025/12/2025-Career-Report.pdf",
+"page": "https://statistics.mbacareers.wharton.upenn.edu/full-time/",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 87.0,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 185000.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 185000,
+"p25": 165000.0,
+"p75": 192000.0,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30000.0,
+"cur": "USD",
+"usd": 30000,
+"pct": 48.0,
+"stat": "median",
+"note": ""
+},
+"intern": {
+"monthly": 10416.0,
+"cur": "USD",
+"usd": 10416,
+"stat": "median"
+},
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting",
+"pct": 28.2,
+"salary": 190000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "finance",
+"label": "Financial Services (total)",
+"pct": 38.2,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 15.3,
+"salary": 163500.0,
+"stat": "median",
+"cur": "USD",
+"usd": 163500
+},
+{
+"key": "healthcare",
+"label": "Health Care",
+"pct": 3.8,
+"salary": 155850.0,
+"stat": "median",
+"cur": "USD",
+"usd": 155850
+},
+{
+"key": "consumer",
+"label": "Retail",
+"pct": 2.1,
+"salary": 165000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 165000
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 1.1,
+"salary": 165000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 165000
+},
+{
+"key": "manufacturing",
+"label": "Manufacturing",
+"pct": 1.9,
+"salary": 150000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "other",
+"label": "Legal & Professional Services + Media, Entertainment & Sports + Real Estate",
+"pct": 5.2,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "nonprofit",
+"label": "Social Impact",
+"pct": 1.5,
+"salary": 147806.0,
+"stat": "median",
+"cur": "USD",
+"usd": 147806
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "investment banking (Investment Banking/Brokerage)",
+"pct": 14.2,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "pe",
+"label": "private equity (Private Equity/Buyouts/Other)",
+"pct": 13.4,
+"salary": 200000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 200000
+},
+{
+"key": "vc",
+"label": "venture capital",
+"pct": 2.8,
+"salary": 170000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 170000
+},
+{
+"key": "am",
+"label": "asset management (Investment Management)",
+"pct": 5.3,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 94.2,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": "New York City 49.1% (median $185,000); Boston 4.0% ($185,000); Philadelphia 4.2% ($155,000); Washington DC 5.4% ($190,000); San Francisco 11.9% ($176,500); Los Angeles 2.9% ($176,500); Seattle 3.8% ($160,000); Chicago 3.1% ($190,000); Atlanta 0.7%; Miami 0.9%; Dallas/Fort Worth 1.0% ($190,000); Houston 1.0% ($175,000); Austin median $175,000"
+},
+{
+"zone": "Canada",
+"label": "Canada",
+"exact": true,
+"derived": "",
+"pct": 0.7,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Europe",
+"label": "Europe",
+"exact": true,
+"derived": "",
+"pct": 0.9,
+"salary": 119728.0,
+"cur": "USD",
+"usd": 119728,
+"detail": "United Kingdom 0.5%"
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 2.3,
+"salary": 180000.0,
+"cur": "USD",
+"usd": 180000,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East",
+"exact": true,
+"derived": "",
+"pct": 1.0,
+"salary": 235000.0,
+"cur": "USD",
+"usd": 235000,
+"detail": ""
+},
+{
+"zone": "Africa",
+"label": "Africa",
+"exact": true,
+"derived": "",
+"pct": 0.2,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 0.4,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Oceania",
+"label": "Oceania",
+"exact": true,
+"derived": "",
+"pct": 0.4,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": "Australia 0.4%"
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting/Strategy",
+"pct": 25.5,
+"salary": 190000.0,
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "investor",
+"label": "Private Equity/Venture Capital - Investor",
+"pct": 11.6,
+"salary": 182500.0,
+"cur": "USD",
+"usd": 182500
+},
+{
+"key": "other",
+"label": "General/Project Mgmt/Mgmt Development",
+"pct": 9.6,
+"salary": 155000.0,
+"cur": "USD",
+"usd": 155000
+},
+{
+"key": "ib",
+"label": "Investment Banking",
+"pct": 9.3,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "product",
+"label": "Product Management",
+"pct": 6.7,
+"salary": 170000.0,
+"cur": "USD",
+"usd": 170000
+},
+{
+"key": "other",
+"label": "Investment Management/Portfolio Mgmt",
+"pct": 6.2,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "operations",
+"label": "Operations/Production Management/Supply Chain",
+"pct": 4.0,
+"salary": 155000.0,
+"cur": "USD",
+"usd": 155000
+},
+{
+"key": "bizdev",
+"label": "Business Development",
+"pct": 3.8,
+"salary": 170000.0,
+"cur": "USD",
+"usd": 170000
+},
+{
+"key": "other",
+"label": "Management Information Systems/IT",
+"pct": 3.1,
+"salary": 160000.0,
+"cur": "USD",
+"usd": 160000
+},
+{
+"key": "analytics",
+"label": "Analytics/Data Science",
+"pct": 2.7,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "corpfin",
+"label": "Corporate Finance (Analysis/Treasury)",
+"pct": 2.7,
+"salary": 159500.0,
+"cur": "USD",
+"usd": 159500
+},
+{
+"key": "other",
+"label": "Legal Services",
+"pct": 2.6,
+"salary": 235000.0,
+"cur": "USD",
+"usd": 235000
+},
+{
+"key": "product",
+"label": "Product/Brand Marketing",
+"pct": 2.6,
+"salary": 155000.0,
+"cur": "USD",
+"usd": 155000
+},
+{
+"key": "other",
+"label": "Real Estate",
+"pct": 1.6,
+"salary": 144000.0,
+"cur": "USD",
+"usd": 144000
+},
+{
+"key": "other",
+"label": "Entrepreneurial Management",
+"pct": 1.0,
+"salary": 155000.0,
+"cur": "USD",
+"usd": 155000
+},
+{
+"key": "other",
+"label": "Restructuring",
+"pct": 0.7,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "bizdev",
+"label": "Sales",
+"pct": 0.5,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": []
+},
+"profile": {
+"intl": 26.0,
+"age": null,
+"exp": 5.0,
+"women": 44.0,
+"gmat": 735.0,
+"gmatLabel": "average",
+"countries": 68.0,
+"cohort": "Class of 2027",
+"url": "https://mba.wharton.upenn.edu/class-profile/"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 3.0,
+"url": "https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking"
+}
+]
+},
+{
+"slug": "yale-som",
+"name": "Yale School of Management",
+"short": "Yale SOM",
+"country": "US",
+"city": "New Haven",
+"region": "US",
+"campuses": [],
+"months": 21.0,
+"monthsDerived": false,
+"monthsNote": "",
+"format": "2-year",
+"twoYear": true,
+"classSize": 367.0,
+"classSizeText": "",
+"classCohort": "Class of 2027",
+"cur": "USD",
+"tuition": {
+"v": 181800.0,
+"mult": 2,
+"note": "Tuition: the school publishes one academic year; two academic years counted.",
+"cohort": "2026-27",
+"url": "https://som.yale.edu/programs/mba/affording-your-MBA/cost-information",
+"readOn": "2026-10-13",
+"raw": 90900.0,
+"period": "per year (2026-27)"
+},
+"fees": {
+"v": 1000.0,
+"note": "Fees: the school publishes one academic year; two academic years counted.",
+"url": "https://som.yale.edu/programs/mba/affording-your-MBA/cost-information",
+"raw": 500.0
+},
+"living": {
+"v": 75152.0,
+"basis": "school",
+"note": "Living budget: the school publishes one academic year; two academic years counted.",
+"url": "https://som.yale.edu/programs/mba/affording-your-MBA/cost-information",
+"readOn": "2026-10-13",
+"raw": 37576.0,
+"period": "one academic year (2026-27)"
+},
+"livingMissing": null,
+"scholarship": {
+"v": 65000.0,
+"note": "Read via search excerpt of the official page; unclear whether the award is per year or for the program.",
+"url": "https://som.yale.edu/programs/mba/affording-your-mba"
+},
+"directLocal": 182800.0,
+"totalLocal": 257952.0,
+"emp": {
+"cohort": "Class of 2025",
+"standard": "school",
+"url": "https://som.yale.edu/media/20006/download?inline",
+"page": "https://som.yale.edu/media/20006/download?inline",
+"readOn": "2026-10-13",
+"response": null,
+"employed": 79.9,
+"employedLabel": "accepted an offer within three months",
+"salary": {
+"v": 175000.0,
+"cur": "USD",
+"kind": "base-median",
+"usd": 175000,
+"p25": 140000.0,
+"p75": 190000.0,
+"note": ""
+},
+"salaryMissing": null,
+"bonus": {
+"v": 30000.0,
+"cur": "USD",
+"usd": 30000,
+"pct": 71.5,
+"stat": "median",
+"note": ""
+},
+"intern": null,
+"industries": [
+{
+"key": "consulting",
+"label": "Consulting Services",
+"pct": 36.9,
+"salary": 190000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "finance",
+"label": "Finance (total)",
+"pct": 28.6,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "tech",
+"label": "Technology",
+"pct": 8.3,
+"salary": 138200.0,
+"stat": "median",
+"cur": "USD",
+"usd": 138200
+},
+{
+"key": "healthcare",
+"label": "Healthcare/Pharmaceuticals",
+"pct": 5.1,
+"salary": 140000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "consumer",
+"label": "Retail (total)",
+"pct": 4.6,
+"salary": 143900.0,
+"stat": "median",
+"cur": "USD",
+"usd": 143900
+},
+{
+"key": "energy",
+"label": "Energy",
+"pct": 3.7,
+"salary": 155000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 155000
+},
+{
+"key": "nonprofit",
+"label": "Nonprofit",
+"pct": 2.8,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "manufacturing",
+"label": "Transportation",
+"pct": 2.3,
+"salary": 150000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "other",
+"label": "Media/Entertainment + Law + Real Estate + Hospitality",
+"pct": 3.3,
+"salary": null,
+"stat": null,
+"cur": "USD",
+"usd": null
+}
+],
+"segments": [
+{
+"key": "ib",
+"label": "investment banking",
+"pct": 18.0,
+"salary": 175000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "pe",
+"label": "private equity",
+"pct": 1.4,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "vc",
+"label": "venture capital",
+"pct": 1.8,
+"salary": null,
+"stat": "median",
+"cur": "USD",
+"usd": null
+},
+{
+"key": "am",
+"label": "asset management (Investment Management)",
+"pct": 3.7,
+"salary": 140000.0,
+"stat": "median",
+"cur": "USD",
+"usd": 140000
+}
+],
+"zones": [
+{
+"zone": "US",
+"label": "US Mid-Atlantic + US Midwest + US Northeast + US South + US Southwest + US West",
+"exact": true,
+"derived": "",
+"pct": 92.7,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Canada",
+"label": "Canada",
+"exact": true,
+"derived": "",
+"pct": 0.5,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Asia",
+"label": "Asia",
+"exact": true,
+"derived": "",
+"pct": 4.8,
+"salary": 90000.0,
+"cur": "USD",
+"usd": 90000,
+"detail": ""
+},
+{
+"zone": "Middle East",
+"label": "Middle East",
+"exact": true,
+"derived": "",
+"pct": 0.5,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Latin America",
+"label": "Latin America",
+"exact": true,
+"derived": "",
+"pct": 1.0,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+},
+{
+"zone": "Oceania",
+"label": "Oceania",
+"exact": true,
+"derived": "",
+"pct": 0.5,
+"salary": null,
+"cur": "USD",
+"usd": null,
+"detail": ""
+}
+],
+"functions": [
+{
+"key": "consulting",
+"label": "Consulting (total)",
+"pct": 48.6,
+"salary": 190000.0,
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "consulting",
+"label": "External Consulting",
+"pct": 36.9,
+"salary": 190000.0,
+"cur": "USD",
+"usd": 190000
+},
+{
+"key": "consulting",
+"label": "Internal Consulting/Strategy",
+"pct": 11.7,
+"salary": 150000.0,
+"cur": "USD",
+"usd": 150000
+},
+{
+"key": "corpfin",
+"label": "Finance/Accounting",
+"pct": 29.4,
+"salary": 175000.0,
+"cur": "USD",
+"usd": 175000
+},
+{
+"key": "marketing",
+"label": "Marketing/Sales",
+"pct": 9.8,
+"salary": 131500.0,
+"cur": "USD",
+"usd": 131500
+},
+{
+"key": "general",
+"label": "General Management",
+"pct": 5.6,
+"salary": 140000.0,
+"cur": "USD",
+"usd": 140000
+},
+{
+"key": "other",
+"label": "Information Technology",
+"pct": 2.8,
+"salary": 130000.0,
+"cur": "USD",
+"usd": 130000
+},
+{
+"key": "operations",
+"label": "Operations/Logistics",
+"pct": 1.4,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Law",
+"pct": 0.9,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Social Impact",
+"pct": 0.5,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Human Resources",
+"pct": 0.5,
+"salary": null,
+"cur": "USD",
+"usd": null
+},
+{
+"key": "other",
+"label": "Real Estate",
+"pct": 0.5,
+"salary": null,
+"cur": "USD",
+"usd": null
+}
+],
+"employers": [
+{
+"name": "Amazon.com, Inc.",
+"hires": null
+},
+{
+"name": "Bain & Company, Inc.",
+"hires": null
+},
+{
+"name": "Bank of America Corporation",
+"hires": null
+},
+{
+"name": "Barclays PLC",
+"hires": null
+},
+{
+"name": "The Boston Consulting Group, Inc.",
+"hires": null
+},
+{
+"name": "Citigroup Inc.",
+"hires": null
+},
+{
+"name": "Deloitte Consulting LLP",
+"hires": null
+},
+{
+"name": "EY-Parthenon",
+"hires": null
+},
+{
+"name": "International Business Machines Corporation",
+"hires": null
+},
+{
+"name": "JPMorgan Chase & Co.",
+"hires": null
+},
+{
+"name": "McKinsey & Company",
+"hires": null
+},
+{
+"name": "Microsoft Corporation",
+"hires": null
+},
+{
+"name": "The Goldman Sachs Group, Inc.",
+"hires": null
+}
+]
+},
+"profile": {
+"intl": 41.0,
+"age": null,
+"exp": 5.0,
+"women": 44.0,
+"gmat": 740.0,
+"gmatLabel": "median",
+"countries": null,
+"cohort": "Class of 2027",
+"url": "https://som.yale.edu/programs/mba/admissions/class-profile"
+},
+"ranks": [
+{
+"ranking": "FT Global MBA 2026",
+"rank": 17.0,
+"url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/"
+}
+]
+}
+]
+}

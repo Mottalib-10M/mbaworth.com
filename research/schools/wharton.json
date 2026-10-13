@@ -1,0 +1,438 @@
+{
+  "slug": "wharton",
+  "name": "The Wharton School, University of Pennsylvania",
+  "short": "Wharton",
+  "country": "US",
+  "city": "Philadelphia",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "length_note": "two academic years; months derived from the 2-year format, not stated as a number by the school",
+    "class_size": {
+      "value": 888,
+      "cohort": "Class of 2027 (enrolled; profile as of Aug 12, 2025)",
+      "url": "https://mba.wharton.upenn.edu/class-profile/",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 175940,
+    "currency": "USD",
+    "period": "full program",
+    "cohort": "2026-2027 budget, first year $87,970 + second year $87,970",
+    "url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 10076,
+    "currency": "USD",
+    "period": "full program",
+    "cohort": "2026-2027 budget, university fees $5,038 per year x 2",
+    "url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 84866,
+    "currency": "USD",
+    "period": "full program (2 x $42,433 per year)",
+    "cohort": "2026-2027 budget",
+    "basis": "school budget",
+    "detail_per_year": {
+      "housing": 21258,
+      "food": 9287,
+      "books_supplies": 1123,
+      "transportation": 1044,
+      "personal": 4703,
+      "health_insurance": 5018,
+      "total": 42433
+    },
+    "note": "Total MBA cost per year $135,441 (tuition+fees $93,008 + living $42,433). Health insurance is inside the living budget.",
+    "url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "note": "Wharton tuition page gives no average fellowship amount or share of class aided; Yellow Ribbon up to $24,000 (matched by the VA) for eligible veterans.",
+    "url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://statistics.mbacareers.wharton.upenn.edu/full-time/",
+    "report_pdf": "https://statistics.mbacareers.wharton.upenn.edu/wp-content/uploads/2025/12/2025-Career-Report.pdf",
+    "cohort": "Class of 2025",
+    "standard": "MBA CSEA",
+    "url": "https://statistics.mbacareers.wharton.upenn.edu/full-time/",
+    "read_on": "2026-10-13",
+    "students_in_class": 879,
+    "response_rate": null,
+    "offers_pct_seeking": 90.5,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 87.0,
+    "employment_note": "School reports 90.5% of seeking students reported job offers and 87.0% reported acceptances (timing not stated on the page; MBA CSEA standard implies 3 months after graduation, not confirmed on page). 7.9% accepted an offer with a startup. Not seeking: 17.1% sponsored/returning, 5.2% self-employed, 1.8% postponed/continuing education, 1.3% other.",
+    "base_salary": {
+      "value": 185000,
+      "currency": "USD",
+      "stat": "median",
+      "p25": 165000,
+      "p75": 192000
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "pct_receiving": 48,
+      "p25": 30000,
+      "p75": 50000
+    },
+    "guaranteed_bonus": {
+      "value": 25357,
+      "stat": "median",
+      "pct_receiving": 10,
+      "p25": 14500,
+      "p75": 100000
+    },
+    "internship_monthly": {
+      "value": 10416,
+      "currency": "USD",
+      "stat": "median",
+      "cohort": "Class of 2026 internships",
+      "url": "https://statistics.mbacareers.wharton.upenn.edu/wp-content/uploads/2025/12/2025-Career-Report.pdf",
+      "read_on": "2026-10-13"
+    },
+    "by_industry_url": "https://statistics.mbacareers.wharton.upenn.edu/full-time/industry-choices/",
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 28.2,
+        "salary": 190000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "Financial Services (total)",
+        "pct": 38.2,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking (Investment Banking/Brokerage)",
+        "pct": 14.2,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity (Private Equity/Buyouts/Other)",
+        "pct": 13.4,
+        "salary": 200000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "asset management (Investment Management)",
+        "pct": 5.3,
+        "salary": 175000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "venture capital",
+        "pct": 2.8,
+        "salary": 170000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "insurance & diversified services",
+        "pct": 2.1,
+        "salary": 165000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "hedge funds/other investments",
+        "pct": 0.4,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "finance",
+        "sub": "fintech",
+        "pct": 1.5,
+        "salary": 167500,
+        "stat": "median"
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 15.3,
+        "salary": 163500,
+        "stat": "median"
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Health Care",
+        "pct": 3.8,
+        "salary": 155850,
+        "stat": "median"
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Products",
+        "pct": 0.9,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 2.1,
+        "salary": 165000,
+        "stat": "median"
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy",
+        "pct": 1.1,
+        "salary": 165000,
+        "stat": "median"
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 1.9,
+        "salary": 150000,
+        "stat": "median"
+      },
+      {
+        "industry": "other",
+        "sub": "Legal & Professional Services",
+        "pct": 2.5,
+        "salary": 235000,
+        "stat": "median"
+      },
+      {
+        "industry": "other",
+        "sub": "Media, Entertainment & Sports",
+        "pct": 0.8,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Real Estate",
+        "pct": 1.9,
+        "salary": 150000,
+        "stat": "median"
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Social Impact",
+        "pct": 1.5,
+        "salary": 147806,
+        "stat": "median"
+      }
+    ],
+    "by_industry_note": "Financial Services sub-sectors listed by the school; FinTech is listed by Wharton as a separate industry and placed here under finance. Salary = median annual base; null where the school shows I/D (insufficient data).",
+    "by_function_url": "https://statistics.mbacareers.wharton.upenn.edu/full-time/function-choices/",
+    "by_function": [
+      {
+        "function": "Consulting/Strategy",
+        "pct": 25.5,
+        "salary": 190000
+      },
+      {
+        "function": "Private Equity/Venture Capital - Investor",
+        "pct": 11.6,
+        "salary": 182500
+      },
+      {
+        "function": "General/Project Mgmt/Mgmt Development",
+        "pct": 9.6,
+        "salary": 155000
+      },
+      {
+        "function": "Investment Banking",
+        "pct": 9.3,
+        "salary": 175000
+      },
+      {
+        "function": "Product Management",
+        "pct": 6.7,
+        "salary": 170000
+      },
+      {
+        "function": "Investment Management/Portfolio Mgmt",
+        "pct": 6.2,
+        "salary": 175000
+      },
+      {
+        "function": "Operations/Production Management/Supply Chain",
+        "pct": 4.0,
+        "salary": 155000
+      },
+      {
+        "function": "Business Development",
+        "pct": 3.8,
+        "salary": 170000
+      },
+      {
+        "function": "Management Information Systems/IT",
+        "pct": 3.1,
+        "salary": 160000
+      },
+      {
+        "function": "Analytics/Data Science",
+        "pct": 2.7,
+        "salary": 175000
+      },
+      {
+        "function": "Corporate Finance (Analysis/Treasury)",
+        "pct": 2.7,
+        "salary": 159500
+      },
+      {
+        "function": "Legal Services",
+        "pct": 2.6,
+        "salary": 235000
+      },
+      {
+        "function": "Product/Brand Marketing",
+        "pct": 2.6,
+        "salary": 155000
+      },
+      {
+        "function": "Real Estate",
+        "pct": 1.6,
+        "salary": 144000
+      },
+      {
+        "function": "Entrepreneurial Management",
+        "pct": 1.0,
+        "salary": 155000
+      },
+      {
+        "function": "Restructuring",
+        "pct": 0.7,
+        "salary": null
+      },
+      {
+        "function": "Sales",
+        "pct": 0.5,
+        "salary": null
+      }
+    ],
+    "by_function_note": "Portfolio Company Operations/Value Creation median $195,000 and Risk Management $129,402 are shown in the compensation table without a placement share.",
+    "by_geography_url": "https://statistics.mbacareers.wharton.upenn.edu/full-time/location-choices/",
+    "by_geography": [
+      {
+        "region": "US Northeast",
+        "pct": 53.0,
+        "salary": null,
+        "detail": "New York City 49.1% (median $185,000); Boston 4.0% ($185,000)"
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 9.8,
+        "salary": null,
+        "detail": "Philadelphia 4.2% ($155,000); Washington DC 5.4% ($190,000)"
+      },
+      {
+        "region": "US West",
+        "pct": 20.2,
+        "salary": null,
+        "detail": "San Francisco 11.9% ($176,500); Los Angeles 2.9% ($176,500); Seattle 3.8% ($160,000)"
+      },
+      {
+        "region": "US Midwest",
+        "pct": 4.3,
+        "salary": null,
+        "detail": "Chicago 3.1% ($190,000)"
+      },
+      {
+        "region": "US South",
+        "pct": 2.6,
+        "salary": null,
+        "detail": "Atlanta 0.7%; Miami 0.9%"
+      },
+      {
+        "region": "US Southwest",
+        "pct": 4.3,
+        "salary": null,
+        "detail": "Dallas/Fort Worth 1.0% ($190,000); Houston 1.0% ($175,000); Austin median $175,000"
+      },
+      {
+        "region": "International (total)",
+        "pct": 6.0,
+        "salary": 135000
+      },
+      {
+        "region": "Asia",
+        "pct": 2.3,
+        "salary": 180000
+      },
+      {
+        "region": "Europe",
+        "pct": 0.9,
+        "salary": 119728,
+        "detail": "United Kingdom 0.5%"
+      },
+      {
+        "region": "Middle East",
+        "pct": 1.0,
+        "salary": 235000
+      },
+      {
+        "region": "Canada",
+        "pct": 0.7,
+        "salary": null
+      },
+      {
+        "region": "Latin America",
+        "pct": 0.4,
+        "salary": null
+      },
+      {
+        "region": "Africa",
+        "pct": 0.2,
+        "salary": null
+      },
+      {
+        "region": "Oceania",
+        "pct": 0.4,
+        "salary": null,
+        "detail": "Australia 0.4%"
+      }
+    ],
+    "by_geography_note": "Wharton gives medians by city (US) and by world region (international), not by US region; city medians are in 'detail'. US total 94.0%.",
+    "top_employers": [],
+    "top_employers_note": "Wharton publishes an alphabetical list of all 2024-2025 hiring employers (bold = 3+ hires) without hire counts: https://statistics.mbacareers.wharton.upenn.edu/wharton-employers/"
+  },
+  "profile": {
+    "url": "https://mba.wharton.upenn.edu/class-profile/",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2027",
+    "intl_pct": 26,
+    "avg_age": null,
+    "avg_work_exp_years": 5,
+    "women_pct": 44,
+    "gmat_median": null,
+    "gmat_mean": 735,
+    "gmat_focus_mean": 676,
+    "applications": 7613,
+    "countries": 68,
+    "note": "Wharton publishes GMAT averages (legacy 735, Focus 676), not medians; average age not published on the page. Work experience 5 years average (range 1-17, Class of 2026 block)."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 3,
+      "url": "https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking",
+      "source_note": "GMAC article: 'Wharton dropped to third place in 2026'",
+      "read_on": "2026-10-13"
+    }
+  ],
+  "notes": "Career PDF 2025 is graphic (text not extractable); all employment figures read from the school's HTML statistics site, which follows MBA CSEA standards."
+}

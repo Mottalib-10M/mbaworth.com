@@ -1,0 +1,201 @@
+{
+  "slug": "esade",
+  "name": "Esade Business School (Universitat Ramon Llull)",
+  "short": "Esade",
+  "country": "ES",
+  "city": "Barcelona",
+  "region": "Europe",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {
+      "value": 177,
+      "cohort": "Class of 2026",
+      "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/class-profile",
+      "read_on": "2026-10-13"
+    },
+    "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/fees-and-financing",
+    "read_on": "2026-10-13",
+    "notes": "Fees page FAQ: 12 months, four residential modules and a global immersion."
+  },
+  "tuition_total": {
+    "value": 82500,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "September 2027 intake",
+    "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/fees-and-financing",
+    "read_on": "2026-10-13",
+    "notes": "'Total compulsory MBA tuition fees and expenses'; covers tuition, materials, IT, library. Paid as 8,000 reservation + 8,000 commitment + 50% by Sept 2027 + remainder by March 2028."
+  },
+  "mandatory_fees_total": {
+    "value": 100,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "September 2027 intake",
+    "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/fees-and-financing",
+    "read_on": "2026-10-13",
+    "notes": "MBA Student Association fee 100 EUR; application fee 150 EUR not included."
+  },
+  "living_budget_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": null,
+    "cohort": null,
+    "basis": null,
+    "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/fees-and-financing",
+    "read_on": "2026-10-13",
+    "notes": "No official living budget on the fees page."
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "EUR",
+    "stat": null,
+    "pct_receiving": null,
+    "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/fees-and-financing",
+    "read_on": "2026-10-13",
+    "notes": "Esade awards (women-focused awards, Forte fellowships min. USD 10,000), ISA backed by the European Investment Fund, external scholarships (Princess of Girona up to 75% of tuition for Spanish nationals/residents, Colfuturo up to 15%). No average award or share of class published."
+  },
+  "employment": {
+    "report_url": "https://esade.edu/en/programmes/mba/full-time-mba/your-professional-future/employment-report",
+    "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/careers",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": 90,
+    "accepted_3m_pct": null,
+    "base_salary": {
+      "value": null,
+      "currency": "EUR",
+      "stat": null,
+      "notes": "Class of 2025 employment report is gated behind a request form; no base salary on the open pages. The careers page quotes FT 2026 data (USD 206,389 PPP average weighted salary 3 years after graduation; 155% increase) - FT alumni figure, not a starting salary."
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null
+    },
+    "internship_monthly": {
+      "value": 3990,
+      "currency": "USD",
+      "stat": "mean",
+      "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/careers",
+      "read_on": "2026-10-13",
+      "notes": "'average monthly salary for students on internship'; cohort not stated. 67% of interns stay in Europe."
+    },
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [],
+    "country_change_pct": 55,
+    "career_change": {
+      "changed_function_sector_or_location_pct": 96,
+      "triple_change_pct": 45
+    },
+    "top_employers": [
+      {
+        "name": "Accenture",
+        "hires": null
+      },
+      {
+        "name": "Amazon",
+        "hires": null
+      },
+      {
+        "name": "Bain & Company",
+        "hires": null
+      },
+      {
+        "name": "Boston Consulting Group",
+        "hires": null
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": null
+      },
+      {
+        "name": "Google",
+        "hires": null
+      },
+      {
+        "name": "Microsoft",
+        "hires": null
+      },
+      {
+        "name": "Oliver Wyman",
+        "hires": null
+      },
+      {
+        "name": "Roland Berger",
+        "hires": null
+      },
+      {
+        "name": "Strategy&",
+        "hires": null
+      },
+      {
+        "name": "Simon-Kucher",
+        "hires": null
+      },
+      {
+        "name": "Siemens",
+        "hires": null
+      },
+      {
+        "name": "SAP",
+        "hires": null
+      },
+      {
+        "name": "Nestle",
+        "hires": null
+      },
+      {
+        "name": "L'Oreal",
+        "hires": null
+      },
+      {
+        "name": "Johnson & Johnson",
+        "hires": null
+      },
+      {
+        "name": "Roche",
+        "hires": null
+      },
+      {
+        "name": "Citi",
+        "hires": null
+      },
+      {
+        "name": "UBS",
+        "hires": null
+      },
+      {
+        "name": "BBVA",
+        "hires": null
+      }
+    ],
+    "top_employers_notes": "Alphabetical list of companies that recruited Esade candidates in the last 3 years (subset of ~50 listed); no hire counts.",
+    "notes": "'55% securing roles internationally' (Class of 2025) used as country_change_pct."
+  },
+  "profile": {
+    "intl_pct": 95,
+    "avg_age": 30,
+    "avg_work_exp_years": 6,
+    "women_pct": 42,
+    "gmat_median": null,
+    "nationalities": "40+",
+    "url": "https://www.esade.edu/mba/en/programmes/full-time-mba/class-profile",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2026",
+    "notes": "Women 42% / men 54% from the school's infogram (https://e.infogram.com/cc9c1955-2912-483c-855e-a241b427e332); 95% international and 40+ nationalities from https://e.infogram.com/4eb9a6f0-707a-4f8f-80eb-512a97d33a43. Prior sector: corporate 24%, financial services 17%, consulting 11%."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 7,
+      "url": "https://www.clearadmit.com/mba-rankings/financial-times/",
+      "read_on": "2026-10-13",
+      "notes": "Excerpt of the FT 2026 table on ClearAdmit (prior year 8)."
+    }
+  ],
+  "notes": "Report gated; no salary or industry/geography breakdown readable without submitting the form."
+}

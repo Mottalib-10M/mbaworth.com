@@ -1,0 +1,353 @@
+{
+  "slug": "minnesota-carlson",
+  "name": "Carlson School of Management, University of Minnesota",
+  "short": "Minnesota Carlson",
+  "country": "US",
+  "city": "Minneapolis, Minnesota",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {
+      "value": 80,
+      "cohort": "Class of 2025 graduates (66 seeking full-time employment)",
+      "url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 124560,
+    "currency": "USD",
+    "period": "full program (2 x annual 2025-26 non-resident/international rate)",
+    "annual_value": 62280,
+    "cohort": "2025-2026 academic year",
+    "resident_annual_value": 47640,
+    "basis": "School publishes annual tuition only; total = 2 x annual, non-resident & international rate (Minnesota/reciprocity residents: $47,640/yr). 2026-27 rates not read.",
+    "url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid",
+    "read_on": "2026-10-13",
+    "source_copy": "https://web.archive.org/web/20260517023204/https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid"
+  },
+  "mandatory_fees_total": {
+    "value": 13023.76,
+    "currency": "USD",
+    "period": "full program (2 x annual 2025-26, non-resident)",
+    "annual_value": 6511.88,
+    "cohort": "2025-2026 academic year",
+    "detail": {
+      "health_insurance": 3590,
+      "student_services_fee": 1051.66,
+      "collegiate_technology_fee": 1400,
+      "capital_enhancement_fee": 82.5,
+      "gpsg_fee": 18.11,
+      "transportation_fee": 71,
+      "safety_fee": 8,
+      "stadium_fee": 6,
+      "athletics_facilities_fee": 100,
+      "international_student_fee": 630,
+      "academic_records_fee_one_time": 150
+    },
+    "note": "Annual value derived from the school's 'Approximate Total Annual Cost' for non-residents ($71,791.88) minus tuition ($62,280) and books ($3,000) = $6,511.88 (includes health insurance $3,590, waivable rules not read). The itemised fees on the page sum to $6,327.27, a $184.61 gap the page does not explain. International students: total $72,421.88/yr (adds $630 international fee). One-time records fee $150 not included.",
+    "url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 58396,
+    "currency": "USD",
+    "period": "full program (2 x annual estimate)",
+    "annual_value": 29198,
+    "cohort": "2025-2026 academic year",
+    "basis": "school budget",
+    "detail": {
+      "room_and_board": 19108,
+      "transportation": 2350,
+      "personal_misc": 4000,
+      "loan_fees": 740,
+      "books": 3000
+    },
+    "note": "School guideline per year: room and board $19,108, transportation $2,350, personal $4,000, loan fees $740; books $3,000 listed in the fee table. Assumes modest shared housing.",
+    "url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": 29500,
+    "currency": "USD",
+    "stat": "mean",
+    "period": "per year",
+    "pct_receiving": 97,
+    "cohort": "Class of 2024 (share receiving); average per year",
+    "note": "$2.0M in merit-based scholarships available; 97% of the class of 2024 received an award; average $29,500 per year. All admitted applicants considered automatically.",
+    "url": "https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid/scholarships",
+    "read_on": "2026-10-13",
+    "source_copy": "https://web.archive.org/web/20260519031306/https://carlsonschool.umn.edu/graduate/mba/full-time/tuition-aid/scholarships"
+  },
+  "employment": {
+    "report_url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf",
+    "url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf",
+    "read_on": "2026-10-13",
+    "source_copy": "https://web.archive.org/web/20260317060112/https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "response_rate": null,
+    "graduates": 80,
+    "seeking": 66,
+    "employed_3m_pct": 73,
+    "offers_3m_pct": 83,
+    "accepted_3m_pct": 73,
+    "accepted_3m_split": {
+      "with_us_work_authorization": 85,
+      "without_us_work_authorization": 54
+    },
+    "base_salary": {
+      "value": 135058,
+      "currency": "USD",
+      "stat": "mean",
+      "range": [
+        60000,
+        192000
+      ],
+      "split": {
+        "with_us_work_authorization_mean": 138168,
+        "without_us_work_authorization_mean": 121286,
+        "women_mean": 125181,
+        "non_business_undergrad_mean": 135076,
+        "students_of_color_mean": 128875
+      }
+    },
+    "signing_bonus": {
+      "value": 30317,
+      "stat": "mean",
+      "range": [
+        2500,
+        100000
+      ],
+      "pct_receiving": null
+    },
+    "internship_monthly": {
+      "value": null,
+      "hourly_mean": 48.29,
+      "currency": "USD",
+      "cohort": "Class of 2026",
+      "note": "School reports a mean hourly rate ($48.29), not a monthly figure."
+    },
+    "by_industry": [
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare",
+        "pct": 18.8,
+        "salary": 120125,
+        "stat": "mean"
+      },
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 16.7,
+        "salary": 186000,
+        "stat": "mean"
+      },
+      {
+        "industry": "finance",
+        "sub": "Financial Services",
+        "pct": 12.5,
+        "salary": 138700,
+        "stat": "mean"
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Packaged Goods",
+        "pct": 10.4,
+        "salary": 110750,
+        "stat": "mean"
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 8.3,
+        "salary": 136250,
+        "stat": "mean"
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 6.2,
+        "salary": 101000,
+        "stat": "mean"
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 6.2,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Non-Profit",
+        "pct": 4.2,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy",
+        "pct": 2.1,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Government",
+        "pct": 2.1,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Transportation & Logistics",
+        "pct": 2.1,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Other",
+        "pct": 10.4,
+        "salary": null,
+        "stat": "mean"
+      }
+    ],
+    "by_function": [
+      {
+        "function": "Marketing & Sales",
+        "pct": 33.3,
+        "salary": 117727
+      },
+      {
+        "function": "Finance/Accounting",
+        "pct": 25,
+        "salary": 127578
+      },
+      {
+        "function": "Consulting",
+        "pct": 18.8,
+        "salary": 179111
+      },
+      {
+        "function": "General Management",
+        "pct": 8.3,
+        "salary": 112500
+      },
+      {
+        "function": "Operations & Logistics",
+        "pct": 6.2,
+        "salary": null
+      },
+      {
+        "function": "Other (incl. HR)",
+        "pct": 8.4,
+        "salary": null
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US Midwest",
+        "pct": 77,
+        "salary": null
+      },
+      {
+        "region": "US Northeast",
+        "pct": 9,
+        "salary": null
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 6,
+        "salary": null,
+        "note": "map pin over the Ohio Valley / Mid-Atlantic area; region label not in the PDF text"
+      },
+      {
+        "region": "US South",
+        "pct": 4,
+        "salary": null
+      },
+      {
+        "region": "US Southwest",
+        "pct": 0,
+        "salary": null
+      },
+      {
+        "region": "US West",
+        "pct": 0,
+        "salary": null
+      },
+      {
+        "region": "International",
+        "pct": 4,
+        "salary": null
+      }
+    ],
+    "top_employers": [
+      {
+        "name": "Boston Consulting Group",
+        "hires": null
+      },
+      {
+        "name": "Boston Scientific",
+        "hires": null
+      },
+      {
+        "name": "KOST Management",
+        "hires": null
+      },
+      {
+        "name": "University of Minnesota",
+        "hires": null
+      },
+      {
+        "name": "Deloitte",
+        "hires": null
+      },
+      {
+        "name": "Ecolab",
+        "hires": null
+      },
+      {
+        "name": "JPMorgan Chase",
+        "hires": null
+      },
+      {
+        "name": "Medtronic",
+        "hires": null
+      },
+      {
+        "name": "Post Consumer Brands",
+        "hires": null
+      },
+      {
+        "name": "Target Corporation",
+        "hires": null
+      }
+    ],
+    "notes": "Carlson publishes means only (no median). Salaries by industry and function are averages. Geography read from the map on page 5 (image checked). Top employers = companies flagged 'top hirers in 2025' (no counts). Site carlsonschool.umn.edu answers 403 (Cloudflare) to curl and WebFetch; PDF and pages read from Wayback Machine copies of the official URLs."
+  },
+  "profile": {
+    "intl_pct": 17,
+    "avg_age": 29,
+    "avg_work_exp_years": 5,
+    "women_pct": 39,
+    "gmat_median": 710,
+    "cohort": "Class of 2027",
+    "previous_cohort": {
+      "cohort": "Class of 2026",
+      "intl_pct": 18,
+      "women_pct": 42,
+      "gmat_median": 660,
+      "avg_age": 30,
+      "avg_work_exp_years": 6
+    },
+    "url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2025-10/carlson-ftmba-employment-report-2025.pdf",
+    "read_on": "2026-10-13",
+    "note": "Class profiles printed on page 8 of the 2025 employment report. GMAT scale (classic vs Focus) not stated."
+  },
+  "rankings_cited": [],
+  "notes": "PDF saved as research/sources/amerique/minnesota-carlson-employment-2025.pdf (Wayback copy, snapshot 2026-03-17)."
+}

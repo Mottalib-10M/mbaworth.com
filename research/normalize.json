@@ -1,0 +1,5 @@
+{
+ "_readme": "Human decisions on how a research file is read (never a figure): one entry per slug, each with its reason.",
+ "rsm": {"industry_sum": ["consumer"], "reason": "Consumer Packaged Goods (15%) and Retail/E-commerce (6%) are sibling rows in RSM's table, not a parent and its child."},
+ "alliance-manchester": {"industry_sum": ["tech", "other"], "reason": "Technology and Telecommunications are sibling rows; Media, Real Estate and Other are siblings too."}
+}

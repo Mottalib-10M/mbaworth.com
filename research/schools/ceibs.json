@@ -1,0 +1,66 @@
+{
+  "slug": "ceibs",
+  "name": "China Europe International Business School (CEIBS)",
+  "short": "CEIBS",
+  "country": "CN",
+  "city": "Shanghai",
+  "region": "Asia",
+  "program": {
+    "length_months": 16,
+    "format": "16-month full-time, English-taught (one-year option)",
+    "class_size": {"value": 104, "cohort": "MBA2026 (enrolled)", "url": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/CEIBS-MBA2025-Career-Report.pdf", "read_on": "2026-10-13", "note": "MBA2025 enrolment: 121"}
+  },
+  "tuition_total": {"value": 488000, "currency": "CNY", "period": "full program", "cohort": "MBA 2029 (2027 intake)", "url": "https://www.ceibs.edu/mba/fees-financial-aid", "read_on": "2026-10-13", "note": "School states approx. USD 72,500. Covers teaching materials (excluding textbooks), campus internet and databases. 70% due on registration, 30% before end of Term 4. The page's wire-transfer reference says 'MBA 2028': intake label to re-check."},
+  "mandatory_fees_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": "MBA 2029", "url": "https://www.ceibs.edu/mba/fees-financial-aid", "read_on": "2026-10-13", "note": "No mandatory fee listed beyond tuition. Application fee RMB 1,000 (or USD 180 for international applicants), non-refundable."},
+  "living_budget_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": "MBA 2029", "basis": null, "url": "https://www.ceibs.edu/mba/fees-financial-aid", "read_on": "2026-10-13", "components": [{"item": "on-campus single dormitory room (incl. water, electricity, A/C, Wi-Fi)", "value": 3300, "per": "month", "stat": "approx."}], "note": "No full living budget published; only on-campus dormitory rent."},
+  "scholarship": {"value": null, "currency": "CNY", "stat": null, "pct_receiving": 40, "cohort": "MBA 2028", "url": "https://www.ceibs.edu/mba/fees-financial-aid", "read_on": "2026-10-13", "note": "'More than 40%' of MBA 2028 students received financial aid. Named awards include Monthly Giving Scholarship RMB 100,000 (5/yr), He'an Education Fund RMB 100,000 (2/yr), Wu Jinglian Academic Fund up to 3 x RMB 100,000 (mainland need-based), Welly and Techking scholarships RMB 60,000; many fellowships with unstated amounts. Dishuiquan interest subsidy up to RMB 30,000 for foreign loan users. Average award not published."},
+  "employment": {
+    "report_url": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/CEIBS-MBA2025-Career-Report.pdf",
+    "url": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/CEIBS-MBA2025-Career-Report.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025 (MBA2025)",
+    "standard": "school",
+    "response_rate": 100,
+    "employed_3m_pct": 90.0,
+    "accepted_3m_pct": 90.0,
+    "base_salary": {"value": 420000, "currency": "CNY", "stat": "median"},
+    "guaranteed_cash": {"value": 496000, "currency": "CNY", "stat": "median", "note": "Annual guaranteed cash = base + other guaranteed compensation (median other guaranteed comp RMB 95,000, reported by 32 of 61)."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null, "note": "Not reported separately; 'other guaranteed compensation' median RMB 95,000."},
+    "internship_monthly": null,
+    "internship_daily": {"value": 350, "currency": "CNY", "stat": "median", "note": "Summer internship daily salary/allowance, mid-60% range RMB 200-500."},
+    "by_industry": [
+      {"industry": "tech", "sub": "Technology", "pct": 31.9, "salary": 443000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 20.8, "salary": 495000, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 15.3, "salary": 600000, "stat": "median"},
+      {"industry": "consulting", "sub": "Consulting", "pct": 9.7, "salary": 597000, "stat": "median"},
+      {"industry": "finance", "sub": "Financial Services", "pct": 9.7, "salary": 390000, "stat": "median"},
+      {"industry": "other", "sub": "Education", "pct": 5.6, "salary": 470000, "stat": "median"},
+      {"industry": "other", "sub": "Others", "pct": 7.0, "salary": 500000, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Marketing / Sales", "pct": 32.4, "salary": 500000},
+      {"function": "General Management", "pct": 26.8, "salary": 569000},
+      {"function": "Finance / Accounting", "pct": 18.3, "salary": 475000},
+      {"function": "Consulting", "pct": 9.9, "salary": 610000},
+      {"function": "Information Technology", "pct": 4.2, "salary": 420000},
+      {"function": "Operations / Logistics", "pct": 4.2, "salary": 450000},
+      {"function": "Others", "pct": 4.2, "salary": 550000}
+    ],
+    "by_geography": [
+      {"region": "Asia", "sub": "Mainland China", "pct": 84.5, "salary": 500000},
+      {"region": "Asia", "sub": "Other Asia Pacific (incl. HK & Taiwan, India, Japan, Singapore, Thailand)", "pct": 9.9, "salary": 426642},
+      {"region": "Europe", "sub": "Europe & America (Chile, Germany, Mexico, USA)", "pct": 5.6, "salary": 300000}
+    ],
+    "country_change": {"note": "International students: 60% placed in Mainland China, 20% Asia Pacific, 20% Europe & America; Chinese students: 88.5% Mainland China, 8.2% Asia Pacific, 3.3% Europe & America."},
+    "top_employers": [
+      {"name": "McKinsey & Company", "hires": null}, {"name": "Roland Berger", "hires": null}, {"name": "Accenture", "hires": null}, {"name": "Deloitte", "hires": null},
+      {"name": "Tencent", "hires": null}, {"name": "ByteDance", "hires": null}, {"name": "Amazon", "hires": null}, {"name": "Apple", "hires": null}, {"name": "Google", "hires": null},
+      {"name": "Xiaomi", "hires": null}, {"name": "Meituan", "hires": null}, {"name": "AstraZeneca", "hires": null}, {"name": "Roche", "hires": null}, {"name": "Eli Lilly", "hires": null},
+      {"name": "L'Oréal", "hires": null}, {"name": "LVMH", "hires": null}, {"name": "PepsiCo", "hires": null}, {"name": "Bosch", "hires": null}, {"name": "BASF", "hires": null}, {"name": "Michelin", "hires": null}
+    ],
+    "notes": "117 graduates, 80 seeking employment; 90% received and accepted an offer within 3 months (72 accepted). Salary stats on 61 usable responses of 72 job-accepting graduates (84.7%). Industry, function and location salaries are MEDIAN ANNUAL GUARANTEED CASH (base + other guaranteed), not base salary; pairing of percentages and medians checked on the rendered PDF page 8. Employer list is alphabetical without hire counts (full-time and internship); names above are a selection. Ranges also published (e.g. Technology 210,000-910,000)."
+  },
+  "profile": {"intl_pct": 17.3, "avg_age": 29.3, "avg_work_exp_years": 5.5, "women_pct": 51, "gmat_median": null, "gmat_mid80": "620-720", "cohort": "MBA2026", "url": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/CEIBS-MBA2025-Career-Report.pdf", "read_on": "2026-10-13", "note": "MBA2025: 121 enrolled, 18.2% international, 29.3 avg age, 5.4 yrs experience, 46.3% women, GMAT mid-80% 640-740, 18 places of origin."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 8, "url": "https://www.ceibs.edu/media/news/mba/28536", "read_on": "2026-10-13", "note": "School news release, 16 Feb 2026: '#1 in Asia for the tenth consecutive year and #8 globally'."}],
+  "notes": "Source PDF saved as research/sources/ceibs-career-report-2025.pdf (36 MB, 12 pages)."
+}

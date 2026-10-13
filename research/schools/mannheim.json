@@ -1,0 +1,52 @@
+{
+  "slug": "mannheim",
+  "name": "Mannheim Business School, University of Mannheim",
+  "short": "Mannheim",
+  "country": "DE",
+  "city": "Mannheim",
+  "region": "Europe",
+  "program": {
+    "length_months": 12,
+    "length_note": "12-15 months; September 2027 start",
+    "format": "1-year",
+    "class_size": {"value": 60, "cohort": "September 2027 intake (planned)", "url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/", "read_on": "2026-10-13", "note": "'Number of Participants: Up to 60'; class profile page says 50 to 60 per class"},
+    "url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/",
+    "read_on": "2026-10-13"
+  },
+  "tuition_total": {"value": 49500, "currency": "EUR", "period": "full program", "cohort": "September 2027 intake", "url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/admissions/", "read_on": "2026-10-13", "note": "Includes course materials, IT, university services, extracurricular programmes and study-trip accommodation; excludes transport, accommodation and living costs in Mannheim. Early-bird discounts €3,000 (by 30 Nov 2026) or €1,000 (by 30 Apr); German language bonus €2,000; GMAT/GRE bonus €250"},
+  "mandatory_fees_total": {"value": 150, "currency": "EUR", "url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/admissions/", "read_on": "2026-10-13", "note": "Non-refundable application fee €150; no other mandatory fee listed"},
+  "living_budget_total": {"value": 16000, "currency": "EUR", "period": "program year", "range": {"min": 15000, "max": 17000}, "basis": "school budget", "url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/frequently-asked-questions/", "read_on": "2026-10-13", "note": "School FAQ: 'guideline total cost ... in the region of €15,000 - €17,000 for the whole program year' (accommodation €500-700/month, health insurance about €150/month for internationals, food and social €500-600/month). value = midpoint of the published range"},
+  "scholarship": {"value": null, "currency": "EUR", "range": {"min": null, "max": 9500}, "stat": "range", "url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/admissions/", "read_on": "2026-10-13", "note": "Seven scholarship categories; six of up to €6,000 (Growth & Scale, Finance, Consulting, German Excellence, Eastern Europe, Future Female Business Leader) and a need-based award up to €9,500. Can be combined with one early-bird discount and two bonuses. No average award published"},
+  "employment": {
+    "report_url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/career/",
+    "report_url_note": "Full 'Employment Report for the Class of 2023' and 'Fast Track Report for the Class of 2024' are only available through a lead form (mbs.tfaforms.net); not submitted. Figures below are from the school's career page",
+    "cohort": "Class of 2023",
+    "standard": "school",
+    "read_on": "2026-10-13",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 95,
+    "accepted_3m_note": "Programme page: '95% accepted a job offer three months after graduating' (cohort not named); career page for Class of 2023: '93% accepted a job offer after graduation' (no time frame)",
+    "base_salary": {"value": 110264, "currency": "USD", "stat": "mean", "note": "'Average post-MBA base salary: 110,264 USD', Class of 2023, career page"},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "changed_country_pct": null,
+    "changed_country_note": "97% switched country, function or industry; 42-43% made the triple change (country, role and industry); 93% now work in Germany (Class of 2023); 'more than 80% work in Germany after graduation' (programme page)",
+    "by_industry": [
+      {"industry": "tech", "sub": "Technology (top sector #1)", "pct": null, "salary": null, "stat": null},
+      {"industry": "consulting", "sub": "Consulting (top sector #2)", "pct": null, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "Financial Services (top sector #3)", "pct": null, "salary": null, "stat": null}
+    ],
+    "by_industry_note": "Only the ranking of the top 3 sectors is public; shares and salaries are in the gated report",
+    "by_function": [],
+    "by_geography": [
+      {"region": "Europe", "sub": "Germany", "pct": 93, "salary": null}
+    ],
+    "by_geography_note": "93% of the Class of 2023 work in Germany; no other region shares published on open pages",
+    "top_employers": [],
+    "top_employers_note": "No employer list with hires on open pages"
+  },
+  "profile": {"intl_pct": null, "avg_age": 31, "avg_work_exp_years": 7.5, "women_pct": 40, "gmat_median": null, "cohort": "current cohort (not named)", "url": "https://www.mannheim-business-school.com/en/mba-master-and-courses/mba-programs/mannheim-full-time-mba/class-profile/", "read_on": "2026-10-13", "note": "'On average 31 years of age and have already worked for seven or eight years' (7.5 = midpoint of the stated 7-8); 'nearly 40%' women. International share not stated in text; class profile charts are images (not read)"},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 65, "url": "https://www.mannheim-business-school.com/en/the-mannheim-experience/the-school/rankings-and-accreditation/", "read_on": "2026-10-13", "note": "School page: '#65 the Global MBA Ranking of the Financial Times (February 2026), #1 in Germany'"}],
+  "notes": "Detailed industry/function/geography data and salary by sector are in a report gated by a lead form."
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "yale-som",
+  "name": "Yale School of Management",
+  "short": "Yale SOM",
+  "country": "US",
+  "city": "New Haven",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 367, "cohort": "Class of 2027", "url": "https://som.yale.edu/programs/mba/admissions/class-profile", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 90900, "currency": "USD", "period": "per year (2026-27)", "cohort": "2026-27",
+    "url": "https://som.yale.edu/programs/mba/affording-your-MBA/cost-information", "read_on": "2026-10-13",
+    "note": "One-year budget only; no full two-year total published."
+  },
+  "mandatory_fees_total": {
+    "value": 500, "currency": "USD", "period": "per year (2026-27)", "cohort": "2026-27",
+    "breakdown": {"program_fee": 500, "health_insurance_waivable": 3764},
+    "url": "https://som.yale.edu/programs/mba/affording-your-MBA/cost-information", "read_on": "2026-10-13",
+    "note": "Total tuition and fees 91,400 USD. Health insurance (3,764 USD) is counted by the school inside living expenses and is waivable with alternate coverage."
+  },
+  "living_budget_total": {
+    "value": 37576, "currency": "USD", "period": "one academic year (2026-27)", "basis": "school budget",
+    "breakdown": {"housing_food_utilities": 22991, "personal": 5525, "transportation": 3856, "books": 1440, "health_insurance": 3764},
+    "total_cost_of_attendance": 128976,
+    "url": "https://som.yale.edu/programs/mba/affording-your-MBA/cost-information", "read_on": "2026-10-13",
+    "note": "Single student, modest lifestyle, shared housing."
+  },
+  "scholarship": {
+    "value": 65000, "currency": "USD", "stat": "median", "cohort": "Class of 2027", "pct_receiving": 66,
+    "facts": ["Over $7.8M in grant aid to incoming MBA students in 2024", "Aspire Fellowship: awards from $60,000 to full tuition and fees"],
+    "url": "https://som.yale.edu/programs/mba/affording-your-mba", "read_on": "2026-10-13",
+    "note": "Read via search excerpt of the official page; unclear whether the award is per year or for the program."
+  },
+  "employment": {
+    "report_url": "https://som.yale.edu/media/20006/download?inline",
+    "report_page": "https://som.yale.edu/programs/mba/career-paths/employment-report-2025-26",
+    "local_copy": "research/sources/amerique/yale-som-employment-2025-26.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "graduates": 336, "seeking": 273,
+    "response_rate": null,
+    "employed_3m_pct": 82.1,
+    "accepted_3m_pct": 79.9,
+    "base_salary": {"value": 175000, "currency": "USD", "stat": "median", "p25": 140000, "p75": 190000, "pct_reporting": 91.7},
+    "signing_bonus": {"value": 30000, "stat": "median", "pct_receiving": 71.5},
+    "guaranteed_year_end_bonus": {"value": 40000, "stat": "median", "pct_receiving": 5.5},
+    "internship_monthly": null,
+    "internship_weekly": {"value": 2360, "stat": "median", "cohort": "Class of 2026", "note": "Yale publishes weekly internship pay only; not converted."},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting Services", "pct": 36.9, "salary": 190000, "stat": "median"},
+      {"industry": "finance", "sub": "Finance (total)", "pct": 28.6, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "investment banking", "pct": 18.0, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "Diversified Financial Services", "pct": 3.7, "salary": 150000, "stat": "median"},
+      {"industry": "finance", "sub": "asset management (Investment Management)", "pct": 3.7, "salary": 140000, "stat": "median"},
+      {"industry": "finance", "sub": "venture capital", "pct": 1.8, "salary": null, "stat": "median"},
+      {"industry": "finance", "sub": "private equity", "pct": 1.4, "salary": null, "stat": "median"},
+      {"industry": "tech", "sub": "Technology", "pct": 8.3, "salary": 138200, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare/Pharmaceuticals", "pct": 5.1, "salary": 140000, "stat": "median"},
+      {"industry": "consumer", "sub": "Retail (total)", "pct": 4.6, "salary": 143900, "stat": "median"},
+      {"industry": "tech", "sub": "E-commerce (within Retail)", "pct": 3.7, "salary": 142400, "stat": "median"},
+      {"industry": "energy", "sub": "Energy", "pct": 3.7, "salary": 155000, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Nonprofit", "pct": 2.8, "salary": null, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 2.3, "salary": 127000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Transportation", "pct": 2.3, "salary": 150000, "stat": "median"},
+      {"industry": "other", "sub": "Media/Entertainment", "pct": 1.4, "salary": null, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 1.4, "salary": null, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Government", "pct": 0.9, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Law", "pct": 0.9, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Real Estate", "pct": 0.5, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Hospitality", "pct": 0.5, "salary": null, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Consulting (total)", "pct": 48.6, "salary": 190000},
+      {"function": "External Consulting", "pct": 36.9, "salary": 190000},
+      {"function": "Internal Consulting/Strategy", "pct": 11.7, "salary": 150000},
+      {"function": "Finance/Accounting", "pct": 29.4, "salary": 175000},
+      {"function": "Marketing/Sales", "pct": 9.8, "salary": 131500},
+      {"function": "General Management", "pct": 5.6, "salary": 140000},
+      {"function": "Information Technology", "pct": 2.8, "salary": 130000},
+      {"function": "Operations/Logistics", "pct": 1.4, "salary": null},
+      {"function": "Law", "pct": 0.9, "salary": null},
+      {"function": "Social Impact", "pct": 0.5, "salary": null},
+      {"function": "Human Resources", "pct": 0.5, "salary": null},
+      {"function": "Real Estate", "pct": 0.5, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "US Northeast", "pct": 53.5, "salary": 175000, "pct_of_us_hires": 57.7},
+      {"region": "US West", "pct": 16.2, "salary": 158000, "pct_of_us_hires": 17.5},
+      {"region": "US Midwest", "pct": 6.2, "salary": 155000, "pct_of_us_hires": 6.7},
+      {"region": "US Southwest", "pct": 6.2, "salary": 190000, "pct_of_us_hires": 6.7},
+      {"region": "US South", "pct": 5.8, "salary": 167500, "pct_of_us_hires": 6.2},
+      {"region": "US Mid-Atlantic", "pct": 4.8, "salary": 175000, "pct_of_us_hires": 5.2},
+      {"region": "Asia", "pct": 4.8, "salary": 90000, "pct_of_intl_hires": 66.7},
+      {"region": "Latin America", "pct": 1.0, "salary": null, "pct_of_intl_hires": 13.3, "sub": "Central America and the Caribbean"},
+      {"region": "Canada", "pct": 0.5, "salary": null, "pct_of_intl_hires": 6.7},
+      {"region": "Middle East", "pct": 0.5, "salary": null, "pct_of_intl_hires": 6.7, "sub": "MENA"},
+      {"region": "Oceania", "pct": 0.5, "salary": null, "pct_of_intl_hires": 6.7, "sub": "Australia"}
+    ],
+    "us_pct": 92.8, "international_pct": 7.2, "international_median_salary": 119831,
+    "top_employers": [
+      {"name": "Amazon.com, Inc.", "hires": null}, {"name": "Bain & Company, Inc.", "hires": null}, {"name": "Bank of America Corporation", "hires": null},
+      {"name": "Barclays PLC", "hires": null}, {"name": "The Boston Consulting Group, Inc.", "hires": null}, {"name": "Citigroup Inc.", "hires": null},
+      {"name": "Deloitte Consulting LLP", "hires": null}, {"name": "EY-Parthenon", "hires": null}, {"name": "International Business Machines Corporation", "hires": null},
+      {"name": "JPMorgan Chase & Co.", "hires": null}, {"name": "McKinsey & Company", "hires": null}, {"name": "Microsoft Corporation", "hires": null},
+      {"name": "The Goldman Sachs Group, Inc.", "hires": null}
+    ],
+    "notes": "Geography 'pct' = share of all hires, computed by us from the school's shares (US 92.8% x share of US hires; international 7.2% x share of international hires), rounded to 0.1; the school's own shares are kept in pct_of_us_hires / pct_of_intl_hires. '*' (insufficient data) stored as null. Top employers = 'Organizations that Hired the Most SOM Graduates in 2025' (no counts published). 121 unique employers."
+  },
+  "profile": {
+    "cohort": "Class of 2027",
+    "intl_pct": 41, "avg_age": null, "avg_work_exp_years": 5, "women_pct": 44, "gmat_median": 740,
+    "gmat_focus_median": 675, "gpa_median": 3.69,
+    "url": "https://som.yale.edu/programs/mba/admissions/class-profile", "read_on": "2026-10-13",
+    "note": "The employment PDF gives 50% international passport holders for the Class of 2025 at matriculation."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 17, "tie": true, "url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/", "read_on": "2026-10-13", "note": "Third-party extract of the FT table, not a school page."}
+  ],
+  "notes": "Employment figures from the official 2025-26 PDF (Class of 2025); Yale does not state CSEA conformity in the PDF."
+}
