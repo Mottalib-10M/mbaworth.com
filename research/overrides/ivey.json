@@ -14,7 +14,7 @@
   "read_on": "2026-10-13",
   "cohort": "Class of 2025",
   "standard": "school",
-  "response_rate": 78,
+  "response_rate": null,
   "offer_3m_pct": 82,
   "accepted_3m_pct": null,
   "base_salary": {
