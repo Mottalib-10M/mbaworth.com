@@ -1,0 +1,40 @@
+---
+/** Index of every school: the finder sorted by cost, then the schools by region with their key figures. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import Tool from '../../components/Tool.astro';
+import Clamp from '../../components/Clamp.astro';
+import { route } from '../../i18n/routes';
+import { SCHOOLS, MODEL } from '../../lib/data';
+import { KIT as K } from '../../lib/kit';
+import { schoolLink, table } from '../../lib/helpers';
+import { usd, money, yrs, day, kindLabel } from '../../lib/fmt';
+import { webPageSchema, breadcrumbSchema, faqSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('schools', lang);
+const n = SCHOOLS.length;
+const title = `MBA Schools 2026: Cost, Salary and Payback of ${n} Programs`;
+const description = `All ${n} MBA schools of the site in 2026: tuition, living budget, total cost with the salary given up, graduate salary and payback, read in each school's report.`;
+const REG = [['US', 'United States'], ['Canada', 'Canada'], ['UK', 'United Kingdom and Ireland'], ['Europe', 'Continental Europe'], ['Asia', 'Asia'], ['Oceania', 'Australia'], ['Middle East', 'Middle East'], ['Latin America', 'Latin America']];
+const groups = REG.map(([k, l]) => ({ l, list: SCHOOLS.filter((s) => (k === 'UK' ? s.region === 'UK' || s.country === 'IE' : s.region === k && s.country !== 'IE')).sort((a, b) => a.short.localeCompare(b.short)) })).filter((g) => g.list.length);
+const row = (s: (typeof SCHOOLS)[number]) => { const o = K.roi(s.slug); return [schoolLink(s.slug, s.name), s.city, s.directLocal !== null ? money(s.directLocal, s.cur) : 'n/a', o ? usd(o.total) : 'n/a', s.emp.salary ? `${money(s.emp.salary.v, s.emp.salary.cur)} <span class="text-xs text-navy-500">${kindLabel(s.emp.salary.kind)}</span>` : 'not published', o ? (o.payback === null ? 'over 30 years' : yrs(o.payback)) : 'n/a']; };
+const ranked = K.withRoi().length;
+const cheapest = [...K.withRoi()].sort((a, b) => K.costRaw(a.slug)! - K.costRaw(b.slug)!)[0];
+const faqs = [
+  { q: 'Which MBA school costs the least in total on this site?', a: `For a person earning ${usd(MODEL.refSalary)} before the MBA, ${cheapest.short} has the lowest total cost among the ${ranked} schools that publish a living budget: ${K.cost(cheapest.slug)}, salary given up included. A low total cost is not a fast payback: the salary after the degree decides as much, and the payback column shows both together.` },
+  { q: 'Why are some schools missing a total cost or a payback?', a: 'Because the school does not publish a living budget or a graduate salary in the documents we could read. Some keep their employment report behind a sign-up form. We show what the school does publish, say what is missing, and never fill the gap with a figure from a forum or a third-party website.' },
+  { q: 'How are schools in different currencies compared?', a: `Each figure stays in the school’s own currency on its page, and the tables convert it to US dollars at the European Central Bank reference rate of ${day(K.FX_DATE)}. Market rates do not equalize living standards, which is why the calculators work for one person at a time, with their own salary.` },
+  { q: 'Can I ask for a school to be added?', a: 'Yes, through the contact page. A school needs a public tuition page and a public employment report of its latest class, with at least a salary or the split of graduates by industry. We read both, record every figure with its link and date, and open a page once the school file passes our checks.' },
+];
+const resume = `${n} business schools are on this site, each with a page built from the documents it publishes itself: the tuition and fees of the coming intake, the budget it gives students for rent, food and insurance, and the employment report of its latest graduating class. ${ranked} of them publish both a graduate salary and a living budget, so our model can compute their total cost with the salary you give up, their payback period and their ten-year net present value, and rank them for an industry or a region. The other schools keep their page with the cost they publish and a plain list of what is missing. The table above recomputes every school for your own salary today; the lists below group them by where the campus is, with the figures for a person earning ${usd(MODEL.refSalary)} before the MBA, converted to US dollars at the European Central Bank rate of ${day(K.FX_DATE)}.`;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'MBA schools', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Schools', path }]), faqSchema(faqs, lang)]} breadcrumbs={[{ label: 'Schools' }]} faqs={faqs}>
+  <header class="mb-4">
+    <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 sm:text-3xl md:text-4xl">MBA schools: cost, salary and payback</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{n} programs, each read in its own fees page and employment report.</p>
+  </header>
+  <div data-outil class="mb-6"><Tool kind="finder" args={{ goal: 'all' }} idPrefix="sch" /></div>
+  <Clamp text={resume} lang={lang} id="clamp-schools" class="mb-8" />
+  <section data-sommaire>
+    {groups.map((g) => <><h2 class="mt-8 font-serif text-2xl font-bold text-navy-900">{g.l}</h2><Fragment set:html={table(['School', 'City', 'Tuition and fees', 'Total cost', 'Salary', 'Payback'], g.list.map(row), undefined, ['l', 'l', 'r', 'r', 'r', 'r'])} /></>)}
+  </section>
+</PageLayout>

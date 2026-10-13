@@ -4,3 +4,4 @@ dist
 .cache-raw
 scripts/__pycache__
 research/sources/
+digest.txt

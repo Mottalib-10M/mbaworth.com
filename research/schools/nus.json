@@ -1,0 +1,41 @@
+{
+  "slug": "nus",
+  "name": "NUS Business School, National University of Singapore",
+  "short": "NUS",
+  "country": "SG",
+  "city": "Singapore",
+  "region": "Asia",
+  "program": {
+    "length_months": 17,
+    "format": "1-year",
+    "length_note": "Full time: 12 to 17 months; starts every August (homepage)",
+    "class_size": {"value": null, "cohort": null, "url": "https://mba.nus.edu.sg/who-is-it-for/#class-profile", "read_on": "2026-10-13", "note": "class profile page blocked by Incapsula anti-bot (curl, WebFetch and Wayback snapshots all blocked)"}
+  },
+  "tuition_total": {"value": 99953, "currency": "SGD", "period": "full program", "cohort": "August 2026 intake", "url": "https://mba.nus.edu.sg/admissions-and-funding/#fees-scholarships-financing", "read_on": "2026-10-13", "note": "S$91,700 before GST; S$99,953 inclusive of GST (same for full-time and part-time). Full-time schedule: S$10,900 on acceptance, then S$44,526.50 in each of semesters 1 and 2. Live page blocked by Incapsula; read from the Wayback Machine capture of the official page dated 2025-12-18 (http://web.archive.org/web/20251218072428/https://mba.nus.edu.sg/admissions-and-funding/)."},
+  "mandatory_fees_total": {"value": null, "currency": "SGD", "period": "full program", "cohort": "August 2026 intake", "url": "https://mba.nus.edu.sg/admissions-and-funding/", "read_on": "2026-10-13", "note": "page mentions 'mandatory miscellaneous fees' but no amount found in the captured text"},
+  "living_budget_total": {"value": null, "currency": "SGD", "period": null, "basis": null, "url": "https://mba.nus.edu.sg/admissions-and-funding/", "read_on": "2026-10-13", "note": "no school living budget found in the captured page"},
+  "scholarship": {"value": null, "currency": "SGD", "stat": null, "url": "https://mba.nus.edu.sg/admissions-and-funding/#fees-scholarships-financing", "read_on": "2026-10-13", "note": "Merit awards for full-time candidates fund 20% or more of tuition depending on award (no separate application). Named: Dhanabalan Scholarship up to S$20,000 (SG citizens/PR, need); Derwin Pereira MBA Scholarship S$25,000 (SG/SEA, need); Hinrich Foundation awards up to US$25,000 (matched corporate funding); NUS alumni grant S$15,000; other Singapore university alumni grant S$8,000; ASEAN tuition fee assistance S$5,000; 10% corporate sponsorship reduction; ADB-JSP and LPDP external full scholarships. Read from Wayback capture dated 2025-12-18."},
+  "employment": {
+    "report_url": "https://mba.nus.edu.sg/career-development/#career-statistics",
+    "url": "https://mba.nus.edu.sg/",
+    "read_on": "2026-10-13",
+    "cohort": null,
+    "cohort_note": "homepage figures carry no class year",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": 93,
+    "accepted_3m_pct": null,
+    "salary_increase_pct": 148,
+    "base_salary": {"value": 82095, "currency": "USD", "stat": "mean", "url": "https://mba.nus.edu.sg/", "read_on": "2026-10-13", "note": "Homepage: 'US$82,095 Average Post-MBA Salary'; base vs total compensation not specified. Also 'US$170,898 Average Alumni Salary (3 years after graduation)' and '148% increase on pre-MBA salary'."},
+    "alumni_salary_3y": {"value": 170898, "currency": "USD", "stat": "mean", "url": "https://mba.nus.edu.sg/", "read_on": "2026-10-13"},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [],
+    "top_employers": []
+  },
+  "profile": {"intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": null, "gmat_median": null, "url": "https://mba.nus.edu.sg/who-is-it-for/#class-profile", "read_on": "2026-10-13", "note": "blocked by Incapsula"},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 29, "url": "https://www.clearadmit.com/mba-rankings/financial-times/", "read_on": "2026-10-13", "note": "third-party reproduction of the FT 2026 table ('National University of Singapore Business School (37)' at 29); school homepage cites QS Global MBA 2027: 23rd in the world, 1st in Asia"}],
+  "notes": "mba.nus.edu.sg sits behind Imperva/Incapsula: only the homepage was read live (first request), the admissions page via a Wayback capture of 2025-12-18; career statistics (industry, geography, employers) and class profile pages blocked, to re-read in a browser."
+}

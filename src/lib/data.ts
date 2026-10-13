@@ -8,7 +8,7 @@ import P from '../data/params-2026.json';
 import type { CalcSchool, Model, Seg } from './engine/goal';
 
 export { P };
-export const MODEL = P.model as unknown as Model & { weights: { share: number; salary: number; npv: number }; refSalaryNote: string; note: string };
+export const MODEL = P.model as unknown as Model & { weights: { share: number; salary: number; npv: number }; zoneWeights: { share: number; salary: number; npv: number }; refSalaryNote: string; note: string };
 export const FX = P.fx.usdPer as Record<string, number>;
 export const FX_DATE = P.fx.date;
 

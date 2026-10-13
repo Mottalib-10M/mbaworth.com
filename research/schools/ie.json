@@ -40,12 +40,13 @@
   "living_budget_total": {
     "value": null,
     "currency": "EUR",
-    "period": null,
-    "cohort": null,
+    "period": "monthly",
+    "cohort": "undated IE student services sheet",
     "basis": null,
-    "url": "https://www.ie.edu/business-school/programs/full-time/international-mba/admissions-fees/",
+    "url": "https://docs.ie.edu/student-services/Living%20in%20Madrid.pdf",
+    "local_copy": "research/sources/ie-living-in-madrid.pdf",
     "read_on": "2026-10-13",
-    "notes": "No official living budget found on the programme or fees page."
+    "notes": "IE University student services 'Estimated monthly costs' (basic costs, leisure excluded, undated): room in shared apartment 600-1,100 EUR, studio 800-1,600, groceries 200-400, public transport 55, private medical insurance 35-57, internet 30-60, water 40-60. Item ranges only, no total; not an MBA-specific budget."
   },
   "scholarship": {
     "value": null,

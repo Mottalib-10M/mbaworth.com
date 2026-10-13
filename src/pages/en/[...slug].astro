@@ -1,15 +1,15 @@
 ---
-/** Every tool or guide page (src/content/pages/) and every university page (src/content/colleges/). */
+/** Every tool, ranking, sector or guide page (src/content/pages/) and every school page (src/content/schools/). */
 import ContentPage from '../../components/ContentPage.astro';
-import CollegePage from '../../components/CollegePage.astro';
-import { PAGES, COLLEGE_PAGES } from '../../lib/pages';
-import type { PageDef, CollegeDef } from '../../lib/page-types';
+import SchoolPage from '../../components/SchoolPage.astro';
+import { PAGES, SCHOOL_PAGES } from '../../lib/pages';
+import type { PageDef, SchoolDef } from '../../lib/page-types';
 export function getStaticPaths() {
   return [
-    ...PAGES.map((page) => ({ params: { slug: page.slug }, props: { page, college: undefined } })),
-    ...COLLEGE_PAGES.map((college) => ({ params: { slug: `colleges/${college.slug}` }, props: { page: undefined, college } })),
+    ...PAGES.map((page) => ({ params: { slug: page.slug }, props: { page, school: undefined } })),
+    ...SCHOOL_PAGES.map((school) => ({ params: { slug: `schools/${school.slug}` }, props: { page: undefined, school } })),
   ];
 }
-const { page, college } = Astro.props as { page?: PageDef; college?: CollegeDef };
+const { page, school } = Astro.props as { page?: PageDef; school?: SchoolDef };
 ---
-{page ? <ContentPage page={page} /> : <CollegePage def={college!} />}
+{page ? <ContentPage page={page} /> : <SchoolPage def={school!} />}

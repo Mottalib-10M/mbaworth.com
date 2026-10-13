@@ -1,0 +1,490 @@
+{
+  "slug": "columbia",
+  "name": "Columbia Business School",
+  "short": "Columbia",
+  "country": "US",
+  "city": "New York",
+  "region": "US",
+  "program": {
+    "length_months": 20,
+    "format": "2-year",
+    "length_note": "August entry runs two academic years; January entry (224 students) is an accelerated ~16-month track. Months derived, not stated as a number.",
+    "class_size": {
+      "value": 982,
+      "cohort": "Class entering 2025 (758 August + 224 January entry)",
+      "url": "https://web.archive.org/web/20260717002007/https://academics.business.columbia.edu/admissions/mba/class-profile",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 182344,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2025-26 August-entry tuition $91,172 (first year) + $91,172 (continuing budget); school notes tuition and fees generally rise 2-7% in the second year; 2026-27 budget not read",
+    "annual": 91172,
+    "cohort": "2025-26",
+    "url": "https://web.archive.org/web/20260421190015/https://business.columbia.edu/financial-aid/costs/full-time",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 21489,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "first year: mandatory fees $6,473 + health insurance $5,367; second year: fees $4,282 + health insurance $5,367 (2025-26)",
+    "url": "https://web.archive.org/web/20260421190015/https://business.columbia.edu/financial-aid/costs/full-time",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 69118,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x 9-month budget: food & housing $28,476 + personal $3,510 + transportation $1,323 + books & supplies $1,250 = $34,559 (2025-26)",
+    "basis": "school budget",
+    "annual": 34559,
+    "first_year_total_budget": 137571,
+    "second_year_total_budget": 135380,
+    "url": "https://web.archive.org/web/20260421190015/https://business.columbia.edu/financial-aid/costs/full-time",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "note": "Not read (scholarship page blocked to robots).",
+    "url": "https://academics.business.columbia.edu/mba/tuition-financial-aid/mba-scholarships",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://business.columbia.edu/recruiters/employment-report",
+    "report_url_archived": "https://web.archive.org/web/20260326013035/https://business.columbia.edu/recruiters/employment-report",
+    "report_file": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/CMC/Columbia%20Business%20School%20Employment%20Data%202025.xlsx",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/CMC/Columbia%20Business%20School%20Employment%20Data%202025.xlsx",
+    "read_on": "2026-10-13",
+    "standard_note": "The online report INCLUDES sponsored students in industry/function/geography shares; the compensation summary excludes sponsored, own-business and family-business students per CSEA. Data to Aug 21, collected through Sept 21, 2025.",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "offers_3m_pct": 92.0,
+    "accepted_3m_pct": 90.4,
+    "offers_end_of_year_pct": 96,
+    "accepted_end_of_year_pct": 95,
+    "base_salary": {
+      "value": 175000,
+      "currency": "USD",
+      "stat": "median",
+      "min": 55000,
+      "max": 450000
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "pct_receiving": 68.9
+    },
+    "other_guaranteed_comp": {
+      "value": 32000,
+      "stat": "median",
+      "pct_receiving": 15.5
+    },
+    "internship_monthly": null,
+    "internship_note": "Class of 2026 internship medians are by industry only (xlsx sheet 'Class of 2026 Compensation'); not extracted.",
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 33.2,
+        "salary": 190000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 30000
+      },
+      {
+        "industry": "finance",
+        "sub": "Financial Services (total)",
+        "pct": 35.4,
+        "salary": null,
+        "stat": null,
+        "other_guaranteed_comp_median": null
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking",
+        "pct": 17.1,
+        "salary": 175000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 50000
+      },
+      {
+        "industry": "finance",
+        "sub": "asset management (Investment Management)",
+        "pct": 6.8,
+        "salary": 175000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 75000
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity",
+        "pct": 4.5,
+        "salary": 175000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 137108
+      },
+      {
+        "industry": "finance",
+        "sub": "venture capital",
+        "pct": 2.5,
+        "salary": 157500,
+        "stat": "median",
+        "other_guaranteed_comp_median": 61716
+      },
+      {
+        "industry": "finance",
+        "sub": "Consumer Finance & Analytics",
+        "pct": 1.5,
+        "salary": 142000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 35000
+      },
+      {
+        "industry": "finance",
+        "sub": "fintech",
+        "pct": 1.4,
+        "salary": 172000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 25000
+      },
+      {
+        "industry": "finance",
+        "sub": "Other Finance",
+        "pct": 3.0,
+        "salary": 123398,
+        "stat": "median",
+        "other_guaranteed_comp_median": 36211
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology (total)",
+        "pct": 10.2,
+        "salary": null,
+        "stat": null,
+        "other_guaranteed_comp_median": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Hardware / Software / Telecom",
+        "pct": 3.4,
+        "salary": 170000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 13100
+      },
+      {
+        "industry": "tech",
+        "sub": "Internet Services / E-Commerce",
+        "pct": 3.7,
+        "salary": 155000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 58850
+      },
+      {
+        "industry": "tech",
+        "sub": "Other Technology",
+        "pct": 3.1,
+        "salary": 151000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 27500
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare (total)",
+        "pct": 2.9,
+        "salary": null,
+        "stat": null,
+        "other_guaranteed_comp_median": null
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Pharma / Biotech / Devices",
+        "pct": 1.6,
+        "salary": 147500,
+        "stat": "median",
+        "other_guaranteed_comp_median": 30000
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Providers & Services",
+        "pct": 0.7,
+        "salary": 140000,
+        "stat": "median",
+        "other_guaranteed_comp_median": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Products (total)",
+        "pct": 3.7,
+        "salary": null,
+        "stat": null,
+        "other_guaranteed_comp_median": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Beverages / Food",
+        "pct": 1.4,
+        "salary": 132000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 25000
+      },
+      {
+        "industry": "consumer",
+        "sub": "Other / Diversified Products",
+        "pct": 2.3,
+        "salary": 127500,
+        "stat": "median",
+        "other_guaranteed_comp_median": 25000
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 0.3,
+        "salary": null,
+        "stat": null,
+        "other_guaranteed_comp_median": null
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 1.8,
+        "salary": 110000,
+        "stat": "median",
+        "other_guaranteed_comp_median": null
+      },
+      {
+        "industry": "other",
+        "sub": "Media, Entertainment & Sports",
+        "pct": 1.9,
+        "salary": 132500,
+        "stat": "median",
+        "other_guaranteed_comp_median": 38125
+      },
+      {
+        "industry": "other",
+        "sub": "Real Estate",
+        "pct": 3.8,
+        "salary": 150000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 17500
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Education / Government / Nonprofit",
+        "pct": 1.2,
+        "salary": 100000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 7750
+      },
+      {
+        "industry": "other",
+        "sub": "Other",
+        "pct": 4.2,
+        "salary": 190000,
+        "stat": "median",
+        "other_guaranteed_comp_median": 15000
+      }
+    ],
+    "by_industry_note": "% of offers (includes sponsored students); salary = median base.",
+    "by_function": [
+      {
+        "function": "Consulting (total)",
+        "pct": 40.1,
+        "salary": null
+      },
+      {
+        "function": "Consulting",
+        "pct": 34.4,
+        "salary": 190000
+      },
+      {
+        "function": "Internal Consulting / Strategic Planning",
+        "pct": 5.7,
+        "salary": 170000
+      },
+      {
+        "function": "Finance (total)",
+        "pct": 37.6,
+        "salary": null
+      },
+      {
+        "function": "Investment Banking",
+        "pct": 19.1,
+        "salary": 175000
+      },
+      {
+        "function": "Private Equity",
+        "pct": 6.6,
+        "salary": 170000
+      },
+      {
+        "function": "Investment Management",
+        "pct": 4.8,
+        "salary": 150000
+      },
+      {
+        "function": "Corporate Finance",
+        "pct": 2.1,
+        "salary": 140800
+      },
+      {
+        "function": "Venture Capital",
+        "pct": 1.8,
+        "salary": 170000
+      },
+      {
+        "function": "Other Finance",
+        "pct": 3.2,
+        "salary": 160000
+      },
+      {
+        "function": "Marketing (total)",
+        "pct": 10.3,
+        "salary": null
+      },
+      {
+        "function": "Brand / Product Management",
+        "pct": 5.9,
+        "salary": 135750
+      },
+      {
+        "function": "Business Development",
+        "pct": 2.8,
+        "salary": 148000
+      },
+      {
+        "function": "Product Marketing",
+        "pct": 0.9,
+        "salary": 130000
+      },
+      {
+        "function": "Management (total)",
+        "pct": 5.7,
+        "salary": null
+      },
+      {
+        "function": "Operations / Production",
+        "pct": 3.2,
+        "salary": 142800
+      },
+      {
+        "function": "General Management / LDP",
+        "pct": 2.5,
+        "salary": 143900
+      },
+      {
+        "function": "Real Estate (total)",
+        "pct": 3.7,
+        "salary": null
+      },
+      {
+        "function": "Real Estate Asset Management / Investments",
+        "pct": 2.1,
+        "salary": 155000
+      },
+      {
+        "function": "Law",
+        "pct": 0.7,
+        "salary": 230000
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US (total)",
+        "pct": 82,
+        "salary": 175000
+      },
+      {
+        "region": "Asia",
+        "pct": 7,
+        "salary": 95976
+      },
+      {
+        "region": "Latin America",
+        "pct": 5,
+        "salary": 89442,
+        "detail": "Central & South America"
+      },
+      {
+        "region": "Europe",
+        "pct": 4,
+        "salary": 112234
+      },
+      {
+        "region": "Middle East",
+        "pct": 2,
+        "salary": 175000,
+        "detail": "school groups Africa & Middle East"
+      }
+    ],
+    "by_geography_note": "Columbia does not split US regions.",
+    "top_employers": [
+      {
+        "name": "Boston Consulting Group",
+        "hires": 51,
+        "total_incl_returning": 62
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": 36,
+        "total_incl_returning": 62
+      },
+      {
+        "name": "JPMorgan Chase & Co.",
+        "hires": 22
+      },
+      {
+        "name": "Amazon",
+        "hires": 21
+      },
+      {
+        "name": "PwC",
+        "hires": 18,
+        "total_incl_returning": 24
+      },
+      {
+        "name": "Bain & Company",
+        "hires": 17,
+        "total_incl_returning": 33
+      },
+      {
+        "name": "Deloitte",
+        "hires": 14,
+        "total_incl_returning": 23
+      },
+      {
+        "name": "Goldman Sachs",
+        "hires": 11
+      },
+      {
+        "name": "Bank of America",
+        "hires": 10
+      },
+      {
+        "name": "Evercore",
+        "hires": 8
+      }
+    ]
+  },
+  "profile": {
+    "url": "https://web.archive.org/web/20260717002007/https://academics.business.columbia.edu/admissions/mba/class-profile",
+    "read_on": "2026-10-13",
+    "cohort": "Class entering 2025 (January and August)",
+    "intl_pct": 41,
+    "avg_age": null,
+    "avg_work_exp_years": 5,
+    "women_pct": 46,
+    "gmat_median": null,
+    "gmat_mean": 734,
+    "gmat_focus_mean": 690,
+    "applications": 7477,
+    "countries": 72,
+    "note": "Averages only (GMAT 10th edition 734, Focus 690, GRE 163/163)."
+  },
+  "rankings_cited": [],
+  "rankings_note": "Columbia did not appear in the FT Global MBA 2026 (GMAC: 'failing to meet the threshold for alumni survey responses'): https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking",
+  "notes": "business.columbia.edu and academics.business.columbia.edu answer 403 to curl/WebFetch; HTML pages read from Wayback captures of the official URLs (2026-03-26, 2026-04-21, 2026-07-17). The xlsx and PDFs download directly. Cost figures are 2025-26 (2026-27 budget not captured)."
+}

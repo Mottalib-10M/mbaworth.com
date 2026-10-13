@@ -1,0 +1,110 @@
+{
+  "slug": "nova-sbe",
+  "name": "The Lisbon MBA Católica|Nova (Nova SBE and Católica Lisbon SBE)",
+  "short": "Lisbon MBA (Nova SBE / Católica)",
+  "country": "PT",
+  "city": "Lisbon",
+  "region": "Europe",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "url": "https://www.novasbe.unl.pt/en/programs/the-lisbon-mba",
+    "read_on": "2026-10-13",
+    "notes": "The Lisbon MBA International: joint degree of Nova SBE and Católica Lisbon, 12-month accelerated programme, 90 ECTS, includes a 1-month immersion at MIT Sloan. Ranked by the FT as one programme, so a single file covers both schools (no separate catolica-lisbon.json).",
+    "class_size": {
+      "value": null,
+      "vacancies": 50,
+      "cohort": "intake opening 12-01-2026",
+      "url": "https://guia.unl.pt/en/2026/novasbe/program/MB37",
+      "read_on": "2026-10-13",
+      "notes": "Official NOVA programme catalogue gives 50 vacancies, not actual enrolment."
+    }
+  },
+  "tuition_total": {
+    "value": 34900,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "NOVA Program Catalog 2026-2027 (opening date 12-01-2026)",
+    "url": "https://guia.unl.pt/en/2026/novasbe/program/MB37",
+    "read_on": "2026-10-13",
+    "notes": "Catalogue refers to https://thelisbonmba.com/admissions-fees-and-funding for details (that site is behind an anti-bot check). Third-party listings show 39,500 EUR (not used)."
+  },
+  "mandatory_fees_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": null,
+    "url": "https://guia.unl.pt/en/2026/novasbe/program/MB37",
+    "read_on": "2026-10-13",
+    "notes": "Not readable (thelisbonmba.com blocked)."
+  },
+  "living_budget_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": null,
+    "cohort": null,
+    "basis": null,
+    "url": "https://guia.unl.pt/en/2026/novasbe/program/MB37",
+    "read_on": "2026-10-13",
+    "notes": "No official budget found."
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "EUR",
+    "stat": null,
+    "pct_receiving": null,
+    "url": "https://guia.unl.pt/en/2026/novasbe/program/MB37",
+    "read_on": "2026-10-13",
+    "notes": "Not readable (thelisbonmba.com blocked)."
+  },
+  "employment": {
+    "report_url": null,
+    "url": "https://www.novasbe.unl.pt/en/whats-happening/news/news-detail/id/1229",
+    "read_on": "2026-10-13",
+    "cohort": null,
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "employed_6m_pct": 97,
+    "base_salary": {
+      "value": null,
+      "currency": "USD",
+      "stat": null,
+      "notes": "No employment report found. The school's news of 21 Feb 2025 cites FT 2025 figures: average annual gross salary USD 135,825 and +87% increase three years after graduation (FT alumni data, not a starting salary)."
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null
+    },
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [],
+    "country_change_pct": null,
+    "top_employers": [],
+    "notes": "'97% employment rate within six months of graduation' from the school news of 21 Feb 2025 (cohort not stated, likely the FT 2025 survey class)."
+  },
+  "profile": {
+    "intl_pct": 62,
+    "avg_age": null,
+    "avg_work_exp_years": null,
+    "women_pct": 42,
+    "gmat_median": null,
+    "nationalities": 17,
+    "url": "https://www.novasbe.unl.pt/en/whats-happening/news/news-detail/id/1229",
+    "read_on": "2026-10-13",
+    "notes": "From the Nova SBE news of 21 Feb 2025 (FT 2025 context); minimum 3 years of experience required."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 79,
+      "url": "https://www.clearadmit.com/mba-rankings/financial-times/",
+      "read_on": "2026-10-13",
+      "notes": "Excerpt of the FT 2026 table on ClearAdmit: 'The Lisbon MBA Catolica | Nova' 79 (tie), prior year 77."
+    }
+  ],
+  "notes": "thelisbonmba.com (fees, careers, class profile) returns an anti-bot 'One moment, please...' page to curl and WebFetch."
+}

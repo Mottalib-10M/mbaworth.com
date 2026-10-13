@@ -3,11 +3,10 @@ import { route, ROUTES } from '../i18n/routes';
 import type { Helpers } from './page-types';
 import { formatNumber } from './format';
 import { KIT } from './kit';
-import { P, SC_META, BANDS } from './data';
-import { CURVE, A2S } from './props';
-import { coaOf } from './coa';
-import { collegeId, hasCollegePage } from './pages';
-import { SCHOOLS_SC } from './data';
+import { P, MODEL, schoolBySlug, calcSchool, hasSchool, type School } from './data';
+import { schoolId, hasSchoolPage } from './pages';
+import { usd, p, yrs, kindLabel } from './fmt';
+import { GOAL_LIST } from './goals';
 
 const esc = (s: string | number) => String(s).replace(/&(?!(?:[a-z]+|#\d+);)/g, '&amp;').replace(/</g, '&lt;');
 export const SOURCES: Record<string, { url: string; label: string }> = (P as unknown as { sources: Record<string, { url: string; label: string }> }).sources;
@@ -21,20 +20,26 @@ export function link(id: string, text: string) {
   if (!ROUTES.some((r) => r.id === id)) { if (process.env.VITEST) throw new Error(`Unknown page id in link: ${id}`); return text; }
   return `<a href="${route(id, 'en')}">${text}</a>`;
 }
+export const schoolLink = (slug: string, text?: string) => { if (!hasSchool(slug)) { if (process.env.VITEST) throw new Error(`Unknown school ${slug}`); return text ?? slug; } return hasSchoolPage(slug) ? link(schoolId(slug), text ?? schoolBySlug(slug).short) : (text ?? schoolBySlug(slug).short); };
 export const box = (title: string, html: string) => `<aside class="boxnote not-prose"><p class="boxnote-title">${title}</p><div class="text-navy-800">${html}</div></aside>`;
 export const mini = (kind: string, arg?: unknown) => `<!--mini:${kind}${arg === undefined ? '' : `|${Buffer.from(JSON.stringify(arg)).toString('base64')}`}-->`;
+export function rankTable(goalId: string, n = 10, filter?: (s: School) => boolean, caption?: string) {
+  const r = KIT.ranking(goalId, filter);
+  const g = GOAL_LIST.find((x) => x.id === goalId)!;
+  const rows = r.ranked.slice(0, n).map((x) => [String(x.rank), schoolLink(x.slug), p(x.share), x.placed === null ? 'n/a' : formatNumber(x.placed, 0), x.salary === null ? 'not published' : `${usd(x.salary)}${x.fallback ? '*' : ''}`, x.npv === null ? 'n/a' : x.payback === null ? 'over 30 years' : yrs(x.payback), x.npv === null ? 'n/a' : usd(x.npv), formatNumber(x.score, 0)]);
+  return table(['#', 'School', g.kind === 'zone' ? 'Share placed there' : 'Share of class', 'Graduates, about', 'Salary', 'Payback', '10-year NPV', 'Fit score'], rows,
+    caption ?? `Our ranking for ${g.label.toLowerCase()}${g.kind === 'zone' ? ', on the share of the class placed there' : ''}: reference person earning ${usd(MODEL.refSalary)} before the MBA, salaries converted to US dollars at the ECB rate of ${KIT.day(KIT.FX_DATE)}. * school-wide salary, the school does not publish one for this segment.`, ['r', 'l', 'r', 'r', 'r', 'r', 'r', 'r']);
+}
 export function helpers(): Helpers {
   return {
-    ...KIT, a: link, table,
-    c: (slug: string, text?: string) => { if (!SCHOOLS_SC.some((x) => x.slug === slug)) throw new Error(`Unknown school ${slug}`); return hasCollegePage(slug) ? link(collegeId(slug), text ?? KIT.s(slug).name) : (text ?? KIT.s(slug).name); },
+    ...KIT, a: link, table, rankTable, sc: schoolLink,
     src: (key: string, text?: string) => { const s = SOURCES[key]; if (!s) throw new Error(`Unknown source ${key}`); return ext(s.url, text ?? s.label); },
     ext, box, mini,
-    miniNet: (slug: string) => { const x = KIT.s(slug); return mini('schoolNet', { short: x.short, net: x.netByIncome, control: x.control, tuitionIn: x.tuitionIn, tuitionOut: x.tuitionOut, coa: x.coa, bands: BANDS, labels: SC_META.incomeBands, year: SC_META.years.net }); },
-    miniScore: (slug: string, test: 'SAT' | 'ACT' = 'SAT') => { const x = KIT.s(slug); const r = test === 'SAT' ? x.sat : x.actR; if (!r) throw new Error(`${slug}: no ${test} range`); return mini('scorePosition', { short: x.short, test, p25: r.p25, p75: r.p75, iqr: KIT.rule.iqrToSd, label: r.label }); },
-    miniGap: (slug: string) => { const x = KIT.s(slug); if (x.control !== 'public' || !x.tuitionIn || !x.tuitionOut) throw new Error(`${slug}: no tuition gap`); return mini('stateGap', { short: x.short, state: x.state, tin: x.tuitionIn, tout: x.tuitionOut, year: SC_META.years.tuition }); },
-    miniGrant: (slug: string) => { const x = KIT.s(slug); const c = coaOf(x); return mini('grantLeft', { short: x.short, coa: c.total, year: c.year }); },
-    miniFour: (slug: string) => { const x = KIT.s(slug); return mini('fourYears', { short: x.short, net: x.netByIncome, control: x.control, bands: BANDS, year: SC_META.years.net }); },
-    miniSatNational: () => mini('satNational', { curve: CURVE, classOf: P.sat.classOf, mean: P.sat.meanTotal }),
-    miniActSat: () => mini('actSat', { table: A2S }),
+    miniPayback: (slug: string) => { const c = calcSchool(schoolBySlug(slug), null); return mini('payback', { c, m: MODEL, kind: kindLabel(c.kind) }); },
+    miniGoal: (slug: string) => { const c = calcSchool(schoolBySlug(slug), null); return mini('goalAt', { c, m: MODEL }); },
+    miniTwo: (a: string, b: string) => mini('twoSchools', { a: calcSchool(schoolBySlug(a), null), b: calcSchool(schoolBySlug(b), null), m: MODEL }),
+    miniScholarship: (slug: string) => mini('scholarship', { c: calcSchool(schoolBySlug(slug), null), m: MODEL }),
+    miniFx: () => mini('fx', { rates: Object.fromEntries(['EUR', 'GBP', 'CHF', 'CNY', 'INR', 'SGD', 'HKD', 'CAD', 'AUD', 'KRW'].filter((c) => c in KIT.FX).map((c) => [c, KIT.FX[c]])), date: KIT.day(KIT.FX_DATE) }),
+    miniPosition: (code: string) => { const o = (P.bls.occupations as Record<string, { name: string; p25: number; median: number; p75: number }>)[code]; if (!o) throw new Error(`Unknown occupation ${code}`); return mini('position', { name: o.name, p25: o.p25, median: o.median, p75: o.p75, period: P.bls.period }); },
   };
 }

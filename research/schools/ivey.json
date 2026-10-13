@@ -1,0 +1,152 @@
+{
+  "slug": "ivey",
+  "name": "Ivey Business School, Western University",
+  "short": "Ivey",
+  "country": "CA",
+  "city": "London, Ontario",
+  "region": "Canada",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "intake": "January (next start January 4, 2027)",
+    "class_size": {
+      "value": 154,
+      "cohort": "Class of 2027",
+      "url": "https://www.ivey.uwo.ca/media/wlscsrju/mba-class-profile.pdf",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 136310,
+    "currency": "CAD",
+    "period": "full program (one-year MBA)",
+    "cohort": "2027 intake",
+    "by_residency": {
+      "domestic": 84915,
+      "international": 136310
+    },
+    "basis": "School tuition table '2027', estimated; international rate shown as value; $5,000 non-refundable deposit credited to first term.",
+    "url": "https://www.ivey.uwo.ca/mba/finance/",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 5000,
+    "currency": "CAD",
+    "period": "full program",
+    "cohort": "2027 intake",
+    "detail": {
+      "student_organization_and_ancillary_fees_incl_mba_association": 2300,
+      "ivey_course_material_fees": 2700,
+      "usc_health_dental_optional": 1200,
+      "uhip_international_mandatory": 820
+    },
+    "note": "Value = mandatory items only (ancillary $2,300 + course materials $2,700). School's own total of $6,200 includes the optional $1,200 health & dental plan; international students add mandatory UHIP $820.",
+    "url": "https://www.ivey.uwo.ca/mba/finance/",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 21900,
+    "currency": "CAD",
+    "period": "12 months (derived from school monthly estimates)",
+    "monthly_value": 1825,
+    "basis": "school budget",
+    "detail_monthly": {
+      "rent_room_in_student_house_from": 700,
+      "rent_one_bedroom_from": 1450,
+      "rent_two_bedroom_from": 1750,
+      "apartment_liability_insurance": [
+        18,
+        20
+      ],
+      "utilities_from": 100,
+      "food": 500,
+      "cell_phone": 80,
+      "miscellaneous": 425
+    },
+    "note": "Derived: 12 x (room in a student house $700 + insurance $20 + utilities $100 + food $500 + phone $80 + misc $425). School gives monthly items only, no annual total; rents are 'starting' rates. Bus pass included in tuition and fees.",
+    "url": "https://www.ivey.uwo.ca/mba/finance/",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "CAD",
+    "stat": "range",
+    "range": [
+      10000,
+      70000
+    ],
+    "pct_receiving": 80,
+    "note": "Approximately 80% of incoming students (domestic and international) receive an admission scholarship of $10,000 to $70,000. No average published.",
+    "url": "https://www.ivey.uwo.ca/mba/finance/scholarships-awards-loans/",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://online.flippingbook.com/shelf/271812/876540/",
+    "url": "https://www.ivey.uwo.ca/mba/",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "offers_6m_pct": 89,
+    "base_salary": {
+      "value": null,
+      "currency": "CAD",
+      "stat": null,
+      "total_compensation_mean": 123932,
+      "note": "Only figure readable: $123,932 average total compensation (base, signing bonus and other guaranteed compensation)."
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null
+    },
+    "career_transition_pct": 95,
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [],
+    "top_employers": [],
+    "notes": "The 'Ivey MBA 2025 Permanent Employment Report' is a FlippingBook publication (online.flippingbook.com/shelf/271812/876540/) rendered by JavaScript from signed CloudFront assets; not readable with curl/WebFetch (403 on page assets). Headline figures from the MBA home page (89% received at least one offer six months post-graduation; $123,932 average total compensation; 95% of accepters made a career transition). Industry, function, geography, base salary and 3-month rate need a browser re-read."
+  },
+  "profile": {
+    "intl_pct": 40,
+    "domestic_pct": 60,
+    "avg_age": 28.5,
+    "age_range": [
+      23,
+      36
+    ],
+    "avg_work_exp_years": 5,
+    "women_pct": 43,
+    "gmat_median": null,
+    "citizenship": {
+      "Canada": 38,
+      "India": 25,
+      "Africa": 14,
+      "China": 10,
+      "Southeast Asia": 5,
+      "Latin America": 2,
+      "Other": 6
+    },
+    "pre_mba_industry": {
+      "Finance/Insurance": 22,
+      "Other": 19,
+      "Consulting": 14,
+      "Technology": 9
+    },
+    "cohort": "Class of 2027",
+    "url": "https://www.ivey.uwo.ca/media/wlscsrju/mba-class-profile.pdf",
+    "read_on": "2026-10-13"
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 74,
+      "url": "https://www.ivey.uwo.ca/news/news-ivey/2026/february/ivey-mba-ranked-no-1-in-canada-top-75-globally-by-financial-times/",
+      "read_on": "2026-10-13",
+      "note": "school news release, 2026-02-16"
+    }
+  ],
+  "notes": "Class profile PDF saved as research/sources/amerique/ivey-class-profile.pdf. Employment report to re-read in a browser (FlippingBook)."
+}

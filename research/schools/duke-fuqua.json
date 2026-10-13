@@ -1,0 +1,115 @@
+{
+  "slug": "duke-fuqua",
+  "name": "The Fuqua School of Business, Duke University",
+  "short": "Duke Fuqua",
+  "country": "US",
+  "city": "Durham",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 359, "cohort": "Class of 2028", "url": "https://www.fuqua.duke.edu/programs/daytime-mba/class-profile", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 83700, "currency": "USD", "period": "first year, 9 months (2026-27)", "cohort": "Class of 2028",
+    "url": "https://www.fuqua.duke.edu/programs/daytime-mba/tuition-costs", "read_on": "2026-10-13",
+    "note": "First-year tuition only (includes a 4,000 USD non-refundable deposit). No full-program total published. Prior year (Class of 2027, 2025-26): 81,000 USD per the school's COA PDF (search excerpt)."
+  },
+  "mandatory_fees_total": {
+    "value": 4844, "currency": "USD", "period": "first year (2026-27)", "cohort": "Class of 2028",
+    "breakdown": {"health_fee": 1048, "mba_association": 575, "graduate_activity_fee": 40, "recreational_facility_fee": 408, "student_services_fee": 28, "transcript_fee": 120, "pre_term_fee": 2625, "student_medical_insurance_waivable": 4290},
+    "url": "https://www.fuqua.duke.edu/programs/daytime-mba/tuition-costs", "read_on": "2026-10-13",
+    "note": "value = sum of the fee lines excluding medical insurance (our addition). Medical insurance 4,290 USD is required but waivable. Direct costs total per school: 92,834 USD."
+  },
+  "living_budget_total": {
+    "value": 25290, "currency": "USD", "period": "first year, 9 months (2026-27)", "basis": "school budget",
+    "breakdown": {"food": 4428, "housing_utilities_phone": 14220, "miscellaneous": 4500, "transportation": 2142, "books_course_packs": 850},
+    "total_cost_of_attendance": 118974,
+    "url": "https://www.fuqua.duke.edu/programs/daytime-mba/tuition-costs", "read_on": "2026-10-13",
+    "note": "value = school's indirect costs total (books 850 USD counted separately by the school). Based on a triennial Duke survey of aided students."
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null,
+    "facts": ["Every admitted applicant is considered for a merit scholarship", "Awards cover the 2-year program and range from partial to full tuition", "No funding for new awards in year two"],
+    "url": "https://www.fuqua.duke.edu/programs/daytime-mba/financing-your-degree", "read_on": "2026-10-13",
+    "note": "No average award or share of recipients published."
+  },
+  "employment": {
+    "report_url": "https://www.fuqua.duke.edu/sites/default/files/media/programs/daytime/duke-mba-employment-2025.pdf",
+    "local_copy": "research/sources/amerique/duke-fuqua-employment-2025.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "graduates": 350, "seeking": 315,
+    "response_rate": null,
+    "employed_3m_pct": 82.2,
+    "accepted_3m_pct": 79.0,
+    "offers_by_graduation_pct": 72.4,
+    "base_salary": {"value": 160000, "currency": "USD", "stat": "median"},
+    "signing_bonus": {"value": 30000, "stat": "median", "pct_receiving": 85.1},
+    "internship_monthly": null,
+    "internship_note": "Monthly internship medians given only by industry/function (e.g. consulting $15,167, financial services $14,583, technology $10,079); no overall median.",
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 34.0, "salary": 190000, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 4.9, "salary": 125000, "stat": "median"},
+      {"industry": "energy", "sub": "Energy", "pct": 2.9, "salary": 145000, "stat": "median"},
+      {"industry": "finance", "sub": "Financial Services", "pct": 20.9, "salary": 175000, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare (Including Products and Services)", "pct": 7.4, "salary": 140000, "stat": "median"},
+      {"industry": "other", "sub": "Hospitality", "pct": 1.2, "salary": 130000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 2.0, "salary": 135000, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Non-Profit", "pct": 0.8, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Other", "pct": 4.5, "salary": 135000, "stat": "median"},
+      {"industry": "other", "sub": "Real Estate", "pct": 2.0, "salary": 123000, "stat": "median"},
+      {"industry": "consumer", "sub": "Retail", "pct": 2.5, "salary": 130000, "stat": "median"},
+      {"industry": "tech", "sub": "Technology", "pct": 15.6, "salary": 144000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Transportation and Logistics Services", "pct": 1.2, "salary": 130000, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 35.9, "salary": 190000},
+      {"function": "Finance/Accounting (total)", "pct": 27.4, "salary": 150000},
+      {"function": "Investment Banking", "pct": 10.6, "salary": 175000},
+      {"function": "Corporate Finance", "pct": 5.5, "salary": 135000},
+      {"function": "Private Wealth Management", "pct": 4.6, "salary": 150000},
+      {"function": "Investment Management", "pct": 1.3, "salary": 143000},
+      {"function": "Private Equity / Venture Capital / Other", "pct": 5.5, "salary": 127500},
+      {"function": "General Management", "pct": 16.5, "salary": 142800},
+      {"function": "Marketing/Sales", "pct": 13.1, "salary": 130000},
+      {"function": "Operations/Logistics", "pct": 4.2, "salary": 149500},
+      {"function": "Human Resources", "pct": 0.4, "salary": null},
+      {"function": "Information Technology", "pct": 0.4, "salary": null},
+      {"function": "Other", "pct": 2.1, "salary": 150000}
+    ],
+    "finance_subsectors_note": "Fuqua splits finance by function: investment banking 10.6% ($175,000), PE/VC/other 5.5% ($127,500 as printed '$127.500'), investment management 1.3% ($143,000).",
+    "by_geography": [
+      {"region": "US Northeast", "pct": 21.3, "salary": null},
+      {"region": "US South", "pct": 17.4, "salary": null},
+      {"region": "US Southwest", "pct": 16.1, "salary": null},
+      {"region": "US West", "pct": 15.7, "salary": null},
+      {"region": "US Mid-Atlantic", "pct": 11.7, "salary": null},
+      {"region": "US Midwest", "pct": 10.0, "salary": null},
+      {"region": "Latin America", "pct": 6.1, "salary": null, "sub": "South America"},
+      {"region": "Canada", "pct": 0.4, "salary": null},
+      {"region": "Africa", "pct": 0.4, "salary": null, "sub": "Africa - Sub Saharan"},
+      {"region": "Asia", "pct": 0.4, "salary": null},
+      {"region": "Middle East", "pct": 0.4, "salary": null, "sub": "MENA"}
+    ],
+    "top_employers": [
+      {"name": "Accenture Strategy", "hires": null}, {"name": "Amazon", "hires": null}, {"name": "Bain & Company", "hires": null},
+      {"name": "BCG", "hires": null}, {"name": "McKinsey", "hires": null}, {"name": "Deloitte Consulting", "hires": null},
+      {"name": "EY-Parthenon", "hires": null}, {"name": "Kearney", "hires": null}, {"name": "Apple", "hires": null},
+      {"name": "Microsoft Corporation", "hires": null}, {"name": "Goldman Sachs", "hires": null}, {"name": "JPMorgan Chase", "hires": null},
+      {"name": "Bank of America", "hires": null}, {"name": "Morgan Stanley", "hires": null}, {"name": "Eli Lilly and Company", "hires": null}
+    ],
+    "notes": "PDF page 4 lists 'employers that hired 3 or more Fuqua MBA graduates in 2025' (selection kept here, counts not published; 106 employers in total). Geography shares read from a map graphic (text layer) with no salary by region. 23 graduates with no recent information. Outcomes collected within 4 months of graduation."
+  },
+  "profile": {
+    "cohort": "Class of 2028",
+    "intl_pct": 38, "avg_age": 29, "avg_work_exp_years": 6.0, "women_pct": 44, "gmat_median": null,
+    "gmat_focus_middle80": "605-715", "gpa_middle80": "3.15-3.90",
+    "url": "https://www.fuqua.duke.edu/programs/daytime-mba/class-profile", "read_on": "2026-10-13",
+    "note": "International = primary citizenship outside the U.S. No GMAT median published."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 16, "url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/", "read_on": "2026-10-13", "note": "Third-party extract of the FT table, not a school page."}
+  ],
+  "notes": "Costs: first year only."
+}

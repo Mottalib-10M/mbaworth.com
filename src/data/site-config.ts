@@ -1,6 +1,6 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-college-cost.example";
-export const SITE_NAMES: Record<string, string> = {"en": "AdmitCost"};
+export const SITE_URL = "https://mba-worth.example";
+export const SITE_NAMES: Record<string, string> = {"en": "MBA Worth"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
 export const LOCALE_TAG = 'en-US';
@@ -8,17 +8,17 @@ export const CURRENCY = 'USD';
 export const YEAR = 2026;
 /** Année de création du site — signal d'ancienneté (RECETTE §8.0). */
 export const SITE_FOUNDED = '2026';
-export const LAST_UPDATED = '2026-10-12';
+export const LAST_UPDATED = '2026-10-13';
 export const AUTHOR_NAME = 'Radif Partners';
-export const AUTHOR_ROLE: Record<string, string> = {"en": "Publisher of a no-signup admissions and net price calculator for 110 US universities"};
-export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads two kinds of documents for every university on this site: the federal College Scorecard file, which gives the price aided families actually paid in five income bands, and the university's own Common Data Set and cost of attendance page, which give the newest applicant and admit counts, the SAT and ACT middle 50 percent and the budget for the coming year. Each figure carries its cycle and its source, and the calculator places a student's score and family income against them without asking for an account or an e-mail address."};
+export const AUTHOR_ROLE: Record<string, string> = {"en": "Publisher of an MBA return calculator built on the employment reports of each business school"};
+export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads, for every business school on this site, three documents the school publishes itself: the fees page, the student budget and the employment report of the latest graduating class. From them it takes the tuition, the living budget, the salary graduates reported and the share of the class hired in each industry and region, each with its link and the date it was read. The calculators turn these figures into a total cost that includes the salary given up, a payback period and a ten-year net present value, and rank the schools for a goal (consulting, investment banking, tech, a region) with a formula published on the method page."};
 /** Sujets sur lesquels l'editeur est competent (schema.org knowsAbout). Ce sont les
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
-export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["College acceptance rates", "SAT and ACT score ranges", "College cost of attendance", "Net price by family income", "ACT to SAT concordance"]};
-export const CONTACT_EMAIL = "contact@us-college-cost.example";
-export const THEME_COLOR = '#9B2335';
-export const LOGO_SYMBOL = 'U$';
+export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["MBA total cost of attendance", "MBA return on investment and payback period", "MBA employment reports and post-MBA salaries", "Management consulting careers after an MBA", "Investment banking, private equity and tech careers after an MBA"]};
+export const CONTACT_EMAIL = "contact@mba-worth.example";
+export const THEME_COLOR = '#0F5257';
+export const LOGO_SYMBOL = 'MBA';
 export const BING_VERIFY_CODE = '';
 export const GOOGLE_VERIFY_CODE = '';
 /** Régime : 'none' pour tous les sites (RECETTE §15.6, décision de l'éditeur du 2026-10-06) :
@@ -28,7 +28,7 @@ export const CONSENT_MODE: 'opt-in' | 'notice' | 'none' = 'none';
 export const GA4_ID = '';
 /** Projet Microsoft Clarity (compte amradif), chargé sans cookie. Vide = aucune mesure. */
 export const CLARITY_ID = '';
-export const INDEXNOW_KEY = 'a65f809eaca6eee72e6306610e833bf1';
+export const INDEXNOW_KEY = '8d17db2cdc3a7ca9722dd2f9a0d5029d';
 
 /* ------------------------------------------------------------------------- *
  * IDENTITÉ LÉGALE — À COMPLÉTER AVANT LA MISE EN LIGNE

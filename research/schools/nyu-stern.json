@@ -1,0 +1,126 @@
+{
+  "slug": "nyu-stern",
+  "name": "Leonard N. Stern School of Business, New York University",
+  "short": "NYU Stern",
+  "country": "US",
+  "city": "New York",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 336, "cohort": "Class of 2027", "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/community/class-profile", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 92658, "currency": "USD", "period": "per year, 9 months (2026-27)", "cohort": "MBA1 and MBA2 students in 2026-27",
+    "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/financial-aid/tuition-cost-attendance", "read_on": "2026-10-13",
+    "note": "Same 2026-27 tuition for first- and second-year students (https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/full-time/mba2). Year-2 rate for students entering in 2026 not published."
+  },
+  "mandatory_fees_total": {
+    "value": 2040, "currency": "USD", "period": "one-time, first year", "cohort": "MBA1 2026-27",
+    "breakdown": {"orientation_fee_launch": 2040, "health_insurance": 5100},
+    "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/financial-aid/tuition-cost-attendance", "read_on": "2026-10-13",
+    "note": "The school lists 'Tuition & Fees' as tuition plus the LAUNCH orientation fee; health insurance (5,100 USD) is in living expenses."
+  },
+  "living_budget_total": {
+    "value": 45970, "currency": "USD", "period": "per year, 9 months (2026-27)", "basis": "school budget",
+    "breakdown": {"food": 6910, "housing": 25306, "books_supplies": 1500, "transportation": 2438, "personal": 4500, "health_insurance": 5100, "loan_fees": 216},
+    "total_cost_of_attendance": {"mba1": 140668, "mba2": 138628},
+    "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/financial-aid/tuition-cost-attendance", "read_on": "2026-10-13",
+    "note": "value = sum of the school's living-expense lines (our addition = 140,668 - 92,658 - 2,040)."
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null, "pct_receiving": "20-25 (of admitted two-year students)",
+    "facts": ["About 20-25% of admitted full-time two-year MBA students receive a merit-based scholarship", "The majority of Stern MBA scholarships are full or half tuition awards", "Directors Scholarship $50,000 (first year)", "Community Scholarship $25,000 (first year)"],
+    "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/financial-aid/scholarships", "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://drive.google.com/file/d/1gRpVu5atAisSjb1cN4Tp2X1viDVOrhvE/view?usp=sharing",
+    "report_page": "https://www.stern.nyu.edu/business-partnerships/employment-reports",
+    "local_copy": "research/sources/amerique/nyu-stern-employment-2025.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "school",
+    "graduates": 326, "seeking": 271,
+    "response_rate": 87.1,
+    "response_rate_note": "Usable base salary data from 87.1% of graduates who accepted an offer by three months.",
+    "employed_3m_pct": 86.3,
+    "accepted_3m_pct": 86.0,
+    "offers_by_graduation_pct": 76.4,
+    "base_salary": {"value": 175000, "currency": "USD", "stat": "median", "mean": 168970, "low": 50000, "high": 400000},
+    "signing_bonus": {"value": 35000, "stat": "median", "mean": 41007, "pct_receiving": null},
+    "avg_total_compensation": 202705,
+    "internship_monthly": null,
+    "internship_weekly": {"value": 2885, "stat": "median", "mean": 2667, "cohort": "Class of 2026", "note": "Stern publishes weekly internship pay only; not converted."},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 32.8, "salary": 175000, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 3.4, "salary": 122500, "stat": "median"},
+      {"industry": "other", "sub": "Entertainment/Media/Sports", "pct": 2.2, "salary": 200000, "stat": "median"},
+      {"industry": "finance", "sub": "Financial Services (total)", "pct": 36.6, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "investment banking", "pct": 28.0, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "asset management", "pct": 1.3, "salary": null, "stat": "median"},
+      {"industry": "finance", "sub": "Commercial Banking", "pct": 1.3, "salary": 175000, "stat": "median"},
+      {"industry": "finance", "sub": "Diversified Financial Services", "pct": 1.7, "salary": null, "stat": "median"},
+      {"industry": "finance", "sub": "Insurance", "pct": 0.9, "salary": null, "stat": "median"},
+      {"industry": "finance", "sub": "private equity", "pct": 1.3, "salary": null, "stat": "median"},
+      {"industry": "finance", "sub": "venture capital", "pct": 1.7, "salary": null, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare/Pharmaceuticals/Biotech", "pct": 3.4, "salary": 138500, "stat": "median"},
+      {"industry": "other", "sub": "Real Estate", "pct": 0.9, "salary": null, "stat": "median"},
+      {"industry": "consumer", "sub": "Retail", "pct": 0.9, "salary": null, "stat": "median"},
+      {"industry": "tech", "sub": "Technology/Telecommunications", "pct": 14.2, "salary": 152500, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Government", "pct": 0.4, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Law", "pct": 3.4, "salary": 235000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 0.4, "salary": null, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Transportation & Logistics", "pct": 1.3, "salary": 150000, "stat": "median"},
+      {"industry": "other", "sub": "Other", "pct": 0.4, "salary": null, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Consulting (total)", "pct": 39.4, "salary": 175000},
+      {"function": "Consulting - Management", "pct": 28.6, "salary": 188000},
+      {"function": "Consulting - Strategy", "pct": 7.8, "salary": 150000},
+      {"function": "Consulting - Business Development/Sales", "pct": 2.2, "salary": 128000},
+      {"function": "Finance/Accounting (total)", "pct": 34.2, "salary": 175000},
+      {"function": "Investment Banking", "pct": 24.2, "salary": 175000},
+      {"function": "General/Corporate Finance", "pct": 3.9, "salary": 145000},
+      {"function": "Asset/Investment Management", "pct": 1.7, "salary": 150000},
+      {"function": "Private Equity", "pct": 1.7, "salary": null},
+      {"function": "Venture Capital", "pct": 0.9, "salary": null},
+      {"function": "Management (total)", "pct": 5.6, "salary": 145000},
+      {"function": "General Management", "pct": 4.8, "salary": 145000},
+      {"function": "Marketing/Sales (total)", "pct": 14.3, "salary": 144000},
+      {"function": "Product Management", "pct": 6.5, "salary": 150000},
+      {"function": "Brand Management", "pct": 4.3, "salary": 122500},
+      {"function": "Operations", "pct": 1.7, "salary": null},
+      {"function": "Law", "pct": 3.9, "salary": 235000},
+      {"function": "Human Resources", "pct": 0.4, "salary": null}
+    ],
+    "by_geography": [
+      {"region": "US Northeast", "pct": 82.4, "salary": 175000},
+      {"region": "US West", "pct": 7.0, "salary": 163750},
+      {"region": "US Mid-Atlantic", "pct": 3.5, "salary": 175000},
+      {"region": "US South", "pct": 1.8, "salary": 192000},
+      {"region": "US Midwest", "pct": 1.3, "salary": null},
+      {"region": "US Southwest", "pct": 0.0, "salary": null},
+      {"region": "Asia", "pct": 3.1, "salary": 133823, "sub": "Asia & Middle East"},
+      {"region": "Latin America", "pct": 0.9, "salary": null, "sub": "Latin America & the Caribbean"}
+    ],
+    "north_america_pct": 96.0,
+    "intl_students_3yr_note": "Three-year aggregate (classes 2023-2025) for students with non-US work authorization: 85.2% employed in the US (67.2% New York), 14.8% outside (Asia 9.8%, Europe 2.2%, Latin America 1.6%, Middle East 1.1%).",
+    "top_employers": [
+      {"name": "McKinsey & Company", "hires": 14}, {"name": "J.P. Morgan", "hires": 14}, {"name": "Bain & Company", "hires": 10},
+      {"name": "EY-Parthenon", "hires": 8}, {"name": "Bank of America", "hires": 7}, {"name": "Goldman Sachs & Co.", "hires": 7},
+      {"name": "Boston Consulting Group (BCG)", "hires": 6}, {"name": "Citi", "hires": 5}, {"name": "Deloitte", "hires": 5},
+      {"name": "Infosys Consulting", "hires": 4}, {"name": "Capital One", "hires": 4}, {"name": "Mastercard", "hires": 4}, {"name": "EY", "hires": 4}
+    ],
+    "notes": "Read from the official PDF linked from the Stern employment reports page (hosted on Google Drive). The top-employers page is a two-column layout (full-time vs interns) whose text extraction interleaves the columns; full-time counts above were reconstructed from the left column and should be checked visually on PDF page 18. '†' (insufficient data) stored as null. Asia & Middle East median (133,823) printed with no low value. Signing bonus share not published."
+  },
+  "profile": {
+    "cohort": "Class of 2027",
+    "intl_pct": 43, "avg_age": 28, "avg_work_exp_years": 5.1, "women_pct": 45, "gmat_median": null,
+    "gpa_avg": 3.64, "countries": 43,
+    "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/community/class-profile", "read_on": "2026-10-13",
+    "note": "No full-time GMAT median on the page read; the Class of 2025 report gives a GMAT 80% range of 700-760 and 48% with international citizenship (incl. dual citizens and US permanent residents)."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 23, "url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/", "read_on": "2026-10-13", "note": "Third-party extract of the FT table, not a school page."}
+  ],
+  "notes": "Costs: one-year budget."
+}

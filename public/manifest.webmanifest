@@ -1,11 +1,11 @@
 {
- "name": "AdmitCost",
- "short_name": "AdmitCost",
- "description": "Acceptance rate, SAT and ACT range and net price by family income for 110 US universities, with each figure dated and sourced. No account needed.",
+ "name": "MBA Worth",
+ "short_name": "MBA Worth",
+ "description": "Total cost, payback and ten-year value of an MBA, school by school, from each school's own employment report and fees, with our ranking by industry and region.",
  "start_url": "/en/",
  "display": "standalone",
  "background_color": "#ffffff",
- "theme_color": "#9B2335",
+ "theme_color": "#0F5257",
  "icons": [
   {
    "src": "/icon-192.png",

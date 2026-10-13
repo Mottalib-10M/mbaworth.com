@@ -1,8 +1,8 @@
 ---
 /**
- * A tool or guide page of `src/content/pages/`: H1, one line of answer, the tool first, the folded answer,
- * then the body with its mini-simulators. FAQ (shown and marked up from one list), related pages, sources
- * and publisher: PageLayout.
+ * A tool, ranking, sector or guide page of `src/content/pages/`: H1, one line of answer, the tool first,
+ * the folded answer, then the body with its mini-simulators. FAQ (shown and marked up from one list),
+ * related pages, sources and publisher: PageLayout.
  */
 import PageLayout from '../layouts/PageLayout.astro';
 import MiniSim from './calc/MiniSim';
@@ -11,12 +11,13 @@ import Tool from './Tool.astro';
 import { route, ROUTES } from '../i18n/routes';
 import { label, GROUPS } from '../i18n/nav';
 import { t } from '../i18n/ui';
-import { pageById, collegePageById } from '../lib/pages';
 import { helpers, SOURCES } from '../lib/helpers';
 import { schoolBySlug } from '../lib/data';
-import { usd, pct } from '../lib/fmt';
+import { card } from '../lib/cards';
+import { PAGES } from '../lib/pages';
 import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
-import { AUTHOR_NAME } from '../data/site-config';
+import { AUTHOR_NAME, LAST_UPDATED } from '../data/site-config';
+import { day } from '../lib/fmt';
 import type { PageDef } from '../lib/page-types';
 interface Props { page: PageDef }
 const { page } = Astro.props;
@@ -28,22 +29,28 @@ const parts = page.body(helpers()).split(/<!--mini:([A-Za-z0-9_-]+)(?:\|([A-Za-z
 const decode = (b?: string) => (b ? Buffer.from(b, 'base64').toString('utf8') : undefined);
 const jsonLd = [webApplicationSchema({ name: page.h1, description: page.description, path, lang }), articleSchema({ title: page.h1, description: page.description, path, lang }), webPageSchema({ name: page.h1, description: page.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: page.nav, path }])];
 if (page.faqs.length) jsonLd.push(faqSchema(page.faqs, lang));
-const card = (id: string) => pageById(id)?.card ?? (collegePageById(id) ? (() => { const o = schoolBySlug(collegePageById(id)!.slug); return `Admit rate ${o.adm ? pct(o.adm.rate, o.adm.rate < 0.1 ? 2 : 1) : 'n/a'}, sticker price ${o.sticker?.total ? usd(o.sticker.total) : 'n/a'}`; })() : '');
 const related = page.related.filter((id) => ROUTES.some((r) => r.id === id)).map((id) => ({ href: route(id, lang), name: label(id), description: card(id) }));
-const sources = page.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const docs: Array<{ name: string; url: string }> = [];
+for (const slug of page.schoolSources ?? []) {
+  const s = schoolBySlug(slug);
+  for (const [n, u] of [['employment report', s.emp.url], ['fees', s.tuition?.url], ['student budget', s.living?.url]] as const) if (u && !docs.some((d) => d.url === u)) docs.push({ name: `${s.short}: ${n}`, url: u });
+}
+const sources = [...page.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url })), ...(page.extSources ?? []).map((x) => ({ name: x.label, url: x.url })), ...docs];
+const parent = page.slug.includes('/') ? PAGES.find((x) => x.id === page.slug.split('/')[0]) : undefined;
+const crumbs = parent ? [{ label: parent.nav, href: route(parent.id, lang) }, { label: page.nav }] : [{ label: group.label }, { label: page.nav }];
 ---
-<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={[{ label: group.label }, { label: page.nav }]}>
+<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={crumbs}>
   <article>
     <header class="mb-4">
-      <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{group.label} · no account, no e-mail</p>
+      <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{group.label} · figures from each school’s own report</p>
       <h1 class="mt-1 font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{page.h1}</h1>
       <p class="mt-2 text-base text-navy-700 sm:text-lg">{page.intro}</p>
     </header>
-    <div data-outil class="mb-4"><Tool kind={page.tool} idPrefix={page.id.slice(0, 6)} /></div>
-    <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · <a href={route('editorial', lang)} class="underline hover:text-navy-900">{ui.editorialPolicy}</a></p>
-    <Clamp text={page.resume} lang={lang} id={`clamp-${page.id}`} class="mb-8" />
+    <div data-outil class="mb-4"><Tool kind={page.tool} args={page.toolArgs} idPrefix={page.id.replace(/[^a-z]/g, '').slice(0, 6)} /></div>
+    <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · figures checked <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · <a href={route('editorial', lang)} class="underline hover:text-navy-900">{ui.editorialPolicy}</a></p>
+    <Clamp text={page.resume} lang={lang} id={`clamp-${page.id.replace(/\//g, '-')}`} class="mb-8" />
     <div class="prose prose-slate max-w-none prose-headings:font-serif">
-      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={p} arg={decode(parts[i + 1])} href={path} /> : null)}
+      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={p} arg={decode(parts[i + 1])} href={route('home', lang)} /> : null)}
     </div>
   </article>
 </PageLayout>

@@ -6,20 +6,21 @@ import { route } from '../../i18n/routes';
 import { contactPageSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('contact', lang);
-const description = 'Write to the publisher of AdmitCost about an admit rate, a net price, a Common Data Set we missed or the embed code. We answer data questions, not application advice.';
+const description = 'Write to the publisher of MBA Worth about a fee, a salary or an employment report we missed, or about the embed code. We answer questions on figures, not on applications.';
 ---
-<PageLayout title="Contact AdmitCost: corrections, newer data and embed questions" description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+<PageLayout title="Contact MBA Worth: a figure to fix, a new report or the embed" description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
   <div class="prose prose-slate max-w-none prose-headings:font-serif">
     <h1>Contact</h1>
-    <p>E-mail: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. There is no form: the site never asks for a name, a phone number or a graduation year.</p>
-    <h2>What we can help with</h2>
+    <p>E-mail: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. There is no form and no newsletter: the site never asks for your name, your GMAT score or your intake.</p>
+    <h2>Useful messages</h2>
     <ul>
-      <li>A figure that looks wrong: send the university, the figure and, if you have it, the link to the official document that says otherwise.</li>
-      <li>A university that published its new Common Data Set or class profile: we read it and update the page with the new cycle and its date.</li>
-      <li>Putting the odds and net price calculator on your own site: see the <a href={route('widget', lang)}>embed page</a>.</li>
+      <li>A figure that looks wrong: name the school and the figure, and add the link to the school's document if you have it.</li>
+      <li>A school that has released a new employment report or new fees: we read it and update its page with the class and the date.</li>
+      <li>A school you would like to see added: tell us which one; it needs a public fees page and a public employment report.</li>
+      <li>Embedding the return calculator: see the <a href={route('widget', lang)}>embed page</a>.</li>
     </ul>
-    <h2>What we cannot do</h2>
-    <p>We do not review essays, advise on where to apply, negotiate aid or recommend consultants. For your exact price, each university page links to that school's own net price calculator, which federal law requires every college to post.</p>
+    <h2>What we do not do</h2>
+    <p>We do not review essays or CVs, predict admission, negotiate scholarships or recommend consultants. For a binding cost, the school's financial aid office and your offer letter are the references.</p>
     <h2>Publisher</h2>
     <LegalIdentity lang={lang} />
   </div>

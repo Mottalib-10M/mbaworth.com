@@ -2,62 +2,315 @@
   "slug": "smu",
   "name": "Lee Kong Chian School of Business, Singapore Management University (SMU MBA)",
   "short": "SMU",
-  "country": "SG", "city": "Singapore", "region": "Asia",
+  "country": "SG",
+  "city": "Singapore",
+  "region": "Asia",
   "program": {
-    "length_months": 15, "format": "1-year", "intake": "January and August",
+    "length_months": 15,
+    "format": "1-year",
+    "intake": "January and August",
     "options": "Full-time 15 months (can be completed in 10 months); part-time 20 months",
-    "class_size": {"value": 58, "cohort": "Class of 2019", "url": "https://masters.smu.edu.sg/sites/masters.smu.edu.sg/files/2022-04/SMU_MBAEmploymentReport2019.pdf", "read_on": "2026-10-13", "note": "Class size from the 2019 employment report (MBA 2019 class profile); no newer figure found."},
-    "url": "https://business.smu.edu.sg/mba", "read_on": "2026-10-13"
+    "class_size": {
+      "value": 58,
+      "cohort": "Class of 2019",
+      "url": "https://masters.smu.edu.sg/sites/masters.smu.edu.sg/files/2022-04/SMU_MBAEmploymentReport2019.pdf",
+      "read_on": "2026-10-13",
+      "note": "Class size from the 2019 employment report (MBA 2019 class profile); no newer figure found."
+    },
+    "url": "https://business.smu.edu.sg/mba",
+    "read_on": "2026-10-13"
   },
-  "tuition_total": {"value": 82840, "currency": "SGD", "period": "full program", "cohort": "August 2027 intake (indicative)", "stat": "list price incl. GST", "url": "https://business.smu.edu.sg/mba", "read_on": "2026-10-13", "note": "Advance tuition fee S$10,000 (from Aug 2027) counts toward the first billing; SMU alumni discount. Exchange travel/living not included."},
-  "mandatory_fees_total": {"value": 480, "currency": "SGD", "period": "per academic year", "cohort": "AY2027", "stat": "international students, excl. GST", "url": "https://business.smu.edu.sg/mba", "read_on": "2026-10-13", "note": "Miscellaneous fees from AY2027 (insurance, student services), payable annually: S$480 international, S$400 Singaporeans/PRs, excl. GST. Application fee S$100."},
-  "living_budget_total": {"value": null, "currency": "SGD", "basis": null, "url": "https://business.smu.edu.sg/mba", "read_on": "2026-10-13", "note": "No official living budget found on the MBA page."},
-  "scholarship": {"value": 21000, "currency": "SGD", "stat": "maximum partial award", "url": "https://business.smu.edu.sg/mba", "read_on": "2026-10-13", "note": "Partial scholarships up to S$21,000 of tuition, no bond (Academic Excellence, Global Awareness, Leadership, Community Impact, Impact on Asia, Women in Business, SMU-ASEAN). Share of class funded not published."},
+  "tuition_total": {
+    "value": 82840,
+    "currency": "SGD",
+    "period": "full program",
+    "cohort": "August 2027 intake (indicative)",
+    "stat": "list price incl. GST",
+    "url": "https://business.smu.edu.sg/mba",
+    "read_on": "2026-10-13",
+    "note": "Advance tuition fee S$10,000 (from Aug 2027) counts toward the first billing; SMU alumni discount. Exchange travel/living not included."
+  },
+  "mandatory_fees_total": {
+    "value": 480,
+    "currency": "SGD",
+    "period": "per academic year",
+    "cohort": "AY2027",
+    "stat": "international students, excl. GST",
+    "url": "https://business.smu.edu.sg/mba",
+    "read_on": "2026-10-13",
+    "note": "Miscellaneous fees from AY2027 (insurance, student services), payable annually: S$480 international, S$400 Singaporeans/PRs, excl. GST. Application fee S$100."
+  },
+  "living_budget_total": {
+    "value": null,
+    "currency": "SGD",
+    "basis": null,
+    "url": "https://business.smu.edu.sg/mba",
+    "read_on": "2026-10-13",
+    "note": "No official living budget found on the MBA page."
+  },
+  "scholarship": {
+    "value": 21000,
+    "currency": "SGD",
+    "stat": "maximum partial award",
+    "url": "https://business.smu.edu.sg/mba",
+    "read_on": "2026-10-13",
+    "note": "Partial scholarships up to S$21,000 of tuition, no bond (Academic Excellence, Global Awareness, Leadership, Community Impact, Impact on Asia, Women in Business, SMU-ASEAN). Share of class funded not published."
+  },
   "employment": {
     "report_url": "https://masters.smu.edu.sg/sites/masters.smu.edu.sg/files/2022-04/SMU_MBAEmploymentReport2019.pdf",
-    "url": "https://masters.smu.edu.sg/sites/masters.smu.edu.sg/files/2022-04/SMU_MBAEmploymentReport2019.pdf", "read_on": "2026-10-13",
+    "url": "https://masters.smu.edu.sg/sites/masters.smu.edu.sg/files/2022-04/SMU_MBAEmploymentReport2019.pdf",
+    "read_on": "2026-10-13",
     "local_copy": "research/sources/smu-employment-report-2019.pdf",
-    "cohort": "Class of 2019", "standard": "school",
-    "response_rate": null, "employed_3m_pct": null, "accepted_3m_pct": 80, "accepted_6m_pct": 80, "accepted_at_graduation_pct": 49,
-    "base_salary": {"value": 98623, "currency": "SGD", "stat": "mean", "note": "mean salary at 6 months after graduation, per annum; maximum S$200,000"},
+    "cohort": "Class of 2019",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 80,
+    "accepted_6m_pct": 80,
+    "accepted_at_graduation_pct": 49,
+    "base_salary": {
+      "value": 98623,
+      "currency": "SGD",
+      "stat": "mean",
+      "note": "mean salary at 6 months after graduation, per annum; maximum S$200,000"
+    },
     "signing_bonus": null,
     "internship_monthly": null,
     "by_industry": [
-      {"industry": "finance", "sub": "Financial Services", "pct": 21, "salary": null, "stat": null},
-      {"industry": "tech", "sub": "Technology", "pct": 19, "salary": null, "stat": null},
-      {"industry": "consulting", "sub": "Consulting", "pct": 10, "salary": null, "stat": null},
-      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 10, "salary": null, "stat": null},
-      {"industry": "healthcare", "sub": "Healthcare", "pct": 10, "salary": null, "stat": null},
-      {"industry": "other", "sub": "Real Estate", "pct": 5, "salary": null, "stat": null},
-      {"industry": "other", "sub": "Auditing / Accounting", "pct": 5, "salary": null, "stat": null},
-      {"industry": "other", "sub": "Others", "pct": 20, "salary": null, "stat": null}
+      {
+        "industry": "finance",
+        "sub": "Financial Services",
+        "pct": 21,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 19,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 10,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 10,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare",
+        "pct": 10,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Real Estate",
+        "pct": 5,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Auditing / Accounting",
+        "pct": 5,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Others",
+        "pct": 20,
+        "salary": null,
+        "stat": null
+      }
     ],
     "by_function": [
-      {"function": "Marketing / Sales", "pct": 26, "salary": null},
-      {"function": "Finance / Accounting", "pct": 20, "salary": null},
-      {"function": "Consulting", "pct": 18, "salary": null},
-      {"function": "Operations / Supply Chains / Logistics", "pct": 13, "salary": null},
-      {"function": "General Management", "pct": 10, "salary": null},
-      {"function": "Technology", "pct": 3, "salary": null},
-      {"function": "Others", "pct": 10, "salary": null}
+      {
+        "function": "Marketing / Sales",
+        "pct": 26,
+        "salary": null
+      },
+      {
+        "function": "Finance / Accounting",
+        "pct": 20,
+        "salary": null
+      },
+      {
+        "function": "Consulting",
+        "pct": 18,
+        "salary": null
+      },
+      {
+        "function": "Operations / Supply Chains / Logistics",
+        "pct": 13,
+        "salary": null
+      },
+      {
+        "function": "General Management",
+        "pct": 10,
+        "salary": null
+      },
+      {
+        "function": "Technology",
+        "pct": 3,
+        "salary": null
+      },
+      {
+        "function": "Others",
+        "pct": 10,
+        "salary": null
+      }
     ],
     "by_geography": [
-      {"region": "Asia", "sub": "Singapore", "pct": 67, "salary": null},
-      {"region": "Asia", "sub": "Japan", "pct": 8, "salary": null},
-      {"region": "Asia", "sub": "India", "pct": 5, "salary": null},
-      {"region": "Asia", "sub": "Hong Kong", "pct": 2.5, "salary": null},
-      {"region": "Asia", "sub": "China", "pct": 2.5, "salary": null},
-      {"region": "Asia", "sub": "Indonesia", "pct": 2.5, "salary": null},
-      {"region": "Asia", "sub": "Thailand", "pct": 2.5, "salary": null},
-      {"region": "Asia", "sub": "Taiwan + Australia (Oceania) combined", "pct": 7.5, "salary": null},
-      {"region": "Africa", "sub": "Kenya", "pct": 2.5, "salary": null}
+      {
+        "region": "Asia",
+        "sub": "Singapore",
+        "pct": 67,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Japan",
+        "pct": 8,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "India",
+        "pct": 5,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Hong Kong",
+        "pct": 2.5,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "China",
+        "pct": 2.5,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Indonesia",
+        "pct": 2.5,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Thailand",
+        "pct": 2.5,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Taiwan + Australia (Oceania) combined",
+        "pct": 7.5,
+        "salary": null
+      },
+      {
+        "region": "Africa",
+        "sub": "Kenya",
+        "pct": 2.5,
+        "salary": null
+      }
     ],
     "geography_note": "Countries of job offers (10 countries). The PDF layout places 5% and 2.5% next to Taiwan and Australia without saying which is which, so they are combined here.",
-    "offer_sources": {"self_sourced_pct": 56, "facilitated_by_smu_pct": 28, "converted_from_internship_pct": 16, "note": "Pairing of 28%/16% with SMU-facilitated vs internship conversion read from chart layout; text says SMU network facilitated nearly half of offers."},
-    "top_employers": [{"name": "Accenture Strategy", "hires": null}, {"name": "American Express", "hires": null}, {"name": "Mastercard", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "OCBC Bank", "hires": null}, {"name": "UOB", "hires": null}, {"name": "PwC", "hires": null}, {"name": "KPMG", "hires": null}, {"name": "Ernst & Young", "hires": null}, {"name": "Johnson & Johnson", "hires": null}, {"name": "SAP Asia", "hires": null}, {"name": "Agoda", "hires": null}, {"name": "Twitter", "hires": null}],
+    "offer_sources": {
+      "self_sourced_pct": 56,
+      "facilitated_by_smu_pct": 28,
+      "converted_from_internship_pct": 16,
+      "note": "Pairing of 28%/16% with SMU-facilitated vs internship conversion read from chart layout; text says SMU network facilitated nearly half of offers."
+    },
+    "top_employers": [
+      {
+        "name": "Accenture Strategy",
+        "hires": null
+      },
+      {
+        "name": "American Express",
+        "hires": null
+      },
+      {
+        "name": "Mastercard",
+        "hires": null
+      },
+      {
+        "name": "Microsoft",
+        "hires": null
+      },
+      {
+        "name": "OCBC Bank",
+        "hires": null
+      },
+      {
+        "name": "UOB",
+        "hires": null
+      },
+      {
+        "name": "PwC",
+        "hires": null
+      },
+      {
+        "name": "KPMG",
+        "hires": null
+      },
+      {
+        "name": "Ernst & Young",
+        "hires": null
+      },
+      {
+        "name": "Johnson & Johnson",
+        "hires": null
+      },
+      {
+        "name": "SAP Asia",
+        "hires": null
+      },
+      {
+        "name": "Agoda",
+        "hires": null
+      },
+      {
+        "name": "Twitter",
+        "hires": null
+      }
+    ],
     "note": "Only public SMU MBA employment report found is Class of 2019 (old). Current programme page says 80% of graduates employed within 6 months (no cohort). business.smu.edu.sg/employment-report is behind Incapsula anti-bot (curl and WebFetch empty), so a newer report may exist there. Statistics measured at 6 months, not 3."
   },
-  "profile": {"intl_pct": 63, "nationalities": 26, "avg_age": 30, "avg_work_exp_years": 5.9, "women_pct": 40, "gmat_median": null, "gmat_mean": 640, "cohort": "Classes of 2018-2021 (full-time and part-time); GMAT mean is Class of 2019", "url": "https://business.smu.edu.sg/mba", "read_on": "2026-10-13", "note": "Gender shown as 3:2 (read as 40% women). Average GMAT 640 from 2019 employment report. Student industry mix (Classes 2018-2020, FT+PT): Business/Financial services 22%, Technology 20%, Consulting 16%, Healthcare 12%, Manufacturing 6%, Real estate 4%, Transportation/Logistics 3%, Others 17%."},
-  "rankings_cited": [],
+  "profile": {
+    "intl_pct": 63,
+    "nationalities": 26,
+    "avg_age": 30,
+    "avg_work_exp_years": 5.9,
+    "women_pct": 40,
+    "gmat_median": null,
+    "gmat_mean": 640,
+    "cohort": "Classes of 2018-2021 (full-time and part-time); GMAT mean is Class of 2019",
+    "url": "https://business.smu.edu.sg/mba",
+    "read_on": "2026-10-13",
+    "note": "Gender shown as 3:2 (read as 40% women). Average GMAT 640 from 2019 employment report. Student industry mix (Classes 2018-2020, FT+PT): Business/Financial services 22%, Technology 20%, Consulting 16%, Healthcare 12%, Manufacturing 6%, Real estate 4%, Transportation/Logistics 3%, Others 17%."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 57,
+      "url": "https://www.clearadmit.com/mba-rankings/financial-times/",
+      "read_on": "2026-10-13",
+      "note": "Excerpt of the FT Global MBA 2026 table on ClearAdmit (prior year: not ranked). Not from a school page."
+    }
+  ],
   "notes": "Programme page cites FT Global MBA Ranking 2022 (10th worldwide, as written on the page; the 2019 report says 43rd worldwide in 2019). No FT 2026 rank found on an official SMU page."
 }

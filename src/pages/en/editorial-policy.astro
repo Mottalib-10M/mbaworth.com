@@ -4,16 +4,18 @@ import { route } from '../../i18n/routes';
 import { AUTHOR_NAME, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
 const lang = 'en';
 ---
-<PageLayout title="Editorial policy of AdmitCost: sources, cycles and corrections" description="How AdmitCost picks its documents and dates each admissions cycle: federal College Scorecard data, each university's Common Data Set, official test reports, no rankings." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+<PageLayout title="Editorial policy of MBA Worth: school documents, dates and fixes" description="How MBA Worth chooses its documents: each school's fees page, student budget and employment report, official exchange and wage data, a rank quoted once and never reused." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
   <div class="prose prose-slate max-w-none prose-headings:font-serif">
     <h1>Editorial policy</h1>
-    <h2>Documents we accept</h2>
-    <p>Federal data from the U.S. Department of Education (College Scorecard and IPEDS), documents published by each university (Common Data Set, admissions statistics, class profile, cost of attendance, financial aid pages), state system offices, and the official reports of the College Board and ACT. Student newspapers can point us to a document; they are not cited as the source of a figure unless the university published nothing, and then the page says so. Rankings, consultant blogs and forum posts are not sources here.</p>
-    <h2>Every figure carries its cycle</h2>
-    <p>An admit rate without its entering class is the most common error on the subject: "4%" can describe three different years. On this site each admit rate names the entering class it describes and the document it comes from, and federal figures carry the year given by the Scorecard data dictionary. No figure is typed in a page by hand: pages read the data files, so a correction to a file corrects every page that uses it.</p>
+    <h2>Which documents count</h2>
+    <p>A figure about a school comes from the school: its tuition and fees page, the budget it gives students for rent, food and insurance, its class profile and the employment report of its latest graduating class. Figures about the wider market come from public bodies: the European Central Bank for exchange rates, the U.S. Bureau of Labor Statistics for occupational wages, GOV.UK for the money a student visa requires. Blogs, admissions consultants, forums and salary websites built on anonymous posts are never the source of a number here.</p>
+    <h2>Rankings published by others</h2>
+    <p>The Financial Times, QS, US News and Bloomberg rank business schools with their own data and weights. We may quote one rank on a school page, as a fact with its link, and that is all: no table, no column and no sort is ever taken from them. Every ordering on this site is calculated from the schools' own figures with the formula of the <a href={route('method', lang)}>method page</a>.</p>
+    <h2>Each figure has a class and a date</h2>
+    <p>A salary is the one a given class reported (class of 2025, for most schools), labelled as a median or an average, base pay or total pay, exactly as the school wrote it. Tuition names the intake it applies to. Every page reads these figures from one data file per school, so a correction made once is carried by every page that uses the figure. When a school publishes nothing on a point, the page says so and leaves the line empty.</p>
     <h2>Independence</h2>
-    <p>{AUTHOR_NAME} receives nothing from universities, consultants, test-prep companies or lenders, sells no student data and runs no advertising today. If advertising is ever added, it will be labelled and kept apart from the calculators.</p>
+    <p>{AUTHOR_NAME} is paid by no school, consultant, test-preparation company or lender, and the calculators ask for nothing that identifies you. If advertising appears one day, it will be labelled and will never sit above a calculator.</p>
     <h2>Updates and corrections</h2>
-    <p>The site is reviewed at least every {REVIEW_CYCLE_MONTHS} months and whenever a new federal release or a new Common Data Set comes out (most universities publish theirs between spring and autumn). Reported errors are checked against the original document, corrected, and the date at the top of the page changes. Write through the <a href={route('contact', lang)}>contact page</a>; the method is on the <a href={route('method', lang)}>method page</a>.</p>
+    <p>Most schools publish fees and employment reports between September and December: the data is read again each autumn, and the whole site at least every {REVIEW_CYCLE_MONTHS} months. A reported error is checked against the school's document, fixed, and the update date changes. Write through the <a href={route('contact', lang)}>contact page</a>.</p>
   </div>
 </PageLayout>

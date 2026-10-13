@@ -1,0 +1,80 @@
+{
+  "slug": "iim-calcutta",
+  "name": "Indian Institute of Management Calcutta, MBA for Executives (MBAEx, formerly PGPEX)",
+  "short": "IIM Calcutta MBAEx",
+  "country": "IN",
+  "city": "Kolkata",
+  "region": "India",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 90, "cohort": "Class of 2026 (19th batch, 2025-26)", "url": "https://www.iimcal.ac.in/programs/pgpex/students/batch-profile-2026", "read_on": "2026-10-13", "note": "Class of 2025 (18th batch): 80 students."}
+  },
+  "tuition_total": {
+    "value": null, "currency": "INR", "period": "full program", "cohort": null,
+    "url": "https://www.iimcal.ac.in/programs/pgpex/admissions",
+    "read_on": "2026-10-13",
+    "note": "No fee figure found on the official MBAEx pages, admissions policy, application guidelines 2027-28 PDF or programme PPT. Third-party sites quote INR 33.5 lakh for 2025-26 (not reusable). To re-read in a browser (brochure download page https://www.iimcal.ac.in/mbaex-brochure-download-2024-25 is behind a form)."
+  },
+  "mandatory_fees_total": {"value": null, "currency": "INR", "period": "full program", "cohort": null, "url": "https://www.iimcal.ac.in/programs/pgpex/admissions", "read_on": "2026-10-13", "note": "Not found."},
+  "living_budget_total": {"value": null, "currency": "INR", "period": "full program", "cohort": null, "basis": null, "url": "https://www.iimcal.ac.in/programs/pgpex/admissions", "read_on": "2026-10-13", "note": "Residential programme; no official living budget found."},
+  "scholarship": {"value": null, "currency": "INR", "stat": null, "pct_receiving": null, "url": "https://www.iimcal.ac.in/programs/pgpex/admissions", "read_on": "2026-10-13", "note": "Not found on the pages read."},
+  "employment": {
+    "report_url": "https://www.iimcal.ac.in/programs/pgpex/placements/placement-statistics-18th-batch",
+    "cohort": "18th batch (placements 2025)",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "placement_pool": {"students_availing_placement": 72, "total_offers": 76, "batch_size": 80, "note": "IIMC does not publish how many were placed or unplaced. No 19th-batch (2026) statistics page found on 2026-10-13."},
+    "base_salary": {
+      "value": 3288000, "currency": "INR", "stat": "median",
+      "mean": 3537000,
+      "url": "https://www.iimcal.ac.in/programs/pgpex/placements/placement-statistics-18th-batch",
+      "read_on": "2026-10-13",
+      "note": "'Median CTC - LPA: 32.88 LPA'; 'Average CTC (Mean): 35.37 LPA' (the comparison table labels the mean 'Average Domestic Salary'). CTC = cost to company, a total package, not base salary. History of median CTC: 30.12 (2023), 32.27 (2024), 32.88 LPA (2025)."
+    },
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "tech", "sub": "IT & ITES", "pct": 32, "salary": null, "stat": null},
+      {"industry": "consulting", "sub": "Consulting", "pct": 18.2, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "BFSI", "pct": 9.1, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Education", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "E-Commerce", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Logistics & Supply Chain", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "Data & AI", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Conglomerate", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "Analytics & Tech", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Startup / Agri", "pct": 4.5, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Others", "pct": 4.7, "salary": null, "stat": null}
+    ],
+    "by_industry_meta": {"basis": "'Industrywise Percentage' as published (base not stated; the repeated 4.5% suggests a share of recruiting firms rather than of offers; published values sum to about 104.5%)", "url": "https://www.iimcal.ac.in/programs/pgpex/placements/placement-statistics-18th-batch", "read_on": "2026-10-13"},
+    "by_function": [],
+    "by_function_meta": {"note": "Not published."},
+    "by_geography": [],
+    "by_geography_meta": {"note": "Not published."},
+    "top_employers": [
+      {"name": "Accenture", "hires": null},
+      {"name": "Genpact", "hires": null},
+      {"name": "Infosys", "hires": null},
+      {"name": "McKinsey", "hires": null},
+      {"name": "Persistent", "hires": null},
+      {"name": "RPG", "hires": null}
+    ],
+    "url": "https://www.iimcal.ac.in/programs/pgpex/placements/placement-statistics-18th-batch",
+    "read_on": "2026-10-13"
+  },
+  "profile": {
+    "intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": 12.5, "gmat_median": null,
+    "cohort": "Class of 2025 (80 students, 10 women)",
+    "url": "https://www.iimcal.ac.in/programs/pgpex/students/batch-profile-2025",
+    "read_on": "2026-10-13",
+    "note": "women_pct computed by us (10/80). Batch profile pages give only size, number of women and '24+ distinct industries'; Class of 2026 page: 90 students, 25+ industries. Programme requires 5+ years of experience."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 53, "url": "https://www.iimcal.ac.in/programs/executive-education", "read_on": "2026-10-13", "note": "IIMC page: '#3 in IIMs and #53 Globally by FT Global MBA Ranking 2026' (search extract); MBAEx is the programme IIMC enters in the FT one-year MBA section."}
+  ],
+  "notes": "Fees, scholarships, function and geography splits missing. Latest employment data is the 18th batch (2025); salary is CTC (package), not base."
+}

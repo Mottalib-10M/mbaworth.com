@@ -1,13 +1,13 @@
 {
- "accent": "#9B2335",
- "symbol": "U$",
+ "accent": "#0F5257",
+ "symbol": "MBA",
  "variants": [
   {
    "file": "og-en.png",
-   "title": "Acceptance rates and\nnet price by income",
-   "subtitle": "110 US universities, newest cycle, no account",
+   "title": "What an MBA costs\nand when it pays back",
+   "subtitle": "School by school, from each employment report",
    "badge": "2026",
-   "brand": "AdmitCost"
+   "brand": "MBA Worth"
   }
  ]
 }

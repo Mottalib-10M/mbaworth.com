@@ -140,7 +140,7 @@ def build(d):
     lv, lmult, lnote = program_total(lv_block, months, two_year, 'Living budget')
     lbasis = 'school' if lv is not None else None
     lcur = lv_block.get('currency') or cur
-    if lv is None and (lv_block.get('basis') == 'official visa floor' or o.get('living') == 'ukvi') and d.get('country') in ('UK', 'GB'):
+    if lv is None and d.get('country') in ('UK', 'GB'):
         london = (d.get('city') or '').lower() == 'london'
         monthly = UKVI['londonMonthly'] if london else UKVI['outsideMonthly']
         if months:

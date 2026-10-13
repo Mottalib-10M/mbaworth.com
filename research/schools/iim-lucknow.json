@@ -1,0 +1,115 @@
+{
+  "slug": "iim-lucknow",
+  "name": "Indian Institute of Management Lucknow, International Programme in Management for Executives (IPMX, one-year MBA)",
+  "short": "IIM Lucknow IPMX",
+  "country": "IN",
+  "city": "Noida (Delhi NCR)",
+  "region": "India",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "class_size": {"value": 114, "cohort": "IPMX 18th batch, Class of 2026", "url": "https://www.iiml.ac.in/sites/default/files/2026-04/Final%20Placement%20Report%20-Class%20of%202026.pdf", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 2600000, "currency": "INR", "period": "full program", "cohort": "IPMX 2027-28",
+    "url": "https://www.iiml.ac.in/programme/mba-executives/ipmx",
+    "read_on": "2026-10-13",
+    "note": "Bundled fee: tuition, course material, basic single room on campus (shared washroom), food, computing, library, career counselling, student activities, convocation, and the academic inputs, visa and stay of the overseas module. Paid in instalments (INR 3,00,000 first, then INR 5,75,000 each)."
+  },
+  "mandatory_fees_total": {
+    "value": 5000, "currency": "INR", "period": "full program", "cohort": "IPMX 2027-28",
+    "items": {"alumni_membership_fee": 5000, "caution_money_refundable": 20000},
+    "url": "https://www.iiml.ac.in/programme/mba-executives/ipmx",
+    "read_on": "2026-10-13",
+    "note": "Value = alumni membership fee only; refundable caution money not added. Airfare for the international immersion is paid separately at actual cost (amount not published); boarding and incidentals during the overseas module are borne by the student."
+  },
+  "living_budget_total": {
+    "value": null, "currency": "INR", "period": "full program", "cohort": "IPMX 2027-28", "basis": null,
+    "url": "https://www.iiml.ac.in/programme/mba-executives/ipmx",
+    "read_on": "2026-10-13",
+    "note": "Basic accommodation and food are included in the INR 26 lakh fee; upgraded rooms at extra (unpublished) charge. No separate living budget."
+  },
+  "scholarship": {
+    "value": 0, "currency": "INR", "stat": null, "pct_receiving": 0,
+    "url": "https://www.iiml.ac.in/programme/mba-executives/ipmx",
+    "read_on": "2026-10-13",
+    "note": "IPMX FAQ: 'Is there any scholarship available? NO'."
+  },
+  "employment": {
+    "report_url": "https://www.iiml.ac.in/sites/default/files/2026-04/Final%20Placement%20Report%20-Class%20of%202026.pdf",
+    "cohort": "IPMX Class of 2026 (18th batch), data as of 15 April 2026",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": 92.6,
+    "placement_pool": {"class_size": 114, "seeking_employment": 108, "opted_out_company_sponsored": 6, "campus_offers": 92, "offers_other_means": 8, "without_employment": 8, "note": "accepted_3m_pct = (92 + 8) / 108 seeking (our division), measured on 15 April 2026 (around graduation), not at 3 months. 'Offers other means' include off-campus offers and rejoining the parent organisation."},
+    "base_salary": {
+      "value": 2700000, "currency": "INR", "stat": "median",
+      "mean": 2765000,
+      "url": "https://www.iiml.ac.in/sites/default/files/2026-04/Final%20Placement%20Report%20-Class%20of%202026.pdf",
+      "read_on": "2026-10-13",
+      "note": "CTC in LPA, 'excluding joining, retention bonus and ESOP': median 27.00, average 27.65. Average CTC of the top 10%: 37.89 LPA; top 50%: 31.56 LPA. Average increase of 54% from pre- to post-MBA CTC."
+    },
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 35, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "IT", "pct": 25, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "ITeS", "pct": 12, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "BFSI", "pct": 11, "salary": null, "stat": null},
+      {"industry": "tech", "sub": "Data Analytics", "pct": 10, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Logistics/Transport", "pct": 3, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Infrastructure", "pct": 1, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Education", "pct": 1, "salary": null, "stat": null},
+      {"industry": "energy", "sub": "Power/Energy", "pct": 1, "salary": null, "stat": null}
+    ],
+    "by_industry_meta": {"basis": "'Industry Mix' bar chart (read from the rendered page)", "url": "https://www.iiml.ac.in/sites/default/files/2026-04/Final%20Placement%20Report%20-Class%20of%202026.pdf", "read_on": "2026-10-13", "note": "No salary by industry."},
+    "by_function": [
+      {"function": "Consulting", "pct": 24, "salary": null},
+      {"function": "Strategy & Management Consulting", "pct": 16, "salary": null},
+      {"function": "Project Management", "pct": 15, "salary": null},
+      {"function": "Product Management", "pct": 11, "salary": null},
+      {"function": "Sales & BD", "pct": 10, "salary": null},
+      {"function": "Analytics & Digital Strategy", "pct": 9, "salary": null},
+      {"function": "Supply Chain & Ops", "pct": 9, "salary": null},
+      {"function": "Program Management", "pct": 3, "salary": null},
+      {"function": "Finance", "pct": 1, "salary": null},
+      {"function": "Marketing", "pct": 1, "salary": null}
+    ],
+    "by_function_meta": {"basis": "'Functional Mix' bar chart", "url": "https://www.iiml.ac.in/sites/default/files/2026-04/Final%20Placement%20Report%20-Class%20of%202026.pdf", "read_on": "2026-10-13", "note": "About 79% changed function/role and 78% changed industry."},
+    "by_geography": [],
+    "by_geography_meta": {"note": "Not published."},
+    "top_employers": [
+      {"name": "Accenture", "hires": null},
+      {"name": "Accordion", "hires": null},
+      {"name": "CRIF", "hires": null},
+      {"name": "Delhivery", "hires": null},
+      {"name": "EXL", "hires": null},
+      {"name": "Genpact", "hires": null},
+      {"name": "GEP", "hires": null},
+      {"name": "HSBC", "hires": null},
+      {"name": "ICICI Bank", "hires": null},
+      {"name": "Incedo", "hires": null},
+      {"name": "Infosys", "hires": null},
+      {"name": "LTIMindtree", "hires": null},
+      {"name": "McKinsey & Company", "hires": null},
+      {"name": "MyComplianceOffice", "hires": null},
+      {"name": "Persistent", "hires": null},
+      {"name": "PwC", "hires": null}
+    ],
+    "top_employers_note": "Logos of 'leading recruiters'; 29 companies made final offers; no counts.",
+    "url": "https://www.iiml.ac.in/sites/default/files/2026-04/Final%20Placement%20Report%20-Class%20of%202026.pdf",
+    "read_on": "2026-10-13"
+  },
+  "profile": {
+    "intl_pct": null, "avg_age": null, "avg_work_exp_years": 8, "women_pct": null, "gmat_median": null,
+    "cohort": "IPMX 18th batch, Class of 2026",
+    "url": "https://www.iiml.ac.in/sites/default/files/2026-04/Final%20Placement%20Report%20-Class%20of%202026.pdf",
+    "read_on": "2026-10-13",
+    "note": "'an average of about 8 years of industry experience'. Batch profile for IPMX-19 is published as an image flyer on the programme page (not read). Minimum 4 years of experience required."
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 58, "url": "https://www.iiml.ac.in/financial-times-rankings", "read_on": "2026-10-13", "note": "IIML: IPMX 'secured the 58th position in the FT Global MBA 2026 rankings' (shared with University of St Gallen)."}
+  ],
+  "notes": "Salary is CTC excluding joining/retention bonus and ESOP. No scholarships. No geography split."
+}

@@ -1,0 +1,414 @@
+{
+  "slug": "queens-smith",
+  "name": "Smith School of Business, Queen's University",
+  "short": "Queen's Smith",
+  "country": "CA",
+  "city": "Kingston, Ontario",
+  "region": "Canada",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "intake": "January",
+    "class_size": {
+      "value": 63,
+      "cohort": "Class of 2027",
+      "url": "https://smith.queensu.ca/mba_programs/mba/our-students/class-profile.php",
+      "read_on": "2026-10-13"
+    },
+    "note": "12-month program starting in January; optional internship track (16 months, fee paid in four instalments)."
+  },
+  "tuition_total": {
+    "value": 110000,
+    "currency": "CAD",
+    "period": "full program (all-inclusive program fee, non-internship track)",
+    "cohort": "January 2027 intake",
+    "by_residency": {
+      "domestic": 85201,
+      "international": 110000
+    },
+    "internship_track": {
+      "domestic": 85234,
+      "international": 110033
+    },
+    "basis": "All-inclusive program fee covering enrollment, books, case materials, academic events and executive coaching; international rate shown as value. Includes $6,000 non-refundable deposit.",
+    "url": "https://smith.queensu.ca/mba_programs/mba/program-details/fees.php",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 1600,
+    "currency": "CAD",
+    "period": "full program",
+    "stat": "approximate",
+    "note": "Student Activity Fees of approximately $1,600 assessed at the start. International students must also buy UHIP health insurance unless equivalent coverage (amount not given on the page).",
+    "url": "https://smith.queensu.ca/mba_programs/mba/program-details/fees.php",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 19000,
+    "currency": "CAD",
+    "period": "per year (12-month program = full program)",
+    "range": [
+      18000,
+      20000
+    ],
+    "stat": "midpoint of school range",
+    "basis": "school budget",
+    "detail": {
+      "accommodation_monthly": [
+        800,
+        1200
+      ],
+      "food_monthly": [
+        300,
+        400
+      ],
+      "phone_internet_monthly": [
+        100,
+        200
+      ],
+      "entertainment_monthly": [
+        50,
+        100
+      ],
+      "misc_monthly": [
+        100,
+        200
+      ]
+    },
+    "note": "School gives 'average estimated cost of living per year' of $18,000-20,000 in Kingston; value is the midpoint of that range.",
+    "url": "https://smith.queensu.ca/mba_programs/mba/program-details/fees.php",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "CAD",
+    "stat": "range",
+    "range": [
+      10000,
+      70000
+    ],
+    "pct_receiving": 70,
+    "note": "Over $1.6 million awarded each year; over 70% of students receive merit-based entrance scholarships ranging from $10,000 to $70,000. No average published.",
+    "url": "https://smith.queensu.ca/mba_programs/mba/program-details/scholarships.php",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://smith.queensu.ca/mba_programs/mba/CAC-MBA-EmploymentReport.pdf",
+    "url": "https://smith.queensu.ca/mba_programs/mba/CAC-MBA-EmploymentReport.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "MBA CSEA",
+    "response_rate": null,
+    "employed_3m_pct": 75,
+    "accepted_3m_pct": 75,
+    "accepted_6m_pct": 82,
+    "base_salary": {
+      "value": 104496,
+      "currency": "CAD",
+      "stat": "mean",
+      "increase_vs_pre_mba_pct": 85,
+      "total_compensation_mean": 113490
+    },
+    "signing_bonus": {
+      "value": 10167,
+      "stat": "mean",
+      "pct_receiving": null,
+      "other_guaranteed_comp_mean": 25104
+    },
+    "internship_monthly": null,
+    "by_industry": [
+      {
+        "industry": "finance",
+        "sub": "Financial Services",
+        "pct": 35,
+        "salary": 98938,
+        "stat": "mean"
+      },
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 15,
+        "salary": 111688,
+        "stat": "mean"
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare",
+        "pct": 9,
+        "salary": 137373,
+        "stat": "mean"
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy & Resources",
+        "pct": 8,
+        "salary": 90814,
+        "stat": "mean"
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 8,
+        "salary": 129750,
+        "stat": "mean"
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Goods",
+        "pct": 6,
+        "salary": 83388,
+        "stat": "mean"
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Government",
+        "pct": 4,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Human Resources",
+        "pct": 2,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 2,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Media & Entertainment",
+        "pct": 2,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 2,
+        "salary": null,
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Other",
+        "pct": 7,
+        "salary": 101410,
+        "stat": "mean"
+      }
+    ],
+    "by_function": [
+      {
+        "function": "Finance",
+        "pct": 31,
+        "salary": 107321
+      },
+      {
+        "function": "Consulting",
+        "pct": 17,
+        "salary": 117767
+      },
+      {
+        "function": "Business Development",
+        "pct": 9,
+        "salary": 88361
+      },
+      {
+        "function": "Accounting",
+        "pct": 8,
+        "salary": 92307
+      },
+      {
+        "function": "Strategy",
+        "pct": 6,
+        "salary": 110833
+      },
+      {
+        "function": "Marketing",
+        "pct": 6,
+        "salary": null
+      },
+      {
+        "function": "Data & Analytics",
+        "pct": 4,
+        "salary": null
+      },
+      {
+        "function": "General Management",
+        "pct": 4,
+        "salary": null
+      },
+      {
+        "function": "Digital Transformation",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "function": "Innovation",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "function": "Operations & Logistics",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "function": "Sales",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "function": "Other",
+        "pct": 7,
+        "salary": null
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "Canada",
+        "sub": "Toronto (GTA)",
+        "pct": 66,
+        "salary": null
+      },
+      {
+        "region": "Canada",
+        "sub": "Eastern Ontario",
+        "pct": 10,
+        "salary": null
+      },
+      {
+        "region": "Canada",
+        "sub": "Southern Ontario",
+        "pct": 4,
+        "salary": null
+      },
+      {
+        "region": "Canada",
+        "sub": "Vancouver",
+        "pct": 4,
+        "salary": null
+      },
+      {
+        "region": "Canada",
+        "sub": "Calgary",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "India",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Philippines",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Thailand",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "Latin America",
+        "sub": "Mexico",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "Middle East",
+        "sub": "Saudi Arabia",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "Europe",
+        "sub": "Turkey",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "US",
+        "sub": "USA",
+        "pct": 2,
+        "salary": null
+      }
+    ],
+    "top_employers": [
+      {
+        "name": "EY-Parthenon",
+        "hires": null
+      },
+      {
+        "name": "RBC",
+        "hires": null
+      },
+      {
+        "name": "Scotiabank",
+        "hires": null
+      },
+      {
+        "name": "BMO Financial Group",
+        "hires": null
+      },
+      {
+        "name": "CIBC",
+        "hires": null
+      },
+      {
+        "name": "TD Bank Group",
+        "hires": null
+      },
+      {
+        "name": "Deloitte",
+        "hires": null
+      },
+      {
+        "name": "Amazon",
+        "hires": null
+      }
+    ],
+    "notes": "Salaries in CAD, averages only (no median), CSEA rule: no salary for groups under 3 reported salaries. Industry chart gives Healthcare 9% while the director's letter says 10%; chart value kept. Geography read from the map image (page 5): Canada 86%, outside Canada 14%. Top employers: firms quoted in testimonials plus major banks in the 3-year engagement list (blue = hired in past 3 years; colour not verifiable in text extraction), no hire counts."
+  },
+  "profile": {
+    "intl_pct": 16,
+    "permanent_resident_pct": 16,
+    "domestic_pct": 68,
+    "avg_age": 28,
+    "avg_work_exp_years": 4,
+    "women_pct": null,
+    "gmat_median": null,
+    "cohort": "Class of 2027",
+    "previous_cohort": {
+      "cohort": "Class of 2025 (as of 2024)",
+      "class_size": 80,
+      "women_pct": 33,
+      "avg_age": 28,
+      "avg_work_exp_years": 4,
+      "intl_pct": 34,
+      "url": "https://smith.queensu.ca/mba_programs/mba/CAC-MBA-EmploymentReport.pdf"
+    },
+    "url": "https://smith.queensu.ca/mba_programs/mba/our-students/class-profile.php",
+    "read_on": "2026-10-13",
+    "note": "Class of 2027 gender split shown only as a chart (not in page text); no GMAT published."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 92,
+      "url": "https://academica.ca/top-ten/financial-times-releases-global-mba-rankings/",
+      "read_on": "2026-10-13",
+      "note": "Academica Group news digest citing the FT, 2026-02-19"
+    }
+  ],
+  "notes": "PDF saved as research/sources/amerique/queens-smith-employment-2025.pdf."
+}

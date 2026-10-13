@@ -1,0 +1,57 @@
+{
+  "slug": "esmt-berlin",
+  "name": "ESMT Berlin (European School of Management and Technology)",
+  "short": "ESMT Berlin",
+  "country": "DE",
+  "city": "Berlin",
+  "region": "Europe",
+  "program": {
+    "length_months": 15,
+    "length_note": "15 months, January start (intakes January 2027 and January 2028)",
+    "format": "15-21 months",
+    "class_size": {"value": null, "cohort": "Class of 2026-2027", "url": "https://esmt.berlin/mba-programs/full-time-mba/class-profile", "read_on": "2026-10-13", "note": "Class size not published; 'averaging 22 unique nationalities in each cohort'"},
+    "url": "https://esmt.berlin/mba-programs/full-time-mba",
+    "read_on": "2026-10-13"
+  },
+  "tuition_total": {"value": 50000, "currency": "EUR", "period": "full program", "cohort": "January 2027 intake", "url": "https://esmt.berlin/mba-programs/full-time-mba/tuition-financing", "read_on": "2026-10-13", "note": "Includes books, study materials, a Smart Certificate and study fees for trips/exchanges; excludes travel and accommodation. January 2028 intake: €51,000"},
+  "mandatory_fees_total": {"value": null, "currency": "EUR", "url": "https://esmt.berlin/mba-programs/full-time-mba/tuition-financing", "read_on": "2026-10-13", "note": "No separate mandatory fee listed; health insurance is compulsory (see living budget)"},
+  "living_budget_total": {"value": null, "currency": "EUR", "period": "per month (items)", "basis": "school budget", "monthly_items": {"health_insurance": {"min": 35, "max": 139}, "rent_private_room": {"min": 400, "max": 800}, "rent_apartment_from": 1000, "food": 200, "transport": 63, "mobile_phone": 35, "sport_leisure_culture": 70}, "monthly_sum_range_computed": {"min": 803, "max": 1307, "note": "Sum of the school's monthly items with a private room, computed by us, not published as a total"}, "url": "https://esmt.berlin/mba-programs/full-time-mba/tuition-financing", "read_on": "2026-10-13", "note": "School gives estimated average monthly living costs only; no programme total. Students over 30 cannot use student public health insurance"},
+  "scholarship": {"value": null, "currency": "EUR", "range": {"min": 500, "max": 45000}, "stat": "range", "url": "https://esmt.berlin/mba-programs/full-time-mba/tuition-financing/scholarships", "read_on": "2026-10-13", "note": "Automatic awards: test score excellence €3,000; German language €500-€5,000 (combinable). Merit scholarships (one per student, self-funded only): regional up to €25,000 (Africa & Middle East), €10,000 (Latin America), €8,000 (Asia), €2,500 (North America); Panzer €20,000; BMW Group Change Maker Fellowship 2 x €45,000; others €5,000-€15,000. No average award published"},
+  "employment": {
+    "report_url": "https://esmt.berlin/mba-programs/employment-report-download",
+    "report_url_note": "2026 Employment Report is behind a download form; https://esmt.berlin/mba-programs/full-time-mba/employment-report returns 403 to curl and WebFetch. Figures below are from the career-impact page",
+    "cohort": "Classes of 2023-2025 (average)",
+    "standard": "school",
+    "read_on": "2026-10-13",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "offers_note": "Search extract of the (403) report page states for the Class of 2024: 80% of graduates seeking employment received job offers within six months; Class of 2023: 74% within three months. Not read on the page itself",
+    "base_salary": {"value": 100000, "currency": "EUR", "stat": "mean", "note": "'€100K average total starting compensation', average of Classes 2023-2025: TOTAL compensation (not base), rounded by the school", "url": "https://esmt.berlin/mba-programs/full-time-mba/careers", "read_on": "2026-10-13"},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "changed_country_pct": null,
+    "changed_country_note": "64% changed industry, role and location (triple change); 15% started their own business",
+    "by_industry": [],
+    "by_industry_note": "Industry breakdown only in the gated report",
+    "by_function": [],
+    "by_function_note": "Past roles listed qualitatively: consultant, product/project manager, corporate leader, founder, senior marketing lead, analytics/innovation/growth specialist",
+    "by_geography": [
+      {"region": "Europe", "pct": 94, "salary": null, "note": "includes Germany"},
+      {"region": "Europe", "sub": "Germany", "pct": 89, "salary": null}
+    ],
+    "by_geography_url": "https://esmt.berlin/mba-programs/full-time-mba/careers",
+    "top_employers": [
+      {"name": "Amazon", "hires": null},
+      {"name": "SAP", "hires": null},
+      {"name": "Allianz Technology", "hires": null},
+      {"name": "Allianz SE", "hires": null},
+      {"name": "HCLTech", "hires": null},
+      {"name": "Siemens Energy", "hires": null}
+    ],
+    "top_employers_note": "'Past top hiring companies include'; no hire counts"
+  },
+  "profile": {"intl_pct": 91, "avg_age": 32, "avg_work_exp_years": 7, "women_pct": 54, "gmat_median": null, "nationalities": 22, "cohort": "Class of 2026-2027", "regions": {"Asia/Pacific": 46, "Europe": 29, "Americas": 23, "Middle East/Africa": 14}, "url": "https://esmt.berlin/mba-programs/full-time-mba/class-profile", "read_on": "2026-10-13", "note": "Region shares as published (sum exceeds 100)"},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 79, "url": "https://esmt.berlin/mba-programs/full-time-mba", "read_on": "2026-10-13", "note": "School page: '#2 in Germany and #79 globally in the Financial Times MBA ranking 2026'"}],
+  "notes": "Salary is a 3-class average of total compensation; not comparable with base-salary medians. Industry and function shares are in the gated 2026 report."
+}

@@ -9,14 +9,52 @@
     "length_months": 12,
     "length_note": "12-month or 16-month options; September 2027 start",
     "format": "1-year",
-    "class_size": {"value": 70, "cohort": "Graduating Class of 2025", "url": "https://online.flippingbook.com/view/622705779/", "read_on": "2026-10-13"},
+    "class_size": {
+      "value": 70,
+      "cohort": "Graduating Class of 2025",
+      "url": "https://online.flippingbook.com/view/622705779/",
+      "read_on": "2026-10-13"
+    },
     "url": "https://www.wbs.ac.uk/courses/mba/full-time/",
     "read_on": "2026-10-13"
   },
-  "tuition_total": {"value": 62500, "currency": "GBP", "period": "full program", "cohort": "September 2027 intake (2027/28)", "url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/", "read_on": "2026-10-13", "note": "£62,500 for the 12-month format; £63,750 for the 16-month formats; same for Home and EU/International. Covers registration, tuition, examination, graduation, study materials, visa/travel/accommodation on the overseas elective. £6,000 deposit is part of the fee"},
-  "mandatory_fees_total": {"value": null, "currency": "GBP", "url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/", "read_on": "2026-10-13", "note": "No separate mandatory fee; not included: residential accommodation, travel for Capstone module, graduation robes/photos"},
-  "living_budget_total": {"value": 13632, "currency": "GBP", "period": "12 months", "basis": "school budget", "url": "https://warwick.ac.uk/study/international/admissions/finance/livingcosts/", "read_on": "2026-10-13", "note": "University of Warwick advice for 1-year Master's students: approx. £13,632 for a full year (page last updated 16.10.2025, academic year not named); no breakdown. UKVI floor outside London £1,171/month"},
-  "scholarship": {"value": null, "currency": "GBP", "range": {"min": 6250, "max": 31250}, "stat": "range", "url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/", "read_on": "2026-10-13", "note": "Scholarships of 10% to 50% of tuition (£6,250-£31,250) for September 2027 entry; Sainsbury Engineering / Science Management Fellowships £50,000 (external). No average award or share of class aided published"},
+  "tuition_total": {
+    "value": 62500,
+    "currency": "GBP",
+    "period": "full program",
+    "cohort": "September 2027 intake (2027/28)",
+    "url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/",
+    "read_on": "2026-10-13",
+    "note": "£62,500 for the 12-month format; £63,750 for the 16-month formats; same for Home and EU/International. Covers registration, tuition, examination, graduation, study materials, visa/travel/accommodation on the overseas elective. £6,000 deposit is part of the fee"
+  },
+  "mandatory_fees_total": {
+    "value": null,
+    "currency": "GBP",
+    "url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/",
+    "read_on": "2026-10-13",
+    "note": "No separate mandatory fee; not included: residential accommodation, travel for Capstone module, graduation robes/photos"
+  },
+  "living_budget_total": {
+    "value": 13632,
+    "currency": "GBP",
+    "period": "12 months",
+    "basis": "school budget",
+    "url": "https://warwick.ac.uk/study/international/admissions/finance/livingcosts/",
+    "read_on": "2026-10-13",
+    "note": "University of Warwick advice for 1-year Master's students: approx. £13,632 for a full year (page last updated 16.10.2025, academic year not named); no breakdown. UKVI floor outside London £1,171/month"
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "GBP",
+    "range": {
+      "min": 6250,
+      "max": 31250
+    },
+    "stat": "range",
+    "url": "https://www.wbs.ac.uk/courses/mba/full-time/fees/",
+    "read_on": "2026-10-13",
+    "note": "Scholarships of 10% to 50% of tuition (£6,250-£31,250) for September 2027 entry; Sainsbury Engineering / Science Management Fellowships £50,000 (external). No average award or share of class aided published"
+  },
   "employment": {
     "report_url": "https://online.flippingbook.com/view/622705779/",
     "report_url_note": "Linked from https://www.wbs.ac.uk/courses/mba/full-time/careers/ as https://www.wbs.ac.uk/assets/links/brochures/mba/full-time-mba-graduate-destinations-brochure (redirects to FlippingBook; document ref 510097 01/2026)",
@@ -27,56 +65,247 @@
     "employed_3m_pct": null,
     "accepted_3m_pct": 81,
     "accepted_3m_note": "81% of graduates seeking employment accepted a job within 3 months",
-    "base_salary": {"value": 137924, "currency": "USD", "stat": "mean", "note": "Overall average salary three months post-MBA, in purchasing power parity dollars ($PPP), as published; maximum $357,675 PPP; average salary increase 44%"},
-    "alumni_salary_3y_ft": {"value": 135682, "currency": "USD", "stat": "mean (FT Global MBA 2026 weighted alumni salary, 3 years post-MBA)", "url": "https://www.wbs.ac.uk/courses/mba/full-time/careers/", "read_on": "2026-10-13"},
-    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "base_salary": {
+      "value": 137924,
+      "currency": "USD",
+      "stat": "mean",
+      "note": "Overall average salary three months post-MBA, in purchasing power parity dollars ($PPP), as published; maximum $357,675 PPP; average salary increase 44%"
+    },
+    "alumni_salary_3y_ft": {
+      "value": 135682,
+      "currency": "USD",
+      "stat": "mean (FT Global MBA 2026 weighted alumni salary, 3 years post-MBA)",
+      "url": "https://www.wbs.ac.uk/courses/mba/full-time/careers/",
+      "read_on": "2026-10-13"
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null
+    },
     "internship_monthly": null,
     "changed_country_pct": 37,
     "changed_country_note": "37% changed location post-MBA; 43% stayed in the UK to work",
     "changed_sector_pct": 65,
     "by_industry": [
-      {"industry": "tech", "sub": "Technology", "pct": 18, "salary": 101372, "stat": "mean", "salary_note": "$PPP; max $111,773; average increase 157%"},
-      {"industry": "finance", "sub": "Finance", "pct": 18, "salary": 138342, "stat": "mean", "salary_note": "$PPP; max $186,289; average increase 38%"},
-      {"industry": "consulting", "sub": "Consulting", "pct": 12, "salary": null, "stat": null},
-      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 11, "salary": null, "stat": null},
-      {"industry": "energy", "sub": "Energy", "pct": 9, "salary": 114547, "stat": "mean", "salary_note": "$PPP; max $157,158; average increase 26%"},
-      {"industry": "healthcare", "sub": "Healthcare", "pct": 8, "salary": null, "stat": null},
-      {"industry": "nonprofit", "sub": "Government", "pct": 6, "salary": null, "stat": null},
-      {"industry": "nonprofit", "sub": "Education", "pct": 4, "salary": null, "stat": null},
-      {"industry": "consumer", "sub": "Retail", "pct": 4, "salary": null, "stat": null},
-      {"industry": "nonprofit", "sub": "NGOs", "pct": 2, "salary": null, "stat": null},
-      {"industry": "other", "sub": "Transport/logistics", "pct": 2, "salary": null, "stat": null},
-      {"industry": "other", "sub": "Law", "pct": 2, "salary": null, "stat": null},
-      {"industry": "other", "sub": "Entertainment", "pct": 2, "salary": null, "stat": null},
-      {"industry": "other", "sub": "Hospitality/tourism", "pct": 2, "salary": null, "stat": null}
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 18,
+        "salary": 101372,
+        "stat": "mean",
+        "salary_note": "$PPP; max $111,773; average increase 157%"
+      },
+      {
+        "industry": "finance",
+        "sub": "Finance",
+        "pct": 18,
+        "salary": 138342,
+        "stat": "mean",
+        "salary_note": "$PPP; max $186,289; average increase 38%"
+      },
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 12,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 11,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy",
+        "pct": 9,
+        "salary": 114547,
+        "stat": "mean",
+        "salary_note": "$PPP; max $157,158; average increase 26%"
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare",
+        "pct": 8,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Government",
+        "pct": 6,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Education",
+        "pct": 4,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 4,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "NGOs",
+        "pct": 2,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Transport/logistics",
+        "pct": 2,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Law",
+        "pct": 2,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Entertainment",
+        "pct": 2,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Hospitality/tourism",
+        "pct": 2,
+        "salary": null,
+        "stat": null
+      }
     ],
     "by_industry_note": "Salaries by sector published only for the top three sectors (Finance, Technology, Energy), in $PPP; the report says other sectors are omitted for incomplete pre/post salary data. Column order read from the FlippingBook text layer (first three values = averages, last three = maxima; consistent since each max exceeds its average)",
     "by_function": [],
     "by_function_note": "No function breakdown published; only a list of post-MBA job titles",
     "by_geography": [
-      {"region": "UK", "pct": 43.1, "salary": 160551, "stat": "mean", "salary_note": "$PPP; max $357,675; average increase 71%"},
-      {"region": "Europe", "pct": 5.9, "salary": null},
-      {"region": "North America", "pct": 5.9, "salary": null},
-      {"region": "Latin America", "sub": "South America", "pct": 5.9, "salary": null},
-      {"region": "Asia", "sub": "Southeast Asia", "pct": 9.8, "salary": null},
-      {"region": "Asia", "sub": "East Asia", "pct": 7.8, "salary": null},
-      {"region": "Asia", "sub": "India", "pct": 7.8, "salary": null},
-      {"region": "Asia", "sub": "China", "pct": 2, "salary": null},
-      {"region": "Africa", "pct": 9.8, "salary": null},
-      {"region": "Middle East", "pct": 2, "salary": null}
+      {
+        "region": "UK",
+        "pct": 43.1,
+        "salary": 160551,
+        "stat": "mean",
+        "salary_note": "$PPP; max $357,675; average increase 71%"
+      },
+      {
+        "region": "Europe",
+        "pct": 5.9,
+        "salary": null
+      },
+      {
+        "region": "North America",
+        "pct": 5.9,
+        "salary": null
+      },
+      {
+        "region": "Latin America",
+        "sub": "South America",
+        "pct": 5.9,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "Southeast Asia",
+        "pct": 9.8,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "East Asia",
+        "pct": 7.8,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "India",
+        "pct": 7.8,
+        "salary": null
+      },
+      {
+        "region": "Asia",
+        "sub": "China",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "Africa",
+        "pct": 9.8,
+        "salary": null
+      },
+      {
+        "region": "Middle East",
+        "pct": 2,
+        "salary": null
+      }
     ],
     "by_geography_salary_extra": [
-      {"region": "EMEA & Asia (incl. India)", "salary": 104220, "stat": "mean", "max": 192526, "avg_increase_pct": 12, "currency": "USD PPP"},
-      {"region": "Rest of World", "salary": 129910, "stat": "mean", "max": 164137, "avg_increase_pct": 21, "currency": "USD PPP"}
+      {
+        "region": "EMEA & Asia (incl. India)",
+        "salary": 104220,
+        "stat": "mean",
+        "max": 192526,
+        "avg_increase_pct": 12,
+        "currency": "USD PPP"
+      },
+      {
+        "region": "Rest of World",
+        "salary": 129910,
+        "stat": "mean",
+        "max": 164137,
+        "avg_increase_pct": 21,
+        "currency": "USD PPP"
+      }
     ],
     "top_employers": [
-      {"name": "J.P. Morgan", "hires": null},
-      {"name": "American Express", "hires": null},
-      {"name": "Hilltop Capital Partners", "hires": null}
+      {
+        "name": "J.P. Morgan",
+        "hires": null
+      },
+      {
+        "name": "American Express",
+        "hires": null
+      },
+      {
+        "name": "Hilltop Capital Partners",
+        "hires": null
+      }
     ],
     "top_employers_note": "No employer list with hire counts in the 2025 report; names are those of graduates quoted in the report"
   },
-  "profile": {"intl_pct": 93, "avg_age": 31, "avg_work_exp_years": null, "women_pct": 34, "gmat_median": null, "nationalities": 22, "cohort": "Graduating Class of 2025 (cohort size 70, age range 24-43)", "url": "https://online.flippingbook.com/view/622705779/", "read_on": "2026-10-13", "note": "Work experience published only as bands (2-5, 6-10, 11-15, 16+ years), values not cleanly attributable in the text layer. Programme page (last 3 years): 48 nationalities, 40% female, average age 31"},
-  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": null, "url": "https://www.wbs.ac.uk/courses/mba/download-our-mba-brochure/", "read_on": "2026-10-13", "note": "School states 7th in the UK and 21st in Europe in the FT Global MBA Ranking 2026 (seen in search extract of the brochure page); world rank not found on a school page"}],
+  "profile": {
+    "intl_pct": 93,
+    "avg_age": 31,
+    "avg_work_exp_years": null,
+    "women_pct": 34,
+    "gmat_median": null,
+    "nationalities": 22,
+    "cohort": "Graduating Class of 2025 (cohort size 70, age range 24-43)",
+    "url": "https://online.flippingbook.com/view/622705779/",
+    "read_on": "2026-10-13",
+    "note": "Work experience published only as bands (2-5, 6-10, 11-15, 16+ years), values not cleanly attributable in the text layer. Programme page (last 3 years): 48 nationalities, 40% female, average age 31"
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 70,
+      "url": "https://www.clearadmit.com/mba-rankings/financial-times/",
+      "read_on": "2026-10-13",
+      "note": "Tie at 70, excerpt of the FT Global MBA 2026 table on ClearAdmit (prior year 62). School page only says 7th in UK, 21st in Europe."
+    }
+  ],
   "notes": "Salaries are in purchasing-power-parity dollars as the school publishes them, not nominal GBP."
 }

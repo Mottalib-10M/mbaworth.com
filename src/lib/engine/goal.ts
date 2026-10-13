@@ -14,7 +14,7 @@ export interface CalcSchool {
   classSize: number | null; employed: number | null;
   ind: Record<string, Seg>; seg: Record<string, Seg>; zone: Record<string, Seg>; fn: Record<string, Seg>;
 }
-export interface Model { refSalary: number; g1: number; g0: number; r: number; horizonYears: number; paybackCapYears: number; internMonths: number }
+export interface Model { refSalary: number; g1: number; g0: number; r: number; horizonYears: number; paybackCapYears: number; internMonths: number; minShare?: Record<string, number>; zoneFallbackShare?: number }
 export interface Profile { s0: number; scholarship: number; g1: number; g0: number; r: number; tax: number }
 
 export type GoalKind = 'all' | 'ind' | 'seg' | 'zone' | 'fn';
@@ -22,7 +22,7 @@ export interface Goal { kind: GoalKind; key: string }
 export const ALL: Goal = { kind: 'all', key: 'all' };
 
 /** Share placed and salary reported for a goal. "europe" adds continental Europe and the UK. */
-export function goalOf(s: CalcSchool, g: Goal): { share: number | null; salary: number | null; fallback: boolean; stat: string | null } {
+export function goalOf(s: CalcSchool, g: Goal, zoneFallbackShare = 50): { share: number | null; salary: number | null; fallback: boolean; stat: string | null } {
   if (g.kind === 'all') return { share: s.employed, salary: s.salary, fallback: false, stat: s.kind };
   let seg: Seg | undefined;
   if (g.kind === 'zone' && g.key === 'europe') {
@@ -37,7 +37,10 @@ export function goalOf(s: CalcSchool, g: Goal): { share: number | null; salary: 
   }
   if (!seg) return { share: null, salary: null, fallback: false, stat: null };
   const own = seg.usd ?? null;
-  return { share: seg.pct, salary: own ?? s.salary, fallback: own === null && s.salary !== null, stat: own !== null ? (seg.stat ?? s.kind) : s.kind };
+  // A region that takes a small part of the class is not where the school-wide salary was earned.
+  const canFall = g.kind !== 'zone' || (seg.pct ?? 0) >= zoneFallbackShare;
+  const salary = own ?? (canFall ? s.salary : null);
+  return { share: seg.pct, salary, fallback: own === null && salary !== null, stat: own !== null ? (seg.stat ?? s.kind) : s.kind };
 }
 
 export const internIncome = (s: CalcSchool, m: Model) => (s.twoYear && s.intern ? s.intern * m.internMonths : 0);
@@ -55,3 +58,6 @@ export function schoolRoi(s: CalcSchool, p: Profile, m: Model, salary?: number |
   });
 }
 export const refProfile = (m: Model): Profile => ({ s0: m.refSalary, scholarship: 0, g1: m.g1, g0: m.g0, r: m.r, tax: 0 });
+
+/** Smallest share of the class for a school to be ranked on a goal (method page). */
+export const minShareOf = (m: Model, g: Goal) => (m.minShare ? m.minShare[g.kind] ?? 0 : 0);

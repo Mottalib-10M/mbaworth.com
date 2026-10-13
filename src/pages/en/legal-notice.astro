@@ -5,7 +5,7 @@ import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, LEGAL, SITE_NAMES, SITE_URL }
 import { route } from '../../i18n/routes';
 const lang = 'en';
 ---
-<PageLayout title={`${SITE_NAMES[lang]} legal notice: publisher, host and terms of use`} description="Publisher and host of AdmitCost, why an admit rate or a net price on the site is a published average and not an admission decision or an aid offer, rights and governing law." lang={lang} noindex={true} breadcrumbs={[{ label: 'Legal notice' }]} showAuthor={false}>
+<PageLayout title={`${SITE_NAMES[lang]} legal notice: publisher, host and terms of use`} description="Publisher and host of MBA Worth, why a salary or a payback shown here is a model built on a past class and not an offer, how ranks of others are quoted, rights and governing law." lang={lang} noindex={true} breadcrumbs={[{ label: 'Legal notice' }]} showAuthor={false}>
   <div class="prose prose-slate max-w-none prose-headings:font-serif">
     <h1>Legal notice and terms of use</h1>
     <p>Information given under Article 6 III-1 of French law no. 2004-575 of 21 June 2004, the publisher being established in France.</p>
@@ -14,12 +14,12 @@ const lang = 'en';
     <p>Publication director: {AUTHOR_NAME}, responsible for the content of {SITE_URL}.</p>
     <h2>Host</h2>
     <LegalIdentity mode="hosting" lang={lang} />
-    <h2>Averages, not decisions or offers</h2>
-    <p>{SITE_NAMES[lang]} shows admit rates, test score ranges and prices published by universities and by the U.S. Department of Education. It is not a university, an admissions office or a financial aid office. A label such as "reach" or "likely" is a fixed rule of this site, not a prediction, and a net price is an average paid by other families, not an offer. Only a university's admission decision and award letter bind anyone. The method and its limits are on the <a href={route('method', lang)}>method page</a>.</p>
-    <h2>Liability</h2><p>Figures are read in official documents and the calculators are tested before each release, yet errors cannot be ruled out and documents age. The publisher is not liable for a decision made on these figures alone. Please report any error through the <a href={route('contact', lang)}>contact page</a>.</p>
-    <h2>Intellectual property</h2><p>Texts, design and code belong to the publisher; short quotations with a link back are welcome. Federal data are public domain or published under the attribution terms of data.gov; figures from a university's documents are facts cited with their source. University names are used only to identify the institutions described; no affiliation is implied.</p>
-    <h2>Embedding</h2><p>The odds and net price calculator may be embedded for free with its credit link visible: see the <a href={route('widget', lang)}>embed page</a>.</p>
-    <h2>Personal data</h2><p>The site sets no cookie and keeps nothing you type. Details: <a href={route('privacy', lang)}>privacy policy</a> and <a href={route('cookies', lang)}>cookies page</a>.</p>
+    <h2>A model, not an offer</h2>
+    <p>{SITE_NAMES[lang]} shows fees, student budgets and employment outcomes published by business schools, and computes from them a total cost, a payback period and a net present value under assumptions shown on every result. It is not a school, an admissions office, a lender or a ranking body. A salary describes what a past class reported; a payback is the result of a formula. Neither is a promise of admission, of a job or of a salary. The method and its limits are on the <a href={route('method', lang)}>method page</a>.</p>
+    <h2>Liability</h2><p>Figures are read in the schools' documents and the calculators are tested before each release; documents change, and errors remain possible. The publisher is not liable for a decision taken on these figures alone. Please report an error through the <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Intellectual property</h2><p>Texts, design and code belong to the publisher; short quotations with a link back are welcome. School names identify the institutions described and imply no affiliation. Figures taken from a school's documents are facts cited with their source. A rank published by a third party is quoted as a single fact with a link to its owner; no ranking table is reproduced.</p>
+    <h2>Embedding</h2><p>The return calculator may be embedded free of charge with its credit link visible: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Personal data</h2><p>The site sets no cookie and keeps nothing you type: <a href={route('privacy', lang)}>privacy policy</a> and <a href={route('cookies', lang)}>cookies page</a>.</p>
     <h2>Reporting unlawful content</h2><p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the address of the page.</p>
     <h2>Governing law</h2><p>French law applies; failing an amicable settlement, the courts of {LEGAL.jurisdiction} have jurisdiction. Updated: {LAST_UPDATED}.</p>
   </div>

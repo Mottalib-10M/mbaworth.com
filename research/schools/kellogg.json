@@ -1,0 +1,542 @@
+{
+  "slug": "kellogg",
+  "name": "Kellogg School of Management, Northwestern University",
+  "short": "Kellogg",
+  "country": "US",
+  "city": "Evanston",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "length_note": "Two-Year MBA (Kellogg also runs a One-Year MBA, MBAi and MMM); months derived from the format",
+    "class_size": {
+      "value": 534,
+      "cohort": "Two-Year MBA Class of 2027 (incoming)",
+      "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/class-profile/",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 177072,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2026-27 Two-Year tuition $88,536 x 2 (second-year rate not published)",
+    "annual": 88536,
+    "cohort": "2026-27",
+    "url": "https://www.kellogg.northwestern.edu/admissions/financial-aid/ft-fin-aid/",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 18100,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x (health insurance $5,996 + University Health Services $894 + student activity & experience $1,400 + student association $450 + course material $310) + first-year fee $2,000 (2026-27 first-year rates)",
+    "first_year": 11050,
+    "url": "https://www.kellogg.northwestern.edu/admissions/financial-aid/ft-fin-aid/",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 59340,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x (food & housing $22,941 + books $1,743 + travel $1,551 + personal $2,835) + computer $1,200 once",
+    "basis": "school budget",
+    "first_year": 30270,
+    "estimated_expenses_first_year": 130072,
+    "note": "School's first-year estimated expenses $130,072 including $216 loan fees.",
+    "url": "https://www.kellogg.northwestern.edu/admissions/financial-aid/ft-fin-aid/",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "note": "Merit- and need-based scholarships exist; no average amount published on the pages read.",
+    "url": "https://www.kellogg.northwestern.edu/admissions/financial-aid/",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://www.kellogg.northwestern.edu/companies-recruiters/recruiter-employment-outcomes/",
+    "report_file": "https://www.kellogg.northwestern.edu/-/media/files/careers/2025/2025-employment-report.zip",
+    "cohort": "Class of 2025 (Two-Year MBA)",
+    "standard": "MBA CSEA",
+    "standard_note": "Layout follows CSEA tables (permanent / non-permanent work authorization); CSEA not named explicitly in the spreadsheet.",
+    "url": "https://www.kellogg.northwestern.edu/-/media/files/careers/2025/2025-employment-report.zip",
+    "read_on": "2026-10-13",
+    "students": 526,
+    "seeking": 429,
+    "response_rate": null,
+    "response_note": "13 of 526 not reported",
+    "employed_3m_pct": null,
+    "offers_3m_pct": 87.6,
+    "accepted_3m_pct": 85.5,
+    "accepted_6m_pct": 90,
+    "employment_note": "Of seeking students: 87.6% offer and 85.5% accepted by 3 months; 90% accepted by 6 months. Not seeking: 63 sponsored/already employed, 20 starting a business.",
+    "base_salary": {
+      "value": 175000,
+      "currency": "USD",
+      "stat": "median",
+      "mean": 167151,
+      "min": 67113,
+      "max": 250000
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "mean": 34658,
+      "pct_receiving": 85,
+      "pct_note": "85% of accepted offers reported a signing bonus"
+    },
+    "total_comp_median": {
+      "value": 205000,
+      "note": "school blog Dec 2025",
+      "url": "https://www.kellogg.northwestern.edu/news/blog/2025/12/17/class-2025-career-outcomes-top-employers/"
+    },
+    "internship_monthly": null,
+    "internship_note": "Internship medians published by industry only (Class of 2026, all full-time programs): consulting $15,808, financial services $12,133, technology $7,887 per month; no overall median.",
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 37.5,
+        "salary": 190000,
+        "stat": "median",
+        "mean": 181329,
+        "signing_bonus_median": 30000
+      },
+      {
+        "industry": "finance",
+        "sub": "Financial Services (total)",
+        "pct": 20.6,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 171999,
+        "signing_bonus_median": 35000
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking (Investment Banking/Brokerage)",
+        "pct": 6.4,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 166591,
+        "signing_bonus_median": 50000
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity",
+        "pct": 5.0,
+        "salary": 200000,
+        "stat": "median",
+        "mean": 191701,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "finance",
+        "sub": "Diversified Financial Services",
+        "pct": 3.6,
+        "salary": 180000,
+        "stat": "median",
+        "mean": 173150,
+        "signing_bonus_median": 35000
+      },
+      {
+        "industry": "finance",
+        "sub": "asset management (Investment Management)",
+        "pct": 1.9,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 167143,
+        "signing_bonus_median": 20000
+      },
+      {
+        "industry": "finance",
+        "sub": "venture capital",
+        "pct": 1.1,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "finance",
+        "sub": "fintech/crypto",
+        "pct": 0.8,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "finance",
+        "sub": "insurance",
+        "pct": 0.8,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology (total)",
+        "pct": 18.9,
+        "salary": 151500,
+        "stat": "median",
+        "mean": 152860,
+        "signing_bonus_median": 40000
+      },
+      {
+        "industry": "tech",
+        "sub": "Internet Services/E-Commerce",
+        "pct": 8.1,
+        "salary": 142800,
+        "stat": "median",
+        "mean": 146119,
+        "signing_bonus_median": 54300
+      },
+      {
+        "industry": "tech",
+        "sub": "Software",
+        "pct": 5.8,
+        "salary": 156500,
+        "stat": "median",
+        "mean": 154181,
+        "signing_bonus_median": 30000
+      },
+      {
+        "industry": "tech",
+        "sub": "General Technology",
+        "pct": 3.1,
+        "salary": 165000,
+        "stat": "median",
+        "mean": 164513,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Equipment/Hardware/Networking",
+        "pct": 1.7,
+        "salary": 150000,
+        "stat": "median",
+        "mean": 157500,
+        "signing_bonus_median": 40000
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Packaged Goods",
+        "pct": 8.6,
+        "salary": 128000,
+        "stat": "median",
+        "mean": 133537,
+        "signing_bonus_median": 32500
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 0.6,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare (total)",
+        "pct": 5.6,
+        "salary": 142500,
+        "stat": "median",
+        "mean": 154296,
+        "signing_bonus_median": 30000
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Pharmaceuticals",
+        "pct": 2.2,
+        "salary": 137000,
+        "stat": "median",
+        "mean": 148688,
+        "signing_bonus_median": 30000
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Biotechnology",
+        "pct": 1.4,
+        "salary": 143616,
+        "stat": "median",
+        "mean": 163558,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 3.1,
+        "salary": 159500,
+        "stat": "median",
+        "mean": 160125,
+        "signing_bonus_median": 25000
+      },
+      {
+        "industry": "other",
+        "sub": "Media/Entertainment",
+        "pct": 2.2,
+        "salary": 150861,
+        "stat": "median",
+        "mean": 152308,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "other",
+        "sub": "Transportation & Logistics Services",
+        "pct": 1.1,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "other",
+        "sub": "Real Estate",
+        "pct": 0.6,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Government",
+        "pct": 0.6,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Non-Profit",
+        "pct": 0.3,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy/Utilities",
+        "pct": 0.3,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "signing_bonus_median": null
+      }
+    ],
+    "by_industry_note": "Two-Year MBA only; 83% of job-accepting graduates reported usable salary. Null = insufficient data.",
+    "by_function": [
+      {
+        "function": "Consulting",
+        "pct": 38.2,
+        "salary": 190000
+      },
+      {
+        "function": "Marketing/Sales",
+        "pct": 19.1,
+        "salary": 150000
+      },
+      {
+        "function": "Product Management (Tech)",
+        "pct": 9.0,
+        "salary": 169050
+      },
+      {
+        "function": "Brand Management",
+        "pct": 6.1,
+        "salary": 128000
+      },
+      {
+        "function": "Finance",
+        "pct": 15.9,
+        "salary": 175000
+      },
+      {
+        "function": "Investment Banking",
+        "pct": 5.2,
+        "salary": 175000
+      },
+      {
+        "function": "Private Equity",
+        "pct": 3.2,
+        "salary": 175000
+      },
+      {
+        "function": "Corporate Finance",
+        "pct": 1.4,
+        "salary": 133000
+      },
+      {
+        "function": "Management - General Management",
+        "pct": 11.3,
+        "salary": 150000
+      },
+      {
+        "function": "Corporate Strategy/Strategic Planning",
+        "pct": 8.1,
+        "salary": 160000
+      },
+      {
+        "function": "Business Development",
+        "pct": 3.2,
+        "salary": 170000
+      },
+      {
+        "function": "Operations/Logistics",
+        "pct": 2.9,
+        "salary": 146400
+      },
+      {
+        "function": "Human Resources",
+        "pct": 0.9,
+        "salary": null
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US Midwest",
+        "pct": 39.1,
+        "salary": 175000,
+        "detail": "Chicago 33.8% ($180,000); Minneapolis 1.6% ($133,000)"
+      },
+      {
+        "region": "US West",
+        "pct": 24.4,
+        "salary": 167000,
+        "detail": "San Francisco 10.9% ($175,636); Seattle 7.8% ($145,000); Los Angeles 3.4% ($175,000)"
+      },
+      {
+        "region": "US Northeast",
+        "pct": 18.4,
+        "salary": 175000,
+        "detail": "New York 15.9% ($175,000); Boston 2.5% ($162,500)"
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 5.0,
+        "salary": 190000,
+        "detail": "Washington DC 3.1% ($189,000); Philadelphia 1.3% ($190,000)"
+      },
+      {
+        "region": "US South",
+        "pct": 3.8,
+        "salary": 185000,
+        "detail": "Georgia 2.5% ($191,000)"
+      },
+      {
+        "region": "US Southwest",
+        "pct": 3.8,
+        "salary": 162500,
+        "detail": "Dallas 1.9% ($161,500); Houston 1.3% ($162,500)"
+      },
+      {
+        "region": "US (total)",
+        "pct": 94.4,
+        "salary": 175000
+      },
+      {
+        "region": "International (total)",
+        "pct": 5.6,
+        "salary": 129848
+      },
+      {
+        "region": "Asia",
+        "pct": 3.8,
+        "salary": 129618
+      },
+      {
+        "region": "Middle East",
+        "pct": 0.6,
+        "salary": null,
+        "detail": "MENA"
+      },
+      {
+        "region": "Latin America",
+        "pct": 0.9,
+        "salary": null,
+        "detail": "South America 0.6%, Central America & Caribbean 0.3%"
+      },
+      {
+        "region": "Europe",
+        "pct": 0.3,
+        "salary": null,
+        "detail": "European Free Trade Zone"
+      }
+    ],
+    "top_employers": [
+      {
+        "name": "Boston Consulting Group",
+        "hires": 41
+      },
+      {
+        "name": "Amazon",
+        "hires": 25
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": 23
+      },
+      {
+        "name": "Bain & Company",
+        "hires": 22
+      },
+      {
+        "name": "Capital One",
+        "hires": 9
+      },
+      {
+        "name": "PwC Strategy&",
+        "hires": 7
+      },
+      {
+        "name": "Kearney",
+        "hires": 6
+      },
+      {
+        "name": "PepsiCo",
+        "hires": 6
+      },
+      {
+        "name": "Accenture Strategy",
+        "hires": 5
+      },
+      {
+        "name": "Deloitte Consulting",
+        "hires": 5
+      },
+      {
+        "name": "EY-Parthenon",
+        "hires": 5
+      }
+    ]
+  },
+  "profile": {
+    "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/class-profile/",
+    "read_on": "2026-10-13",
+    "cohort": "Two-Year MBA Class of 2027",
+    "intl_pct": 37,
+    "avg_age": null,
+    "avg_work_exp_years": 5.1,
+    "women_pct": null,
+    "gmat_median": null,
+    "gmat_focus_mean": 687,
+    "gmat_legacy_mean": 733,
+    "avg_gpa": 3.68,
+    "veterans_pct": 9,
+    "note": "Kellogg publishes averages, not medians; women share not shown in the page's counters."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 11,
+      "url": "https://gmatclub.com/forum/financial-times-global-mba-ranking-454524.html",
+      "source_note": "search-engine excerpt of GMAT Club's FT 2026 table (page itself 403); not confirmed on a Kellogg page",
+      "read_on": "2026-10-13"
+    }
+  ],
+  "notes": "Employment figures from the official 2025 Employment Report zip (Two-Year MBA spreadsheet saved as sources/amerique/kellogg-employment-outcomes-2025-2y.xlsx). One-Year, MBAi and MMM have separate files in the zip."
+}

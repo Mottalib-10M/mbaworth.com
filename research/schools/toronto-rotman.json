@@ -1,0 +1,138 @@
+{
+  "slug": "toronto-rotman",
+  "name": "Rotman School of Management, University of Toronto",
+  "short": "Toronto Rotman",
+  "country": "CA",
+  "city": "Toronto, Ontario",
+  "region": "Canada",
+  "program": {
+    "length_months": 20,
+    "format": "2-year",
+    "intake": "August",
+    "note": "16 months of academic study plus a 4-month paid internship (school wording).",
+    "class_size": {
+      "value": null,
+      "cohort": null,
+      "url": "https://www.rotman.utoronto.ca/programs/compare-rotman-programs/mba-programs/",
+      "read_on": "2026-10-13",
+      "note": "Class profile not found as text on the pages read (admissions page refers to a class profile without a reachable link)."
+    }
+  },
+  "tuition_total": {
+    "value": 144770,
+    "currency": "CAD",
+    "period": "full program (academic fees, estimated)",
+    "cohort": "current published estimate (year not stated)",
+    "by_residency": {
+      "domestic": 92540,
+      "international": 144770
+    },
+    "basis": "School's 'Full-Time MBA academic fees (estimated)'; excludes university incidental and compulsory ancillary fees; fees set annually. Read as whole-program figure (page does not say 'per year'); international rate shown as value.",
+    "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/tuition-scholarships/",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": null,
+    "currency": "CAD",
+    "period": "full program",
+    "note": "University incidental and compulsory ancillary fees not included in the academic fee and not quantified on the page (see Office of the Registrar). UHIP health insurance for international students: CAD $756 per year (counted in the living budget below).",
+    "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/tuition-scholarships/",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 23856,
+    "currency": "CAD",
+    "period": "first 12 months (school minimum estimate)",
+    "range": [
+      23856,
+      38756
+    ],
+    "stat": "school minimum of range",
+    "basis": "school budget",
+    "detail": {
+      "textbooks": 2000,
+      "laptop": [
+        1600,
+        2000
+      ],
+      "housing": [
+        12000,
+        25000
+      ],
+      "food": [
+        4000,
+        5500
+      ],
+      "public_transportation": 1500,
+      "personal": 2000,
+      "uhip_international": 756
+    },
+    "note": "School: 'minimum funds a single student will need for living expenses for the first 12 months in Toronto', downtown residency. The remaining ~8 months of the 20-month program are not budgeted by the school.",
+    "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/tuition-scholarships/",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "CAD",
+    "stat": null,
+    "note": "Rotman offers over $5 million in scholarships and awards to its students each year (all programs); Ontario Graduate Scholarship $5,000 per term for 2-3 terms. No average award or share of class published.",
+    "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/tuition-scholarships/",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": null,
+    "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/careers/",
+    "read_on": "2026-10-13",
+    "cohort": "Classes 2022-24 (salary, 3-year average); Class of 2024 (employment rate)",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "employed_6m_pct": 92,
+    "employed_6m_cohort": "Class of 2024",
+    "base_salary": {
+      "value": null,
+      "currency": "CAD",
+      "stat": null,
+      "total_compensation_3yr_avg": 134000,
+      "note": "Only figure published: CAD $134,000 total salary, 3-year average of Full-Time MBA classes 2022-24, including base, bonus and other compensation. Not a base salary, not a single cohort."
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null
+    },
+    "internship_monthly": {
+      "value": 5919,
+      "currency": "CAD",
+      "stat": "mean",
+      "cohort": "Class of 2025",
+      "note": "inclusive of base, bonus and other compensation"
+    },
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [],
+    "top_employers": [],
+    "notes": "The Employment and Salary Report is gated ('Request our Employment and Salary Report' form). The last public PDF is the 2021-22 report (apps.rotman.utoronto.ca/Admissions/MBAFT/Documents/Rotman%20Full%20Time%20MBA%20Employment%20and%20Salary%20Report%202021-22.pdf, 200); later years at the same path return 404. No industry/function/geography breakdown for a recent class available without the form."
+  },
+  "profile": {
+    "intl_pct": null,
+    "avg_age": null,
+    "avg_work_exp_years": null,
+    "women_pct": null,
+    "gmat_median": null,
+    "cohort": null,
+    "url": "https://www.rotman.utoronto.ca/programs/mba-programs/full-time-mba/admissions/",
+    "read_on": "2026-10-13",
+    "note": "Class profile not readable on the pages fetched; third-party figures not reused."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 81,
+      "url": "https://academica.ca/top-ten/financial-times-releases-global-mba-rankings/",
+      "read_on": "2026-10-13",
+      "note": "Academica Group news digest citing the FT, 2026-02-19"
+    }
+  ],
+  "notes": "To re-read: request the gated Employment and Salary Report (class of 2025) and find the class profile page."
+}

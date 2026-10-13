@@ -1,0 +1,65 @@
+{
+  "slug": "georgia-tech-scheller",
+  "name": "Scheller College of Business, Georgia Institute of Technology",
+  "short": "Georgia Tech Scheller",
+  "country": "US", "city": "Atlanta", "region": "US",
+  "program": {"length_months": 21, "format": "2-year",
+    "class_size": {"value": 70, "cohort": "Class of 2025 (profile at entry)", "url": "https://issuu.com/gatechbiz/docs/full-time_mba_employment_report_class_of_2025_", "read_on": "2026-10-13", "note": "From the 'Class of 2025 Profile' page of the employment report (page 3)."}},
+  "tuition_total": {"value": 89912, "annual_value": 44956, "currency": "USD", "period": "full program (2 x published annual figure)", "cohort": "current year as published (academic year not stated on page)", "url": "https://www.scheller.gatech.edu/explore-programs/mba-programs/full-time-mba/tuition-and-financing/index.html", "read_on": "2026-10-13",
+    "note": "Annual tuition: in-state $30,548, out-of-state $44,956, out-of-country $46,260 (international: 2 x $46,260 = $92,520). 2-year total computed by us; the page does not state the academic year."},
+  "mandatory_fees_total": {"value": 3032, "annual_value": 1516, "currency": "USD", "period": "full program (2 x annual)", "url": "https://www.scheller.gatech.edu/explore-programs/mba-programs/full-time-mba/tuition-and-financing/index.html", "read_on": "2026-10-13",
+    "note": "Mandatory Institute fees $1,516/year; additional $100 international student fee for international graduate students."},
+  "living_budget_total": {"value": 50792, "annual_value": 25396, "currency": "USD", "period": "full program (2 x one year)", "basis": "school budget", "url": "https://finaid.gatech.edu/costs/graduate-costs", "read_on": "2026-10-13",
+    "detail_per_year": {"housing_off_campus": 14380, "food": 6310, "personal_misc": 2800, "transportation": 966, "books_supplies": 800, "loan_costs": 140},
+    "note": "Georgia Tech 2026-27 standard graduate cost of attendance (excluding tuition/fees), out-of-state, off campus. Same budget for all graduate programs (not MBA-specific). Out-of-country off campus: $25,256/yr; Georgia resident off campus: $24,996/yr."},
+  "scholarship": {"value": null, "currency": "USD", "pct_receiving": null, "type": "graduate assistantships (tuition reduction + monthly salary, value up to $93,000) and fellowships", "url": "https://www.scheller.gatech.edu/explore-programs/mba-programs/full-time-mba/tuition-and-financing/index.html", "read_on": "2026-10-13",
+    "note": "School: 'more than half of incoming Full-time MBA students receive funding'; no exact share or average award."},
+  "employment": {
+    "report_url": "https://issuu.com/gatechbiz/docs/full-time_mba_employment_report_class_of_2025_",
+    "url": "https://issuu.com/gatechbiz/docs/full-time_mba_employment_report_class_of_2025_", "read_on": "2026-10-13",
+    "career_page_url": "https://www.scheller.gatech.edu/explore-programs/mba-programs/full-time-mba/career-development/index.html",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "response_rate": null, "employed_3m_pct": 82.5, "accepted_3m_pct": 82.5,
+    "employed_6m_pct": 92,
+    "base_salary": {"value": 137500, "currency": "USD", "stat": "median", "mean": 136378},
+    "signing_bonus": {"value": 21850, "stat": "median", "mean": 27132, "pct_receiving": 76.0},
+    "internship_monthly": {"value": 9293, "stat": "mean", "cohort": "Class of 2026", "note": "'$9,293 per month, average base salary' (report p.9); no median read."},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 32.7, "salary": 145000, "stat": "median", "mean": 152733},
+      {"industry": "tech", "sub": "Technology", "pct": 30.8, "salary": 142400, "stat": "median", "mean": 140759},
+      {"industry": "finance", "sub": "Financial Services", "pct": 13.5, "salary": 135000, "stat": "median", "mean": 134600},
+      {"industry": "energy", "sub": "Energy", "pct": 5.8, "salary": 95000, "stat": "median", "mean": 103944},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 5.8, "salary": 115000, "stat": "median", "mean": 111000},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 3.8, "salary": null, "stat": "insufficient data"},
+      {"industry": "healthcare", "sub": "Healthcare (including products and services)", "pct": 3.8, "salary": null, "stat": "insufficient data"},
+      {"industry": "other", "sub": "Transportation and Logistics Services", "pct": 3.8, "salary": null, "stat": "insufficient data"}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 34.6, "salary": 142500, "stat": "median"},
+      {"function": "Marketing/Sales", "pct": 28.8, "salary": 115000, "stat": "median"},
+      {"function": "Operations/Logistics", "pct": 11.5, "salary": 142400, "stat": "median"},
+      {"function": "Information Technology", "pct": 9.6, "salary": 140250, "stat": "median"},
+      {"function": "Finance/Accounting", "pct": 7.7, "salary": null, "stat": "insufficient data"},
+      {"function": "General Management", "pct": 7.7, "salary": 129225, "stat": "median"}
+    ],
+    "by_geography": [
+      {"region": "US South", "pct": 61.5, "salary": 130000, "stat": "median"},
+      {"region": "US Northeast", "pct": 11.5, "salary": 141525, "stat": "median"},
+      {"region": "US West", "pct": 9.6, "salary": 154980, "stat": "median"},
+      {"region": "US Southwest", "pct": 7.7, "salary": 135000, "stat": "median"},
+      {"region": "US Midwest", "pct": 5.8, "salary": 118000, "stat": "median"},
+      {"region": "US Mid-Atlantic", "pct": 3.8, "salary": null, "stat": "insufficient data"}
+    ],
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Bain & Company", "hires": null}, {"name": "Cognizant", "hires": null},
+      {"name": "EY-Parthenon", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "RELEX Solutions", "hires": null},
+      {"name": "ScottMadden", "hires": null}, {"name": "Southern Company Gas", "hires": null}
+    ],
+    "notes": "Report is an Issuu flipbook (no PDF); read as page images, copies saved as research/sources/amerique/georgia-tech-scheller-employment-2025-p*.jpg. CSEA tables: 72 graduates, 63 seeking; offers 63.5% by graduation + 19.0% by 3 months = 82.5%; acceptances 61.9% + 20.6% = 82.5%. 50 reported salary (96.2%). Median by work authorization: permanent $125,455, non-permanent $142,800. The summary page uses different shares (e.g. consulting 29.5%, technology 21.3%) than the CSEA tables; CSEA tables used here. Top 8 hiring companies listed without hire counts. Note: the career-development web page shows '$140,000 average starting salary / 85.9% employment rate, MBA Class of 2026' - newer headline, no full report found yet."
+  },
+  "profile": {"intl_pct": 37, "avg_age": 28, "avg_work_exp_years": 5, "women_pct": 37, "gmat_median": null, "gmat_mean": 694, "gpa_mean": 3.39,
+    "cohort": "Class of 2025", "url": "https://issuu.com/gatechbiz/docs/full-time_mba_employment_report_class_of_2025_", "read_on": "2026-10-13",
+    "note": "Employment report p.3: 70 students, average GMAT 694 (middle 80% 640-722), GRE V 159 / Q 163. A newer class profile (Class of 2027) was not read in this pass."},
+  "rankings_cited": [],
+  "notes": "FT Global MBA 2026 rank not found. The report cites 'Top 5 MBA Career Services in the World - The Financial Times' (a sub-ranking, no year)."
+}

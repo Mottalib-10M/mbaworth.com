@@ -1,0 +1,497 @@
+{
+  "slug": "stanford",
+  "name": "Stanford Graduate School of Business",
+  "short": "Stanford GSB",
+  "country": "US",
+  "city": "Stanford",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "length_note": "two-year MBA; months derived from the format",
+    "class_size": {
+      "value": 434,
+      "cohort": "Class of 2027 (7,259 applications)",
+      "url": "https://www.gsb.stanford.edu/experience/about/school-profile",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 178374,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "first-year 2026-27 tuition $89,187 x 2 (second-year rate not published)",
+    "annual": 89187,
+    "cohort": "2026-27",
+    "url": "https://www.gsb.stanford.edu/programs/mba/tuition-financial-aid/cost-attendance",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 19302,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x ($8,808 Cardinal Care medical insurance + $843 health fee); insurance is included for all students in the cost of attendance",
+    "annual": 9651,
+    "url": "https://www.gsb.stanford.edu/programs/mba/tuition-financial-aid/cost-attendance",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 84204,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x ($19,950 living + $22,152 housing), single student, first-year 2026-27 budget",
+    "basis": "school budget",
+    "annual": 42102,
+    "total_cost_of_attendance_single_year": 140940,
+    "married_year": 168825,
+    "note": "Global experience requirement $4,000-$6,000 not included.",
+    "url": "https://www.gsb.stanford.edu/programs/mba/tuition-financial-aid/cost-attendance",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": 50000,
+    "currency": "USD",
+    "stat": "mean",
+    "period": "per year",
+    "note": "Average fellowship for the class of 2026 approx. $50,000 per year or $100,000 in total; need-based only.",
+    "pct_receiving": null,
+    "url": "https://www.gsb.stanford.edu/programs/mba/tuition-financial-aid",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://www.gsb.stanford.edu/sites/default/files/2025-12/report-2025-mba-employment-report.pdf",
+    "cohort": "Class of 2025",
+    "standard": "MBA CSEA",
+    "url": "https://www.gsb.stanford.edu/sites/default/files/2025-12/report-2025-mba-employment-report.pdf",
+    "read_on": "2026-10-13",
+    "graduates": 426,
+    "seeking_pct": 63,
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "offers_3m_pct": 90,
+    "accepted_3m_pct": 81,
+    "employment_note": "Of 268 seeking, 241 (90%) had offers and 217 (81%) had accepted by 3 months post-graduation. Not seeking: 13% company-sponsored, 16% starting a new business, 3% continuing education. 77% of acceptances reported base salary.",
+    "base_salary": {
+      "value": 185000,
+      "currency": "USD",
+      "stat": "median",
+      "mean": 190109,
+      "p25": 165000,
+      "p75": 200000
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "mean": 35888,
+      "pct_receiving": 51,
+      "pct_note": "51% of salary reporters"
+    },
+    "performance_bonus": {
+      "value": 43000,
+      "stat": "median",
+      "mean": 89605,
+      "pct_receiving": 66
+    },
+    "internship_monthly": {
+      "value": 8000,
+      "currency": "USD",
+      "stat": "median",
+      "mean": 9009,
+      "cohort": "Summer 2025 (MBA1 class)",
+      "url": "https://www.gsb.stanford.edu/sites/default/files/2025-12/report-2025-mba-employment-report.pdf",
+      "read_on": "2026-10-13"
+    },
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 11,
+        "salary": 192000,
+        "stat": "median",
+        "mean": 187765,
+        "p25": 190000,
+        "p75": 192000
+      },
+      {
+        "industry": "finance",
+        "sub": "Finance (total)",
+        "pct": 33,
+        "salary": 200000,
+        "stat": "median",
+        "mean": 204104,
+        "p25": 180000,
+        "p75": 225000
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking",
+        "pct": 3,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "finance",
+        "sub": "asset management (Inv. Mgmt. & Hedge Funds)",
+        "pct": 8,
+        "salary": 212500,
+        "stat": "median",
+        "mean": 219915,
+        "p25": 200000,
+        "p75": 240000
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity",
+        "pct": 16,
+        "salary": 200000,
+        "stat": "median",
+        "mean": 201429,
+        "p25": 183750,
+        "p75": 215000
+      },
+      {
+        "industry": "finance",
+        "sub": "venture capital",
+        "pct": 6,
+        "salary": 212500,
+        "stat": "median",
+        "mean": 212000,
+        "p25": 171250,
+        "p75": 262500
+      },
+      {
+        "industry": "finance",
+        "sub": "other finance",
+        "pct": 1,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology (total)",
+        "pct": 35,
+        "salary": 185000,
+        "stat": "median",
+        "mean": 192394,
+        "p25": 170000,
+        "p75": 210750
+      },
+      {
+        "industry": "tech",
+        "sub": "Consumer tech",
+        "pct": 7,
+        "salary": 165000,
+        "stat": "median",
+        "mean": 176042,
+        "p25": 161250,
+        "p75": 186250
+      },
+      {
+        "industry": "tech",
+        "sub": "Enterprise tech",
+        "pct": 19,
+        "salary": 195000,
+        "stat": "median",
+        "mean": 202138,
+        "p25": 176000,
+        "p75": 225000
+      },
+      {
+        "industry": "tech",
+        "sub": "FinTech",
+        "pct": 4,
+        "salary": 199000,
+        "stat": "median",
+        "mean": 177800,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Other tech",
+        "pct": 4,
+        "salary": 188000,
+        "stat": "median",
+        "mean": 190167,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Health Care",
+        "pct": 5,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 183000,
+        "p25": 160000,
+        "p75": 180000
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy",
+        "pct": 4,
+        "salary": 166000,
+        "stat": "median",
+        "mean": 169625,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Products",
+        "pct": 2,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 1,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "other",
+        "sub": "Media / Entertainment",
+        "pct": 2,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "other",
+        "sub": "Real Estate",
+        "pct": 1,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "other",
+        "sub": "Education",
+        "pct": 1,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "NonProfit",
+        "pct": 1,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "other",
+        "sub": "Other (Automotive, Government, Manufacturing, Transportation & Logistics)",
+        "pct": 3,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 168002,
+        "p25": null,
+        "p75": null
+      }
+    ],
+    "by_industry_note": "Percent of accepting students; NA = fewer than five students.",
+    "by_function": [
+      {
+        "function": "Consulting",
+        "pct": 12,
+        "salary": 192000,
+        "mean": 186350
+      },
+      {
+        "function": "Management Consulting",
+        "pct": 11,
+        "salary": 192000,
+        "mean": 187063
+      },
+      {
+        "function": "Finance",
+        "pct": 31,
+        "salary": 200000,
+        "mean": 202294
+      },
+      {
+        "function": "Investment / Portfolio Mgmt",
+        "pct": 9,
+        "salary": 200000,
+        "mean": 203954
+      },
+      {
+        "function": "Private Equity",
+        "pct": 13,
+        "salary": 200000,
+        "mean": 207604
+      },
+      {
+        "function": "Venture Capital",
+        "pct": 5,
+        "salary": 200000,
+        "mean": 208125
+      },
+      {
+        "function": "General Management",
+        "pct": 32,
+        "salary": 170000,
+        "mean": 185766
+      },
+      {
+        "function": "Business Ops / Strategy / Planning",
+        "pct": 18,
+        "salary": 170000,
+        "mean": 186629
+      },
+      {
+        "function": "Chief of Staff",
+        "pct": 7,
+        "salary": 188800,
+        "mean": 193550
+      },
+      {
+        "function": "General Mgmt / Rotational / Leadership",
+        "pct": 7,
+        "salary": 170000,
+        "mean": 175750
+      },
+      {
+        "function": "Marketing / Sales",
+        "pct": 20,
+        "salary": 180000,
+        "mean": 183973
+      },
+      {
+        "function": "Product Management",
+        "pct": 11,
+        "salary": 180000,
+        "mean": 187938
+      },
+      {
+        "function": "Sales / Customer Success / Revenue",
+        "pct": 4,
+        "salary": 180000,
+        "mean": 186250
+      },
+      {
+        "function": "Business Development",
+        "pct": 3,
+        "salary": null,
+        "mean": null
+      },
+      {
+        "function": "Other",
+        "pct": 4,
+        "salary": 177500,
+        "mean": 170125
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US West",
+        "pct": 55,
+        "salary": 192000,
+        "mean": 194235
+      },
+      {
+        "region": "US Northeast",
+        "pct": 28,
+        "salary": 190000,
+        "mean": 189510
+      },
+      {
+        "region": "US Southwest",
+        "pct": 6,
+        "salary": 187500,
+        "mean": 185583
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 3,
+        "salary": 185000,
+        "mean": 202833
+      },
+      {
+        "region": "US Midwest",
+        "pct": 2,
+        "salary": null
+      },
+      {
+        "region": "US South",
+        "pct": 1,
+        "salary": null
+      },
+      {
+        "region": "US (total)",
+        "pct": null,
+        "salary": 190000,
+        "mean": 191718,
+        "detail": "North America 96%"
+      },
+      {
+        "region": "Asia",
+        "pct": 2,
+        "salary": null,
+        "detail": "school groups Asia, Australia and Oceania together"
+      },
+      {
+        "region": "Latin America",
+        "pct": 1,
+        "salary": null
+      },
+      {
+        "region": "Europe",
+        "pct": "<1%",
+        "salary": null
+      },
+      {
+        "region": "Africa",
+        "pct": "<1%",
+        "salary": null
+      },
+      {
+        "region": "International (total, Rest of World)",
+        "pct": null,
+        "salary": 135000,
+        "mean": 139167
+      }
+    ],
+    "top_employers": [],
+    "top_employers_note": "Not published in the 2025 report."
+  },
+  "profile": {
+    "url": "https://www.gsb.stanford.edu/experience/about/school-profile",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2027",
+    "intl_pct": 38,
+    "intl_note": "includes foreign nationals, dual citizens and US permanent residents",
+    "avg_age": null,
+    "avg_work_exp_years": 5.3,
+    "women_pct": 45,
+    "gmat_median": null,
+    "note": "GMAT figures are on the JS-rendered class-profile page (not readable by curl)."
+  },
+  "rankings_cited": [],
+  "rankings_note": "Stanford GSB did not participate in the FT Global MBA 2026 (GMAC: 'did not appear in the ranking for the second consecutive year after deciding not to participate'): https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking",
+  "notes": "Employment figures from the official PDF (CSEA Standards Edition VI, graduates in the 12 months ending June 30, 2025)."
+}

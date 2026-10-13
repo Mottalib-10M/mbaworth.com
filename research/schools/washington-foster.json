@@ -1,0 +1,63 @@
+{
+  "slug": "washington-foster",
+  "name": "Michael G. Foster School of Business, University of Washington",
+  "short": "Washington Foster",
+  "country": "US", "city": "Seattle", "region": "US",
+  "program": {"length_months": 21, "format": "2-year (quarters)",
+    "class_size": {"value": 102, "cohort": "Class of 2027", "url": "https://foster.uw.edu/wp-content/uploads/2026/02/2026-full-time-mba-class-profile-FINAL-web.pdf", "read_on": "2026-10-13"}},
+  "tuition_total": {"value": 120360, "currency": "USD", "period": "full program (6 quarters)", "cohort": "2026-2027 entering, non-resident and international", "url": "https://foster.uw.edu/academics/degree-programs/full-time-mba/tuition-and-fees/", "read_on": "2026-10-13",
+    "note": "School: total estimated program cost (tuition & fees) $122,778 non-resident / $87,414 Washington resident for 2026-27; per quarter non-resident $20,060 tuition + $403 fees (x 6 quarters = $120,360 tuition + $2,418 fees). Same tuition rate for both years of a cohort."},
+  "mandatory_fees_total": {"value": 3068, "currency": "USD", "period": "full program", "url": "https://foster.uw.edu/academics/degree-programs/full-time-mba/tuition-and-fees/", "read_on": "2026-10-13",
+    "note": "$403/quarter x 6 = $2,418 university fees, plus MBA Association dues $450 and estimated club dues $200 (once for two years). Orientation fee not quantified."},
+  "living_budget_total": {"value": 82168, "annual_value": 41084, "currency": "USD", "period": "2 x 12-month estimate", "basis": "school budget", "url": "https://foster.uw.edu/academics/degree-programs/full-time-mba/tuition-and-fees/", "read_on": "2026-10-13",
+    "detail_per_12_months": {"room_board": 30932, "books": 1100, "local_transportation": 2108, "personal": 3344, "health": 3600},
+    "note": "School gives estimated annual (12-month) costs; two 12-month years computed by us (the program itself is about 21 months, so this is an upper estimate). Basis differs from schools that publish 9-month academic-year budgets."},
+  "scholarship": {"value": null, "currency": "USD", "pct_receiving": null, "type": "merit (automatic) and need-based (FAFSA)", "url": "https://foster.uw.edu/academics/degree-programs/full-time-mba/tuition-and-fees/", "read_on": "2026-10-13",
+    "note": "No average award or share of class published on the page."},
+  "employment": {
+    "report_url": "https://foster.uw.edu/wp-content/uploads/2026/04/2026-Full-Time-MBA-Employment-Report-4.2.26.pdf",
+    "url": "https://foster.uw.edu/wp-content/uploads/2026/04/2026-Full-Time-MBA-Employment-Report-4.2.26.pdf", "read_on": "2026-10-13",
+    "summary_url": "https://foster.uw.edu/wp-content/uploads/2026/02/2026-full-time-mba-class-profile-FINAL-web.pdf",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "response_rate": null, "employed_3m_pct": 77.9, "accepted_3m_pct": null,
+    "base_salary": {"value": 142800, "currency": "USD", "stat": "median", "mean": 144411},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": 69, "note": "Only the share receiving a bonus (69%) is published; no amount."},
+    "internship_monthly": {"value": 9966, "stat": "median", "mean": 9550, "cohort": "Class of 2026"},
+    "by_industry": [
+      {"industry": "tech", "sub": "Technology", "pct": 40.5, "salary": 142800, "stat": "median", "mean": 143528},
+      {"industry": "consulting", "sub": "Consulting", "pct": 25.7, "salary": 175000, "stat": "median", "mean": 165444},
+      {"industry": "consumer", "sub": "Retail", "pct": 10.8, "salary": 135000, "stat": "median", "mean": 126443},
+      {"industry": "finance", "sub": "Financial Services", "pct": 5.4, "salary": 119000, "stat": "median", "mean": 120750},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 5.4, "salary": 135000, "stat": "median", "mean": 134667},
+      {"industry": "healthcare", "sub": "Healthcare", "pct": 2.7, "salary": null, "stat": "I/D"},
+      {"industry": "consumer", "sub": "Consumer Products", "pct": 1.4, "salary": null, "stat": "I/D"},
+      {"industry": "nonprofit", "sub": "Government", "pct": 1.4, "salary": null, "stat": "I/D"},
+      {"industry": "other", "sub": "Media/Entertainment", "pct": 1.4, "salary": null, "stat": "I/D"},
+      {"industry": "other", "sub": "Other", "pct": 5.4, "salary": null, "stat": "I/D"}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 29.7, "salary": 175000, "stat": "median"},
+      {"function": "Marketing/Sales", "pct": 27.0, "salary": 135000, "stat": "median"},
+      {"function": "General Management", "pct": 17.6, "salary": 142800, "stat": "median"},
+      {"function": "Finance/Accounting", "pct": 13.5, "salary": 135000, "stat": "median"},
+      {"function": "Operations/Logistics", "pct": 9.5, "salary": 142650, "stat": "median"},
+      {"function": "Information Technology", "pct": 2.7, "salary": null, "stat": "I/D"}
+    ],
+    "by_geography": [
+      {"region": "US West", "pct": 84, "salary": null, "stat": null, "note": "Washington State"},
+      {"region": "Other (outside Washington State)", "pct": 16, "salary": null, "stat": null}
+    ],
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Microsoft Corporation", "hires": null}, {"name": "Google", "hires": null},
+      {"name": "Apple", "hires": null}, {"name": "Adobe", "hires": null}, {"name": "McKinsey & Company", "hires": null},
+      {"name": "The Boston Consulting Group", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "Kearney", "hires": null},
+      {"name": "Boeing", "hires": null}, {"name": "Nike", "hires": null}, {"name": "Goldman Sachs", "hires": null}
+    ],
+    "notes": "CSEA tables: 106 graduates, 95 seeking (55 non-permanent work authorization); offers 66.3% by graduation + 11.6% by 3 months = 77.9% (summary page rounds to 78%); acceptance timing not published. 66 of 74 accepting reported salary. Geography: only 'Employment location: 84% Washington State, 16% Other' (summary sheet); no regional salaries. Employer list (alphabetical) without hire counts. An earlier March 2026 PDF labelled 'Class of 2026' carries the same tables (labelling error noted by search); April 2026 version labelled Class of 2025 used."
+  },
+  "profile": {"intl_pct": 56, "avg_age": 29, "avg_work_exp_years": 6, "women_pct": 51, "gmat_median": 655, "gpa_median": 3.4,
+    "cohort": "Class of 2027 (intl_pct and work experience: Classes of 2026 & 2027)", "url": "https://foster.uw.edu/wp-content/uploads/2026/02/2026-full-time-mba-class-profile-FINAL-web.pdf", "read_on": "2026-10-13",
+    "note": "Median GMAT 655 (mid-80% 615-695); GRE V 160 / Q 158 medians; 24% US military. 'Geographic reach' 27% WA / 17% other US / 56% international is printed under the Classes of 2026 & 2027 block; read as international share (to confirm)."},
+  "rankings_cited": [],
+  "notes": "FT Global MBA 2026 rank not found. PDFs saved in research/sources/amerique/washington-foster-*.pdf."
+}

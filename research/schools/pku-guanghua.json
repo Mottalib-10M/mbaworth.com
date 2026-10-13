@@ -1,0 +1,40 @@
+{
+  "slug": "pku-guanghua",
+  "name": "Guanghua School of Management, Peking University (Guanghua Global MBA)",
+  "short": "Peking Guanghua",
+  "country": "CN",
+  "city": "Beijing",
+  "region": "Asia",
+  "program": {
+    "length_months": 24,
+    "format": "2-year full-time Global MBA, English-taught, September intake",
+    "url": "https://isd.pku.edu.cn/en/detail.php?id=767",
+    "read_on": "2026-10-13",
+    "class_size": {"value": null, "cohort": null, "url": "https://en.gsm.pku.edu.cn/mba/Our_People/Students/Class_Statistics.htm", "read_on": "2026-10-13", "note": "Class size not published."}
+  },
+  "tuition_total": {"value": 188000, "currency": "CNY", "period": "full program", "cohort": "2026 fall intake", "url": "https://en.gsm.pku.edu.cn/mba/Admissions/Overseas_Application/Tuition_and_Scholarships.htm", "read_on": "2026-10-13", "note": "'Guanghua Global MBA Program (Full-time / Taught in English) Tuition: 188,000 RMB for the whole program'. Same figure on the PKU 2026 admission notice (https://isd.pku.edu.cn/en/detail.php?id=767). Part-time Chinese-taught MBA: RMB 428,000."},
+  "mandatory_fees_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": "2026 fall intake", "url": "https://isd.pku.edu.cn/en/detail.php?id=767", "read_on": "2026-10-13", "note": "No other mandatory fee listed; non-refundable application fee RMB 800."},
+  "living_budget_total": {"value": null, "currency": "CNY", "period": "full program", "cohort": null, "basis": null, "url": "https://isd.pku.edu.cn/en/detail.php?id=767", "read_on": "2026-10-13", "note": "No living budget or accommodation cost published on the pages read."},
+  "scholarship": {"value": null, "currency": "CNY", "stat": null, "pct_receiving": null, "cohort": "2026 intake", "url": "https://en.gsm.pku.edu.cn/mba/Admissions/Overseas_Application/Tuition_and_Scholarships.htm", "read_on": "2026-10-13", "note": "Guanghua Excellence Scholarship up to RMB 188,000 (full tuition waiver); Beijing Municipal Government Scholarship RMB 10,000-50,000; Need-Based Scholarship RMB 50,000-100,000; Female Leadership Scholarship RMB 50,000-100,000; CSR scholarship (amount not read). Share of students aided not published."},
+  "employment": {
+    "report_url": null,
+    "url": "https://en.gsm.pku.edu.cn/cdc/Recruiters/Report.htm",
+    "read_on": "2026-10-13",
+    "cohort": null,
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "base_salary": {"value": null, "currency": "CNY", "stat": null},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [],
+    "top_employers": [],
+    "notes": "No current employment report published. The English CDC 'Report' page only links 2018 and 2019 reports (EmploymentRepEN2019.pdf, 21 MB; download truncated, and too old to use). The Chinese CDC page 'jiuye baogao' (https://www.gsm.pku.edu.cn/cdc/gzfw/jybg.htm) lists 0 reports. Career Prospects page gives no figures. Not usable for ROI until a report is found (possibly on the school's WeChat account, not readable here)."
+  },
+  "profile": {"intl_pct": null, "avg_age": 29, "avg_work_exp_years": 6, "women_pct": null, "gmat_median": null, "cohort": "current Global MBA students (year not stated)", "url": "https://en.gsm.pku.edu.cn/mba/Our_People/Students/Class_Statistics.htm", "read_on": "2026-10-13", "note": "Read from an infographic image on the page: 15+ countries and regions, 6 years average work experience, 29 average age; 73% bachelor's / 27% master's; pre-MBA industry: finance/banking/securities/VC/insurance 43%, electronics/IT/internet 18%, consulting/training/legal 15%, construction/real estate 7%, manufacturing 5%, transport/logistics 3%, aerospace 3%, healthcare 3%, retail 3%."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 14, "url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/", "read_on": "2026-10-13", "note": "No school page found; rank 14 from a ClearAdmit FT 2026 table (and Poets&Quants, 2026-02-18) seen via search/WebFetch. Third-party extract: re-check on an official school page if possible."}],
+  "notes": "Global MBA is a small English-taught track; the large Chinese-taught MBA is a separate programme."
+}

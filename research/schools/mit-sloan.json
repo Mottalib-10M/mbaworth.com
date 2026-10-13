@@ -1,0 +1,539 @@
+{
+  "slug": "mit-sloan",
+  "name": "MIT Sloan School of Management",
+  "short": "MIT Sloan",
+  "country": "US",
+  "city": "Cambridge",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "length_note": "school: 'A full-time, two-year MBA program'; months derived",
+    "class_size": {
+      "value": 433,
+      "cohort": "Class of 2026 (number of candidates, from the 2025-2026 report internship section)",
+      "note": "Class of 2025: 409 MBA candidates incl. 53 LGO. Class of 2028 profile page is JS-rendered (not readable).",
+      "url": "https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2026/03/2025-2026-MBA-Employment-Report.pdf",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 183784,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2026-27 tuition $91,892 (includes mandatory $2,200 annual MBA program fee) x 2",
+    "annual": 91892,
+    "cohort": "2026-27",
+    "url": "https://mitsloan.mit.edu/mba/admissions/financing-your-education",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 840,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "MIT student fees $420 per year x 2 (the $2,200 MBA program fee is already inside tuition)",
+    "url": "https://sfs.mit.edu/graduate-students/cost-of-attendance/grad-cost-of-attendance/",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 83754,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x 9-month MIT graduate budget 2026-27: housing $17,100 + food $7,830 + books $1,161 + personal $7,794 + transportation $2,844 + MIT health insurance $5,148 = $41,877",
+    "basis": "school budget",
+    "annual": 41877,
+    "note": "MIT Student Financial Services graduate budget (not Sloan-specific; ignore its tuition line per Sloan). Health insurance counted only if enrolled in MIT plan. First-year computer allowance $2,400 not included.",
+    "url": "https://sfs.mit.edu/graduate-students/cost-of-attendance/grad-cost-of-attendance/",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "note": "Fellowships awarded automatically after admission; no average amount published. Yellow Ribbon: $25,000 scholarships matched by $25,000 from the VA for eligible US veterans.",
+    "url": "https://mitsloan.mit.edu/mba/admissions/fellowships-assistantships",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2026/03/2025-2026-MBA-Employment-Report.pdf",
+    "cohort": "Class of 2025",
+    "standard": "MBA CSEA",
+    "url": "https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2026/03/2025-2026-MBA-Employment-Report.pdf",
+    "read_on": "2026-10-13",
+    "graduates": 396,
+    "seeking_pct": 64.6,
+    "response_rate": 99.2,
+    "employed_3m_pct": null,
+    "offers_3m_pct": 91.0,
+    "accepted_3m_pct": 87.1,
+    "employment_note": "By 3 months (MBA CSEA deadline Aug 30, 2025): 91.0% received and 87.1% accepted offers; 94.1% with offers at publication. Not seeking: 18.7% sponsored/returning, 11.1% started a business.",
+    "base_salary": {
+      "value": 175000,
+      "currency": "USD",
+      "stat": "median",
+      "mean": 173132,
+      "p25": 154000,
+      "p75": 192000
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "mean": 40192,
+      "pct_receiving": 67.5
+    },
+    "other_compensation": {
+      "value": 24350,
+      "stat": "median",
+      "mean": 85149,
+      "pct_receiving": 57.0
+    },
+    "internship_monthly": {
+      "value": 9586,
+      "currency": "USD",
+      "stat": "median",
+      "p25": 7475,
+      "p75": 13480,
+      "cohort": "Class of 2026 internships",
+      "note": "PDF layout garbled ('$7,475K $13,480K ... 25th $9,586 75th'); median read as $9,586 with p25 $7,475 and p75 $13,480 - re-read visually",
+      "url": "https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2026/03/2025-2026-MBA-Employment-Report.pdf",
+      "read_on": "2026-10-13"
+    },
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 32.3,
+        "salary": 190000,
+        "stat": "median",
+        "mean": 183928,
+        "p25": 190000,
+        "p75": 192000
+      },
+      {
+        "industry": "finance",
+        "sub": "Finance (total)",
+        "pct": 20.6,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 168402,
+        "p25": 150000,
+        "p75": 180000
+      },
+      {
+        "industry": "finance",
+        "sub": "Diversified Financial Services",
+        "pct": 4.9,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 168611,
+        "p25": 155000,
+        "p75": 178500
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking (Investment Banking/Brokerage)",
+        "pct": 3.6,
+        "salary": 175000,
+        "stat": "median",
+        "mean": 176250,
+        "p25": 175000,
+        "p75": 175000
+      },
+      {
+        "industry": "finance",
+        "sub": "asset management (Investment Management)",
+        "pct": 4.5,
+        "salary": 165000,
+        "stat": "median",
+        "mean": 161667,
+        "p25": 150000,
+        "p75": 175000
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity",
+        "pct": 3.1,
+        "salary": 182500,
+        "stat": "median",
+        "mean": 194500,
+        "p25": 150000,
+        "p75": 235250
+      },
+      {
+        "industry": "finance",
+        "sub": "venture capital",
+        "pct": 2.2,
+        "salary": 140000,
+        "stat": "median",
+        "mean": 166000,
+        "p25": 120000,
+        "p75": 170000
+      },
+      {
+        "industry": "finance",
+        "sub": "fintech",
+        "pct": 1.8,
+        "salary": 165000,
+        "stat": "median",
+        "mean": 160000,
+        "p25": 147500,
+        "p75": 175000
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology (total)",
+        "pct": 23.3,
+        "salary": 165000,
+        "stat": "median",
+        "mean": 169849,
+        "p25": 154250,
+        "p75": 183500
+      },
+      {
+        "industry": "tech",
+        "sub": "Software/Internet",
+        "pct": 17.5,
+        "salary": 169000,
+        "stat": "median",
+        "mean": 167669,
+        "p25": 150000,
+        "p75": 183000
+      },
+      {
+        "industry": "tech",
+        "sub": "Computers/Electronics/Telecom",
+        "pct": 5.8,
+        "salary": 165000,
+        "stat": "median",
+        "mean": 177182,
+        "p25": 165000,
+        "p75": 192500
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare/Pharma/Biotech",
+        "pct": 8.1,
+        "salary": 160000,
+        "stat": "median",
+        "mean": 167853,
+        "p25": 135000,
+        "p75": 200000
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy",
+        "pct": 3.1,
+        "salary": 170000,
+        "stat": "median",
+        "mean": 161000,
+        "p25": 145000,
+        "p75": 175000
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail/CPG",
+        "pct": 3.6,
+        "salary": 145000,
+        "stat": "median",
+        "mean": 140000,
+        "p25": 133500,
+        "p75": 151750
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Auto/Aerospace",
+        "pct": 2.2,
+        "salary": 160000,
+        "stat": "median",
+        "mean": 159000,
+        "p25": 151000,
+        "p75": 167500
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Other Manufacturing (transportation, equipment, defense, warehouse automation)",
+        "pct": 2.7,
+        "salary": 180000,
+        "stat": "median",
+        "mean": 200600,
+        "p25": 173000,
+        "p75": 235000
+      },
+      {
+        "industry": "other",
+        "sub": "Media/Entertainment/Sports",
+        "pct": 0.9,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "other",
+        "sub": "Other Service Industries",
+        "pct": 1.7,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Education",
+        "pct": 0.5,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Government",
+        "pct": 0.5,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Nonprofit",
+        "pct": 0.5,
+        "salary": null,
+        "stat": null,
+        "mean": null,
+        "p25": null,
+        "p75": null
+      }
+    ],
+    "by_function": [
+      {
+        "function": "Consulting/Strategic Planning",
+        "pct": 38.9,
+        "salary": 190000,
+        "mean": 178405
+      },
+      {
+        "function": "Finance",
+        "pct": 15.9,
+        "salary": 175000,
+        "mean": 177233
+      },
+      {
+        "function": "Investment Banking",
+        "pct": 5.0,
+        "salary": 175000,
+        "mean": 175909
+      },
+      {
+        "function": "Private Equity",
+        "pct": 4.0,
+        "salary": 192500,
+        "mean": 195875
+      },
+      {
+        "function": "Asset Management/Portfolio Management",
+        "pct": 2.3,
+        "salary": 172500,
+        "mean": 162500
+      },
+      {
+        "function": "Venture Capital",
+        "pct": 2.3,
+        "salary": 150000,
+        "mean": 176000
+      },
+      {
+        "function": "Product Management/Development",
+        "pct": 13.6,
+        "salary": 178000,
+        "mean": 170940
+      },
+      {
+        "function": "Business Development",
+        "pct": 8.1,
+        "salary": 170000,
+        "mean": 161300
+      },
+      {
+        "function": "Operations/Project Management",
+        "pct": 8.1,
+        "salary": 160000,
+        "mean": 164367
+      },
+      {
+        "function": "General Management/Leadership Development Program",
+        "pct": 6.3,
+        "salary": 165000,
+        "mean": 169727
+      },
+      {
+        "function": "Business Analytics",
+        "pct": 3.7,
+        "salary": 165000,
+        "mean": 155714
+      },
+      {
+        "function": "Marketing",
+        "pct": 2.3,
+        "salary": 145500,
+        "mean": 153500
+      },
+      {
+        "function": "Other Function",
+        "pct": 3.1,
+        "salary": 180000,
+        "mean": 181000
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US Northeast",
+        "pct": 52.3,
+        "salary": 175000,
+        "mean": 173046,
+        "detail": "Boston 25.5% ($175,000); New York 23.6% ($175,000)"
+      },
+      {
+        "region": "US West",
+        "pct": 21.8,
+        "salary": 180000,
+        "mean": 181651,
+        "detail": "SF Bay Area 13.2% ($175,000); Los Angeles 5.9% ($190,000); Seattle 0.9%"
+      },
+      {
+        "region": "US South",
+        "pct": 5.9,
+        "salary": 180000,
+        "mean": 171538,
+        "detail": "Miami 1.8% ($190,000); Atlanta 1.8% ($191,000)"
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 5.0,
+        "salary": 191000,
+        "mean": 187400,
+        "detail": "Washington DC 3.6% ($192,000)"
+      },
+      {
+        "region": "US Southwest",
+        "pct": 5.0,
+        "salary": 180000,
+        "mean": 185500
+      },
+      {
+        "region": "US Midwest",
+        "pct": 2.3,
+        "salary": 190000,
+        "mean": 177333,
+        "detail": "Chicago 0.5%"
+      },
+      {
+        "region": "US (total)",
+        "pct": 92.3,
+        "salary": 180000,
+        "mean": 176524
+      },
+      {
+        "region": "Canada",
+        "pct": 0.9,
+        "salary": null,
+        "mean": null
+      },
+      {
+        "region": "Latin America",
+        "pct": 1.8,
+        "salary": 100000,
+        "mean": 100667,
+        "detail": "plus Mexico 0.9%"
+      },
+      {
+        "region": "Asia",
+        "pct": 2.3,
+        "salary": 110000,
+        "mean": 106000
+      },
+      {
+        "region": "Europe",
+        "pct": 1.3,
+        "salary": 140000,
+        "mean": 170667
+      },
+      {
+        "region": "Africa",
+        "pct": 0.5,
+        "salary": null,
+        "mean": null
+      }
+    ],
+    "top_employers": [
+      {
+        "name": "Boston Consulting Group",
+        "hires": 26
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": 20
+      },
+      {
+        "name": "Amazon",
+        "hires": 12
+      },
+      {
+        "name": "Bain & Company",
+        "hires": 12
+      },
+      {
+        "name": "Verizon",
+        "hires": 7
+      },
+      {
+        "name": "Strategy&",
+        "hires": 5
+      },
+      {
+        "name": "Apple",
+        "hires": 3
+      },
+      {
+        "name": "JP Morgan Chase & Co.",
+        "hires": 3
+      },
+      {
+        "name": "Microsoft",
+        "hires": 3
+      },
+      {
+        "name": "Moderna",
+        "hires": 3
+      },
+      {
+        "name": "NextEra Energy",
+        "hires": 3
+      }
+    ]
+  },
+  "profile": {
+    "url": "https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2026/03/2025-2026-MBA-Employment-Report.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025 (at matriculation, includes LGO)",
+    "intl_pct": 40,
+    "avg_age": null,
+    "avg_work_exp_years": 5,
+    "women_pct": 46,
+    "gmat_median": 730,
+    "note": "Class of 2026: 433 candidates, 40% international, median GMAT 730 (same report). Class of 2028 profile page not machine-readable."
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 1,
+      "url": "https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking",
+      "source_note": "GMAC: 'MIT Sloan School of Management is the best business school in the world in 2026'",
+      "read_on": "2026-10-13"
+    }
+  ],
+  "notes": "2025-2026 MBA Employment Report = Class of 2025 full-time + Class of 2026 internships."
+}

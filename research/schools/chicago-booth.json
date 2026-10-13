@@ -1,0 +1,540 @@
+{
+  "slug": "chicago-booth",
+  "name": "The University of Chicago Booth School of Business",
+  "short": "Chicago Booth",
+  "country": "US",
+  "city": "Chicago",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "length_note": "school: 'two-year experience'; months derived",
+    "class_size": {
+      "value": 635,
+      "cohort": "Class of 2027 (Full-Time MBA students; 5,876 applications)",
+      "url": "https://www.chicagobooth.edu/mba/full-time/admissions/class-profile",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 179952,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2026-27 tuition $89,976 per academic year (three quarters) x 2; tuition for 2027-28 to be released in Spring 2027",
+    "annual": 89976,
+    "cohort": "MBA Class of 2028, 2026-27",
+    "url": "https://www.chicagobooth.edu/mba/full-time/admissions/cost",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 6304,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "student services fee $1,560 x 2 + administrative service fee $3,100 (first year only) + lifetime transcript fee $84",
+    "url": "https://www.chicagobooth.edu/mba/full-time/admissions/cost",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 72258,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x (housing & food $26,010 + misc. personal $7,770 + transportation $1,800 + books $549) + computer allowance $1,600 (first year only)",
+    "basis": "school budget",
+    "annual_first_year": 37729,
+    "total_cost_of_attendance_first_year": 132449,
+    "note": "Misc. personal expenses include University health insurance rates (estimated, to be determined). 9-month budget.",
+    "url": "https://www.chicagobooth.edu/mba/full-time/admissions/cost",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": null,
+    "note": "Merit-based scholarships and fellowships offered; no average amount or share of class published on the page.",
+    "url": "https://www.chicagobooth.edu/mba/full-time/admissions/scholarships-and-aid",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://www.chicagobooth.edu/employmentreport",
+    "report_file": "https://www.chicagobooth.edu/boothsitecore/docs/2024-2025_Employment_Statistics_Full-Time.xls",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "url": "https://www.chicagobooth.edu/boothsitecore/docs/2024-2025_Employment_Statistics_Full-Time.xls",
+    "read_on": "2026-10-13",
+    "standard_note": "Booth's spreadsheet 'Employment Statistics 2024-2025' (graduates Aug 2024, Dec 2024, Mar 2025, Jun 2025). MBA CSEA not named in the file.",
+    "graduates": 663,
+    "seeking_pct": 80.5,
+    "response_rate": 96.8,
+    "response_note": "3.2% (21) not responding to survey",
+    "employed_3m_pct": null,
+    "offers_3m_pct": 89.1,
+    "accepted_3m_pct": 87.8,
+    "employment_note": "Of those seeking: 89.1% had offers and 87.8% accepted by 3 months post-graduation. Not seeking 16.3%: sponsored 8.6%, starting own business 5.7%. 4% of accepted offers with start-ups.",
+    "base_salary": {
+      "value": 175000,
+      "currency": "USD",
+      "stat": "median",
+      "min": 70000,
+      "max": 400000
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "pct_receiving": 65,
+      "pct_note": "of accepted offers"
+    },
+    "internship_monthly": {
+      "value": 12000,
+      "currency": "USD",
+      "stat": "median",
+      "cohort": "Class of 2026 interns (summer 2025)",
+      "note": "school article: 'Monthly base salaries for interns rose to $12,000'",
+      "url": "https://www.chicagobooth.edu/why-booth/stories/mba-employment-report-2025",
+      "read_on": "2026-10-13"
+    },
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 36.7,
+        "salary": 190000,
+        "stat": "median",
+        "hires": 172
+      },
+      {
+        "industry": "finance",
+        "sub": "Financial Services (total)",
+        "pct": 31.6,
+        "salary": 175000,
+        "stat": "median",
+        "hires": 148
+      },
+      {
+        "industry": "finance",
+        "sub": "Diversified Financial Services",
+        "pct": 9.0,
+        "salary": 175000,
+        "stat": "median",
+        "hires": 42
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking (Investment Banking/Brokerage)",
+        "pct": 8.3,
+        "salary": 175000,
+        "stat": "median",
+        "hires": 39
+      },
+      {
+        "industry": "finance",
+        "sub": "asset management (Investment Management/Research)",
+        "pct": 5.3,
+        "salary": 165000,
+        "stat": "median",
+        "hires": 25
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity",
+        "pct": 5.3,
+        "salary": 175000,
+        "stat": "median",
+        "hires": 25
+      },
+      {
+        "industry": "finance",
+        "sub": "venture capital",
+        "pct": 1.5,
+        "salary": 130000,
+        "stat": "median",
+        "hires": 7
+      },
+      {
+        "industry": "finance",
+        "sub": "insurance",
+        "pct": 1.5,
+        "salary": 150000,
+        "stat": "median",
+        "hires": 7
+      },
+      {
+        "industry": "finance",
+        "sub": "hedge funds",
+        "pct": 0.4,
+        "salary": null,
+        "stat": null,
+        "hires": 2
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology (total)",
+        "pct": 14.1,
+        "salary": 151000,
+        "stat": "median",
+        "hires": 66
+      },
+      {
+        "industry": "tech",
+        "sub": "Ecommerce & Internet",
+        "pct": 7.9,
+        "salary": 149000,
+        "stat": "median",
+        "hires": 37
+      },
+      {
+        "industry": "tech",
+        "sub": "Software",
+        "pct": 3.4,
+        "salary": 152000,
+        "stat": "median",
+        "hires": 16
+      },
+      {
+        "industry": "tech",
+        "sub": "Hardware",
+        "pct": 1.5,
+        "salary": 186000,
+        "stat": "median",
+        "hires": 7
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare (total)",
+        "pct": 4.1,
+        "salary": 145000,
+        "stat": "median",
+        "hires": 19
+      },
+      {
+        "industry": "other",
+        "sub": "Law",
+        "pct": 4.5,
+        "salary": 225000,
+        "stat": "median",
+        "hires": 21
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Education/Government/Non-Profit",
+        "pct": 1.9,
+        "salary": 117850,
+        "stat": "median",
+        "hires": 9
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Products",
+        "pct": 1.7,
+        "salary": 128000,
+        "stat": "median",
+        "hires": 8
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": 0.4,
+        "salary": null,
+        "stat": null,
+        "hires": 2
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 1.3,
+        "salary": 160000,
+        "stat": "median",
+        "hires": 6
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy - Clean Tech/Renewables",
+        "pct": 0.6,
+        "salary": null,
+        "stat": null,
+        "hires": 3
+      },
+      {
+        "industry": "other",
+        "sub": "Real Estate",
+        "pct": 0.9,
+        "salary": null,
+        "stat": null,
+        "hires": 4
+      },
+      {
+        "industry": "other",
+        "sub": "Travel and Transportation",
+        "pct": 0.9,
+        "salary": null,
+        "stat": null,
+        "hires": 4
+      },
+      {
+        "industry": "other",
+        "sub": "Media/Entertainment/Sports",
+        "pct": 0.6,
+        "salary": null,
+        "stat": null,
+        "hires": 3
+      }
+    ],
+    "by_industry_note": "469 accepted offers; percentages rounded to 0.1 from the school file. Salary = median base; null where 'Insufficient data'.",
+    "by_function": [
+      {
+        "function": "Consulting",
+        "pct": 37.7,
+        "salary": 190000,
+        "hires": 177
+      },
+      {
+        "function": "Finance (total)",
+        "pct": 30.3,
+        "salary": 175000,
+        "hires": 142
+      },
+      {
+        "function": "Investment Banking",
+        "pct": 11.9,
+        "salary": 175000,
+        "hires": 56
+      },
+      {
+        "function": "Investment Management/Research",
+        "pct": 5.8,
+        "salary": 165000,
+        "hires": 27
+      },
+      {
+        "function": "Private Equity",
+        "pct": 5.5,
+        "salary": 175000,
+        "hires": 26
+      },
+      {
+        "function": "Venture Capital",
+        "pct": 1.9,
+        "salary": 140000,
+        "hires": 9
+      },
+      {
+        "function": "Company Finance (Analysis/Treasury)",
+        "pct": 2.1,
+        "salary": 140000,
+        "hires": 10
+      },
+      {
+        "function": "Real Estate",
+        "pct": 1.3,
+        "salary": 145000,
+        "hires": 6
+      },
+      {
+        "function": "General Management",
+        "pct": 7.7,
+        "salary": 147500,
+        "hires": 36
+      },
+      {
+        "function": "Corporate Strategy/Strategic Planning",
+        "pct": 6.2,
+        "salary": 160000,
+        "hires": 29
+      },
+      {
+        "function": "Product Management (Tech)",
+        "pct": 5.1,
+        "salary": 180000,
+        "hires": 24
+      },
+      {
+        "function": "Law",
+        "pct": 4.7,
+        "salary": 225000,
+        "hires": 22
+      },
+      {
+        "function": "Marketing",
+        "pct": 2.6,
+        "salary": 128000,
+        "hires": 12
+      },
+      {
+        "function": "Business Development",
+        "pct": 2.3,
+        "salary": null,
+        "hires": 11
+      },
+      {
+        "function": "Operations - Production/Supply Chain/Logistics",
+        "pct": 1.7,
+        "salary": 155000,
+        "hires": 8
+      },
+      {
+        "function": "Analytics/Data Science",
+        "pct": 0.9,
+        "salary": null,
+        "hires": 4
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US Midwest",
+        "pct": 32.2,
+        "salary": 180000,
+        "detail": "Chicago 30.7% ($180,000)"
+      },
+      {
+        "region": "US Northeast",
+        "pct": 29.0,
+        "salary": 175000,
+        "detail": "New York 26.7% ($175,000); Boston 2.1% ($170,000)"
+      },
+      {
+        "region": "US West",
+        "pct": 19.6,
+        "salary": 180000,
+        "detail": "Bay Area 11.3% ($185,500); Seattle 3.6% ($148,000); Los Angeles 3.2% ($180,000)"
+      },
+      {
+        "region": "US Southwest",
+        "pct": 4.7,
+        "salary": 190000,
+        "detail": "Dallas 1.7% ($190,000); Denver, Houston 1.1% ($191,000)"
+      },
+      {
+        "region": "US South",
+        "pct": 4.7,
+        "salary": 170000,
+        "detail": "Miami 1.7% ($182,500); Atlanta 1.3% ($177,500)"
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 4.7,
+        "salary": 165000,
+        "detail": "Washington DC 3.0% ($172,000)"
+      },
+      {
+        "region": "US (total)",
+        "pct": 94.9,
+        "salary": 175000
+      },
+      {
+        "region": "International (total)",
+        "pct": 5.1,
+        "salary": 134218.5
+      },
+      {
+        "region": "Latin America",
+        "pct": 2.1,
+        "salary": 90000,
+        "detail": "Latin America and the Caribbean"
+      },
+      {
+        "region": "Asia",
+        "pct": 1.3,
+        "salary": 150000
+      },
+      {
+        "region": "Europe",
+        "pct": 0.9,
+        "salary": null
+      },
+      {
+        "region": "Canada",
+        "pct": 0.4,
+        "salary": null
+      },
+      {
+        "region": "Middle East",
+        "pct": 0.4,
+        "salary": null,
+        "detail": "Middle East and North Africa"
+      }
+    ],
+    "top_employers": [
+      {
+        "name": "Boston Consulting Group",
+        "hires": 52
+      },
+      {
+        "name": "McKinsey & Company",
+        "hires": 35
+      },
+      {
+        "name": "Bain & Company",
+        "hires": 30
+      },
+      {
+        "name": "Amazon",
+        "hires": 20
+      },
+      {
+        "name": "Goldman Sachs",
+        "hires": 11
+      },
+      {
+        "name": "JPMorgan Chase & Co.",
+        "hires": 11
+      },
+      {
+        "name": "Evercore",
+        "hires": 7
+      },
+      {
+        "name": "L.E.K. Consulting",
+        "hires": 7
+      },
+      {
+        "name": "PwC Strategy&",
+        "hires": 7
+      },
+      {
+        "name": "Google",
+        "hires": 6
+      },
+      {
+        "name": "Accenture",
+        "hires": 5
+      },
+      {
+        "name": "Capital One",
+        "hires": 5
+      },
+      {
+        "name": "EY-Parthenon",
+        "hires": 5
+      },
+      {
+        "name": "Kearney",
+        "hires": 5
+      }
+    ]
+  },
+  "profile": {
+    "url": "https://www.chicagobooth.edu/mba/full-time/admissions/class-profile",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2027",
+    "intl_pct": 37,
+    "avg_age": null,
+    "avg_work_exp_years": 5,
+    "women_pct": 41,
+    "gmat_median": 740,
+    "gmat_median_note": "GMAT (10th edition) median 740, average 736 (14% submitted); GMAT Focus median 675, average 670 (39% submitted); layout of the page is a graphic list, read from text.",
+    "class_of_2025_profile": {
+      "mean_age": 28,
+      "mean_work_exp": 5,
+      "female_pct": 42,
+      "intl_pct": 36,
+      "url": "https://www.chicagobooth.edu/boothsitecore/docs/2024-2025_Employment_Statistics_Full-Time.xls"
+    }
+  },
+  "rankings_cited": [
+    {
+      "ranking": "FT Global MBA 2026",
+      "rank": 20,
+      "url": "https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking",
+      "source_note": "GMAC: 'Chicago Booth School of Business dropped three places to 20th'",
+      "read_on": "2026-10-13"
+    }
+  ],
+  "notes": "Employment data from Booth's official downloadable spreadsheet (saved in sources/amerique/chicago-booth-employment-statistics-2024-2025-full-time.xls)."
+}

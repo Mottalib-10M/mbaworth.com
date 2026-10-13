@@ -6,7 +6,7 @@
 @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/inter-var.woff2') format('woff2'); }
 @theme {
   --color-navy-50: #f8fafc; --color-navy-100: #f1f5f9; --color-navy-200: #e2e8f0; --color-navy-300: #cbd5e1; --color-navy-400: #94a3b8; --color-navy-500: #64748b; --color-navy-600: #475569; --color-navy-700: #334155; --color-navy-800: #1e293b; --color-navy-900: #0f172a; --color-navy-950: #020617;
-  --color-accent-50: #fbeef0; --color-accent-100: #f7dade; --color-accent-200: #eeb4bd; --color-accent-300: #e38291; --color-accent-400: #d85065; --color-accent-500: #9B2335; --color-accent-600: #841e2d; --color-accent-700: #6c1925; --color-accent-800: #57141e; --color-accent-900: #440f17;
+  --color-accent-50: #eefbfc; --color-accent-100: #d8f6f8; --color-accent-200: #b1edf2; --color-accent-300: #7ce1e8; --color-accent-400: #48d5df; --color-accent-500: #0F5257; --color-accent-600: #0d464a; --color-accent-700: #0a393d; --color-accent-800: #082e31; --color-accent-900: #072426;
   --color-success: #15803d; --color-warning: #b45309; --color-error: #dc2626;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;

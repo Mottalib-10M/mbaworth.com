@@ -1,0 +1,66 @@
+{
+  "slug": "washu-olin",
+  "name": "Olin Business School, Washington University in St. Louis",
+  "short": "WashU Olin",
+  "country": "US", "city": "St. Louis", "region": "US",
+  "program": {"length_months": 21, "format": "2-year (four semesters)",
+    "class_size": {"value": 95, "cohort": "typical cohort (average of Classes of 2025-2027)", "url": "https://olin.washu.edu/programs/mbas/full-time-mba/class-profile.php", "read_on": "2026-10-13", "note": "Read from image https://olin.washu.edu/_assets/images/miscellaneous/ftmba-class-profile/ftmba-top-stats-0.png ('95 Students in a Cohort')."}},
+  "tuition_total": {"value": 145400, "annual_value": 72700, "currency": "USD", "period": "full program", "cohort": "entering Fall 2026, graduating May 2028", "url": "https://olin.washu.edu/programs/mbas/full-time-mba/cost-aid-scholarships.php", "read_on": "2026-10-13",
+    "note": "School table: tuition $72,700 per year ($36,350/semester); school-stated total program cost $150,920 incl. fees ($37,730/semester x 4). School says tuition and fees typically rise 3-5% a year, so the total may increase."},
+  "mandatory_fees_total": {"value": 5520, "currency": "USD", "period": "full program (4 semesters)", "url": "https://olin.washu.edu/programs/mbas/full-time-mba/cost-aid-scholarships.php", "read_on": "2026-10-13",
+    "note": "Per semester 2026-27: program fee $900, student government $130, health and wellness $350 (= $1,380 x 4)."},
+  "living_budget_total": {"value": null, "currency": "USD", "basis": null, "url": "https://olin.washu.edu/programs/mbas/full-time-mba/cost-aid-scholarships.php", "read_on": "2026-10-13",
+    "note": "No official living-expense budget published on the Olin MBA cost page; not found elsewhere on official WashU pages in this pass."},
+  "scholarship": {"value": null, "currency": "USD", "pct_receiving": null, "type": "merit, automatic consideration; signature scholarships up to $100,000 (Health Leadership) / $60,000 (Entrepreneurial Leaders)", "url": "https://olin.washu.edu/programs/mbas/full-time-mba/cost-aid-scholarships.php", "read_on": "2026-10-13",
+    "note": "No average award or share of class published."},
+  "employment": {
+    "report_url": "https://olin.washu.edu/docs/programs/employment/mba-employment-report.pdf",
+    "url": "https://olin.washu.edu/docs/programs/employment/mba-employment-report.pdf", "read_on": "2026-10-13",
+    "cohort": "Class of 2024", "standard": "school",
+    "response_rate": null, "employed_3m_pct": 81, "accepted_3m_pct": 78,
+    "base_salary": {"value": 126000, "currency": "USD", "stat": "median", "mean": 126773},
+    "signing_bonus": {"value": null, "stat": "mean", "mean": 37748, "pct_receiving": null, "note": "29 of 41 salary reporters reported a signing bonus (computed share 71%, not printed)."},
+    "internship_monthly": {"value": 8200, "stat": "median", "cohort": "not stated", "url": "https://olin.washu.edu/programs/mbas/full-time-mba/career-prospects.php", "note": "Headline figure on career-prospects page; cohort not stated."},
+    "by_industry": [
+      {"industry": "finance", "sub": "Financial Services", "pct": 30.8, "salary": 120000, "stat": "median", "mean": 124500},
+      {"industry": "tech", "sub": "Technology", "pct": 30.8, "salary": 142000, "stat": "median", "mean": 136477},
+      {"industry": "healthcare", "sub": "Health Care", "pct": 9.6, "salary": 125000, "stat": "median", "mean": 122200},
+      {"industry": "consulting", "sub": "Consulting", "pct": 5.8, "salary": 90000, "stat": "median", "mean": 96667},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 5.8, "salary": 125000, "stat": "median", "mean": 123333},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 3.8, "salary": null, "stat": "<3 data points"},
+      {"industry": "energy", "sub": "Energy", "pct": 3.8, "salary": null, "stat": "<3 data points"},
+      {"industry": "nonprofit", "sub": "Government", "pct": 1.9, "salary": null, "stat": "<3 data points"},
+      {"industry": "other", "sub": "Real Estate", "pct": 1.9, "salary": null, "stat": "<3 data points"},
+      {"industry": "consumer", "sub": "Retail", "pct": 1.9, "salary": null, "stat": "<3 data points"},
+      {"industry": "other", "sub": "Other", "pct": 3.8, "salary": null, "stat": "<3 data points"}
+    ],
+    "by_function": [
+      {"function": "Finance/Accounting", "pct": 38.5, "salary": 134900, "stat": "median"},
+      {"function": "General Management", "pct": 17.3, "salary": 129000, "stat": "median"},
+      {"function": "Consulting", "pct": 15.4, "salary": 112000, "stat": "median"},
+      {"function": "Other", "pct": 11.5, "salary": 130000, "stat": "median"},
+      {"function": "Operations/Logistics", "pct": 9.6, "salary": 118000, "stat": "median"},
+      {"function": "Marketing/Sales", "pct": 7.7, "salary": 130000, "stat": "median"}
+    ],
+    "by_geography": [
+      {"region": "US Midwest", "pct": 35, "salary": 125000, "stat": "median"},
+      {"region": "US West", "pct": 23, "salary": 142800, "stat": "median"},
+      {"region": "US South", "pct": 17, "salary": 130000, "stat": "median"},
+      {"region": "US Northeast", "pct": 15, "salary": 129000, "stat": "median"},
+      {"region": "US Mid-Atlantic", "pct": 6, "salary": null, "stat": "<3 data points"},
+      {"region": "US Southwest", "pct": 4, "salary": null, "stat": "<3 data points"}
+    ],
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Apollo Global Management", "hires": null}, {"name": "Apple", "hires": null},
+      {"name": "Bank of America", "hires": null}, {"name": "Boeing", "hires": null}, {"name": "Capital One", "hires": null},
+      {"name": "EY-Parthenon", "hires": null}, {"name": "JPMorgan Chase & Co.", "hires": null}, {"name": "Mastercard", "hires": null},
+      {"name": "Microsoft", "hires": null}, {"name": "Moelis & Company", "hires": null}, {"name": "Roland Berger", "hires": null}
+    ],
+    "notes": "Latest official PDF found (2026-10-13) is the Full-Time MBA Class of 2024 report (image-only PDF, read visually). 91 graduates, 67 seeking; offers by 3 months 54 (81%), acceptances 52 (78%); 41 reported salary, 29 bonus. All 52 accepted jobs in North America (regional table covers 'North America'). Employer list has no hire counts. The career-prospects page shows '$130,000 median base salary' and an industry split (technology 29%, consulting 24%...) that do not match the Class of 2024 PDF and carry no class year; not used. Class of 2025 report not found - to re-check later. No CSEA conformity statement in the PDF."
+  },
+  "profile": {"intl_pct": 47, "avg_age": null, "avg_work_exp_years": 4.3, "women_pct": 44, "gmat_median": null, "gmat_mean": 702, "gpa_median": 3.6,
+    "cohort": "typical cohort (average of Classes of 2025, 2026, 2027)", "url": "https://olin.washu.edu/programs/mbas/full-time-mba/class-profile.php", "read_on": "2026-10-13",
+    "note": "Read from page images (ftmba-top-stats-0.png, four-medians.png): 95 students, 22 countries, 47% international, 44% female, 4.3 years experience, GMAT 702 average, GPA 3.6 median, GRE V 164 / Q 166 medians. Average age not published."},
+  "rankings_cited": [{"ranking": "FT Global MBA 2026", "rank": 37, "url": "https://find-mba.com/mba-rankings/financial-times-global-mba-2026", "read_on": "2026-10-13", "note": "third-party reproduction of FT list; not confirmed on an official school page"}],
+  "notes": "PDF saved as research/sources/amerique/washu-olin-employment-2024.pdf."
+}

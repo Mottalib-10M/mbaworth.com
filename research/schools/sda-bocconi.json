@@ -1,0 +1,411 @@
+{
+  "slug": "sda-bocconi",
+  "name": "SDA Bocconi School of Management",
+  "short": "SDA Bocconi",
+  "country": "IT",
+  "city": "Milan",
+  "region": "Europe",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "length_options": "12-15 months; start September 2027",
+    "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/",
+    "read_on": "2026-10-13",
+    "class_size": {
+      "value": 129,
+      "cohort": "Full-Time MBA 2025-2026",
+      "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/class-profile/",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 86000,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "Full-Time MBA 2027-2028",
+    "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/fees-and-scholarships/",
+    "read_on": "2026-10-13",
+    "notes": "VAT exempt; four instalments 10,000 + 33,000 + 33,000 + 10,000."
+  },
+  "mandatory_fees_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": "full program",
+    "cohort": "2027-2028",
+    "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/fees-and-scholarships/",
+    "read_on": "2026-10-13",
+    "notes": "No mandatory fee besides tuition; application fee 120 EUR."
+  },
+  "living_budget_total": {
+    "value": null,
+    "currency": "EUR",
+    "period": "monthly",
+    "monthly_low": 2000,
+    "monthly_high": 2500,
+    "cohort": "2027-2028 page",
+    "basis": "school budget",
+    "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/fees-and-scholarships/",
+    "read_on": "2026-10-13",
+    "notes": "School estimate of monthly personal expenses 'based on recent input from MBA students', typically 2,000-2,500 EUR per month; no total published."
+  },
+  "scholarship": {
+    "value": null,
+    "currency": "EUR",
+    "stat": "range",
+    "pct_receiving": null,
+    "pool_total": 1500000,
+    "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/fees-and-scholarships/",
+    "read_on": "2026-10-13",
+    "notes": "Merit-based tuition waivers from 10% to 100% of programme cost, total budget 1,500,000 EUR for 2027-2028; several named partial (30%/50%) waivers."
+  },
+  "employment": {
+    "report_url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/career/",
+    "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/career/",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": 79,
+    "employed_3m_basis": "of graduates seeking employment found a new job within 3 months",
+    "accepted_3m_pct": null,
+    "base_salary": {
+      "value": 110281,
+      "currency": "EUR",
+      "stat": "mean",
+      "notes": "'Average of gross salary in Euro' in the industry/geography/function tables; headline shown as '110k EUR Average Overall Salary Package'. Not stated whether bonus is included; mean performance bonus shown separately."
+    },
+    "signing_bonus": {
+      "value": null,
+      "stat": null,
+      "pct_receiving": null,
+      "notes": "No signing bonus published; 'Mean Performance Bonus' 24,000 EUR."
+    },
+    "performance_bonus": {
+      "value": 24000,
+      "currency": "EUR",
+      "stat": "mean"
+    },
+    "internship_monthly": null,
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting / Consultancy",
+        "pct": null,
+        "pct_approx_from_chart": 21.4,
+        "salary": 107318,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology/Telecoms/IT",
+        "pct": null,
+        "pct_approx_from_chart": 20.0,
+        "salary": 92383,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "finance",
+        "sub": "Financial and insurance services/Banking",
+        "pct": null,
+        "pct_approx_from_chart": 14.3,
+        "salary": 125514,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing/Industrial",
+        "pct": null,
+        "pct_approx_from_chart": 12.9,
+        "salary": 119459,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail/E-commerce/Luxury",
+        "pct": null,
+        "pct_approx_from_chart": 11.4,
+        "salary": 59635,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Healthcare",
+        "pct": null,
+        "pct_approx_from_chart": 5.7,
+        "salary": 101768,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Packaged Goods",
+        "pct": null,
+        "pct_approx_from_chart": 4.3,
+        "salary": 102037,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "energy",
+        "sub": "Energy/Utilities",
+        "pct": null,
+        "pct_approx_from_chart": 2.9,
+        "salary": 106093,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Other",
+        "pct": null,
+        "pct_approx_from_chart": 2.9,
+        "salary": 224334,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Real estate",
+        "pct": null,
+        "pct_approx_from_chart": 1.4,
+        "salary": null,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "other",
+        "sub": "Law",
+        "pct": null,
+        "pct_approx_from_chart": 1.4,
+        "salary": null,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Government/Public sector",
+        "pct": null,
+        "pct_approx_from_chart": 1.4,
+        "salary": null,
+        "currency": "EUR",
+        "stat": "mean"
+      }
+    ],
+    "by_industry_notes": "Salaries (EUR mean gross) are published as text. Shares are NOT published as numbers: pct_approx_from_chart is read off the bar chart image (about +/-1 point) at https://sda-website-prod-sdawebsiteprodbucketpublic693d05b-w3mwb4fo9x9p.s3.eu-south-1.amazonaws.com/s3fs-public/2026-04/ft_mba_cr_2025_job_function.png - display as approximate or omit.",
+    "by_function": [
+      {
+        "function": "Consulting",
+        "pct": null,
+        "salary": 111103,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "function": "Finance",
+        "pct": null,
+        "salary": 121009,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "function": "General Management",
+        "pct": null,
+        "salary": 220817,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "function": "Marketing/Sales",
+        "pct": null,
+        "salary": 91542,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "function": "Strategy/Planning",
+        "pct": null,
+        "salary": 105522,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "function": "Supply Chain/Operations",
+        "pct": null,
+        "salary": 81571,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "function": "Legal",
+        "pct": null,
+        "salary": 72000,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "function": "Other",
+        "pct": null,
+        "salary": 66536,
+        "currency": "EUR",
+        "stat": "mean"
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "Asia",
+        "pct": null,
+        "salary": 44347,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "region": "Europe",
+        "pct": null,
+        "salary": 102235,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "region": "Middle East",
+        "pct": null,
+        "salary": 108726,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "region": "North America",
+        "pct": null,
+        "salary": 247585,
+        "currency": "EUR",
+        "stat": "mean"
+      },
+      {
+        "region": "Latin America",
+        "pct": null,
+        "salary": 79849,
+        "currency": "EUR",
+        "stat": "mean"
+      }
+    ],
+    "by_geography_notes": "'Middle East / North Africa' mapped to Middle East; 'South America' to Latin America. Shares by region not published.",
+    "country_change_pct": null,
+    "career_change": {
+      "changed_country_sector_or_function_pct": 96
+    },
+    "top_employers": [
+      {
+        "name": "Accenture",
+        "hires": null
+      },
+      {
+        "name": "Bain",
+        "hires": null
+      },
+      {
+        "name": "BCG",
+        "hires": null
+      },
+      {
+        "name": "McKinsey",
+        "hires": null
+      },
+      {
+        "name": "EY-Parthenon",
+        "hires": null
+      },
+      {
+        "name": "Kearney",
+        "hires": null
+      },
+      {
+        "name": "Oliver Wyman",
+        "hires": null
+      },
+      {
+        "name": "Roland Berger",
+        "hires": null
+      },
+      {
+        "name": "Strategy&",
+        "hires": null
+      },
+      {
+        "name": "Amazon",
+        "hires": null
+      },
+      {
+        "name": "Google",
+        "hires": null
+      },
+      {
+        "name": "Microsoft",
+        "hires": null
+      },
+      {
+        "name": "Meta",
+        "hires": null
+      },
+      {
+        "name": "Morgan Stanley",
+        "hires": null
+      },
+      {
+        "name": "BNP Paribas",
+        "hires": null
+      },
+      {
+        "name": "Intesa Sanpaolo",
+        "hires": null
+      },
+      {
+        "name": "Unicredit",
+        "hires": null
+      },
+      {
+        "name": "Partners Group",
+        "hires": null
+      },
+      {
+        "name": "Novartis",
+        "hires": null
+      },
+      {
+        "name": "Roche",
+        "hires": null
+      },
+      {
+        "name": "L'Oreal",
+        "hires": null
+      },
+      {
+        "name": "Hermes",
+        "hires": null
+      },
+      {
+        "name": "Richemont",
+        "hires": null
+      }
+    ],
+    "top_employers_notes": "Subset of recruiting companies listed by sector on the career page; no hire counts."
+  },
+  "profile": {
+    "intl_pct": null,
+    "avg_age": 29,
+    "avg_work_exp_years": 6,
+    "women_pct": 43,
+    "gmat_median": null,
+    "nationalities": 40,
+    "url": "https://www.sdabocconi.it/en/mba-executive-mba/full-time-mba/class-profile/",
+    "read_on": "2026-10-13",
+    "cohort": "Full-Time MBA 2025-2026",
+    "notes": "Geographic origin: Latin America 25%, Europe excl. Italy 22%, Italy 19%, North America 16%, Asia & Oceania 13%, Africa & Middle East 5% (so about 81% non-Italian, not labelled 'international' by the school). Programme page says average experience 5.5 years for the next intake."
+  },
+  "rankings_cited": [],
+  "rankings_notes": "Not in the FT Global MBA 2026: GMAC reports SDA Bocconi did not appear after failing to meet the alumni survey response threshold (https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking). School page cites '4th Worldwide, Global MBA Rankings 2025' (FT 2025).",
+  "notes": "Salary breakdowns by industry/function/geography all in EUR means, Class of 2025."
+}

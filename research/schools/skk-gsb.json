@@ -1,0 +1,52 @@
+{
+  "slug": "skk-gsb",
+  "name": "Sungkyunkwan University Graduate School of Business (SKK GSB)",
+  "short": "SKK GSB",
+  "country": "KR",
+  "city": "Seoul",
+  "region": "Asia",
+  "program": {
+    "length_months": 18,
+    "format": "15-21 months",
+    "class_size": {"value": null, "cohort": "Class Profile (2025)", "url": "https://biz.skku.edu/en/Full-time_MBA/Students.do", "read_on": "2026-10-13"},
+    "url": "https://biz.skku.edu/en/Full-time_MBA/Overview.do",
+    "read_on": "2026-10-13",
+    "note": "Full-Time MBA in English: 18 months (or 12 months fast track), starts August, graduation February, 45 credits. Cohort size not published on the page."
+  },
+  "tuition_total": {"value": 53000000, "currency": "KRW", "period": "full program (3 semesters)", "cohort": "tuition table 'Unit: KRW (2025)'", "url": "https://biz.skku.edu/en/Full-time_MBA/Tuition.do", "read_on": "2026-10-13", "note": "1st semester (Fall) 15,100,000 + 2nd (Spring & Summer) 22,800,000 + 3rd (Fall) 15,100,000. 12-month track billed the same three semesters. Subject to change each year. Study Abroad / Dual Degree semesters billed differently (2018 tables)."},
+  "mandatory_fees_total": {"value": 1300000, "currency": "KRW", "period": "one-off", "cohort": "2025", "url": "https://biz.skku.edu/en/Full-time_MBA/Tuition.do", "read_on": "2026-10-13", "note": "Entrance fee KRW 1,300,000. Student/alumni union fees and overseas field trip fees also excluded from tuition, amounts not published."},
+  "living_budget_total": {"value": null, "currency": "KRW", "period": null, "basis": null, "url": null, "read_on": "2026-10-13", "note": "No official living budget found on the SKK GSB site."},
+  "scholarship": {"pct_receiving": null, "average_value": null, "currency": "KRW", "examples": [{"name": "Future Leader Scholarship", "value": "up to 50% of tuition"}, {"name": "SKK GSB Scholarship", "value": "up to 20% of tuition"}, {"name": "Global Korea Scholarship (GKS, NIIED)", "value": "full tuition + living expenses, airfare, language course"}], "type": "merit, at admission", "url": "https://biz.skku.edu/en/Full-time_MBA/Financial.do", "read_on": "2026-10-13", "note": "Number of scholars not specified; covers tuition in Korea only (not SAP/DDP)."},
+  "employment": {
+    "report_url": "https://biz.skku.edu/en/Career/Job_Placement.do",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": 93,
+    "accepted_3m_pct": null,
+    "base_salary": {"value": null, "currency": "USD", "stat": null, "note": "School shows '147,152 Average Salary - three years after graduation, PPP equivalent' and '100% Salary Increase' (image https://biz.skku.edu/_res/en/img/sub/img_career02.gif). This is the FT alumni-survey salary 3 years out (printed with a stray '%'), not a graduating-class base salary, so it is not used as base_salary. Cohort/year of the 93% not stated on the image."},
+    "alumni_salary_3y_ppp_usd": 147152,
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "consumer", "sub": "Consumer Goods (FMCG)", "pct": 29, "salary": null, "stat": null},
+      {"industry": "consulting", "sub": "Consulting", "pct": 21, "salary": null, "stat": null},
+      {"industry": "manufacturing", "sub": "Manufacturing / Industrial", "pct": 17, "salary": null, "stat": null},
+      {"industry": "finance", "sub": "Financial Service", "pct": 13, "salary": null, "stat": null},
+      {"industry": "healthcare", "sub": "Healthcare/Bio", "pct": 4, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Start-up", "pct": 4, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Media / Entertainment", "pct": 4, "salary": null, "stat": null},
+      {"industry": "consumer", "sub": "Retail / E-Commerce", "pct": 4, "salary": null, "stat": null},
+      {"industry": "other", "sub": "Other", "pct": 4, "salary": null, "stat": null}
+    ],
+    "by_function": [],
+    "by_geography": [],
+    "country_change_pct": null,
+    "top_employers": [],
+    "note": "Industry split read from the image https://biz.skku.edu/_res/en/img/sub/img_career05.gif ('Industry Sectors, Class of 2025'; image alt text says Class of 2020, chart itself says 2025). No salary by industry, no geography, no employer list published."
+  },
+  "profile": {"intl_pct": 54, "avg_age": 31, "avg_work_exp_years": 6.5, "women_pct": 49, "gmat_median": null, "cohort": "Class Profile (2025)", "url": "https://biz.skku.edu/en/Full-time_MBA/Students.do", "read_on": "2026-10-13", "note": "Read from images on the page (fxe_img_meet_ex01/04.jpg). Text says 'approximately 50% of our students are international'. Pre-MBA position: Staff 34%, Manager 26%, Deputy GM 13%, GM 11%, VP-Director 8%, Others 8%."},
+  "rankings_cited": [],
+  "notes": "FT Global MBA 2026 rank not found; school rankings image (img-mab-ranking-2025.png, alt 'MBA in World 65 FT') refers to 2025. Career ranking image cites FT 2023-2025 sub-ranks (value for money 27th 2023, sector diversity 14th 2025). No graduating salary: exclude from salary-based ROI ranking."
+}

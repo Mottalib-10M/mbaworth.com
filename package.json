@@ -1,5 +1,5 @@
 {
-  "name": "us-college-cost",
+  "name": "mba-worth",
   "type": "module",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +7,9 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev --port 4447",
+    "dev": "astro dev --port 4471",
     "build": "astro build && node scripts/typo-nbsp.mjs && python3 scripts/check-snippets.py dist",
-    "preview": "astro preview --port 4447",
+    "preview": "astro preview --port 4471",
     "astro": "astro",
     "test": "vitest run",
     "og": "node scripts/og-image.mjs",

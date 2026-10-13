@@ -1,0 +1,114 @@
+{
+  "slug": "uva-darden",
+  "name": "Darden School of Business, University of Virginia",
+  "short": "UVA Darden",
+  "country": "US",
+  "city": "Charlottesville",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "class_size": {"value": 361, "cohort": "Class of 2027", "url": "https://www.darden.virginia.edu/programs/blog/introducing-uva-dardens-full-time-mba-class-of-2027-class-profile", "read_on": "2026-10-13"}
+  },
+  "tuition_total": {
+    "value": 88240, "currency": "USD", "period": "first year (2026-27), international students (tuition & fees)", "cohort": "Class of 2028",
+    "resident_value": 83000, "non_virginia_domestic_value": 88000,
+    "url": "https://www.darden.virginia.edu/mba/tuition-financial-aid/cost-of-attendance", "read_on": "2026-10-13",
+    "note": "The school gives 'Tuition & Fees' as one line; first year only (second-year COA set the following spring)."
+  },
+  "mandatory_fees_total": {
+    "value": 1100, "currency": "USD", "period": "first year (2026-27)", "cohort": "Class of 2028",
+    "breakdown": {"darden_mba_case_fees": 1100, "uva_student_health_insurance_if_enrolled": 4220},
+    "url": "https://www.darden.virginia.edu/mba/tuition-financial-aid/cost-of-attendance", "read_on": "2026-10-13",
+    "note": "University fees are bundled in the tuition & fees line. Health insurance billed only if enrolled in the UVA plan."
+  },
+  "living_budget_total": {
+    "value": 29860, "currency": "USD", "period": "first year, 9 months (2026-27), international student", "basis": "school budget",
+    "breakdown": {"housing": 13788, "food": 7140, "personal": 4932, "transportation_international": 4000, "transportation_domestic": 1800},
+    "computer_allowance": 2000,
+    "total_cost_of_attendance": {"virginia": 118196, "non_virginia": 123196, "international": 125420},
+    "url": "https://www.darden.virginia.edu/mba/tuition-financial-aid/cost-of-attendance", "read_on": "2026-10-13",
+    "note": "value = housing + food + personal + international transportation (our addition; domestic students: 27,660 with 1,800 transportation). Computer allowance 2,000 USD listed separately. International students add 7,000 USD for a spouse and 4,000 USD per dependent."
+  },
+  "scholarship": {
+    "value": null, "currency": "USD", "stat": null,
+    "facts": ["Merit scholarships range from a modest stipend to full tuition and fees", "Competitive scholarships provide full tuition and fees", "AccessDarden need-based grants", "Batten Foundation Darden Worldwide Scholarship covers the program fee of a global course for every Full-Time MBA student"],
+    "url": "https://www.darden.virginia.edu/mba/tuition-financial-aid/scholarships", "read_on": "2026-10-13",
+    "note": "No average award or share of recipients published."
+  },
+  "employment": {
+    "report_url": "https://www.darden.virginia.edu/sites/default/files/2025-11/UVA%20Darden%20Class%20of%202025%20FT%20Employment%20Outcome%20Data_web.pdf",
+    "report_page": "https://www.darden.virginia.edu/mba/career-support/employment-data",
+    "local_copy": "research/sources/amerique/uva-darden-employment-2025.pdf",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2025", "standard": "MBA CSEA",
+    "graduates": 352, "seeking": 327,
+    "response_rate": 100,
+    "response_rate_note": "Darden tracked outcomes for 100% of the class (news release); usable salary information for 96.9% of acceptances.",
+    "employed_3m_pct": 90.2,
+    "accepted_3m_pct": 89.3,
+    "employed_6m_pct": 94,
+    "base_salary": {"value": 175000, "currency": "USD", "stat": "median", "mean": 162578, "low": 66000, "high": 235000},
+    "signing_bonus": {"value": 30000, "stat": "median", "mean": 36906, "pct_receiving": 86.9},
+    "internship_monthly": null,
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 37.3, "salary": 190000, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 3.8, "salary": 125000, "stat": "median"},
+      {"industry": "energy", "sub": "Energy", "pct": 2.4, "salary": 135000, "stat": "median"},
+      {"industry": "finance", "sub": "Financial Services", "pct": 26.0, "salary": 175000, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Government", "pct": 0.3, "salary": null, "stat": "median"},
+      {"industry": "healthcare", "sub": "Healthcare (Including Products and Services)", "pct": 3.1, "salary": 140000, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 2.7, "salary": 132500, "stat": "median"},
+      {"industry": "other", "sub": "Media/Entertainment", "pct": 0.3, "salary": null, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Non-Profit/Education", "pct": 0.7, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Real Estate", "pct": 0.7, "salary": null, "stat": "median"},
+      {"industry": "consumer", "sub": "Retail", "pct": 3.1, "salary": 135000, "stat": "median"},
+      {"industry": "tech", "sub": "Technology", "pct": 16.1, "salary": 142800, "stat": "median"},
+      {"industry": "manufacturing", "sub": "Transportation and Logistics Services", "pct": 2.4, "salary": 131750, "stat": "median"},
+      {"industry": "other", "sub": "Other", "pct": 1.0, "salary": 225000, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Consulting", "pct": 39.4, "salary": 190000},
+      {"function": "Finance/Accounting", "pct": 30.5, "salary": 175000},
+      {"function": "General Management", "pct": 13.7, "salary": 135000},
+      {"function": "Marketing/Sales", "pct": 7.2, "salary": 141500},
+      {"function": "Operations/Logistics", "pct": 4.5, "salary": 143900},
+      {"function": "Information Technology", "pct": 3.1, "salary": 142800},
+      {"function": "Human Resources", "pct": 1.0, "salary": null},
+      {"function": "Other", "pct": 0.7, "salary": null}
+    ],
+    "finance_subsectors_note": "Not published: Darden's CSEA report gives no investment banking / PE / asset management split.",
+    "by_geography": [
+      {"region": "US Mid-Atlantic", "pct": 25.3, "salary": 164000},
+      {"region": "US Northeast", "pct": 25.0, "salary": 175000},
+      {"region": "US South", "pct": 14.4, "salary": 190000},
+      {"region": "US West", "pct": 13.4, "salary": 143000},
+      {"region": "US Southwest", "pct": 12.3, "salary": 172500},
+      {"region": "US Midwest", "pct": 7.9, "salary": 148500},
+      {"region": "Latin America", "pct": 1.0, "salary": 89604, "sub": "South America"},
+      {"region": "Asia", "pct": 0.7, "salary": null},
+      {"region": "Europe", "pct": 0, "salary": null},
+      {"region": "Africa", "pct": 0, "salary": null},
+      {"region": "Oceania", "pct": 0, "salary": null},
+      {"region": "Canada", "pct": 0, "salary": null}
+    ],
+    "north_america_pct": 98.3,
+    "top_employers": [
+      {"name": "Amazon", "hires": null}, {"name": "Barclays", "hires": null}, {"name": "Bank of America", "hires": null},
+      {"name": "Boston Consulting Group", "hires": null}, {"name": "Capital One", "hires": null}, {"name": "Emerson", "hires": null},
+      {"name": "McKinsey", "hires": null}, {"name": "JP Morgan Chase", "hires": null}, {"name": "Bain", "hires": null}, {"name": "Visa", "hires": null}
+    ],
+    "top_employers_url": "https://news.darden.virginia.edu/articles/2025-26-employment-results-highlight-remarkable-job-market-success-of-darden-graduates",
+    "notes": "Top employers from the school's news release (no counts); the 'Top Hiring Companies' page still shows the Class of 2024. 'I/D' stored as null."
+  },
+  "profile": {
+    "cohort": "Class of 2027",
+    "intl_pct": 30, "avg_age": null, "avg_work_exp_years": 5.67, "women_pct": 35, "gmat_median": 730,
+    "gmat_avg": 725, "gmat_focus_median": 665, "gpa_avg": 3.54,
+    "url": "https://www.darden.virginia.edu/programs/blog/introducing-uva-dardens-full-time-mba-class-of-2027-class-profile", "read_on": "2026-10-13"
+  },
+  "rankings_cited": [
+    {"ranking": "FT Global MBA 2026", "rank": 19, "url": "https://www.clearadmit.com/2026/02/the-financial-times-2026-global-mba-ranking/", "read_on": "2026-10-13", "note": "Third-party extract of the FT table, not a school page."}
+  ],
+  "notes": "Costs: first year only."
+}

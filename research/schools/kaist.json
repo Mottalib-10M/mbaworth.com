@@ -1,0 +1,41 @@
+{
+  "slug": "kaist",
+  "name": "KAIST College of Business (KAIST MBA)",
+  "short": "KAIST",
+  "country": "KR",
+  "city": "Seoul",
+  "region": "Asia",
+  "program": {
+    "length_months": 24,
+    "format": "2-year",
+    "class_size": {"value": null, "cohort": null, "url": "https://www.business.kaist.edu/programs/02041001", "read_on": "2026-10-13"},
+    "url": "https://www.business.kaist.edu/programs/02041001",
+    "read_on": "2026-10-13",
+    "note": "KAIST MBA (full-time, launched 2023, Seoul campus, 'Global Business Analytics' track). 2-year length taken from the school scholarship page ('Full/partial tuition for 2 years', https://www.business.kaist.edu/admission/0302). KAIST also runs a full-time Impact MBA and Finance MBA, not collected here."
+  },
+  "tuition_total": {"value": 38236000, "currency": "KRW", "period": "full program (2 years)", "per_year": 19118000, "cohort": "KAIST graduate cost table, 2023 academic year", "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/CostofAttendance", "read_on": "2026-10-13", "note": "Official KAIST international graduate cost table ('Cost of Studying at KAIST, 2023 academic year') gives tuition KRW 19,118,000 (annual budget, all graduate programs, not MBA-specific). Total = 2 x 19,118,000 computed by us. Table is dated 2023; no MBA-specific fee page found."},
+  "mandatory_fees_total": {"value": null, "currency": "KRW", "period": "full program", "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/CostofAttendance", "read_on": "2026-10-13", "note": "No separate mandatory fees listed; Student Health Insurance Association KRW 83,000 and health insurance premium KRW 1,726,080 appear in the living budget."},
+  "living_budget_total": {"value": 11070787, "currency": "KRW", "period": "per year, single (2023 academic year)", "basis": "school budget", "breakdown": {"on_campus_housing": 1400000, "book": 300000, "meal": 7000000, "health_insurance_premium": 1726080, "travel": 201707, "student_health_insurance_association": 83000, "telecommunication": 360000}, "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/CostofAttendance", "read_on": "2026-10-13", "note": "'Subtotal, except for the tuition' KRW 11,070,787; total with tuition 30,188,787. Annual basis presumed (table not explicit). Generic KAIST graduate budget, dated 2023."},
+  "scholarship": {"pct_receiving": null, "average_value": null, "currency": "KRW", "type": "KAIST Scholarship for international applicants: full/partial tuition for 2 years; living stipend KRW 500,000/month to selected students; GPA >= 3.3/4.3 to keep it", "url": "https://www.business.kaist.edu/admission/0302", "read_on": "2026-10-13", "note": "Amount and number of recipients vary each year. The 94% scholarship rate on the admissions cost page concerns KAIST international graduate students overall (research programs), not the MBA."},
+  "employment": {
+    "report_url": null,
+    "read_on": "2026-10-13",
+    "cohort": null,
+    "standard": null,
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "base_salary": {"value": null, "currency": "KRW", "stat": null},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [],
+    "country_change_pct": null,
+    "top_employers": [],
+    "note": "No MBA employment report or salary published on business.kaist.edu (English site checked: program, Facts & Figures, Global Achievements, Talented People pages) nor found by search on 2026-10-13. Korean-language site/brochures not checked in depth."
+  },
+  "profile": {"intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": null, "gmat_median": null, "url": "https://www.business.kaist.edu/programs/02041001", "read_on": "2026-10-13", "note": "No class profile on the KAIST MBA page (student profile tabs exist only for Professional/Executive MBA)."},
+  "rankings_cited": [],
+  "notes": "Thin data: cost only (generic 2023 graduate table). School site cites QS and FT Executive Education Open rankings, no FT Global MBA 2026 rank. Candidate for removal from the 75-school list or for a cost-only card."
+}

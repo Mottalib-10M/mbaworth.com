@@ -1,0 +1,331 @@
+{
+  "slug": "harvard",
+  "name": "Harvard Business School",
+  "short": "Harvard",
+  "country": "US",
+  "city": "Boston",
+  "region": "US",
+  "program": {
+    "length_months": 21,
+    "format": "2-year",
+    "length_note": "school: 'Two Years'; months derived from the 2-year format",
+    "class_size": {
+      "value": 943,
+      "cohort": "Class of 2027",
+      "url": "https://www.hbs.edu/mba/admissions/class-profile",
+      "read_on": "2026-10-13"
+    }
+  },
+  "tuition_total": {
+    "value": 169520,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2026-27 annual tuition $84,760 x 2 (second-year tuition for 2027-28 not yet published)",
+    "annual": 84760,
+    "cohort": "2026-27",
+    "url": "https://www.hbs.edu/mba/financial-aid/tuition-assistance/cost-of-attendance",
+    "read_on": "2026-10-13"
+  },
+  "mandatory_fees_total": {
+    "value": 13796,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x ($1,944 HUHS Student Health Fee + $4,954 Student Health Insurance Plan), 2026-27 rates",
+    "annual": 6898,
+    "note": "SHIP can be waived with comparable insurance; HBS lists both inside its cost of attendance.",
+    "url": "https://www.hbs.edu/mba/financial-aid/tuition-assistance/cost-of-attendance",
+    "read_on": "2026-10-13"
+  },
+  "living_budget_total": {
+    "value": 77320,
+    "currency": "USD",
+    "period": "full program",
+    "computed": "2 x $38,660 (9-month single budget 2026-27: housing $18,600, food $9,400, transportation $1,860, other $8,800)",
+    "basis": "school budget",
+    "annual": 38660,
+    "total_cost_of_attendance_9m_single": 130318,
+    "married_9m": 159592,
+    "married_1_child_9m": 179402,
+    "computer_not_included": 1500,
+    "url": "https://www.hbs.edu/mba/financial-aid/tuition-assistance/cost-of-attendance",
+    "read_on": "2026-10-13"
+  },
+  "scholarship": {
+    "value": 50000,
+    "currency": "USD",
+    "stat": "mean",
+    "period": "per year",
+    "note": "Average annual need-based scholarship $50k; $100k average over two years; ~50% of students receive need-based scholarships; 10% receive full-tuition scholarships; majority of scholarships $30-70k; $47M awarded FY25. HBS awards are need-based only.",
+    "pct_receiving": 50,
+    "url": "https://www.hbs.edu/mba/financial-aid/fast-facts",
+    "read_on": "2026-10-13"
+  },
+  "employment": {
+    "report_url": "https://www.hbs.edu/recruiting/employment-data/Pages/default.aspx",
+    "report_url_archived": "https://web.archive.org/web/20251208054736/https://www.hbs.edu/recruiting/employment-data/Pages/default.aspx",
+    "cohort": "Class of 2025",
+    "standard": "school",
+    "url": "https://web.archive.org/web/20251208054736/https://www.hbs.edu/recruiting/employment-data/Pages/default.aspx",
+    "read_on": "2026-10-13",
+    "standard_note": "HBS states data reflect employment status at three months post-graduation; salaries self-reported. MBA CSEA membership not stated on the page.",
+    "response_rate": null,
+    "seeking_pct": 65,
+    "employed_3m_pct": null,
+    "offers_3m_pct_seeking": 90,
+    "accepted_3m_pct": 84,
+    "employment_note": "Of the class, 65% sought employment; of those, 90% received an offer and 84% accepted (3 months post-graduation). Did not seek: 17% starting own business, 14% sponsored/already employed, 2% other, 1% continuing education.",
+    "base_salary": {
+      "value": 184500,
+      "currency": "USD",
+      "stat": "median",
+      "p25": 160000,
+      "p75": 192000,
+      "p_note": "p25/p75 from the All Locations row (rounded to nearest thousand)"
+    },
+    "signing_bonus": {
+      "value": 30000,
+      "stat": "median",
+      "pct_receiving": 58
+    },
+    "variable_bonus": {
+      "value": 46125,
+      "stat": "median",
+      "pct_receiving": 67
+    },
+    "internship_monthly": null,
+    "by_industry": [
+      {
+        "industry": "consulting",
+        "sub": "Consulting",
+        "pct": 21,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "finance",
+        "sub": "private equity",
+        "pct": 14,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "finance",
+        "sub": "asset management (Investment Management / Hedge Fund)",
+        "pct": 7,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "finance",
+        "sub": "investment banking",
+        "pct": 6,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "finance",
+        "sub": "venture capital",
+        "pct": 4,
+        "salary": 200000,
+        "stat": "median"
+      },
+      {
+        "industry": "finance",
+        "sub": "Other Financial Services",
+        "pct": 3,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "tech",
+        "sub": "Technology",
+        "pct": 22,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "healthcare",
+        "sub": "Health Care",
+        "pct": 6,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "manufacturing",
+        "sub": "Manufacturing",
+        "pct": 5,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "nonprofit",
+        "sub": "Nonprofit / Government",
+        "pct": 4,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Consumer Products",
+        "pct": 2,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "consumer",
+        "sub": "Retail",
+        "pct": "<1%",
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Entertainment / Media",
+        "pct": 3,
+        "salary": null,
+        "stat": null
+      },
+      {
+        "industry": "other",
+        "sub": "Services",
+        "pct": 3,
+        "salary": null,
+        "stat": null
+      }
+    ],
+    "by_industry_note": "Shares from the employment-data page (archived 2025-12-08). Industry salaries are on per-industry pages blocked to robots (AWS WAF); only Venture Capital was readable in the archive (median $200,000, p25 $181,250, p75 $250,000; https://web.archive.org/web/20251209164524/https://www.hbs.edu/recruiting/employment-data/industry/Pages/details.aspx?ind=Venture+Capital). Finance total = 34% (14+7+6+4+3).",
+    "by_function": [
+      {
+        "function": "Finance",
+        "pct": 33,
+        "salary": null
+      },
+      {
+        "function": "Consulting",
+        "pct": 21,
+        "salary": null
+      },
+      {
+        "function": "General Management",
+        "pct": 11,
+        "salary": null
+      },
+      {
+        "function": "Marketing",
+        "pct": 11,
+        "salary": null
+      },
+      {
+        "function": "Business Development",
+        "pct": 10,
+        "salary": null
+      },
+      {
+        "function": "Strategic Planning",
+        "pct": 9,
+        "salary": null
+      },
+      {
+        "function": "Other",
+        "pct": 4,
+        "salary": null
+      }
+    ],
+    "by_geography_url": "https://web.archive.org/web/20251207061610/https://www.hbs.edu/recruiting/employment-data/location/Pages/default.aspx",
+    "by_geography": [
+      {
+        "region": "US Northeast",
+        "pct": 48,
+        "salary": 180000,
+        "detail": "New York 36% ($180k); Boston 8% ($183k); New England ex-Boston 2% ($173k)"
+      },
+      {
+        "region": "US West",
+        "pct": 24,
+        "salary": 190000,
+        "detail": "California Bay Area 16% ($192k); Los Angeles area 5% ($190k); Pacific Northwest 2% ($174k)"
+      },
+      {
+        "region": "US Mid-Atlantic",
+        "pct": 6,
+        "salary": 180000,
+        "detail": "Washington DC 4% ($178k)"
+      },
+      {
+        "region": "US Midwest",
+        "pct": 5,
+        "salary": 190000,
+        "detail": "Chicago 4% ($190k)"
+      },
+      {
+        "region": "US Southwest",
+        "pct": 5,
+        "salary": 190000,
+        "detail": "Texas 4% ($190k)"
+      },
+      {
+        "region": "US South",
+        "pct": 4,
+        "salary": 191000,
+        "detail": "Miami 1% ($190k); Atlanta 1%"
+      },
+      {
+        "region": "US (total)",
+        "pct": 92,
+        "salary": 185000
+      },
+      {
+        "region": "International (total)",
+        "pct": 8,
+        "salary": 130000
+      },
+      {
+        "region": "Asia",
+        "pct": 3,
+        "salary": 140000,
+        "detail": "Other Asia 2% ($114k); India <1%"
+      },
+      {
+        "region": "Europe",
+        "pct": 2,
+        "salary": 145000,
+        "detail": "United Kingdom 2% ($145k)"
+      },
+      {
+        "region": "Middle East",
+        "pct": "1%",
+        "salary": 128000,
+        "detail": "Middle East & North Africa"
+      },
+      {
+        "region": "Canada",
+        "pct": "<1%",
+        "salary": null
+      },
+      {
+        "region": "Latin America",
+        "pct": "<1%",
+        "salary": null
+      }
+    ],
+    "by_geography_note": "Median base by location, rounded to nearest thousand by HBS; read from archived location page (2025-12-07).",
+    "top_employers": [],
+    "top_employers_note": "HBS lists hiring organizations on a separate page (blocked to robots); not read."
+  },
+  "profile": {
+    "url": "https://www.hbs.edu/mba/admissions/class-profile",
+    "read_on": "2026-10-13",
+    "cohort": "Class of 2027",
+    "intl_pct": 37,
+    "avg_age": null,
+    "avg_work_exp_years": 4.9,
+    "women_pct": 44,
+    "gmat_median": 685,
+    "gmat_median_note": "Median GMAT (Focus) total 685; GMAT 10th edition median 730; GRE median 164V/164Q",
+    "applications": 9409,
+    "avg_gpa": 3.76
+  },
+  "rankings_cited": [],
+  "rankings_note": "GMAC (Feb 2026) says Harvard 'jumped back into the top 10' of the FT Global MBA 2026 without stating the exact rank: https://www.gmac.com/resources/learners/business-programs/explore-programs/financial-times-mba-ranking",
+  "notes": "HBS employment pages (hbs.edu/recruiting/employment-data) return HTTP 202 with an AWS WAF challenge to curl and WebFetch; figures read from Wayback Machine captures of the official pages dated 2025-12-07/08 (after the Class of 2025 release). Re-read in a browser: industry and function salary tables."
+}

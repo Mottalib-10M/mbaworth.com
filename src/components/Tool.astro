@@ -1,22 +1,23 @@
 ---
 /** Renders the tool of a page with the figures it needs (prepared in lib/props.ts) as a hydrated island. */
-import OddsNetCalc from './calc/OddsNetCalc';
+import RoiCalc from './calc/RoiCalc';
+import FinderBoard from './calc/FinderBoard';
 import CompareCalc from './calc/CompareCalc';
-import ConcordCalc from './calc/ConcordCalc';
-import SchoolBoard from './calc/SchoolBoard';
-import ScoreCalc from './calc/ScoreCalc';
-import CoaCalc from './calc/CoaCalc';
-import { P } from '../lib/data';
-import { common, schoolHrefs, A2S, S2A, CURVE, TUITION_YEAR, COAS } from '../lib/props';
-import type { ToolKind } from '../lib/page-types';
-interface Props { kind: ToolKind; school?: string; lock?: boolean; idPrefix?: string }
-const { kind, school = 'harvard', lock = false, idPrefix } = Astro.props;
+import CaseCalc from './calc/CaseCalc';
+import BlsCalc from './calc/BlsCalc';
+import ProjectCalc from './calc/ProjectCalc';
+import { common, BLS } from '../lib/props';
+import type { ToolKind, ToolArgs } from '../lib/page-types';
+interface Props { kind: ToolKind; args?: ToolArgs; lock?: boolean; idPrefix?: string }
+const { kind, args = {}, lock = false, idPrefix } = Astro.props;
 const c = common();
-const hrefs = schoolHrefs();
+const school = args.school && c.schools.some((s) => s.slug === args.school) ? args.school : (c.schools.find((s) => s.slug === 'wharton') ?? c.schools[0]).slug;
+const pair = (args.schools ?? []).filter((s) => c.schools.some((x) => x.slug === s));
+const defaults = pair.length >= 2 ? pair : c.schools.slice(0, 3).map((s) => s.slug);
 ---
-{kind === 'odds' && <OddsNetCalc client:load {...c} school={school} lock={lock} schoolHrefs={hrefs} idPrefix={idPrefix} />}
-{kind === 'compare' && <CompareCalc client:load {...c} defaults={['ucla', 'usc', 'nyu']} schoolHrefs={hrefs} />}
-{kind === 'concordance' && <ConcordCalc client:load a2s={A2S} s2a={S2A} methodHref={c.methodHref} />}
-{(kind === 'sat-position' || kind === 'act-position') && <ScoreCalc client:load mode={kind === 'sat-position' ? 'sat' : 'act'} curve={CURVE} a2s={A2S} s2a={S2A} schools={c.schools} satClass={P.sat.classOf} actMean={P.act.meanComposite} actClass={P.act.classOf} methodHref={c.methodHref} />}
-{(kind === 'rates' || kind === 'tuition' || kind === 'net-price') && <SchoolBoard client:load mode={kind === 'rates' ? 'rates' : kind === 'tuition' ? 'tuition' : 'net'} {...c} tuitionYear={TUITION_YEAR} schoolHrefs={hrefs} />}
-{kind === 'coa' && <CoaCalc client:load schools={COAS()} school={school} methodHref={c.methodHref} />}
+{(kind === 'roi' || kind === 'cost' || kind === 'payback' || kind === 'worth') && <RoiCalc client:load {...c} school={school} lock={lock} goal={args.goal ?? 'all'} mode={kind === 'roi' ? 'full' : kind} idPrefix={idPrefix} />}
+{(kind === 'finder' || kind === 'salary') && <FinderBoard client:load {...c} goal={args.goal ?? (kind === 'salary' ? 'all' : 'consulting')} length={args.length ?? 'any'} where={args.where ?? 'any'} sort={kind === 'salary' ? 'salary' : 'fit'} idPrefix={idPrefix} />}
+{kind === 'compare' && <CompareCalc client:load {...c} defaults={defaults} goal={args.goal ?? 'all'} idPrefix={idPrefix} />}
+{kind === 'case' && <CaseCalc client:load mode={(args.mode as 'sizing') ?? 'sizing'} methodHref={c.methodHref} idPrefix={idPrefix} />}
+{kind === 'bls' && <BlsCalc client:load occs={BLS.occupations} metro={BLS.managementAnalystsByMetro} occ={args.mode ?? '131111'} period={BLS.period} methodHref={c.methodHref} idPrefix={idPrefix} />}
+{kind === 'project' && <ProjectCalc client:load methodHref={c.methodHref} idPrefix={idPrefix} />}

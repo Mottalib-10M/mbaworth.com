@@ -1,0 +1,61 @@
+{
+  "slug": "georgetown-mcdonough",
+  "name": "McDonough School of Business, Georgetown University",
+  "short": "Georgetown McDonough",
+  "country": "US", "city": "Washington, DC", "region": "US",
+  "program": {"length_months": null, "format": "2-year",
+    "class_size": {"value": 197, "cohort": "Full-time entering class labelled 'entering classes of 2026' by the school", "url": "https://msb.georgetown.edu/full-time-mba/class-profile/", "read_on": "2026-10-13"}},
+  "tuition_total": {"value": 150032, "currency": "USD", "period": "full program", "cohort": "entering fall 2026 (2026-27 rate, tuition lock-in policy)", "basis": "computed: 2 x 2026-27 annual tuition 75,016; the Tuition Lock-In Policy introduced fall 2026 keeps the entering rate for up to 4 academic years", "annual_value": 75016, "url": "https://msb.georgetown.edu/full-time-mba/admissions-tuition/", "read_on": "2026-10-13"},
+  "mandatory_fees_total": {"value": 9678, "currency": "USD", "period": "full program", "cohort": "2026-27 rate", "basis": "computed: 2 x (graduate student activity fee 54 + GU health insurance est. 4,785, waivable)", "annual_value": 4839, "url": "https://msb.georgetown.edu/full-time-mba/admissions-tuition/", "read_on": "2026-10-13"},
+  "living_budget_total": {"value": 70512, "currency": "USD", "period": "full program", "cohort": "2026-27", "basis": "school budget", "annual_value": 35256, "components_annual": {"housing_food": 24180, "personal": 5300, "books_supplies": 2646, "transportation": 3130}, "annual_total_cost_of_attendance": 115171, "note": "computed: 2 x the 2026-27 fall/spring indirect expenses, excluding est. federal loan fees (60)", "url": "https://msb.georgetown.edu/full-time-mba/admissions-tuition/", "read_on": "2026-10-13"},
+  "scholarship": {"value": null, "currency": "USD", "note": "Scholarship programs page exists (https://msb.georgetown.edu/full-time-mba/admissions-tuition/scholarship-opportunities/); no average award read", "url": "https://msb.georgetown.edu/full-time-mba/admissions-tuition/", "read_on": "2026-10-13"},
+  "employment": {
+    "report_url": "https://issuu.com/georgetownmcdonough/docs/mba_employment_report_2025_", "url": "https://issuu.com/georgetownmcdonough/docs/mba_employment_report_2025_", "read_on": "2026-10-13",
+    "news_url": "https://msb.georgetown.edu/news-story/career/georgetown-mba-class-of-2025-build-careers-of-impact-worldwide/",
+    "cohort": "Class of 2025", "standard": "school",
+    "standard_note": "report cites 'MBA Standard guidelines' for I/D thresholds",
+    "response_rate": null, "employed_3m_pct": 78, "accepted_3m_pct": 75,
+    "employed_3m_note": "78% received an offer within 3 months (87% US students, 72% international); 75% accepted (83% US, 70% international)",
+    "base_salary": {"value": 145500, "currency": "USD", "stat": "median", "mean": 146265, "mean_us_students": 148171, "mean_international": 144515, "n_reporting": 107},
+    "signing_bonus": {"value": 33768, "stat": "mean", "pct_receiving": null, "mean_us_students": 39098, "mean_international": 29379},
+    "internship_monthly": {"value": 8109, "currency": "USD", "stat": "mean", "cohort": "Class of 2026 internships", "note": "average monthly cash compensation"},
+    "by_industry": [
+      {"industry": "consulting", "sub": "Consulting", "pct": 25, "salary": 175000, "stat": "median", "mean": 169455},
+      {"industry": "finance", "sub": "Financial Services", "pct": 25, "salary": 150000, "stat": "median", "mean": 144708},
+      {"industry": "tech", "sub": "Technology", "pct": 16, "salary": 142000, "stat": "median", "mean": 137224},
+      {"industry": "other", "sub": "Real Estate", "pct": 8, "salary": 104000, "stat": "median", "mean": 107800},
+      {"industry": "manufacturing", "sub": "Manufacturing", "pct": 6, "salary": 140000, "stat": "median", "mean": 130000},
+      {"industry": "healthcare", "sub": "Healthcare (including products and services)", "pct": 5, "salary": 126000, "stat": "median", "mean": 125500},
+      {"industry": "other", "sub": "Hospitality", "pct": 5, "salary": null, "stat": "median"},
+      {"industry": "consumer", "sub": "Consumer Packaged Goods", "pct": 4, "salary": null, "stat": "median"},
+      {"industry": "nonprofit", "sub": "Nonprofit/Education", "pct": 4, "salary": null, "stat": "median"},
+      {"industry": "other", "sub": "Government", "pct": 2, "salary": null, "stat": "median"}
+    ],
+    "by_function": [
+      {"function": "Consulting - General/Strategy/Management", "pct": 21, "salary": 175000, "stat": "median"},
+      {"function": "Consulting - Finance/Advisory/M&A", "pct": 5, "salary": 175000, "stat": "median"},
+      {"function": "Consulting - Operations/Logistics/Supply Chain", "pct": 3, "salary": 175000, "stat": "median"},
+      {"function": "Consulting - Technology/Marketing/Human Capital", "pct": 5, "salary": 145000, "stat": "median"},
+      {"function": "Corporate Strategy", "pct": 5, "salary": 109000, "stat": "median"},
+      {"function": "Finance - Investment Banking/Private Equity", "pct": 16, "salary": 175000, "stat": "median"},
+      {"function": "Finance - Corporate Finance", "pct": 7, "salary": 115000, "stat": "median"},
+      {"function": "Finance - Investment Management", "pct": 6, "salary": 111500, "stat": "median"},
+      {"function": "Management (general, product, project, HR, IT, analytics)", "pct": 16, "salary": 122000, "stat": "median"},
+      {"function": "Marketing/Sales", "pct": 5, "salary": 135000, "stat": "median"},
+      {"function": "Operations/Logistics/Procurement", "pct": 9, "salary": 143800, "stat": "median"}
+    ],
+    "by_geography": [
+      {"region": "US Mid-Atlantic", "pct": 39, "salary": null, "stat": null},
+      {"region": "US Northeast", "pct": 20, "salary": null, "stat": null},
+      {"region": "US West", "pct": 7, "salary": null, "stat": null},
+      {"region": "US South", "pct": 7, "salary": null, "stat": null},
+      {"region": "US Midwest", "pct": 6, "salary": null, "stat": null},
+      {"region": "US Southwest", "pct": 3, "salary": null, "stat": null}
+    ],
+    "by_geography_note": "85% of graduates work in the US, 4% internationally, 11% did not report; 4% of North America unspecified. No salary by region and no breakdown of the 4% international.",
+    "top_employers": [{"name": "Amazon", "hires": null}, {"name": "Bank of America", "hires": null}, {"name": "Boston Consulting Group", "hires": null}, {"name": "Bristol Myers Squibb", "hires": null}, {"name": "Deloitte", "hires": null}, {"name": "EY", "hires": null}, {"name": "Jefferies Financial Group", "hires": null}, {"name": "JPMorganChase", "hires": null}, {"name": "M&T Bank Corporation", "hires": null}, {"name": "McKinsey & Company", "hires": null}, {"name": "Microsoft", "hires": null}, {"name": "OASIS Energy Partners", "hires": null}, {"name": "PwC", "hires": null}, {"name": "U.S. Department of State", "hires": null}]
+  },
+  "profile": {"cohort": "Full-time entering class of 2026 (school label)", "intl_pct": 44, "avg_age": 29, "avg_work_exp_years": 5.3, "women_pct": 33, "gmat_median": null, "gmat_mean": 713, "gmat_note": "average GMAT 713; GMAT Focus 626; GRE 315", "url": "https://msb.georgetown.edu/full-time-mba/class-profile/", "read_on": "2026-10-13", "note": "Class of 2025 profile in the employment report: 258 students, 31% women, 59% international, 40 countries"},
+  "rankings_cited": [],
+  "notes": "Official report is published only as an Issuu flipbook; read from the page images served by image.isu.pub (12 pages, official Georgetown document). Not found in FT Global MBA 2026 extracts read."
+}

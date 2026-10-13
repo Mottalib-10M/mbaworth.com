@@ -34,8 +34,9 @@ P = {
   'model': {
     'refSalary': 90000, 'refSalaryNote': 'Reference pre-MBA salary for the rankings, in US dollars, an assumption of this site (the same for every school, editable in every tool).',
     'g1': 0.05, 'g0': 0.03, 'r': 0.05, 'horizonYears': 10, 'paybackCapYears': 30, 'internMonths': 2.5,
-    'weights': {'share': 0.4, 'salary': 0.3, 'npv': 0.3},
-    'note': 'g1 and g0: yearly raise with and without the MBA; r: discount rate; internMonths: length of the summer internship counted for two-year programs. Assumptions of this site, shown and editable.'
+    'weights': {'share': 0.4, 'salary': 0.3, 'npv': 0.3}, 'zoneWeights': {'share': 1, 'salary': 0, 'npv': 0},
+    'minShare': {'all': 0, 'ind': 5, 'seg': 2, 'zone': 5, 'fn': 5}, 'zoneFallbackShare': 50,
+    'note': 'g1 and g0: yearly raise with and without the MBA; r: discount rate; internMonths: length of the summer internship counted for two-year programs; zoneWeights: few schools publish a salary by region, so regions are ranked on the share of the class placed there alone; minShare: smallest share of the class (in %) for a school to be ranked on a goal; zoneFallbackShare: a region must take at least this share of the class before the school-wide salary stands in for a regional salary the school does not publish. Assumptions of this site, shown and editable.'
   },
   'ukvi': {'londonMonthly': 1529, 'outsideMonthly': 1171, 'maxMonths': 9, 'source': 'ukvi_money'},
   'bls': {'period': 'May 2025', 'source': 'bls_oews', 'occupations': occ, 'managementAnalystsByMetro': metro},

@@ -1,0 +1,40 @@
+{
+  "slug": "cuhk",
+  "name": "CUHK Business School, The Chinese University of Hong Kong",
+  "short": "CUHK",
+  "country": "HK",
+  "city": "Hong Kong",
+  "region": "Asia",
+  "program": {
+    "length_months": 12,
+    "format": "1-year",
+    "length_note": "12 months, or 16 months with exchange / dual degree (school: 'Study Roadmap (12/16 months)')",
+    "class_size": {"value": null, "cohort": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "class profile not found on readable pages (brochure behind a lead form)"}
+  },
+  "tuition_total": {"value": 620000, "currency": "HKD", "period": "full program", "cohort": "2027 intake (homepage advertising 2027 intake deadlines)", "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "Homepage: 'Full-Time MBA Programme ... Duration and Tuition: 12/16 months, HK$620,000.' Same HK$620,000 for the 2-year/normative period listed by the CUHK Graduate School (https://www.gs.cuhk.edu.hk/programmes/business-administration/mba, seen in search excerpt only). Intake year of the fee not stated explicitly."},
+  "mandatory_fees_total": {"value": null, "currency": "HKD", "period": "full program", "cohort": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "not found"},
+  "living_budget_total": {"value": null, "currency": "HKD", "period": null, "basis": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "no school living budget found"},
+  "scholarship": {"value": null, "currency": "HKD", "stat": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "Search excerpt of an official page (https://mba.cuhk.edu.hk/?p=10130) mentions an Early Acceptance Scholarship of HK$15,000 and a CUHK Alumni Grant of HK$20,000, but the page fetched redirected to the homepage and these were not verified at source."},
+  "employment": {
+    "report_url": null,
+    "url": "https://mba.cuhk.edu.hk/",
+    "read_on": "2026-10-13",
+    "cohort": null,
+    "standard": "school",
+    "response_rate": null,
+    "employed_3m_pct": null,
+    "accepted_3m_pct": null,
+    "employed_in_asia_pct": 93,
+    "employed_in_asia_note": "Homepage: '93% graduates are employed in Asia (Full-time Student)', no cohort stated. An older banner on the same page says '98% Employed in Asia (2019 Full-Time Graduates)'.",
+    "base_salary": {"value": null, "currency": "HKD", "stat": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "No current employment report found. Former report URLs (https://www.mba.cuhk.edu.hk/wp-content/uploads/Employment-Report-2020.pdf, .../2020/03/Full-time-MBA-Graduates-2019-Employment-Report.pdf) now return 404."},
+    "signing_bonus": {"value": null, "stat": null, "pct_receiving": null},
+    "internship_monthly": null,
+    "by_industry": [],
+    "by_function": [],
+    "by_geography": [{"region": "Asia", "pct": 93, "salary": null, "note": "share employed in Asia, cohort not stated"}],
+    "top_employers": []
+  },
+  "profile": {"intl_pct": null, "avg_age": null, "avg_work_exp_years": null, "women_pct": null, "gmat_median": null, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "minimum two years of full-time work experience required; profile figures not found"},
+  "rankings_cited": [{"ranking": "FT Global MBA 2025", "rank": 65, "url": "https://mba.cuhk.edu.hk/", "read_on": "2026-10-13", "note": "school homepage: 'ranked 65th globally by the Financial Times in 2025'. Not found in the FT Global MBA 2026 top 100 as reproduced at https://www.clearadmit.com/mba-rankings/financial-times/ (read 2026-10-13); FT 2026 rank = null."}],
+  "notes": "CUHK MBA site is largely JS-rendered/lead-gated (brochure via cloud.mc.cuhk.edu.hk form). No salary, industry, or class profile figures available from official readable pages: out of salary-based ROI ranking. To re-read via browser: career/employment page and class profile."
+}

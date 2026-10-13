@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-college-cost.example/sitemap-index.xml
+Sitemap: https://mba-worth.example/sitemap-index.xml
