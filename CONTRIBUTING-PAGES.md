@@ -166,3 +166,19 @@ Serveur local : `npx astro preview --port 4471`. Pour l'arrêter : `lsof -ti tcp
 
 Pas de dépôt GitHub ni de push sans validation de l'éditeur, pas de DNS, pas de Chrome. Ne pas toucher à
 `_trame` ni à la RECETTE. Monétisation : aucun emplacement publicitaire actif (au plus 3 par page le jour où l’éditeur les ouvre).
+
+## État au 2026-10-13
+
+- **129 pages indexables** (plafond 150) : accueil, index des écoles, méthode, À propos ; 7 outils ; 12 « Best MBA for… » ;
+  14 pages conseil ; 4 finance ; 2 tech ; 5 guides ; 6 comparatifs ; **75 fiches école** (une par fichier de recherche).
+- Rapport SERP : `~/Documents/GitHub/reports/mba-worth-serp-2026-10-13.md`.
+- Lectures faites dans un navigateur par le coordinateur (pages fermées aux robots) : `research/overrides/` (Harvard,
+  Columbia, Ivey, Oxford, NUS, Melbourne, HEC). Décisions de lecture : `research/normalize.json` (PPP de Warwick,
+  Imperial, RSM ; nature des salaires IIM, ISB, IMD, ESMT, Bocconi, NUS ; enquête HKUST écartée ; budget IIMB partiel ;
+  salaire SMU 2019 écarté ; frais NYU et EDHEC).
+- **À relire** (notes des collecteurs `research/schools/_a-relire*.md`) : classements FT relevés sur des copies tierces ;
+  Michigan Ross (frais 2025-26 sur copie Wayback) ; SJTU (industries de la classe 2016) ; Mannheim (classe 2023) ;
+  ESSEC (aucun chiffre publié) ; écoles sans budget de vie (IESE, IE, CEIBS, IIM, NUS, SMU, Rice, USC, WashU…).
+- `check-sources` : une URL morte reste citée dans une note d'un collecteur (CUHK, ancien rapport 2020, signalé comme
+  disparu) ; `typo-sources --check` relève des tirets dans les notes des collecteurs (`research/schools/_*.md`,
+  `tuck.json`). Ces fichiers ne sont pas publiés et ne se modifient pas ici.

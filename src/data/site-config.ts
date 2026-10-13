@@ -6,7 +6,7 @@ export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
 export const LOCALE_TAG = 'en-US';
 export const CURRENCY = 'USD';
 export const YEAR = 2026;
-/** Année de création du site — signal d'ancienneté (RECETTE §8.0). */
+/** Année de création du site, signal d'ancienneté (RECETTE §8.0). */
 export const SITE_FOUNDED = '2026';
 export const LAST_UPDATED = '2026-10-13';
 export const AUTHOR_NAME = 'Radif Partners';
@@ -31,7 +31,7 @@ export const CLARITY_ID = '';
 export const INDEXNOW_KEY = '8d17db2cdc3a7ca9722dd2f9a0d5029d';
 
 /* ------------------------------------------------------------------------- *
- * IDENTITÉ LÉGALE — À COMPLÉTER AVANT LA MISE EN LIGNE
+ * IDENTITÉ LÉGALE, À COMPLÉTER AVANT LA MISE EN LIGNE
  * Ces champs alimentent la mention légale du pays, la politique de confidentialité,
  * la page contact et le schema Organization. Un champ vide s'affiche en jaune
  * sur le site. Contrôle : `npm run check:legal`.

@@ -37,7 +37,7 @@ const rows = [...SCHOOLS].filter((s) => s.tuition).sort((a, b) => a.short.locale
     <p class="mt-2 text-lg text-navy-700">{x.intro}</p>
     <p class="mt-1 text-sm text-navy-600">Fees, budgets and employment reports read <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline">Method</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
   </header>
-  <div data-outil><Tool kind="roi" args={{ school: 'wharton' }} idPrefix="home" /></div>
+  <div data-outil data-chrome><Tool kind="roi" args={{ school: 'wharton' }} idPrefix="home" /></div>
   <section class="my-8" data-chrome>
     <h2 class="font-serif text-xl font-bold text-navy-900">The best school for your goal, on our numbers</h2>
     <div class="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

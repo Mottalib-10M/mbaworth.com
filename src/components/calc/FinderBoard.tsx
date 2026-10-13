@@ -58,9 +58,8 @@ export default function FinderBoard({ schools, model, goal = 'consulting', lengt
           <p className="mt-3 text-xs text-navy-700">{g.kind === 'zone' ? 'Regions: few schools publish a salary by region, so the score is the share of the class placed there, as a percentile among the schools shown.' : `Fit score: share of the class (${Math.round(model.weights.share * 100)}%), salary (${Math.round(model.weights.salary * 100)}%) and ten-year NPV for you (${Math.round(model.weights.npv * 100)}%), each as a percentile among the schools shown.`} Schools under {minShareOf(model, g)}% of the class are not ranked. <a className="underline" href={methodHref}>Method</a>.</p>
         </Result>
       </div>
-      <div className="mt-5 flex flex-wrap items-center gap-2 text-sm" role="group" aria-label="Sort the table">
-        <span className="font-medium text-navy-700">Sort by</span>
-        {sorts.map(([k, l]) => <button key={k} type="button" onClick={() => setBy(k)} aria-pressed={by === k} className={`rounded-full border px-3 py-1 ${by === k ? 'border-accent-600 bg-accent-600 text-white' : 'border-navy-300 bg-white text-navy-800 hover:bg-navy-50'}`}>{l}</button>)}
+      <div className="mt-5 grid gap-x-5 sm:grid-cols-2 lg:grid-cols-4">
+        <SelectField id={`${idPrefix}-sort`} label="Sort the table by" value={by} onChange={(v) => setBy(v as Sort)} options={sorts.map(([k, l]) => ({ value: k, label: l }))} />
       </div>
       <div data-chrome className="mt-4 overflow-x-auto">
         <table className="journal w-full text-sm">

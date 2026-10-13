@@ -32,7 +32,7 @@ const resume = `${n} business schools are on this site, each with a page built f
     <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 sm:text-3xl md:text-4xl">MBA schools: cost, salary and payback</h1>
     <p class="mt-2 text-base text-navy-700 sm:text-lg">{n} programs, each read in its own fees page and employment report.</p>
   </header>
-  <div data-outil class="mb-6"><Tool kind="finder" args={{ goal: 'all' }} idPrefix="sch" /></div>
+  <div data-outil data-chrome class="mb-6"><Tool kind="finder" args={{ goal: 'all' }} idPrefix="sch" /></div>
   <Clamp text={resume} lang={lang} id="clamp-schools" class="mb-8" />
   <section data-sommaire>
     {groups.map((g) => <><h2 class="mt-8 font-serif text-2xl font-bold text-navy-900">{g.l}</h2><Fragment set:html={table(['School', 'City', 'Tuition and fees', 'Total cost', 'Salary', 'Payback'], g.list.map(row), undefined, ['l', 'l', 'r', 'r', 'r', 'r'])} /></>)}

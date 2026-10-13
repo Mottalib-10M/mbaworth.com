@@ -16,7 +16,7 @@ const only = (process.env.PAGE_FILES ?? '').split(',').filter(Boolean);
 const pages = only.length ? PAGES.filter((p) => only.includes(p.id)) : PAGES;
 const schools = only.length ? SCHOOL_PAGES.filter((p) => only.includes(schoolId(p.slug))) : SCHOOL_PAGES;
 const words = (s: string) => s.replace(/<!--[\s\S]*?-->/g, ' ').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
-const BANNED = [/—/, /–/, /&mdash;/, /&ndash;/, /it[’']s important to note/i, /dive into/i, /whether you[’']re/i, /in today[’']s world/i, /\bMoreover\b/, /\bAdditionally\b/, /\bFurthermore\b/, /navigat(e|ing) the/i, /\bdelve\b/i, /taxineo/i, /\bMines\b/, /linkedin/i, /\bgame[- ]changer\b/i, /\bunlock\b/i, /\btapestry\b/i, /\blandscape\b/i, /\bseamless/i];
+const BANNED = [/\u2014/, /\u2013/, /&m[d]ash;/, /&n[d]ash;/, /it[’']s important to note/i, /dive into/i, /whether you[’']re/i, /in today[’']s world/i, /\bMoreover\b/, /\bAdditionally\b/, /\bFurthermore\b/, /navigat(e|ing) the/i, /\bdelve\b/i, /taxineo/i, /\bMines\b/, /linkedin/i, /\bgame[- ]changer\b/i, /\bunlock\b/i, /\btapestry\b/i, /\blandscape\b/i, /\bseamless/i];
 const allQ = [...HOME.faqs.map((f) => f.q), ...PAGES.flatMap((p) => p.faqs.map((f) => f.q)), ...SCHOOL_PAGES.flatMap((p) => p.faqs.map((f) => f.q))];
 const allTitles = [HOME.title, ...PAGES.map((p) => p.title), ...SCHOOL_PAGES.map((p) => p.title)];
 const allDesc = [HOME.description, ...PAGES.map((p) => p.description), ...SCHOOL_PAGES.map((p) => p.description)];

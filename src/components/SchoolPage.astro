@@ -77,7 +77,7 @@ const missing = [S.living ? null : 'a living budget for students', E.salary ? nu
       <h1 class="mt-1 font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{h1}</h1>
       <p class="mt-2 text-base text-navy-700 sm:text-lg">{def.intro}</p>
     </header>
-    <div data-outil class="mb-4"><Tool kind="roi" args={{ school: def.slug }} lock={true} idPrefix={def.slug.replace(/[^a-z]/g, '').slice(0, 6)} /></div>
+    <div data-outil data-chrome class="mb-4"><Tool kind="roi" args={{ school: def.slug }} lock={true} idPrefix={def.slug.replace(/[^a-z]/g, '').slice(0, 6)} /></div>
     <p class="mb-6 text-sm text-navy-600">Fees and budget read on {S.tuition?.readOn ? day(S.tuition.readOn) : 'the school site'} · employment: {E.cohort || 'latest report'}{E.standard ? ` (${E.standard} standard)` : ''} · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a></p>
     <dl data-chrome class="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
       <div class="border-l-2 border-accent-500 pl-3"><dt class="text-xs text-navy-600">Tuition and fees</dt><dd class="tabular-nums text-lg font-bold text-navy-900">{S.directLocal !== null ? L(S.directLocal) : 'n/a'}</dd></div>
