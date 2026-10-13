@@ -12690,7 +12690,7 @@
 "salary": {
 "v": 88002.0,
 "cur": "USD",
-"kind": "base-mean",
+"kind": "mean",
 "usd": 88002,
 "p25": null,
 "p75": null,
@@ -12752,8 +12752,8 @@
 "period": "per year, 9 months (2026-27)"
 },
 "fees": {
-"v": 4080.0,
-"note": "Fees: the school publishes one academic year; two academic years counted.",
+"v": 2040.0,
+"note": "One-time fee, counted once.",
 "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/financial-aid/tuition-cost-attendance",
 "raw": 2040.0
 },
@@ -12772,8 +12772,8 @@
 "note": "",
 "url": "https://www.stern.nyu.edu/programs-admissions/full-time-mba/financial-aid/scholarships"
 },
-"directLocal": 189396.0,
-"totalLocal": 281336.0,
+"directLocal": 187356.0,
+"totalLocal": 279296.0,
 "emp": {
 "cohort": "Class of 2025",
 "standard": "school",

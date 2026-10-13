@@ -68,5 +68,13 @@
   "zones_drop": true,
   "industries_drop": true,
   "reason": "Industry and region shares come from a university-wide survey of a few dozen MBA respondents, not the MBA employment report."
+ },
+ "nyu-stern": {
+  "fees_once": true,
+  "reason": "The LAUNCH orientation fee is one-time, first year only."
+ },
+ "nus": {
+  "salary_kind": "mean",
+  "reason": "NUS does not say whether its average is base or total pay."
  }
 }

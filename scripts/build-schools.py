@@ -156,6 +156,8 @@ def build(d):
     if o.get('fees_drop'):
         f = {}
     fv, fmult, fnote = program_total(f, months, two_year, 'Fees') if num(f.get('value')) is not None else (None, None, f.get('note') or '')
+    if o.get('fees_once') and fv is not None:
+        fv, fnote = num(f.get('value')), 'One-time fee, counted once.'
     if fv is not None and f.get('currency') and f.get('currency') != cur:
         fv = round(fv * FX[f['currency']] / FX[cur]); fnote = (fnote + ' Converted to the tuition currency.').strip()
     lv_block = d.get('living_budget_total') or {}
