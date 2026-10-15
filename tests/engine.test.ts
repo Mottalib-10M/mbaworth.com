@@ -155,3 +155,16 @@ describe('data', () => {
     expect(o.payback).not.toBeNull();
   });
 });
+
+describe('missing figures are never shown as $0 (2026-10-15)', async () => {
+  const { usd, money } = await import('../src/lib/fmt');
+  const { KIT } = await import('../src/lib/kit');
+  const { GOAL_LIST } = await import('../src/lib/goals');
+  it('formatters write "not published" for null, undefined and NaN', () => {
+    expect(usd(null)).toBe('not published'); expect(usd(undefined)).toBe('not published'); expect(usd(NaN)).toBe('not published');
+    expect(money(null, 'SGD')).toBe('not published'); expect(usd(0)).toBe('$0');
+  });
+  it('no ranked row carries a salary of 0', () => {
+    for (const g of GOAL_LIST) for (const r of KIT.ranking(g.id).ranked) expect(r.salary === null || r.salary > 0, `${g.id} ${r.slug}`).toBe(true);
+  });
+});

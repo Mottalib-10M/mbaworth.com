@@ -3,7 +3,8 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import SelectField from '../ui/SelectField';
 import { formatMoney, formatNumber } from '../../lib/format';
 
-export const usd = (n: number, d = 0) => formatMoney(Number.isFinite(n) ? n : 0, d);
+/** null / undefined = donnée absente : « not published », jamais « $0 » (garde-fou 2026-10-15). */
+export const usd = (n: number | null | undefined, d = 0) => (n === null || n === undefined ? 'not published' : formatMoney(Number.isFinite(n) ? n : 0, d));
 export const num = (n: number, d = 0) => formatNumber(Number.isFinite(n) ? n : 0, d);
 export interface Opt { value: string; label: string }
 

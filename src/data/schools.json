@@ -7063,8 +7063,8 @@
 "directLocal": 600000.0,
 "totalLocal": 925325.0,
 "emp": {
-"cohort": "Full-time MBA Intake of 2025 (headline); MBA graduates 2025 (GES)",
-"standard": "MBA CSEA (headline); school (GES)",
+"cohort": "Full-time MBA Intake of 2025",
+"standard": "MBA CSEA",
 "url": "https://mbaoffice.hkust.edu.hk/career-report",
 "page": "https://mba.hkust.edu.hk/full-time-career-development",
 "readOn": "2026-10-13",
@@ -7072,30 +7072,13 @@
 "employed": 95.0,
 "employedLabel": "accepted an offer within three months",
 "salary": null,
-"salaryMissing": "GES 2025 Table 5, MBA overall, full-time and self-employed respondents. Annual base salary not published outside the gated report.",
+"salaryMissing": "Annual base salary not published outside the gated MBA CSEA report.",
 "bonus": null,
 "intern": null,
 "industries": [],
 "segments": [],
 "zones": [],
-"functions": [
-{
-"key": "corpfin",
-"label": "Banking / Finance",
-"pct": 65.6,
-"salary": 47083.0,
-"cur": "HKD",
-"usd": 5999
-},
-{
-"key": "other",
-"label": "Administration / Management",
-"pct": 31.3,
-"salary": 52013.0,
-"cur": "HKD",
-"usd": 6628
-}
-],
+"functions": [],
 "employers": []
 },
 "profile": {

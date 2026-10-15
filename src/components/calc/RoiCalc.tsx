@@ -49,7 +49,7 @@ export default function RoiCalc({ schools, model, school, lock = false, goal = '
   const sub = o && !noSalary ? (mode === 'cost' ? `Payback ${payback === null ? 'over 30 years' : yrs(payback)} · 10-year NPV ${usd(o.npv)}` : `Total cost ${usd(total!)} · 10-year NPV ${usd(o.npv)}`) : o ? `Total cost ${usd(total!)}` : '';
   const rows: Array<[string, string] | [string, string, boolean]> = o ? [
     ['Tuition and fees, whole program', usd(o.direct - living)],
-    [`Living budget${s.livingBasis === 'visa' && livo === null ? ' (UK visa minimum)' : ''}`, usd(living)],
+    [`Living budget${s.livingBasis === 'visa' && livo === null ? ' (UK visa minimum)' : ''}`, noLiving ? 'not published' : usd(living)],
     [`Salary given up, ${s.months} months`, usd(o.forgone)],
     ...(internIncome(s, model) > 0 ? [['Summer internship earned', `−${usd(internIncome(s, model))}`] as [string, string]] : []),
     ...(sch > 0 ? [['Scholarship', `−${usd(sch)}`] as [string, string]] : []),

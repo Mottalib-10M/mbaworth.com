@@ -1,7 +1,11 @@
 /** Formatters with no dependency on routes or data (safe from page files, minis and calculators). */
 import { formatMoney, formatNumber } from './format';
+/** Garde-fou (2026-10-15) : une donnée absente (null, undefined, NaN) s'écrit « not published », jamais « $0 »
+ *  — SMU affichait « $0 » de salaire sur l'accueil parce que son salaire absent passait par ici comme 0. */
+export const NOT_PUBLISHED = 'not published';
+const missing = (n: unknown): n is null | undefined => n === null || n === undefined || (typeof n === 'number' && Number.isNaN(n));
 /** $1,234 (no cents, RECETTE §4.1). */
-export const usd = (n: number, d = 0) => formatMoney(n, d);
+export const usd = (n: number | null | undefined, d = 0) => (missing(n) ? NOT_PUBLISHED : formatMoney(n, d));
 export const num = (n: number, d = 0) => formatNumber(n, d);
 /** A share 0..1 as a percentage: 0.3792 → "37.9%". */
 export const pct = (share: number, d = 1) => `${formatNumber(share * 100, d)}%`;
@@ -9,7 +13,8 @@ export const pct = (share: number, d = 1) => `${formatNumber(share * 100, d)}%`;
 export const p = (x: number) => `${formatNumber(x, Number.isInteger(x) ? 0 : 1)}%`;
 /** An amount in a school's own currency: "€109,860", "£123,950", "CN¥488,000". */
 const cache = new Map<string, Intl.NumberFormat>();
-export const money = (v: number, cur: string) => {
+export const money = (v: number | null | undefined, cur: string) => {
+  if (missing(v)) return NOT_PUBLISHED;
   if (!cache.has(cur)) cache.set(cur, new Intl.NumberFormat('en-US', { style: 'currency', currency: cur, maximumFractionDigits: 0, minimumFractionDigits: 0 }));
   return cache.get(cur)!.format(v);
 };
