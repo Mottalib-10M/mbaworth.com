@@ -20,7 +20,7 @@ export default function CompareCalc({ schools, model, defaults, goal = 'all', me
   const set = (i: number) => (v: string) => setPicks((p) => { const n = [...p]; n[i] = v; return n; });
   const line = (label: string, f: (c: (typeof cols)[number]) => string) => <tr key={label}><th scope="row" className="border-b border-navy-100 py-2 pr-3 text-left font-normal text-navy-700">{label}</th>{cols.map((c) => <td key={c.s.slug} className="border-b border-navy-100 px-2 py-2 text-right tabular-nums text-navy-900">{f(c)}</td>)}</tr>;
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner rounded-xl border border-navy-200 border-t-[3px] border-t-accent-500 bg-white p-4 sm:p-6">
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
         <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
           <SelectField id={`${idPrefix}-a`} label="First school" value={picks[0] ?? ''} onChange={set(0)} options={opts.slice(1)} />

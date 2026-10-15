@@ -6,7 +6,7 @@
 import { useMemo, useState } from 'react';
 import NumberField from '../ui/NumberField';
 import SelectField from '../ui/SelectField';
-import { Card, Result, Rows, Note, Actions, usd, StatePick } from './parts';
+import { Card, Result, Rows, Note, Actions, usd, StatePick, CostBar, COST_COLORS } from './parts';
 import { goalOf, schoolRoi, internIncome, bonusExpected, type CalcSchool, type Model } from '../../lib/engine/goal';
 import { GOAL_LIST } from '../../lib/goals';
 import { kindLabel, yrs } from '../../lib/fmt';
@@ -76,7 +76,8 @@ export default function RoiCalc({ schools, model, school, lock = false, goal = '
         </>}
       </>}>
         <Result label={head.l} figure={head.f} sub={sub}>
-          <Rows rows={rows} />
+          {o && <CostBar parts={[{ value: o.direct - living, color: COST_COLORS.tuition }, { value: living, color: COST_COLORS.living }, { value: o.forgone, color: COST_COLORS.forgone }]} />}
+          <Rows rows={rows} marks={o ? { 'Tuition and fees, whole program': COST_COLORS.tuition, [rows[1]?.[0] ?? '']: COST_COLORS.living, [rows[2]?.[0] ?? '']: COST_COLORS.forgone } : {}} />
           <Note methodHref={methodHref}>US dollars at the ECB rate of the last update. Raises of {Math.round(model.g1 * 100)}% a year with the MBA and {Math.round(model.g0 * 100)}% without, discounted at {Math.round(model.r * 100)}%, before tax. {noLiving ? 'The school publishes no living budget: the figure above is yours. ' : ''}{gl.fallback && s1o === null ? 'The school gives no salary for this goal: its school-wide figure is used. ' : ''}</Note>
           <Actions />
         </Result>

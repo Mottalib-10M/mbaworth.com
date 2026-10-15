@@ -46,7 +46,7 @@ export default function FinderBoard({ schools, model, goal = 'consulting', lengt
   const goalOpts = GOAL_LIST.filter((x) => x.id !== 'all' || !lockGoal).map((x) => ({ value: x.id, label: x.label }));
   const sorts: Array<[Sort, string]> = [['fit', 'Fit score'], ['share', 'Share of the class'], ['salary', 'Salary reported'], ['placed', 'Graduates placed'], ['npv', '10-year NPV for you'], ['payback', 'Fastest payback'], ['cost', 'Lowest total cost']];
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner rounded-xl border border-navy-200 border-t-[3px] border-t-accent-500 bg-white p-4 sm:p-6">
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
         <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
           <SelectField id={`${idPrefix}-goal`} label="Your goal" value={g.id} onChange={setGoalId} options={goalOpts} />
@@ -66,14 +66,14 @@ export default function FinderBoard({ schools, model, goal = 'consulting', lengt
           <thead><tr>{['#', 'School', g.kind === 'zone' ? 'Placed there' : 'Share', 'About', 'Salary', 'Payback', '10-year NPV', 'Score'].map((h, i) => <th key={h} scope="col" className={`px-2 py-2 font-semibold text-navy-900 ${i > 1 ? 'text-right' : 'text-left'}`}>{h}</th>)}</tr></thead>
           <tbody>{shown.map((r, i) => (
             <tr key={r.slug}>
-              <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums text-navy-700">{i + 1}</td>
+              <td className="rank-num border-b border-navy-100 px-2 py-2 text-right text-base">{i + 1}</td>
               <td className="border-b border-navy-100 px-2 py-2">{r.s.href ? <a className="font-medium text-accent-700 underline-offset-2 hover:underline" href={r.s.href}>{r.s.short}</a> : <span className="font-medium text-navy-900">{r.s.short}</span>}<span className="block text-xs text-navy-500">{r.s.city}{r.s.months ? ` · ${r.s.months} months` : ''}</span></td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.share}%</td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.placed === null ? 'n/a' : num(r.placed)}</td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.salary === null ? 'n/a' : <>{usd(r.salary)}{r.gl.fallback ? '*' : ''}{r.gl.stat && /mean/.test(r.gl.stat) ? <span className="block text-xs text-navy-500">average</span> : null}</>}</td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{!r.o || r.o.payback === null ? 'over 30 y' : yrs(r.o.payback)}</td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.npv === null ? 'n/a' : usd(r.npv)}</td>
-              <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums font-semibold">{Math.round(r.score)}</td>
+              <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums font-semibold"><span className="score-pill"><i aria-hidden="true" style={{ ['--w' as string]: `${Math.max(0, Math.min(100, Math.round(r.score)))}%` }} />{Math.round(r.score)}</span></td>
             </tr>))}
           </tbody>
         </table>

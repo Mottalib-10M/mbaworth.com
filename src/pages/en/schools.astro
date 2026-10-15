@@ -2,6 +2,7 @@
 /** Index of every school: the finder sorted by cost, then the schools by region with their key figures. */
 import PageLayout from '../../layouts/PageLayout.astro';
 import Tool from '../../components/Tool.astro';
+import BandArt from '../../components/BandArt.astro';
 import Clamp from '../../components/Clamp.astro';
 import { route } from '../../i18n/routes';
 import { SCHOOLS, MODEL } from '../../lib/data';
@@ -27,14 +28,15 @@ const faqs = [
 ];
 const resume = `${n} business schools are on this site, each with a page built from the documents it publishes itself: the tuition and fees of the coming intake, the budget it gives students for rent, food and insurance, and the employment report of its latest graduating class. ${ranked} of them publish both a graduate salary and a living budget, so our model can compute their total cost with the salary you give up, their payback period and their ten-year net present value, and rank them for an industry or a region. The other schools keep their page with the cost they publish and a plain list of what is missing. The table above recomputes every school for your own salary today; the lists below group them by where the campus is, with the figures for a person earning ${usd(MODEL.refSalary)} before the MBA, converted to US dollars at the European Central Bank rate of ${day(K.FX_DATE)}.`;
 ---
-<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'MBA schools', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Schools', path }]), faqSchema(faqs, lang)]} breadcrumbs={[{ label: 'Schools' }]} anneeEnHaut faqs={faqs}>
-  <header class="mb-4">
-    <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 sm:text-3xl md:text-4xl">MBA schools: cost, salary and payback</h1>
-    <p class="mt-2 text-base text-navy-700 sm:text-lg">{n} programs, each read in its own fees page and employment report.</p>
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'MBA schools', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Schools', path }]), faqSchema(faqs, lang)]} breadcrumbs={[{ label: 'Schools' }]} anneeEnHaut faqs={faqs} masthead>
+  <header class="band pb-16 pt-3">
+    <BandArt />
+    <h1 class="relative mt-1 font-serif text-[1.75rem] leading-[1.12] sm:text-4xl md:text-[2.6rem]">MBA schools: cost, salary and payback</h1>
+    <p class="band-intro relative mt-3 text-base sm:text-lg">{n} programs, each read in its own fees page and employment report.</p>
   </header>
-  <div data-outil data-chrome class="mb-6"><Tool kind="finder" args={{ goal: 'all' }} idPrefix="sch" /></div>
+  <div data-outil data-chrome class="hero-tool mb-6"><Tool kind="finder" args={{ goal: 'all' }} idPrefix="sch" /></div>
   <Clamp text={resume} lang={lang} id="clamp-schools" class="mb-8" />
   <section data-sommaire>
-    {groups.map((g) => <><h2 class="mt-8 font-serif text-2xl font-bold text-navy-900">{g.l}</h2><Fragment set:html={table(['School', 'City', 'Tuition and fees', 'Total cost', 'Salary', 'Payback'], g.list.map(row), undefined, ['l', 'l', 'r', 'r', 'r', 'r'])} /></>)}
+    {groups.map((g) => <><h2 class="section-title mt-12 font-serif text-2xl text-navy-900">{g.l}</h2><Fragment set:html={table(['School', 'City', 'Tuition and fees', 'Total cost', 'Salary', 'Payback'], g.list.map(row), undefined, ['l', 'l', 'r', 'r', 'r', 'r'])} /></>)}
   </section>
 </PageLayout>

@@ -9,6 +9,7 @@ import PageLayout from '../layouts/PageLayout.astro';
 import MiniSim from './calc/MiniSim';
 import Clamp from './Clamp.astro';
 import Tool from './Tool.astro';
+import BandArt from './BandArt.astro';
 import { route, ROUTES } from '../i18n/routes';
 import { label } from '../i18n/nav';
 import { t } from '../i18n/ui';
@@ -59,9 +60,10 @@ if (E.intern) empRows.push([`Summer internship, per month${E.intern.stat ? ` (${
 if (E.employed !== null) empRows.push([`Graduates who ${E.employedLabel}`, p(E.employed)]);
 if (E.response !== null) empRows.push(['Response rate to the survey', p(E.response)]);
 const segName: Record<string, string> = { ib: 'Investment banking', pe: 'Private equity', vc: 'Venture capital', am: 'Asset management' };
-const indRows = [...E.industries].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0)).map((r) => [r.label, r.pct === null ? 'n/a' : p(r.pct), r.salary ? `${money(r.salary, r.cur)}${r.stat === 'mean' ? ' (average)' : ''}` : 'not published']);
+const bar = (v: number | null) => (v === null ? '' : `<span class="share-bar" aria-hidden="true"><i style="width:${Math.min(100, Math.round(v))}%"></i></span>`);
+const indRows = [...E.industries].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0)).map((r) => [r.label, r.pct === null ? 'n/a' : `${p(r.pct)}${bar(r.pct)}`, r.salary ? `${money(r.salary, r.cur)}${r.stat === 'mean' ? ' (average)' : ''}` : 'not published']);
 for (const sg of E.segments) indRows.push([`&nbsp;&nbsp;of which ${segName[sg.key].toLowerCase()} (${sg.label})`, sg.pct === null ? 'n/a' : p(sg.pct), sg.salary ? money(sg.salary, sg.cur) : 'not published']);
-const zoneRows = E.zones.map((z) => [`${z.zone}${z.label && z.label !== z.zone ? ` <span class="text-xs text-navy-500">(${z.label})</span>` : ''}`, z.pct === null ? 'n/a' : `${p(z.pct)}${z.derived ? '*' : ''}`, z.salary ? money(z.salary, z.cur) : 'not published']);
+const zoneRows = E.zones.map((z) => [`${z.zone}${z.label && z.label !== z.zone ? ` <span class="text-xs text-navy-500">(${z.label})</span>` : ''}`, z.pct === null ? 'n/a' : `${p(z.pct)}${z.derived ? '*' : ''}${bar(z.pct)}`, z.salary ? money(z.salary, z.cur) : 'not published']);
 const fnRows = E.functions.map((f) => [f.label, f.pct === null ? 'n/a' : p(f.pct), f.salary ? money(f.salary, f.cur) : 'not published']);
 const pr = S.profile;
 const profRows = [['International students', pr.intl], ['Women', pr.women], ['Average age', pr.age], ['Average years of work experience', pr.exp], [`GMAT ${pr.gmatLabel}`, pr.gmat], ['Nationalities', pr.countries], ['Class size', S.classSize]].filter((r) => r[1] !== null && r[1] !== undefined).map(([l, v]) => [String(l), /International|Women/.test(String(l)) ? p(v as number) : num(v as number, Number.isInteger(v) ? 0 : 1)]);
@@ -70,43 +72,46 @@ const bestPage = (goalId: string) => PAGES.find((pg) => pg.group === 'best' && p
 const ranks = RANK_GOALS.map((g) => ({ g: GOAL_LIST.find((x) => x.id === g)!, r: KIT.rank(def.slug, g), pg: bestPage(g) })).filter((x) => x.r);
 const missing = [S.living ? null : 'a living budget for students', E.salary ? null : 'a graduate salary', E.industries.length ? null : 'the split of the class by industry', E.zones.length ? null : 'where graduates went to work', E.functions.length ? null : 'the split by job function'].filter(Boolean) as string[];
 ---
-<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={docs} breadcrumbs={[{ label: 'Schools', href: route('schools', lang) }, { label: S.short }]} anneeEnHaut={!/20\d\d/.test(h1 + def.intro)}>
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={docs} breadcrumbs={[{ label: 'Schools', href: route('schools', lang) }, { label: S.short }]} anneeEnHaut={!/20\d\d/.test(h1 + def.intro)} masthead>
   <article>
-    <header class="mb-4">
-      <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{S.city}{S.country ? `, ${S.country}` : ''}{S.months ? ` · ${S.months} months` : ''}{S.classSize ? ` · class of ${num(S.classSize)}` : ''}</p>
-      <h1 class="mt-1 font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{h1}</h1>
-      <p class="mt-2 text-base text-navy-700 sm:text-lg">{def.intro}</p>
+    <header class="band pb-16 pt-3">
+      <BandArt />
+      <div class="relative">
+      <p class="eyebrow">{S.city}{S.country ? `, ${S.country}` : ''}{S.months ? ` · ${S.months} months` : ''}{S.classSize ? ` · class of ${num(S.classSize)}` : ''}</p>
+      <h1 class="mt-2 font-serif text-[1.75rem] leading-[1.12] sm:text-4xl md:text-[2.6rem]">{h1}</h1>
+      <p class="band-intro mt-3 max-w-4xl text-base sm:text-lg">{def.intro}</p>
+      </div>
     </header>
-    <div data-outil data-chrome class="mb-4"><Tool kind="roi" args={{ school: def.slug }} lock={true} idPrefix={def.slug.replace(/[^a-z]/g, '').slice(0, 6)} /></div>
+    <div data-outil data-chrome class="hero-tool mb-4"><Tool kind="roi" args={{ school: def.slug }} lock={true} idPrefix={def.slug.replace(/[^a-z]/g, '').slice(0, 6)} /></div>
     <p class="mb-6 text-sm text-navy-600">Fees and budget read on {S.tuition?.readOn ? day(S.tuition.readOn) : 'the school site'} · employment: {E.cohort || 'latest report'}{E.standard ? ` (${E.standard} standard)` : ''} · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a></p>
-    <dl data-chrome class="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-      <div class="border-l-2 border-accent-500 pl-3"><dt class="text-xs text-navy-600">Tuition and fees</dt><dd class="tabular-nums text-lg font-bold text-navy-900">{S.directLocal !== null ? L(S.directLocal) : 'n/a'}</dd></div>
-      <div class="border-l-2 border-accent-500 pl-3"><dt class="text-xs text-navy-600">Total cost, salary given up included</dt><dd class="tabular-nums text-lg font-bold text-navy-900">{o ? usd(o.total) : 'n/a'}</dd></div>
-      <div class="border-l-2 border-accent-500 pl-3"><dt class="text-xs text-navy-600">{E.salary ? kindLabel(E.salary.kind) : 'Salary'}</dt><dd class="tabular-nums text-lg font-bold text-navy-900">{E.salary ? money(E.salary.v, E.salary.cur) : 'not published'}</dd></div>
-      <div class="border-l-2 border-accent-500 pl-3"><dt class="text-xs text-navy-600">Payback, reference person</dt><dd class="tabular-nums text-lg font-bold text-navy-900">{o ? (o.payback === null ? 'over 30 years' : yrs(o.payback)) : 'not computable'}</dd></div>
+    <dl data-chrome class="kpi mb-8 grid grid-cols-2 gap-x-6 gap-y-5 border-y border-navy-200 py-5 lg:grid-cols-4">
+      <div class="border-l-2 border-brass-500 pl-4"><dt>Tuition and fees</dt><dd class="mt-1">{S.directLocal !== null ? L(S.directLocal) : 'n/a'}</dd></div>
+      <div class="border-l-2 border-brass-500 pl-4"><dt>Total cost, salary given up included</dt><dd class="mt-1">{o ? usd(o.total) : 'n/a'}</dd></div>
+      <div class="border-l-2 border-brass-500 pl-4"><dt>{E.salary ? kindLabel(E.salary.kind) : 'Salary'}</dt><dd class="mt-1">{E.salary ? money(E.salary.v, E.salary.cur) : 'not published'}</dd></div>
+      <div class="border-l-2 border-brass-500 pl-4"><dt>Payback, reference person</dt><dd class="mt-1">{o ? (o.payback === null ? 'over 30 years' : yrs(o.payback)) : 'not computable'}</dd></div>
     </dl>
     <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
     <div class="prose prose-slate max-w-none prose-headings:font-serif">
       {parts.map((x, i) => i % 3 === 0 ? <Fragment set:html={x ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={x} arg={decode(parts[i + 1])} href={route('mba-finder', lang)} /> : null)}
     </div>
     <section data-chrome class="mt-10">
-      <h2 class="font-serif text-2xl font-bold text-navy-900">Where {S.short} stands in our rankings</h2>
-      {ranks.length > 0 ? <ul class="mt-3 grid gap-x-6 gap-y-1.5 text-sm text-navy-800 sm:grid-cols-2">{ranks.map((x) => <li><span class="font-semibold tabular-nums">#{x.r!.rank} of {x.r!.of}</span> · {x.pg ? <a class="text-accent-700 underline" href={route(x.pg.id, lang)}>{x.g.label}</a> : x.g.label}</li>)}</ul> : <p class="mt-3 text-sm text-navy-700">Not ranked: {S.short} does not publish {missing.slice(0, 2).join(' or ')}, which our ranking needs. Its cost is complete above.</p>}
+      <h2 class="section-title font-serif text-2xl text-navy-900">Where {S.short} stands in our rankings</h2>
+      {ranks.length > 0 ? <ul class="mt-4 grid gap-x-8 gap-y-3 text-sm text-navy-800 sm:grid-cols-2">{ranks.map((x) => <li class="flex items-center gap-3 border-b border-navy-100 pb-2"><span class="rank-num w-24 shrink-0 text-base">#{x.r!.rank} <span class="font-sans text-xs font-normal text-navy-600">of {x.r!.of}</span></span><span class="share-bar !ml-0 w-16 shrink-0"><i style={`width:${Math.max(4, Math.round((1 - (x.r!.rank - 1) / Math.max(1, x.r!.of)) * 100))}%`}></i></span><span>{x.pg ? <a class="text-accent-700 underline-offset-2 hover:underline" href={route(x.pg.id, lang)}>{x.g.label}</a> : x.g.label}</span></li>)}</ul> : <p class="mt-3 text-sm text-navy-700">Not ranked: {S.short} does not publish {missing.slice(0, 2).join(' or ')}, which our ranking needs. Its cost is complete above.</p>}
       <p class="mt-2 text-xs text-navy-600">Our fit score, reference person earning {usd(MODEL.refSalary)} before the MBA (<a class="underline" href={route('method', lang)}>method</a>). Third-party rankings play no part in it.{ft ? <> For reference, {S.short} was ranked {num(ft.rank)} in the <a class="underline" href={ft.url} target="_blank" rel="nofollow noopener noreferrer">{ft.ranking}</a>.</> : null}</p>
-      <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">What the {S.short} MBA costs</h2>
+      <h2 class="section-title mt-12 font-serif text-2xl text-navy-900">What the {S.short} MBA costs</h2>
       <Fragment set:html={table(['Item', cur === 'USD' ? 'Amount' : `${cur}, and US dollars`], costRows, `Whole program as published by the school${S.tuition?.cohort ? `, ${S.tuition.cohort}` : ''}; US dollars at the ECB rate of ${day(KIT.FX_DATE)}.${S.living?.note ? ` ${S.living.note}` : ''}`, ['l', 'r'])} />
-      {empRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">{S.short} employment report: {E.cohort}</h2>}
+      {empRows.length > 0 && <h2 class="section-title mt-12 font-serif text-2xl text-navy-900">{S.short} employment report: {E.cohort}</h2>}
       {empRows.length > 0 && <Fragment set:html={table(['Measure', 'Value'], empRows, `${E.standard ? `${E.standard} standard. ` : ''}Figures as the school publishes them; the kind of salary is named in the first line.`, ['l', 'r'])} />}
-      {indRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">{S.short} graduates by industry</h2>}
+      {indRows.length > 0 && <h2 class="section-title mt-12 font-serif text-2xl text-navy-900">{S.short} graduates by industry</h2>}
       {indRows.length > 0 && <Fragment set:html={table(['Industry, as the school names it', 'Share', 'Salary'], indRows, 'Share of graduates who accepted a job (or of the reported class); salaries as published, median unless marked average.', ['l', 'r', 'r'])} />}
-      {zoneRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">Where {S.short} graduates went to work</h2>}
+      {zoneRows.length > 0 && <h2 class="section-title mt-12 font-serif text-2xl text-navy-900">Where {S.short} graduates went to work</h2>}
       {zoneRows.length > 0 && <Fragment set:html={table(['Region', 'Share', 'Salary'], zoneRows, `Regions grouped by us; the school’s own label is in brackets.${E.zones.some((z) => z.derived) ? ' * computed from the shares the school reports outside the region.' : ''}`, ['l', 'r', 'r'])} />}
-      {fnRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">{S.short} graduates by job function</h2>}
+      {fnRows.length > 0 && <h2 class="section-title mt-12 font-serif text-2xl text-navy-900">{S.short} graduates by job function</h2>}
       {fnRows.length > 0 && <Fragment set:html={table(['Function', 'Share', 'Salary'], fnRows, 'As reported by the school.', ['l', 'r', 'r'])} />}
-      {E.employers.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">Employers named by {S.short}</h2>}
-      {E.employers.length > 0 && <p class="mt-3 text-sm text-navy-800">{E.employers.map((x) => (x.hires ? `${x.name} (${num(x.hires)})` : x.name)).join(' · ')}</p>}
+      {E.employers.length > 0 && <h2 class="section-title mt-12 font-serif text-2xl text-navy-900">Employers named by {S.short}</h2>}
+      {E.employers.length > 0 && <p class="mt-4 text-sm leading-7 text-navy-800">{E.employers.map((x) => (x.hires ? `${x.name} (${num(x.hires)})` : x.name)).join(' · ')}</p>}
       {E.employers.length > 0 && <p class="mt-1 text-xs text-navy-600">{E.employers.some((x) => x.hires) ? 'Number of hires in brackets where the school gives it.' : 'Names only: the school gives no hire counts.'}</p>}
-      {profRows.length > 0 && <h2 class="mt-10 font-serif text-2xl font-bold text-navy-900">The {S.short} class</h2>}
+      {profRows.length > 0 && <h2 class="section-title mt-12 font-serif text-2xl text-navy-900">The {S.short} class</h2>}
       {profRows.length > 0 && <Fragment set:html={table(['Measure', 'Value'], profRows, `${pr.cohort || 'Latest class profile'}, as published by the school.`, ['l', 'r'])} />}
       {missing.length > 0 && <p class="mt-8 text-sm text-navy-700"><strong>Not published by {S.short} in the documents we read:</strong> {missing.join('; ')}. We leave these blank rather than fill them with an estimate.</p>}
     </section>

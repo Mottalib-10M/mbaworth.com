@@ -2,14 +2,20 @@
 @plugin "@tailwindcss/typography";
 @source not "../../scripts";
 @source not "../../.cache-raw";
-@font-face { font-family: 'Source Serif 4'; font-style: normal; font-weight: 200 900; font-display: swap; src: url('/fonts/source-serif-4-var.woff2') format('woff2'); }
-@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/inter-var.woff2') format('woff2'); }
+/* Fraunces (titres, Google Fonts, auto-hébergée) et Inter (texte, sous-ensemble latin) : 115 Ko au total. */
+@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 500 800; font-display: swap; src: url('/fonts/fraunces-var.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/inter-latin-var.woff2') format('woff2'); }
 @theme {
-  --color-navy-50: #f8fafc; --color-navy-100: #f1f5f9; --color-navy-200: #e2e8f0; --color-navy-300: #cbd5e1; --color-navy-400: #94a3b8; --color-navy-500: #64748b; --color-navy-600: #475569; --color-navy-700: #334155; --color-navy-800: #1e293b; --color-navy-900: #0f172a; --color-navy-950: #020617;
-  --color-accent-50: #eefbfc; --color-accent-100: #d8f6f8; --color-accent-200: #b1edf2; --color-accent-300: #7ce1e8; --color-accent-400: #48d5df; --color-accent-500: #0F5257; --color-accent-600: #0d464a; --color-accent-700: #0a393d; --color-accent-800: #082e31; --color-accent-900: #072426;
+  /* Encre (texte, filets) : bleu nuit légèrement chaud, sur fond papier ivoire. */
+  --color-navy-50: #f4f2ec; --color-navy-100: #ebe8df; --color-navy-200: #dcd8cc; --color-navy-300: #c2beb1; --color-navy-400: #908e88; --color-navy-500: #5f6270; --color-navy-600: #4a4e5c; --color-navy-700: #353a48; --color-navy-800: #212736; --color-navy-900: #111a2b; --color-navy-950: #0a1120;
+  /* Accent unique : vert pétrole de la marque (THEME_COLOR #0F5257). */
+  --color-accent-50: #edf5f3; --color-accent-100: #d7ebe7; --color-accent-200: #b0d6cf; --color-accent-300: #7fb9b0; --color-accent-400: #3f8f87; --color-accent-500: #0F5257; --color-accent-600: #0d464a; --color-accent-700: #0a393d; --color-accent-800: #082e31; --color-accent-900: #072426;
+  /* Laiton : filets et chiffres décoratifs seulement (700 pour un texte sur papier). */
+  --color-brass-200: #ecdcb6; --color-brass-300: #dcc08a; --color-brass-500: #b08a3e; --color-brass-700: #7a5a1c;
+  --color-paper: #fbf9f4; --color-ink: #0e1626;
   --color-success: #15803d; --color-warning: #b45309; --color-error: #dc2626;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
 }
 html { font-size: 17px; } body { line-height: 1.65; } .tabular-nums { font-variant-numeric: tabular-nums; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
@@ -17,7 +23,7 @@ html { font-size: 17px; } body { line-height: 1.65; } .tabular-nums { font-varia
 .skip-link { position: absolute; top: -100%; left: 50%; transform: translateX(-50%); z-index: 100; padding: .75rem 1.5rem; background: var(--color-accent-600); color: #fff; font-weight: 600; border-radius: 0 0 .5rem .5rem; text-decoration: none; transition: top .2s; } .skip-link:focus { top: 0; }
 *:focus-visible { outline: 2px solid var(--color-accent-500); outline-offset: 2px; } input:focus-visible, select:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--color-accent-500); border-color: var(--color-accent-500); }
 @media print { nav, footer, .no-print, .skip-link, #mobile-menu-toggle, #mobile-menu { display: none !important; } body { color: #000 !important; background: #fff !important; font-size: 11pt; } main { padding-top: 0 !important; } h1, h2, h3 { page-break-after: avoid; } table { page-break-inside: avoid; } }
-.prose h2 { margin-top: 1.25em; padding-top: 1em; border-top: 1px solid var(--color-navy-200); } .prose h2:first-child { margin-top: 0; padding-top: 0; border-top: none; } .prose h3 { margin-top: 2em; } .prose p { margin-top: 1.4em; margin-bottom: 1.4em; } .prose li { margin-top: .6em; margin-bottom: .6em; }
+.prose h2 { margin-top: 1.25em; padding-top: 1em; border-top: 1px solid var(--color-navy-200); } .prose h2:first-child { margin-top: 0; padding-top: 0; border-top: none; } .prose h3 { margin-top: 2em; } .prose p:not(.not-prose p) { margin-top: 1.4em; margin-bottom: 1.4em; } .prose li:not(.not-prose li) { margin-top: .6em; margin-bottom: .6em; }
 .prose table { margin-top: 2em; margin-bottom: 2em; font-size: .95em; } .prose th, .prose td { padding: .65em .9em; } .prose thead th { background-color: var(--color-navy-50); font-weight: 600; }
 .callout { padding: 1.25rem 1.5rem; border-left: 4px solid; border-radius: .5rem; margin: 2em 0; font-size: .95rem; line-height: 1.7; } .callout p:first-child { margin-top: 0; } .callout p:last-child { margin-bottom: 0; } .callout-title { font-weight: 700; margin-bottom: .35em; display: block; }
 .callout-info { border-left-color: #2563eb; background-color: #eff6ff; color: #1e3a8a; } .callout-tip { border-left-color: #15803d; background-color: #f0fdf4; color: #14532d; } .callout-warning { border-left-color: #b45309; background-color: #fffbeb; color: #78350f; } .callout-example { border-left-color: #64748b; background-color: #f8fafc; color: #1e293b; }
@@ -74,3 +80,122 @@ h1 { font-weight: 700; } h2 { font-weight: 650; } h3 { font-weight: 600; }
   .ledger-range { font-variant-numeric: tabular-nums; color: var(--color-navy-700); }
 }
 .prose .not-prose table { margin-top: 0; margin-bottom: 0; }
+
+/* =========================================================================
+   Direction artistique 2026-10-15 : « dossier financier ». Papier ivoire, encre bleu nuit,
+   un seul accent (vert pétrole), filets laiton ; titres en Fraunces, chiffres tabulaires.
+   ========================================================================= */
+body { background: var(--color-paper); }
+h1, h2, h3, .font-serif { font-optical-sizing: auto; }
+h1 { letter-spacing: -0.02em; font-weight: 650; } h2 { font-weight: 600; } h3 { font-weight: 600; }
+::selection { background: var(--color-brass-200); color: var(--color-navy-900); }
+
+/* ---- En-tête ---- */
+.site-head { background: var(--color-ink); color: #f3efe4; border-bottom: 1px solid rgb(255 255 255 / .08); }
+.site-head .brand { color: #fbf9f4; font-family: var(--font-serif); font-weight: 650; font-size: 1.2rem; letter-spacing: -0.01em; }
+.site-head .brand-dot { color: var(--color-brass-300); }
+.nav-link { display: inline-flex; align-items: center; gap: .3rem; padding: .5rem .7rem; border-radius: .375rem; font-size: .875rem; font-weight: 500; color: #d9dbe2; background: transparent; border: 0; cursor: pointer; white-space: nowrap; }
+.nav-link:hover, .nav-dropdown:hover > .nav-link, .nav-link[aria-expanded="true"] { color: #fff; background: rgb(255 255 255 / .07); }
+.nav-link[aria-current="page"] { color: #fff; box-shadow: inset 0 -2px 0 var(--color-brass-300); border-radius: 0; }
+.nav-link .chev { width: .8rem; height: .8rem; transition: transform .15s; opacity: .75; }
+.nav-link[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.site-head :focus-visible { outline-color: var(--color-brass-300); }
+/* Panneau : caché tant qu'il n'est pas ouvert (attribut data-open posé par le script) ; sans script,
+   le survol et le focus clavier l'ouvrent quand même. Le pont ::before couvre l'écart avec le bouton. */
+.nav-dropdown { position: relative; }
+.nav-panel { position: absolute; top: calc(100% + 10px); z-index: 60; display: none; min-width: 17rem; padding: .5rem; background: #fff; color: var(--color-navy-900); border: 1px solid var(--color-navy-200); border-top: 3px solid var(--color-accent-500); border-radius: .5rem; box-shadow: 0 18px 40px -18px rgb(10 17 32 / .45); }
+.nav-panel::before { content: ''; position: absolute; left: 0; right: 0; top: -14px; height: 14px; }
+.nav-panel.cols-2 { width: 34rem; display: none; }
+.nav-dropdown[data-open] > .nav-panel, html:not(.js) .nav-dropdown:hover > .nav-panel, html:not(.js) .nav-dropdown:focus-within > .nav-panel { display: block; }
+.nav-dropdown[data-open] > .nav-panel.cols-2 { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(var(--rows, 6), auto); grid-auto-flow: column; column-gap: .25rem; }
+.nav-panel-title { grid-column: 1 / -1; margin: .15rem .6rem .35rem; padding-bottom: .4rem; border-bottom: 1px solid var(--color-navy-100); font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--color-brass-700); }
+.nav-panel a { display: block; padding: .45rem .6rem; border-radius: .3rem; font-size: .875rem; line-height: 1.35; color: var(--color-navy-800); }
+.nav-panel a:hover, .nav-panel a:focus-visible { background: var(--color-accent-50); color: var(--color-accent-700); }
+.nav-panel a[aria-current="page"] { color: var(--color-accent-700); font-weight: 600; }
+/* Menu mobile : panneau sous l'en-tête, au-dessus de la barre de résultat (z-40). */
+#mobile-menu { background: var(--color-paper); color: var(--color-navy-900); box-shadow: 0 20px 30px -20px rgb(10 17 32 / .5); }
+#mobile-menu a, #mobile-menu button { color: var(--color-navy-900); }
+#mobile-menu .mobile-section-content a { color: var(--color-navy-700); }
+#mobile-menu .mobile-section-content a[aria-current="page"] { color: var(--color-accent-700); font-weight: 600; }
+.burger { display: inline-flex; align-items: center; justify-content: center; width: 2.75rem; height: 2.75rem; border-radius: .375rem; color: #f3efe4; }
+.burger:hover { background: rgb(255 255 255 / .08); }
+.burger .x { display: none; } .burger[aria-expanded="true"] .x { display: block; } .burger[aria-expanded="true"] .bars { display: none; }
+html.menu-open { overflow: hidden; }
+
+/* ---- Bandeau de tête des pages à calculateur : encre pleine largeur, sans débordement ---- */
+.band { position: relative; background: var(--color-ink); box-shadow: 0 0 0 100vmax var(--color-ink); clip-path: inset(0 -100vmax); color: #e7e9ef; }
+.band h1 { color: #fbf9f4; }
+.band .band-intro { color: #c9cdd8; }
+.band .eyebrow { color: var(--color-brass-300); }
+.band a { color: #f3efe4; text-decoration-color: rgb(220 192 138 / .6); }
+.band a:hover { color: #fff; }
+.band .band-meta { color: #b3b8c5; }
+.band-art { position: absolute; right: 0; bottom: 0; width: 34rem; max-width: 45%; height: 100%; pointer-events: none; opacity: .5; overflow: hidden; }
+@media (max-width: 1023px) { .band-art { display: none; } }
+.crumbs-band { color: #b3b8c5; }
+.crumbs-band a { color: #c9cdd8; } .crumbs-band a:hover { color: #fff; }
+.crumbs-band [aria-current="page"] { color: #eef0f4; }
+.crumbs-band .crumb-note { color: #b3b8c5; }
+.eyebrow { font-size: .75rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
+.eyebrow::before { content: ''; display: inline-block; width: 1.5rem; height: 1px; margin-right: .6rem; vertical-align: middle; background: currentColor; opacity: .8; }
+/* Le calculateur chevauche le bas du bandeau : la seule pièce qui flotte. */
+.hero-tool { position: relative; z-index: 10; margin-top: -3rem; }
+.hero-tool .rechner { box-shadow: 0 1px 0 rgb(10 17 32 / .04), 0 30px 60px -36px rgb(10 17 32 / .55); }
+.rechner { border-color: var(--color-navy-200); }
+
+/* ---- Carte de résultat ---- */
+[data-resultat] { position: relative; border: 1px solid var(--color-accent-100); }
+[data-resultat] .result-figure { font-family: var(--font-serif); font-weight: 650; letter-spacing: -0.02em; color: var(--color-accent-700); line-height: 1.05; }
+.cost-bar { display: flex; height: .6rem; overflow: hidden; border-radius: 999px; background: var(--color-navy-100); }
+.cost-bar > span { display: block; height: 100%; }
+.swatch { display: inline-block; width: .6rem; height: .6rem; margin-right: .5rem; border-radius: 2px; vertical-align: .05em; }
+
+/* ---- Tableaux journal ---- */
+.prose table, table.journal { border-top: 2px solid var(--color-navy-900); }
+.prose thead th, table.journal thead th { color: var(--color-navy-700); font-size: .95em; }
+table.journal tbody tr:hover td { background: rgb(15 82 87 / .035); }
+table.journal a { color: var(--color-accent-700); font-weight: 500; text-underline-offset: 3px; }
+table.journal caption { caption-side: bottom; margin-top: .6rem; font-size: .8rem; }
+.share-bar { display: inline-block; width: 4.5rem; height: .4rem; margin-left: .6rem; vertical-align: middle; border-radius: 999px; background: var(--color-navy-100); overflow: hidden; }
+.share-bar > i { display: block; height: 100%; background: var(--color-accent-400); border-radius: inherit; }
+@media (max-width: 640px) { .share-bar { display: none; } }
+.score-pill { display: inline-flex; align-items: center; justify-content: flex-end; gap: .5rem; }
+.score-pill > i { display: inline-block; width: 2.5rem; height: .35rem; border-radius: 999px; background: linear-gradient(90deg, var(--color-accent-500) var(--w), var(--color-navy-100) var(--w)); }
+
+/* ---- Texte ---- */
+.prose { --tw-prose-body: var(--color-navy-800); --tw-prose-headings: var(--color-navy-900); --tw-prose-links: var(--color-accent-700); --tw-prose-bold: var(--color-navy-900); --tw-prose-bullets: var(--color-brass-500); --tw-prose-counters: var(--color-brass-700); --tw-prose-th-borders: var(--color-navy-300); --tw-prose-td-borders: var(--color-navy-100); }
+.prose a { text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.prose h2 { position: relative; }
+.prose h2::before { content: ''; position: absolute; top: -1px; left: 0; width: 3rem; height: 2px; background: var(--color-brass-500); }
+.prose h2:first-child::before { display: none; }
+.section-title { position: relative; padding-top: .9rem; border-top: 1px solid var(--color-navy-200); }
+.section-title::before { content: ''; position: absolute; top: -1px; left: 0; width: 3rem; height: 2px; background: var(--color-brass-500); }
+.clamp p { font-size: 1.05rem; }
+
+/* ---- Fiches ---- */
+.tile { background: #fff; border: 1px solid var(--color-navy-200); border-radius: .5rem; }
+.tile-link { transition: border-color .15s, transform .15s; }
+.tile-link:hover { border-color: var(--color-accent-300); }
+.kpi dt { font-size: .75rem; letter-spacing: .02em; color: var(--color-navy-600); }
+.kpi dd { font-family: var(--font-serif); font-weight: 650; font-size: 1.6rem; line-height: 1.15; color: var(--color-navy-900); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.rank-num { font-family: var(--font-serif); font-weight: 650; color: var(--color-brass-700); font-variant-numeric: tabular-nums; }
+.seal { display: inline-flex; flex: none; align-items: center; justify-content: center; width: 3rem; height: 3rem; border-radius: 999px; border: 1px solid var(--color-brass-500); color: var(--color-brass-700); font-family: var(--font-serif); font-weight: 650; font-size: 1rem; letter-spacing: .02em; box-shadow: inset 0 0 0 3px var(--color-paper), inset 0 0 0 4px var(--color-brass-200); }
+
+/* ---- FAQ ---- */
+.faq-item { border-bottom: 1px solid var(--color-navy-200); }
+.faq-item:first-child { border-top: 2px solid var(--color-navy-900); }
+.faq-item > summary { list-style: none; }
+.faq-item > summary::-webkit-details-marker { display: none; }
+
+/* ---- Pied de page ---- */
+.site-foot { background: var(--color-ink); color: #c9cdd8; }
+.site-foot h2 { color: var(--color-brass-300); font-family: var(--font-sans); font-size: .75rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
+.site-foot a { color: #d9dbe2; } .site-foot a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.site-foot .foot-muted { color: #aab0bd; }
+.site-foot .foot-rule { border-color: rgb(255 255 255 / .12); }
+.site-foot .brand { color: #fbf9f4; font-family: var(--font-serif); font-weight: 650; font-size: 1.35rem; }
+.site-foot .badge-ok { border: 1px solid rgb(220 192 138 / .45); color: #ecdcb6; }
+/* Pages de lecture (méthode, à propos, mentions) : titre de une et chapeau. */
+.prose > h1 { font-size: 2.4rem; line-height: 1.1; font-weight: 650; letter-spacing: -0.02em; margin-bottom: .5em; }
+@media (max-width: 640px) { .prose > h1 { font-size: 1.85rem; } }
+.prose > h1 + p { font-size: 1.15em; color: var(--color-navy-700); }

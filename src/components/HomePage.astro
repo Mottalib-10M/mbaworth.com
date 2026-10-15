@@ -8,6 +8,10 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import Clamp from './Clamp.astro';
 import Tool from './Tool.astro';
+import BandArt from './BandArt.astro';
+import { label } from '../i18n/nav';
+import { card as cardText } from '../lib/cards';
+import { ROUTES } from '../i18n/routes';
 import { HOME } from '../content/home';
 import { route } from '../i18n/routes';
 import { helpers, SOURCES, table, schoolLink } from '../lib/helpers';
@@ -30,27 +34,45 @@ const bestPage = (g: string) => PAGES.find((pg) => pg.group === 'best' && pg.too
 const cards = CARDS.map((g) => ({ g: GOAL_LIST.find((y) => y.id === g)!, top: KIT.top(g, 3), pg: bestPage(g) })).filter((c) => c.top.length);
 const topInd = (s: (typeof SCHOOLS)[number]) => { const r = [...s.emp.industries].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0))[0]; return r && r.pct !== null ? `${r.key} ${p(r.pct)}` : 'n/a'; };
 const rows = [...SCHOOLS].filter((s) => s.tuition).sort((a, b) => a.short.localeCompare(b.short)).map((s) => { const o = KIT.roi(s.slug); return [schoolLink(s.slug), s.months ? String(s.months) : 'n/a', o ? usd(o.total) : 'n/a', s.emp.salary ? `${money(s.emp.salary.v, s.emp.salary.cur)}${/mean/.test(s.emp.salary.kind) ? ' avg' : ''}` : 'n/a', o ? (o.payback === null ? 'over 30 y' : yrs(o.payback)) : 'n/a', topInd(s)]; });
+// Preuves chiffrées sous le calculateur (2026-10-15), calculées sur les données du site.
+const rois = SCHOOLS.map((s) => KIT.roi(s.slug)).filter((o): o is NonNullable<typeof o> => !!o);
+const med = (a: number[]) => { const b = [...a].sort((x, y) => x - y); const m = Math.floor(b.length / 2); return b.length % 2 ? b[m] : (b[m - 1] + b[m]) / 2; };
+const paybacks = rois.map((o) => o.payback).filter((v): v is number => v !== null);
+const proofs = [
+  { v: String(SCHOOLS.length), l: 'business schools, each read in its own documents' },
+  { v: String(SCHOOLS.filter((s) => s.emp.salary).length), l: 'publish a graduate salary we can use' },
+  { v: usd(med(rois.map((o) => o.total))), l: `median total cost, salary given up included, at ${usd(MODEL.refSalary)} today` },
+  { v: yrs(med(paybacks)), l: 'median payback after graduation' },
+];
+const paths = ['consulting', 'finance', 'tech'].filter((id) => ROUTES.some((r) => r.id === id)).map((id) => ({ href: route(id, lang), name: label(id), d: cardText(id) }));
+const maxShare = Math.max(...cards.flatMap((c) => c.top.map((r) => r.share)), 1);
 ---
-<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
-  <header class="mb-4">
-    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
-    <p class="mt-2 text-lg text-navy-700">{x.intro}</p>
-    <p class="mt-1 text-sm text-navy-600">{YEAR} figures · <a href={route('method', lang)} class="underline">Method</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources} masthead>
+  <header class="band pb-16 pt-5 sm:pt-6">
+    <BandArt />
+    <div class="relative max-w-3xl">
+      <h1 class="font-serif text-[2rem] leading-[1.1] sm:text-4xl md:text-5xl">{x.h1}</h1>
+      <p class="band-intro mt-3 text-base sm:text-lg">{x.intro}</p>
+      <p class="band-meta mt-2 text-sm">{YEAR} figures · <a href={route('method', lang)} class="underline">Method</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+    </div>
   </header>
-  <div data-outil data-chrome><Tool kind="roi" args={{ school: 'wharton' }} idPrefix="home" /></div>
-  <section class="my-8" data-chrome>
-    <h2 class="font-serif text-xl font-bold text-navy-900">The best school for your goal, on our numbers</h2>
-    <div class="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+  <div data-outil data-chrome class="hero-tool"><Tool kind="roi" args={{ school: 'wharton' }} idPrefix="home" /></div>
+  <dl data-chrome class="kpi mb-12 grid grid-cols-2 gap-x-6 gap-y-6 border-y border-navy-200 py-6 lg:grid-cols-4">
+    {proofs.map((k) => <div class="flex flex-col border-l-2 border-brass-500 pl-4"><dt class="order-2 mt-1">{k.l}</dt><dd class="order-1 sm:!text-[2rem]">{k.v}</dd></div>)}
+  </dl>
+  <section class="my-12" data-chrome>
+    <h2 class="section-title font-serif text-2xl text-navy-900 sm:text-3xl">The best school for your goal, on our numbers</h2>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {cards.map((c) => (
-        <div class="rounded-lg border border-navy-200 p-4">
-          <p class="font-semibold text-navy-900">{c.pg ? <a class="text-accent-700 underline-offset-2 hover:underline" href={route(c.pg.id, lang)}>{c.g.label}</a> : c.g.label}</p>
-          <ol class="mt-2 space-y-1 text-sm text-navy-800">{c.top.map((r) => <li class="tabular-nums"><span class="font-semibold">{r.rank}.</span> <Fragment set:html={schoolLink(r.slug)} /> · {p(r.share)} of the class · {usd(r.salary)}{r.fallback ? '*' : ''}</li>)}</ol>
+        <div class="tile flex flex-col p-5">
+          <p class="eyebrow text-brass-700">{c.pg ? <a class="hover:text-accent-700" href={route(c.pg.id, lang)}>{c.g.label}</a> : c.g.label}</p>
+          <ol class="mt-3 space-y-3 text-sm text-navy-800">{c.top.map((r) => <li class="tabular-nums"><div class="flex items-baseline gap-3"><span class="rank-num w-4 text-lg">{r.rank}</span><span class="font-semibold [&_a]:text-navy-900 [&_a]:underline-offset-2 hover:[&_a]:text-accent-700 hover:[&_a]:underline"><Fragment set:html={schoolLink(r.slug)} /></span><span class="ml-auto text-navy-700">{usd(r.salary)}{r.fallback ? '*' : ''}</span></div><div class="ml-7 mt-1 flex items-center gap-2 text-xs text-navy-600"><span class="share-bar !ml-0 !inline-block flex-1"><i style={`width:${Math.round((r.share / maxShare) * 100)}%`}></i></span>{p(r.share)} of the class</div></li>)}</ol>
         </div>
       ))}
     </div>
-    <p class="mt-2 text-xs text-navy-600">Fit score on the share of the class placed, the salary reported and the ten-year NPV for a person earning {usd(MODEL.refSalary)} today. * school-wide salary. <a class="underline" href={route('mba-finder', lang)}>Rank every school on your own goal and salary</a>.</p>
+    <p class="mt-3 text-xs text-navy-600">Fit score on the share of the class placed, the salary reported and the ten-year NPV for a person earning {usd(MODEL.refSalary)} today. * school-wide salary. <a class="underline" href={route('mba-finder', lang)}>Rank every school on your own goal and salary</a>.</p>
   </section>
-  <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
+  <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-10 max-w-4xl" />
   <section class="prose prose-slate max-w-none prose-headings:font-serif">
     <h2>{x.tableTitle}</h2>
     <Fragment set:html={x.tableIntro(h)} />
@@ -58,8 +80,11 @@ const rows = [...SCHOOLS].filter((s) => s.tuition).sort((a, b) => a.short.locale
   <div data-chrome class="max-h-[40rem] overflow-auto">
     <Fragment set:html={table(['School', 'Months', 'Total cost', 'Salary', 'Payback', 'Largest industry'], rows, `Total cost and payback for a person earning ${usd(MODEL.refSalary)} before the MBA (salary given up included), US dollars at the ECB rate of ${day(KIT.FX_DATE)}. Salary in the school's currency, median unless marked avg.`, ['l', 'r', 'r', 'r', 'r', 'l'])} />
   </div>
-  <section class="mt-10">
-    <h2 class="font-serif text-2xl font-bold text-navy-900">{x.foldTitle}</h2>
+  {paths.length > 0 && <nav data-chrome aria-label="Careers" class="mt-12 grid gap-4 md:grid-cols-3">
+    {paths.map((c) => <a href={c.href} class="tile tile-link group relative overflow-hidden p-5"><span class="eyebrow text-brass-700">Careers</span><span class="mt-2 block font-serif text-xl text-navy-900 group-hover:text-accent-700">{c.name} <span aria-hidden="true" class="inline-block transition-transform group-hover:translate-x-1">→</span></span><span class="mt-1.5 block text-sm text-navy-600">{c.d}</span></a>)}
+  </nav>}
+  <section class="mt-14">
+    <h2 class="section-title font-serif text-2xl text-navy-900 sm:text-3xl">{x.foldTitle}</h2>
     {sections.map((s) => <details class="fold"><summary><h3 class="fold-h">{s.title}</h3></summary><div class="prose prose-slate max-w-none pb-4"><Fragment set:html={s.html} /></div></details>)}
   </section>
 </PageLayout>
