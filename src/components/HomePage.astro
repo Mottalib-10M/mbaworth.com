@@ -17,7 +17,7 @@ import { KIT } from '../lib/kit';
 import { GOAL_LIST } from '../lib/goals';
 import { usd, p, yrs, day, money, kindLabel } from '../lib/fmt';
 import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
-import { LAST_UPDATED } from '../data/site-config';
+import { LAST_UPDATED, YEAR } from '../data/site-config';
 const lang = 'en';
 const x = HOME;
 const path = route('home', lang);
@@ -35,7 +35,7 @@ const rows = [...SCHOOLS].filter((s) => s.tuition).sort((a, b) => a.short.locale
   <header class="mb-4">
     <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
     <p class="mt-2 text-lg text-navy-700">{x.intro}</p>
-    <p class="mt-1 text-sm text-navy-600">Fees, budgets and employment reports read <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline">Method</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+    <p class="mt-1 text-sm text-navy-600">{YEAR} figures · <a href={route('method', lang)} class="underline">Method</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
   </header>
   <div data-outil data-chrome><Tool kind="roi" args={{ school: 'wharton' }} idPrefix="home" /></div>
   <section class="my-8" data-chrome>

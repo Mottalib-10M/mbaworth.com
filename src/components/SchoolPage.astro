@@ -70,7 +70,7 @@ const bestPage = (goalId: string) => PAGES.find((pg) => pg.group === 'best' && p
 const ranks = RANK_GOALS.map((g) => ({ g: GOAL_LIST.find((x) => x.id === g)!, r: KIT.rank(def.slug, g), pg: bestPage(g) })).filter((x) => x.r);
 const missing = [S.living ? null : 'a living budget for students', E.salary ? null : 'a graduate salary', E.industries.length ? null : 'the split of the class by industry', E.zones.length ? null : 'where graduates went to work', E.functions.length ? null : 'the split by job function'].filter(Boolean) as string[];
 ---
-<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={docs} breadcrumbs={[{ label: 'Schools', href: route('schools', lang) }, { label: S.short }]}>
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={docs} breadcrumbs={[{ label: 'Schools', href: route('schools', lang) }, { label: S.short }]} anneeEnHaut={!/20\d\d/.test(h1 + def.intro)}>
   <article>
     <header class="mb-4">
       <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{S.city}{S.country ? `, ${S.country}` : ''}{S.months ? ` · ${S.months} months` : ''}{S.classSize ? ` · class of ${num(S.classSize)}` : ''}</p>

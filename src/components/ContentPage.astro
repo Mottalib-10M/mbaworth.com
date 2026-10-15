@@ -39,7 +39,7 @@ const sources = [...page.sources.map((k) => ({ name: SOURCES[k].label, url: SOUR
 const parent = page.slug.includes('/') ? PAGES.find((x) => x.id === page.slug.split('/')[0]) : undefined;
 const crumbs = parent ? [{ label: parent.nav, href: route(parent.id, lang) }, { label: page.nav }] : [{ label: group.label }, { label: page.nav }];
 ---
-<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={crumbs}>
+<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={crumbs} anneeEnHaut={!/20\d\d/.test(page.h1 + page.intro)}>
   <article>
     <header class="mb-4">
       <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{group.label} · figures from each school’s own report</p>
