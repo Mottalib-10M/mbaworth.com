@@ -5,6 +5,7 @@
  */
 import RAW from '../data/schools.json';
 import P from '../data/params-2026.json';
+import { fillSchool, fillGoals, ratiosOf } from './engine/estimate';
 import type { CalcSchool, Model, Seg } from './engine/goal';
 
 export { P };
@@ -54,7 +55,7 @@ const fnMap = (rows: Row[]) => {
   return m;
 };
 
-export function calcSchool(s: School, href: string | null): CalcSchool {
+function rawCalc(s: School, href: string | null): CalcSchool {
   const fx = FX[s.cur] ?? 1;
   const e = s.emp;
   return {
@@ -64,8 +65,22 @@ export function calcSchool(s: School, href: string | null): CalcSchool {
     living: s.living ? Math.round(s.living.v * fx) : null, livingBasis: s.living?.basis ?? null,
     intern: e.intern?.usd ?? null, salary: e.salary?.usd ?? null, kind: e.salary?.kind ?? null,
     bonus: e.bonus?.usd ?? null, bonusPct: e.bonus?.pct ?? null, classSize: s.classSize, employed: e.employed,
+    est: { salary: null, living: null },
     ind: segMap(e.industries), seg: segMap(e.segments),
     zone: Object.fromEntries(e.zones.map((z) => [z.zone, { pct: z.pct, usd: z.usd, label: z.label } as Seg])),
     fn: fnMap(e.functions),
   };
+}
+
+/**
+ * Figures a school does not publish are estimated from the others (engine/estimate.ts, method page
+ * section 8): school-wide salary and living budget first, then the salary of each goal.
+ */
+const RAW_CALC = SCHOOLS.map((s) => rawCalc(s, null));
+const FILLED = RAW_CALC.map((c) => fillSchool(c, RAW_CALC));
+export const RATIOS = ratiosOf(FILLED);
+const ESTIMATED = new Map(FILLED.map((c) => [c.slug, fillGoals(c, RATIOS)]));
+/** A school for the calculators; `estimate: false` keeps the published figures only. */
+export function calcSchool(s: School, href: string | null, estimate = true): CalcSchool {
+  return estimate ? { ...ESTIMATED.get(s.slug)!, href } : rawCalc(s, href);
 }

@@ -7,7 +7,7 @@ import { useMemo, useState } from 'react';
 import NumberField from '../ui/NumberField';
 import SelectField from '../ui/SelectField';
 import { Result, usd, num } from './parts';
-import { goalOf, schoolRoi, minShareOf, type CalcSchool, type Model } from '../../lib/engine/goal';
+import { goalOf, schoolRoi, minShareOf, rankable, type CalcSchool, type Model } from '../../lib/engine/goal';
 import { fitRank } from '../../lib/engine/rank';
 import { GOAL_LIST } from '../../lib/goals';
 import { yrs } from '../../lib/fmt';
@@ -34,8 +34,9 @@ export default function FinderBoard({ schools, model, goal = 'consulting', lengt
       return { slug: s.slug, s, gl, o, share: gl.share, salary: gl.salary, npv: o ? o.npv : null, placed: gl.share !== null && s.classSize ? Math.round((gl.share / 100) * s.classSize) : null };
     }).filter((c) => c.share !== null && c.share > 0);
     const min = minShareOf(model, g);
-    const { ranked, unranked: miss } = fitRank(cands.filter((c) => c.share! >= min), g.kind === 'zone' ? model.zoneWeights : model.weights);
-    const unranked = [...miss.map((u) => ({ ...u, why: u.salary === null ? (g.kind === 'zone' ? 'no salary for this region' : 'no salary published') : 'no living budget published' })), ...cands.filter((c) => c.share! < min).map((u) => ({ ...u, why: `under ${min}%` }))];
+    const W = g.kind === 'zone' ? model.zoneWeights : model.weights;
+    const { ranked, unranked: miss } = fitRank(cands.filter((c) => c.share! >= min && rankable(c.s, W)), W);
+    const unranked = [...cands.filter((c) => c.share! >= min && !rankable(c.s, W)).map((u) => ({ ...u, why: 'no salary published' })), ...miss.map((u) => ({ ...u, why: u.salary === null ? (g.kind === 'zone' ? 'no salary for this region' : 'no salary published') : 'no living budget published' })), ...cands.filter((c) => c.share! < min).map((u) => ({ ...u, why: `under ${min}%` }))];
     let rows = ranked.map((r) => ({ ...r.item, score: r.score, rank: r.rank }));
     const key: Record<Sort, (r: (typeof rows)[number]) => number> = { fit: (r) => r.score, share: (r) => r.share!, salary: (r) => r.salary ?? -1, placed: (r) => r.placed ?? -1, npv: (r) => r.npv ?? -1e12, payback: (r) => -(r.o?.payback ?? 99), cost: (r) => -(r.o?.total ?? 1e12) };
     rows = [...rows].sort((a, b) => key[by](b) - key[by](a) || a.rank - b.rank);
@@ -70,16 +71,16 @@ export default function FinderBoard({ schools, model, goal = 'consulting', lengt
               <td className="border-b border-navy-100 px-2 py-2">{r.s.href ? <a className="font-medium text-accent-700 underline-offset-2 hover:underline" href={r.s.href}>{r.s.short}</a> : <span className="font-medium text-navy-900">{r.s.short}</span>}<span className="block text-xs text-navy-500">{r.s.city}{r.s.months ? ` · ${r.s.months} months` : ''}</span></td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.share}%</td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.placed === null ? 'n/a' : num(r.placed)}</td>
-              <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.salary === null ? 'n/a' : <>{usd(r.salary)}{r.gl.fallback ? '*' : ''}{r.gl.stat && /mean/.test(r.gl.stat) ? <span className="block text-xs text-navy-500">average</span> : null}</>}</td>
-              <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{!r.o || r.o.payback === null ? 'over 30 y' : yrs(r.o.payback)}</td>
+              <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.salary === null ? 'n/a' : <>{usd(r.salary)}{r.gl.estimated ? <span className="text-navy-500"> est.</span> : r.gl.fallback ? '*' : ''}{r.gl.stat && /mean/.test(r.gl.stat) ? <span className="block text-xs text-navy-500">average</span> : null}</>}</td>
+              <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{!r.o ? 'n/a' : r.o.payback === null ? 'over 30 y' : yrs(r.o.payback)}</td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums">{r.npv === null ? 'n/a' : usd(r.npv)}</td>
               <td className="border-b border-navy-100 px-2 py-2 text-right tabular-nums font-semibold"><span className="score-pill"><i aria-hidden="true" style={{ ['--w' as string]: `${Math.max(0, Math.min(100, Math.round(r.score)))}%` }} />{Math.round(r.score)}</span></td>
             </tr>))}
           </tbody>
         </table>
         {data.rows.length > limit && <button type="button" onClick={() => setAll(!all)} className="mt-3 text-sm font-medium text-accent-700 underline">{all ? 'Show the first schools only' : `Show all ${data.rows.length} ranked schools`}</button>}
-        <p className="mt-3 text-xs text-navy-600">Share: % of the graduating class (or of those who accepted a job) the school reports for this goal. About: that share applied to the class size. * no salary published for this goal: school-wide figure. Salaries in US dollars at the ECB rate of the last update; “average” marks a mean where the school publishes no median.</p>
-        {data.unranked.length > 0 && <p className="mt-2 text-xs text-navy-600">Placing graduates here but not ranked: {data.unranked.map((u) => `${u.s.short} ${u.share}% (${u.why})`).join(' · ')}.</p>}
+        <p className="mt-3 text-xs text-navy-600">Share: % of the graduating class (or of those who accepted a job) the school reports for this goal. About: that share applied to the class size. * no salary published for this goal: school-wide figure. est.: estimated, see Method. Salaries in US dollars at the ECB rate of the last update; “average” marks a mean where the school publishes no median.</p>
+        {data.unranked.length > 0 && <p className="mt-2 text-xs text-navy-600">Placing graduates here but not ranked: {[...new Set(data.unranked.map((u) => u.why))].map((why) => `${why}: ${data.unranked.filter((u) => u.why === why).map((u) => `${u.s.short} ${u.share}%`).join(', ')}`).join(' · ')}.</p>}
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const abroadPaid = abroad.filter((x) => K.segSalary(x.slug, G) !== null);
 const n90 = home.filter((x) => x.share >= 90).length;
 const lowHome = [...home].sort((x, y) => x.share - y.share)[0];
 const heads = [...T].filter((x) => x.placed !== null).sort((x, y) => y.placed! - x.placed!)[0];
-const ownUs = T.filter((x) => x.salary !== null && !x.fallback);
+const ownUs = T.filter((x) => x.salary !== null && !x.fallback && !x.estimated);
 const small = R.unranked.filter((u) => u.share !== null);
 const avgIntl = (xs: typeof T) => { const v = xs.map((x) => K.s(x.slug).profile.intl).filter((y): y is number => typeof y === 'number'); return v.length ? Math.round((v.reduce((p, q) => p + q, 0) / v.length) * 10) / 10 : null; };
 const intlTop = avgIntl(home.slice(0, 5));

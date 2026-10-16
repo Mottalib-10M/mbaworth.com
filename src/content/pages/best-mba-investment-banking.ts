@@ -5,9 +5,9 @@ const G = 'ib';
 const R = K.ranking(G);
 const T = R.ranked;
 const [a, b, c] = T;
-const sal = (x: RankRow) => (x.salary === null ? 'no salary published' : `${K.usd(x.salary)}${x.fallback ? ' school-wide' : ''}`);
+const sal = (x: RankRow) => (x.salary === null ? 'no salary published' : `${K.usd(x.salary)}${x.estimated ? ' est.' : x.fallback ? ' school-wide' : ''}`);
 const fb = T.filter((x) => x.fallback);
-const own = T.filter((x) => x.salary !== null && !x.fallback);
+const own = T.filter((x) => x.salary !== null && !x.fallback && !x.estimated);
 const tally = new Map<number, number>();
 for (const x of own) tally.set(x.salary!, (tally.get(x.salary!) ?? 0) + 1);
 const [modal, modalN] = [...tally.entries()].sort((x, y) => y[1] - x[1])[0] ?? [0, 0];
@@ -22,7 +22,7 @@ const unsplit = K.schools.filter((s) => K.shareRaw(s.slug, 'finance') !== null &
 const nyc = T.filter((x) => K.s(x.slug).city === 'New York');
 const nycAvg = nyc.length ? nyc.reduce((s, x) => s + x.share, 0) / nyc.length : null;
 const restAvg = T.length > nyc.length ? T.filter((x) => K.s(x.slug).city !== 'New York').reduce((s, x) => s + x.share, 0) / (T.length - nyc.length) : null;
-const ownTop = T.find((x) => !x.fallback);
+const ownTop = T.find((x) => !x.fallback && !x.estimated);
 
 export default definePage({
   id: 'best-mba-investment-banking',

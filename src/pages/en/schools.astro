@@ -5,7 +5,7 @@ import Tool from '../../components/Tool.astro';
 import BandArt from '../../components/BandArt.astro';
 import Clamp from '../../components/Clamp.astro';
 import { route } from '../../i18n/routes';
-import { SCHOOLS, MODEL } from '../../lib/data';
+import { SCHOOLS, MODEL, calcSchool } from '../../lib/data';
 import { KIT as K } from '../../lib/kit';
 import { schoolLink, table } from '../../lib/helpers';
 import { usd, money, yrs, day, kindLabel } from '../../lib/fmt';
@@ -17,7 +17,7 @@ const title = `MBA Schools 2026: Cost, Salary and Payback of ${n} Programs`;
 const description = `All ${n} MBA schools of the site in 2026: tuition, living budget, total cost with the salary given up, graduate salary and payback, read in each school's report.`;
 const REG = [['US', 'United States'], ['Canada', 'Canada'], ['UK', 'United Kingdom and Ireland'], ['Europe', 'Continental Europe'], ['Asia', 'Asia'], ['Oceania', 'Australia'], ['Middle East', 'Middle East'], ['Latin America', 'Latin America']];
 const groups = REG.map(([k, l]) => ({ l, list: SCHOOLS.filter((s) => (k === 'UK' ? s.region === 'UK' || s.country === 'IE' : s.region === k && s.country !== 'IE')).sort((a, b) => a.short.localeCompare(b.short)) })).filter((g) => g.list.length);
-const row = (s: (typeof SCHOOLS)[number]) => { const o = K.roi(s.slug); return [schoolLink(s.slug, s.name), s.city, s.directLocal !== null ? money(s.directLocal, s.cur) : 'n/a', o ? usd(o.total) : 'n/a', s.emp.salary ? `${money(s.emp.salary.v, s.emp.salary.cur)} <span class="text-xs text-navy-500">${kindLabel(s.emp.salary.kind)}</span>` : 'not published', o ? (o.payback === null ? 'over 30 years' : yrs(o.payback)) : 'n/a']; };
+const row = (s: (typeof SCHOOLS)[number]) => { const o = K.roiEst(s.slug); return [schoolLink(s.slug, s.name), s.city, s.directLocal !== null ? money(s.directLocal, s.cur) : 'n/a', o ? usd(o.total) : 'n/a', s.emp.salary ? `${money(s.emp.salary.v, s.emp.salary.cur)} <span class="text-xs text-navy-500">${kindLabel(s.emp.salary.kind)}</span>` : (() => { const c = calcSchool(s, null); return c.salary !== null ? `${usd(c.salary)} est.` : 'not published'; })(), o ? (o.payback === null ? 'over 30 years' : yrs(o.payback)) : 'n/a']; };
 const ranked = K.withRoi().length;
 const cheapest = [...K.withRoi()].sort((a, b) => K.costRaw(a.slug)! - K.costRaw(b.slug)!)[0];
 const faqs = [

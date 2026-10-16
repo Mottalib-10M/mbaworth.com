@@ -37,10 +37,10 @@ export default function CompareCalc({ schools, model, defaults, goal = 'all', me
           <tbody>
             {line('Program length', (c) => (c.s.months ? `${c.s.months} months` : 'n/a'))}
             {line('Tuition and fees', (c) => (c.s.tuition === null ? 'n/a' : usd(c.s.tuition + c.s.fees)))}
-            {line('Living budget', (c) => (c.s.living === null ? 'not published' : usd(c.s.living)))}
+            {line('Living budget', (c) => (c.s.living === null ? 'not published' : `${usd(c.s.living)}${c.s.est.living ? ' est.' : ''}`))}
             {line('Total cost for you', (c) => (c.o ? usd(c.o.total) : 'n/a'))}
             {line(g.id === 'all' ? 'Hired within three months' : 'Share of the class there', (c) => (c.gl.share === null ? 'n/a' : `${c.gl.share}%`))}
-            {line('Salary reported', (c) => (c.gl.salary === null ? 'not published' : `${usd(c.gl.salary)}${c.gl.fallback ? '*' : ''}`))}
+            {line('Salary reported', (c) => (c.gl.salary === null ? 'not published' : `${usd(c.gl.salary)}${c.gl.estimated ? ' est.' : c.gl.fallback ? '*' : ''}`))}
             {line('Kind of figure', (c) => kindLabel(c.gl.stat))}
             {line('Payback after graduation', (c) => (!c.o ? 'n/a' : c.o.payback === null ? 'over 30 years' : yrs(c.o.payback)))}
             {line('10-year NPV', (c) => (c.o ? usd(c.o.npv) : 'n/a'))}

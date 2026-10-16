@@ -49,13 +49,13 @@ export default function RoiCalc({ schools, model, school, lock = false, goal = '
   const sub = o && !noSalary ? (mode === 'cost' ? `Payback ${payback === null ? 'over 30 years' : yrs(payback)} · 10-year NPV ${usd(o.npv)}` : `Total cost ${usd(total!)} · 10-year NPV ${usd(o.npv)}`) : o ? `Total cost ${usd(total!)}` : '';
   const rows: Array<[string, string] | [string, string, boolean]> = o ? [
     ['Tuition and fees, whole program', usd(o.direct - living)],
-    [`Living budget${s.livingBasis === 'visa' && livo === null ? ' (UK visa minimum)' : ''}`, noLiving ? 'not published' : usd(living)],
+    [`Living budget${s.livingBasis === 'visa' && livo === null ? ' (UK visa minimum)' : ''}${s.est.living && livo === null ? ' (estimated)' : ''}`, noLiving ? 'not published' : usd(living)],
     [`Salary given up, ${s.months} months`, usd(o.forgone)],
     ...(internIncome(s, model) > 0 ? [['Summer internship earned', `−${usd(internIncome(s, model))}`] as [string, string]] : []),
     ...(sch > 0 ? [['Scholarship', `−${usd(sch)}`] as [string, string]] : []),
     ...(interest > 0 ? [['Loan interest', usd(interest)] as [string, string]] : []),
     ['Total cost', usd(total!), true],
-    [`Salary after: ${gl.fallback && s1o === null ? 'school-wide ' : ''}${kindLabel(gl.stat)}${g.id === 'all' ? '' : `, ${g.label.toLowerCase()}`}`, noSalary ? 'not published' : usd(s1)],
+    [`Salary after: ${gl.estimated && s1o === null ? 'estimated ' : gl.fallback && s1o === null ? 'school-wide ' : ''}${kindLabel(gl.stat)}${g.id === 'all' ? '' : `, ${g.label.toLowerCase()}`}`, noSalary ? 'not published' : usd(s1)],
     ...(bonusExpected(s) > 0 ? [['Signing bonus × share receiving it', usd(bonusExpected(s))] as [string, string]] : []),
     ...(o && !noSalary ? [['10-year net present value', usd(o.npv), true] as [string, string, boolean], ['Return on the cost (present values)', o.roi === null ? 'n/a' : `${Math.round(o.roi * 100)}%`] as [string, string]] : []),
     ...(payment > 0 ? [['Yearly loan instalment', usd(payment)] as [string, string]] : []),

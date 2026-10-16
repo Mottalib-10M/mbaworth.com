@@ -5,7 +5,7 @@ const G = 'finance';
 const R = K.ranking(G);
 const T = R.ranked;
 const [a, b, c] = T;
-const pay = (x: RankRow) => (x.salary === null ? 'no salary published' : `${K.usd(x.salary)}${x.fallback ? ' school-wide' : ''}`);
+const pay = (x: RankRow) => (x.salary === null ? 'no salary published' : `${K.usd(x.salary)}${x.estimated ? ' est.' : x.fallback ? ' school-wide' : ''}`);
 const seg = (slug: string, g: string) => K.share(slug, g) ?? 'not split out';
 const lead5 = T.slice(0, 5);
 const split = lead5.filter((x) => K.shareRaw(x.slug, 'ib') !== null || K.shareRaw(x.slug, 'pe') !== null || K.shareRaw(x.slug, 'am') !== null).length;

@@ -13,19 +13,26 @@
  */
 import { usd, num, pct, p, money, yrs, day, listOf, kindLabel } from './fmt';
 import { P, MODEL, SCHOOLS, schoolBySlug, calcSchool, FX, FX_DATE, type School } from './data';
-import { goalOf, schoolRoi, refProfile, minShareOf, type CalcSchool } from './engine/goal';
+import { goalOf, schoolRoi, refProfile, minShareOf, rankable, type CalcSchool } from './engine/goal';
 import { fitRank } from './engine/rank';
 import { goalById, GOAL_LIST } from './goals';
 import type { RoiOut } from './engine/roi';
 
 const REF = refProfile(MODEL);
 const cs = (slug: string): CalcSchool => calcSchool(schoolBySlug(slug), null);
+/** Return on the school's published figures only: what the texts quote. */
 function roiFor(slug: string, goalId = 'all', s0?: number): RoiOut | null {
+  const c = calcSchool(schoolBySlug(slug), null, false);
+  const gl = goalOf(c, goalById(goalId), MODEL.zoneFallbackShare);
+  return schoolRoi(c, s0 === undefined ? REF : { ...REF, s0 }, MODEL, gl.salary);
+}
+/** Same with the figures the school does not publish estimated (method, section 8): tables and rankings. */
+function roiEstFor(slug: string, goalId = 'all', s0?: number): RoiOut | null {
   const c = cs(slug);
   const gl = goalOf(c, goalById(goalId), MODEL.zoneFallbackShare);
   return schoolRoi(c, s0 === undefined ? REF : { ...REF, s0 }, MODEL, gl.salary);
 }
-export interface RankRow { slug: string; short: string; name: string; share: number; salary: number | null; fallback: boolean; stat: string | null; npv: number | null; payback: number | null; total: number | null; score: number; rank: number; placed: number | null }
+export interface RankRow { slug: string; short: string; name: string; share: number; salary: number | null; fallback: boolean; estimated: boolean; stat: string | null; npv: number | null; payback: number | null; total: number | null; score: number; rank: number; placed: number | null }
 const rankCache = new Map<string, { ranked: RankRow[]; unranked: Array<{ slug: string; share: number | null; why: string }> }>();
 /** Our ranking for one goal, reference person (method page). Optional filter on the schools considered. */
 export function ranking(goalId: string, filter?: (s: School) => boolean) {
@@ -36,16 +43,18 @@ export function ranking(goalId: string, filter?: (s: School) => boolean) {
     const c = calcSchool(s, null);
     const gl = goalOf(c, goal, MODEL.zoneFallbackShare);
     const o = schoolRoi(c, REF, MODEL, gl.salary);
-    return { slug: s.slug, share: gl.share, salary: gl.salary, npv: o ? o.npv : null, o, gl, s };
+    return { slug: s.slug, share: gl.share, salary: gl.salary, npv: o ? o.npv : null, o, gl, s, c };
   });
   const noShare = goal.kind === 'all' ? cands.filter((x) => x.share === null) : [];
   cands = cands.filter((x) => x.share !== null && x.share > 0);
   const min = minShareOf(MODEL, goal);
   const small = cands.filter((x) => x.share! < min);
-  const { ranked, unranked } = fitRank(cands.filter((x) => x.share! >= min), goal.kind === 'zone' ? MODEL.zoneWeights : MODEL.weights);
+  const W = goal.kind === 'zone' ? MODEL.zoneWeights : MODEL.weights;
+  const borrowed = cands.filter((x) => x.share! >= min && !rankable(x.c, W));
+  const { ranked, unranked } = fitRank(cands.filter((x) => x.share! >= min && rankable(x.c, W)), W);
   const out = {
-    ranked: ranked.map((r) => ({ slug: r.item.slug, short: r.item.s.short, name: r.item.s.name, share: r.item.share!, salary: r.item.salary, fallback: r.item.gl.fallback, stat: r.item.gl.stat, npv: r.item.npv, payback: r.item.o ? r.item.o.payback : null, total: r.item.o ? r.item.o.total : null, score: r.score, rank: r.rank, placed: r.item.s.classSize ? Math.round((r.item.share! / 100) * r.item.s.classSize) : null })),
-    unranked: [...unranked.map((u) => ({ slug: u.slug, share: u.share, why: u.salary === null ? (goal.kind === 'zone' && u.s.emp.salary ? 'no salary published for this region' : 'no salary published') : u.s.living === null ? 'no living budget published' : 'missing figure' })), ...small.map((u) => ({ slug: u.slug, share: u.share, why: `under ${min}% of the class` })), ...noShare.map((u) => ({ slug: u.slug, share: null, why: 'no employment rate published' }))],
+    ranked: ranked.map((r) => ({ slug: r.item.slug, short: r.item.s.short, name: r.item.s.name, share: r.item.share!, salary: r.item.salary, fallback: r.item.gl.fallback, estimated: r.item.gl.estimated, stat: r.item.gl.stat, npv: r.item.npv, payback: r.item.o ? r.item.o.payback : null, total: r.item.o ? r.item.o.total : null, score: r.score, rank: r.rank, placed: r.item.s.classSize ? Math.round((r.item.share! / 100) * r.item.s.classSize) : null })),
+    unranked: [...unranked.map((u) => ({ slug: u.slug, share: u.share, why: u.salary === null ? (goal.kind === 'zone' && u.s.emp.salary ? 'no salary published for this region' : 'no salary published') : u.s.living === null ? 'no living budget published' : 'missing figure' })), ...borrowed.map((u) => ({ slug: u.slug, share: u.share, why: 'no salary published' })), ...small.map((u) => ({ slug: u.slug, share: u.share, why: `under ${min}% of the class` })), ...noShare.map((u) => ({ slug: u.slug, share: null, why: 'no employment rate published' }))],
   };
   rankCache.set(k, out);
   return out;
@@ -75,6 +84,7 @@ export const KIT = {
   cost: (slug: string, s0?: number) => { const o = roiFor(slug, 'all', s0); return o ? usd(o.total) : null; },
   costRaw: (slug: string, s0?: number) => roiFor(slug, 'all', s0)?.total ?? null,
   roi: roiFor,
+  roiEst: roiEstFor,
   payback: (slug: string, goalId = 'all', s0?: number) => { const o = roiFor(slug, goalId, s0); return o && o.payback !== null ? yrs(o.payback) : null; },
   npv: (slug: string, goalId = 'all', s0?: number) => { const o = roiFor(slug, goalId, s0); return o ? usd(o.npv) : null; },
   share: (slug: string, goalId: string) => { const v = goalOf(cs(slug), goalById(goalId)).share; return v === null ? null : p(v); },

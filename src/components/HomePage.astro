@@ -16,7 +16,7 @@ import { HOME } from '../content/home';
 import { route } from '../i18n/routes';
 import { helpers, SOURCES, table, schoolLink } from '../lib/helpers';
 import { PAGES } from '../lib/pages';
-import { SCHOOLS, MODEL } from '../lib/data';
+import { SCHOOLS, MODEL, calcSchool } from '../lib/data';
 import { KIT } from '../lib/kit';
 import { GOAL_LIST } from '../lib/goals';
 import { usd, p, yrs, day, money, kindLabel } from '../lib/fmt';
@@ -33,7 +33,7 @@ const CARDS = ['consulting', 'ib', 'pe', 'tech', 'z-europe', 'z-asia'];
 const bestPage = (g: string) => PAGES.find((pg) => pg.group === 'best' && pg.toolArgs?.goal === g && !pg.toolArgs?.length && !pg.toolArgs?.where);
 const cards = CARDS.map((g) => ({ g: GOAL_LIST.find((y) => y.id === g)!, top: KIT.top(g, 3), pg: bestPage(g) })).filter((c) => c.top.length);
 const topInd = (s: (typeof SCHOOLS)[number]) => { const r = [...s.emp.industries].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0))[0]; return r && r.pct !== null ? `${r.key} ${p(r.pct)}` : 'n/a'; };
-const rows = [...SCHOOLS].filter((s) => s.tuition).sort((a, b) => a.short.localeCompare(b.short)).map((s) => { const o = KIT.roi(s.slug); return [schoolLink(s.slug), s.months ? String(s.months) : 'n/a', o ? usd(o.total) : 'n/a', s.emp.salary ? `${money(s.emp.salary.v, s.emp.salary.cur)}${/mean/.test(s.emp.salary.kind) ? ' avg' : ''}` : 'n/a', o ? (o.payback === null ? 'over 30 y' : yrs(o.payback)) : 'n/a', topInd(s)]; });
+const rows = [...SCHOOLS].filter((s) => s.tuition).sort((a, b) => a.short.localeCompare(b.short)).map((s) => { const o = KIT.roiEst(s.slug); return [schoolLink(s.slug), s.months ? String(s.months) : 'n/a', o ? usd(o.total) : 'n/a', s.emp.salary ? `${money(s.emp.salary.v, s.emp.salary.cur)}${/mean/.test(s.emp.salary.kind) ? ' avg' : ''}` : (() => { const c = calcSchool(s, null); return c.salary !== null ? `${usd(c.salary)} est.` : 'n/a'; })(), o ? (o.payback === null ? 'over 30 y' : yrs(o.payback)) : 'n/a', topInd(s)]; });
 // Preuves chiffrées sous le calculateur (2026-10-15), calculées sur les données du site.
 const rois = SCHOOLS.map((s) => KIT.roi(s.slug)).filter((o): o is NonNullable<typeof o> => !!o);
 const med = (a: number[]) => { const b = [...a].sort((x, y) => x - y); const m = Math.floor(b.length / 2); return b.length % 2 ? b[m] : (b[m - 1] + b[m]) / 2; };

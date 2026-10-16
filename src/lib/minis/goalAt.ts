@@ -17,7 +17,7 @@ export default function goalAt(arg?: string): MiniSpec {
       const g = goals[v.g] ?? goals[0];
       const gl = goalOf(a.c, g, a.m.zoneFallbackShare);
       const o = schoolRoi(a.c, refProfile(a.m), a.m, gl.salary);
-      return { head: ['Share of the class', gl.share === null ? 'n/a' : pc(gl.share, gl.share % 1 ? 1 : 0)], rows: [['Salary reported', gl.salary === null ? 'not published' : `${usd(gl.salary)}${gl.fallback ? ' (school-wide)' : ''}`], ['Graduates, about', gl.share !== null && a.c.classSize ? String(Math.round((gl.share / 100) * a.c.classSize)) : 'n/a'], ['Payback with that salary', !o ? 'n/a' : o.payback === null ? 'over 30 years' : yrs(o.payback)]], note: `Reference person earning ${usd(a.m.refSalary)} before the MBA.` };
+      return { head: ['Share of the class', gl.share === null ? 'n/a' : pc(gl.share, gl.share % 1 ? 1 : 0)], rows: [['Salary reported', gl.salary === null ? 'not published' : `${usd(gl.salary)}${gl.estimated ? ' (estimated)' : gl.fallback ? ' (school-wide)' : ''}`], ['Graduates, about', gl.share !== null && a.c.classSize ? String(Math.round((gl.share / 100) * a.c.classSize)) : 'n/a'], ['Payback with that salary', !o ? 'n/a' : o.payback === null ? 'over 30 years' : yrs(o.payback)]], note: `Reference person earning ${usd(a.m.refSalary)} before the MBA.` };
     },
   };
 }

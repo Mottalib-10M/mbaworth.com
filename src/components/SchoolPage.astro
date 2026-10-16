@@ -45,6 +45,8 @@ const decode = (b?: string) => (b ? Buffer.from(b, 'base64').toString('utf8') : 
 const cur = S.cur;
 const fx = FX[cur] ?? 1;
 const o = KIT.roi(def.slug);
+/** With the figures the school does not publish estimated (method, section 8), shown only where `o` is missing. */
+const oe = o ? null : KIT.roiEst(def.slug);
 const L = (v: number) => money(v, cur);
 const both = (v: number) => (cur === 'USD' ? usd(v) : `${L(v)} <span class="text-xs text-navy-500">${usd(Math.round(v * fx))}</span>`);
 const costRows: Array<Array<string>> = [];
@@ -86,9 +88,9 @@ const missing = [S.living ? null : 'a living budget for students', E.salary ? nu
     <p class="mb-6 text-sm text-navy-600">Fees and budget read on {S.tuition?.readOn ? day(S.tuition.readOn) : 'the school site'} · employment: {E.cohort || 'latest report'}{E.standard ? ` (${E.standard} standard)` : ''} · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a></p>
     <dl data-chrome class="kpi mb-8 grid grid-cols-2 gap-x-6 gap-y-5 border-y border-navy-200 py-5 lg:grid-cols-4">
       <div class="border-l-2 border-brass-500 pl-4"><dt>Tuition and fees</dt><dd class="mt-1">{S.directLocal !== null ? L(S.directLocal) : 'n/a'}</dd></div>
-      <div class="border-l-2 border-brass-500 pl-4"><dt>Total cost, salary given up included</dt><dd class="mt-1">{o ? usd(o.total) : 'n/a'}</dd></div>
-      <div class="border-l-2 border-brass-500 pl-4"><dt>{E.salary ? kindLabel(E.salary.kind) : 'Salary'}</dt><dd class="mt-1">{E.salary ? money(E.salary.v, E.salary.cur) : 'not published'}</dd></div>
-      <div class="border-l-2 border-brass-500 pl-4"><dt>Payback, reference person</dt><dd class="mt-1">{o ? (o.payback === null ? 'over 30 years' : yrs(o.payback)) : 'not computable'}</dd></div>
+      <div class="border-l-2 border-brass-500 pl-4"><dt>Total cost, salary given up included</dt><dd class="mt-1">{o ? usd(o.total) : oe ? <>{usd(oe.total)} est.{C.est.living ? <span class="block text-xs text-navy-500">living budget estimated, {C.est.living}</span> : null}</> : 'n/a'}</dd></div>
+      <div class="border-l-2 border-brass-500 pl-4"><dt>{E.salary ? kindLabel(E.salary.kind) : 'Salary'}</dt><dd class="mt-1">{E.salary ? money(E.salary.v, E.salary.cur) : C.salary !== null ? <>{usd(C.salary)} <span class="text-xs text-navy-500">estimated, {C.est.salary}</span></> : 'not published'}</dd></div>
+      <div class="border-l-2 border-brass-500 pl-4"><dt>Payback, reference person</dt><dd class="mt-1">{o ? (o.payback === null ? 'over 30 years' : yrs(o.payback)) : oe ? <>{oe.payback === null ? 'over 30 years' : yrs(oe.payback)} est.<span class="block text-xs text-navy-500">not computable from published figures; estimated from other schools' reports</span></> : 'not computable'}</dd></div>
     </dl>
     <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
     <div class="prose prose-slate max-w-none prose-headings:font-serif">

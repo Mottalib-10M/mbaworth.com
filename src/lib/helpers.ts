@@ -26,9 +26,9 @@ export const mini = (kind: string, arg?: unknown) => `<!--mini:${kind}${arg === 
 export function rankTable(goalId: string, n = 10, filter?: (s: School) => boolean, caption?: string) {
   const r = KIT.ranking(goalId, filter);
   const g = GOAL_LIST.find((x) => x.id === goalId)!;
-  const rows = r.ranked.slice(0, n).map((x) => [String(x.rank), schoolLink(x.slug), p(x.share), x.placed === null ? 'n/a' : formatNumber(x.placed, 0), x.salary === null ? 'not published' : `${usd(x.salary)}${x.fallback ? '*' : ''}`, x.npv === null ? 'n/a' : x.payback === null ? 'over 30 years' : yrs(x.payback), x.npv === null ? 'n/a' : usd(x.npv), formatNumber(x.score, 0)]);
+  const rows = r.ranked.slice(0, n).map((x) => [String(x.rank), schoolLink(x.slug), p(x.share), x.placed === null ? 'n/a' : formatNumber(x.placed, 0), x.salary === null ? 'not published' : `${usd(x.salary)}${x.estimated ? ' est.' : x.fallback ? '*' : ''}`, x.npv === null ? 'n/a' : x.payback === null ? 'over 30 years' : yrs(x.payback), x.npv === null ? 'n/a' : usd(x.npv), formatNumber(x.score, 0)]);
   return table(['#', 'School', g.kind === 'zone' ? 'Share placed there' : 'Share of class', 'Graduates, about', 'Salary', 'Payback', '10-year NPV', 'Fit score'], rows,
-    caption ?? `Our ranking for ${g.label.toLowerCase()}${g.kind === 'zone' ? ', on the share of the class placed there' : ''}: reference person earning ${usd(MODEL.refSalary)} before the MBA, salaries converted to US dollars at the ECB rate of ${KIT.day(KIT.FX_DATE)}. * school-wide salary, the school does not publish one for this segment.`, ['r', 'l', 'r', 'r', 'r', 'r', 'r', 'r']);
+    caption ?? `Our ranking for ${g.label.toLowerCase()}${g.kind === 'zone' ? ', on the share of the class placed there' : ''}: reference person earning ${usd(MODEL.refSalary)} before the MBA, salaries converted to US dollars at the ECB rate of ${KIT.day(KIT.FX_DATE)}. * school-wide salary, the school does not publish one for this segment. est.: estimated from the reports of the schools that publish it (method, section 8).`, ['r', 'l', 'r', 'r', 'r', 'r', 'r', 'r']);
 }
 export function helpers(): Helpers {
   return {

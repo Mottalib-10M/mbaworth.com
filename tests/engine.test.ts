@@ -108,7 +108,8 @@ describe('goals', () => {
   it('Europe adds continental Europe and the UK', () => {
     const s = fake({ zone: { Europe: { pct: 8, usd: 90000 }, UK: { pct: 43, usd: 110000 } } });
     expect(goalOf(s, { kind: 'zone', key: 'europe' }).share).toBe(51);
-    expect(goalOf(s, { kind: 'zone', key: 'europe' }).fallback).toBe(true);
+    // Both lines publish a salary: weighted by their shares, no stand-in.
+    expect(goalOf(s, { kind: 'zone', key: 'europe' })).toMatchObject({ salary: Math.round((90000 * 8 + 110000 * 43) / 51), fallback: false });
   });
   it('no salary or no living budget: no return computed', () => {
     const m = MODEL;
